@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function BodyDispVirt() {
 	return (
-		<div class='container'>
+		<div className='container'>
 			<p>TEST</p>
 			<img
 				src='https://res.cloudinary.com/ohcash/image/upload/v1562852068/cardWallet/pictureOneCardBlurr.png'
