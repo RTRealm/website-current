@@ -1,10 +1,12 @@
 import React from 'react';
-import logo from '../../img/STlogo1.png';
-
 export default function Header() {
 	return (
 		<div>
-			<img src={logo} alt='logo' style={{ height: 100, width: 100, margin: 10 }} />
+			<img
+				src='https://res.cloudinary.com/ohcash/image/upload/v1562841193/cardWallet/STlogo1.png'
+				alt='logo'
+				style={{ height: 100, width: 100, margin: 10 }}
+			/>
 		</div>
 	);
 }
