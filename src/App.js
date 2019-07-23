@@ -10,7 +10,6 @@ function App() {
 			<Header />
 			<BodyDispVirt />
 			<BodyDispVirt />
-			<BodyDispVirt />
 			<Footer />
 		</div>
 	);

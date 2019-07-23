@@ -1,7 +1,7 @@
 import React from 'react';
 export default function Header() {
 	return (
-		<div>
+		<div className='container'>
 			<img
 				src='https://res.cloudinary.com/ohcash/image/upload/v1562841193/cardWallet/STlogo1.png'
 				alt='logo'
