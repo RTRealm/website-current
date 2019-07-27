@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { Component } from 'react';
+
 import './App.css';
 import BodyDispVirt from './client/components/BodyDispVirt';
 import Header from '../src/client/components/Header';

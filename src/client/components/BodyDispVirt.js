@@ -14,16 +14,21 @@ export default function BodyDispVirt() {
 					/>
 				</div>
 				<div className='column is-7'>
-					<div class='media-content'>
-						<div class='content'>
-							<h1 class='title is-size-4'>No more credit card!</h1>
-							<p class='is-size-5'>
-								Bulma is a modern CSS framework from @jgthms, based on Flexbox. Using Bulma, we can
-								describe our website's design using just classes. ᕕ( ᐛ )ᕗ
-							</p>
+					<div>
+						<h1>No more credit card!</h1>
+					</div>
+					<p class='is-hidden-mobile'>
+						Bulma is a modern CSS framework from @jgthms, based on Flexbox. Using Bulma, we can
+						describe our website's design using just classes. ᕕ( ᐛ )ᕗ
+					</p>
+					<div class='columns is-multiline is-hidden-mobile'>
+						<div class='column'>
+							<Button />
+						</div>
+						<div class='column'>
+							<a href='https://rtrealm.com' />
 						</div>
 					</div>
-					<Button />
 				</div>
 			</div>
 		</div>
