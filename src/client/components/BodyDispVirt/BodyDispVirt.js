@@ -1,36 +1,38 @@
-import React from 'react';
-import '../../../App.css';
+import React, { Component } from 'react';
 import Button from '../Button/Button';
+import * as Styles from './BodyDispVirt.styles';
 
-export default function BodyDispVirt() {
-	return (
-		<div className='container center'>
-			<div className='columns'>
-				<div className='column is-5'>
-					<img
-						className='img-phone'
-						src='https://res.cloudinary.com/ohcash/image/upload/v1562852068/cardWallet/pictureOneCardBlurr.png'
-						alt='multcards'
-					/>
+class BodyDispVirt extends Component {
+	render() {
+		return (
+			<Styles.MainBDV>
+				<h1>{this.props.title}</h1>
+				{this.props.children}
+
+				<div className='columns is-multiline is-hidden-mobile'>
+					<Styles.MainBDVButtonWrapper className='column'>
+						<Button text={'I love this idea!'} />
+					</Styles.MainBDVButtonWrapper>
+
+					<Styles.MainBDVStores className='column'>
+						<a href='/'>
+							<img
+								src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1536850250/website-v2/Icons/apple-black.svg'
+								alt='App store icon'
+								width='25'
+							/>
+						</a>
+						<a href='/'>
+							<img
+								src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1536850249/website-v2/Icons/andriod-black.svg'
+								alt='Google play store icon'
+								width='26'
+							/>
+						</a>
+					</Styles.MainBDVStores>
 				</div>
-				<div className='column is-7'>
-					<div>
-						<h1>No more credit card!</h1>
-					</div>
-					<p class='is-hidden-mobile'>
-						Bulma is a modern CSS framework from @jgthms, based on Flexbox. Using Bulma, we can
-						describe our website's design using just classes. ᕕ( ᐛ )ᕗ
-					</p>
-					<div class='columns is-multiline is-hidden-mobile'>
-						<div class='column'>
-							<Button />
-						</div>
-						<div class='column'>
-							<a href='https://rtrealm.com' />
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	);
+			</Styles.MainBDV>
+		);
+	}
 }
+export default BodyDispVirt;

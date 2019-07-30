@@ -1,7 +1,6 @@
 import React from 'react';
-import { BrowserRouter as HashRouter, Route, Router, Switch } from 'react-router-dom';
+import { BrowserRouter as HashRouter, Route, Switch } from 'react-router-dom';
 import Loadable from 'react-loadable';
-import { withRouter, Redirect } from 'react-router';
 
 function Loading(props) {
 	if (props.error) {
