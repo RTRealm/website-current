@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 
 // page sections
-import BodyDispVirt from '../../components/BodyDispVirt/BodyDispVirt';
+import TheCard from '../Home/TheCard/TheCard';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 
@@ -13,7 +13,7 @@ class Home extends PureComponent {
 		return (
 			<Page>
 				<Header />
-				<BodyDispVirt />
+				<TheCard />
 				<Footer />
 			</Page>
 		);
