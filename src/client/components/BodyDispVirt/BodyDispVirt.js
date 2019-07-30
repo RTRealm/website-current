@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../App.css';
-import Button from '../elements/Button/Button';
+import '../../../App.css';
+import Button from '../../elements/Button/Button';
 
 export default function BodyDispVirt() {
 	return (

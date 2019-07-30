@@ -1,18 +1,20 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 
-import BodyDispVirt from '../../components/BodyDispVirt';
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
+// page sections
+import BodyDispVirt from '../../components/BodyDispVirt/BodyDispVirt';
+import Header from '../../components/Header/Header';
 
-function Home() {
-	return (
-		<div>
-			<Header />
-			<BodyDispVirt />
-			<BodyDispVirt />
-			<Footer />
-		</div>
-	);
+// components
+import Page from '../../components/Page/index';
+
+class Home extends PureComponent {
+	render() {
+		return (
+			<Page>
+				<BodyDispVirt />
+			</Page>
+		);
+	}
 }
 
 export default Home;

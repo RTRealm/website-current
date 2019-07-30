@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Route, Router, Switch } from 'react-router-dom';
+import { BrowserRouter as HashRouter, Route, Router, Switch } from 'react-router-dom';
 import Loadable from 'react-loadable';
 import { withRouter, Redirect } from 'react-router';
 
@@ -26,11 +26,11 @@ const Homepage = Loadable({
 
 const Routing = () => {
 	return (
-		<Router>
+		<HashRouter>
 			<Switch>
 				<Route exact path='/' component={Homepage} />
 			</Switch>
-		</Router>
+		</HashRouter>
 	);
 };
 
