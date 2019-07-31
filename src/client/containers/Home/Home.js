@@ -13,8 +13,12 @@ class Home extends PureComponent {
 		return (
 			<Page>
 				<Header />
-				<TheCard />
-				<Footer />
+				<main className='main_content'>
+					<TheCard />
+					<TheCard />
+					<TheCard />
+					<Footer />
+				</main>
 			</Page>
 		);
 	}

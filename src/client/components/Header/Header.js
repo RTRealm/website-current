@@ -1,12 +1,134 @@
-import React from 'react';
-export default function Header() {
-	return (
-		<div className='container'>
-			<img
-				src='https://res.cloudinary.com/ohcash/image/upload/v1562841193/cardWallet/STlogo1.png'
-				alt='logo'
-				style={{ height: 100, width: 100, margin: 10 }}
-			/>
-		</div>
-	);
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
+import Button from '../Button/Button';
+import Navigation from '../Navigation/Navigation';
+
+import * as Styles from './Header.styles';
+
+export default class Header extends Component {
+	static defaultProps = {
+		uniqueLogo: false
+	};
+
+	state = {
+		hover: false,
+		mobileOpen: false,
+		columnWidth: {
+			desktop: 9,
+			tablet: 9
+		}
+	};
+
+	componentDidMount() {
+		this.gsap = require('gsap');
+	}
+
+	onMouseEnterHandler() {
+		this.setState({ hover: true });
+	}
+
+	onMouseLeaveHandler() {
+		this.setState({ hover: false });
+	}
+
+	onMenuClickHandler() {
+		const mobileMenuState = this.state.mobileOpen ? false : true;
+
+		this.setState({ mobileOpen: mobileMenuState });
+
+		if (!this.state.mobileOpen) {
+			this.gsap.TweenLite.to('.header__mobile-nav-list', 0.5, {
+				autoAlpha: 1,
+				display: 'block',
+				ease: this.gsap.Power1.easeOut
+			});
+		} else {
+			this.gsap.TweenLite.to('.header__mobile-nav-list', 0.5, {
+				autoAlpha: 0,
+				display: 'none',
+				ease: this.gsap.Power1.easeOut
+			});
+		}
+	}
+
+	navLinks() {
+		return (
+			<ul className='columns'>
+				<li className='column is-narrow is-6'>
+					<Link to='/'>About</Link>
+				</li>
+				<li className='column is-narrow is-6'>
+					<Link to='/'>Contact</Link>
+				</li>
+			</ul>
+		);
+	}
+
+	render() {
+		return (
+			<Styles.Header
+				className={
+					' ' + (this.props.textColor === 'black' ? 'header--dark-theme' : 'header--light-theme')
+				}
+			>
+				<Styles.HeaderMobile
+					className={
+						'is-hidden-tablet columns is-mobile ' +
+						(this.state.mobileOpen ? 'header__mobile--menu-open' : '')
+					}
+				>
+					<div className='column is-5'>
+						<Link to={this.props.link}>
+							<img
+								src={
+									this.state.mobileOpen && !this.props.uniqueLogo
+										? this.logos.white
+										: this.props.logo
+								}
+								alt='Virtu Logo'
+							/>
+						</Link>
+					</div>
+					<Styles.HeaderMobileButton className='column is-5-mobile header__mobile-button'>
+						<Button text={'About'} />
+					</Styles.HeaderMobileButton>
+					<Styles.HeaderMobileNav
+						className={
+							'column is-2 header__mobile-nav ' +
+							(this.props.burgerMenuColor === 'black' ? 'header__mobile-nav--black' : '')
+						}
+					>
+						<button
+							className={
+								'header__mobile-menu-button ' +
+								(this.state.mobileOpen ? 'header__mobile-menu-button--close' : '')
+							}
+							type='button'
+						/>
+					</Styles.HeaderMobileNav>
+				</Styles.HeaderMobile>
+				<div className='columns is-hidden-mobile'>
+					<div
+						className={`column is-${this.state.columnWidth.desktop}-desktop is-${
+							this.state.columnWidth.tablet
+						}-tablet`}
+					>
+						<Link to={this.props.link}>
+							<img src={this.props.logo} alt='Curve Logo' />
+						</Link>
+					</div>
+					<Styles.HeaderNav
+						className={`column is-${12 - this.state.columnWidth.desktop}-desktop is-${12 -
+							this.state.columnWidth.tablet}-tablet`}
+					>
+						{this.navLinks()}
+					</Styles.HeaderNav>
+				</div>
+				<Styles.HeadeMobileNavList className='is-hidden-tablet header__mobile-nav-list'>
+					<Navigation />
+				</Styles.HeadeMobileNavList>
+			</Styles.Header>
+		);
+	}
 }
