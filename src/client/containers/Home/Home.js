@@ -7,6 +7,7 @@ import Footer from '../../components/Footer/Footer';
 
 // components
 import Page from '../../components/Page/index';
+import FixedHeader from '../../components/FixedHeader/FixedHeader';
 
 class Home extends PureComponent {
 	render() {
@@ -22,6 +23,9 @@ class Home extends PureComponent {
 					burgerMenuColor={'black'}
 				/>
 				<main className='main_content'>
+					<div className='is-hidden-mobile'>
+						<FixedHeader />
+					</div>
 					<TheCard />
 					<TheCard />
 					<TheCard />

@@ -20,7 +20,7 @@ export const FixedHeaderButtonWrapper = styled.div`
   z-index: 4;
 
   &.fixed-header__button-wrapper--show{
-      display: block;
+    display: block;
     visibility: visible;
     opacity: 1;
   }
