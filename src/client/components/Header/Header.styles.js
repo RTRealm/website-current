@@ -2,6 +2,8 @@ import styled from 'styled-components';
 import * as vars from '../../assests/styles/_variables';
 import * as mixins from '../../assests/styles/_mixins';
 
+// added min-height in HeaderMobileButton
+
 export const Header = styled.header`
   padding-top: 29px;
   margin: 0px 29px 0 41px;
@@ -188,6 +190,7 @@ export const HeaderMobileButton = styled.div`
 	button {
 		box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
 		max-width: 125px;
+		min-height: 40px;
 	}
 `;
 

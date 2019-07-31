@@ -20,6 +20,13 @@ export default class Header extends Component {
 		}
 	};
 
+	gsap = null;
+
+	logos = {
+		white:
+			'https://res.cloudinary.com/dzatxn6bx/image/upload/v1537358405/website-v2/Icons/curve-logo-white.svg'
+	};
+
 	componentDidMount() {
 		this.gsap = require('gsap');
 	}
@@ -105,6 +112,7 @@ export default class Header extends Component {
 								(this.state.mobileOpen ? 'header__mobile-menu-button--close' : '')
 							}
 							type='button'
+							onClick={this.onMenuClickHandler.bind(this)}
 						/>
 					</Styles.HeaderMobileNav>
 				</Styles.HeaderMobile>
@@ -115,7 +123,7 @@ export default class Header extends Component {
 						}-tablet`}
 					>
 						<Link to={this.props.link}>
-							<img src={this.props.logo} alt='Curve Logo' />
+							<img src={this.props.logo} alt='Virtu Logo' />
 						</Link>
 					</div>
 					<Styles.HeaderNav

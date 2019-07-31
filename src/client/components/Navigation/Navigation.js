@@ -16,7 +16,12 @@ export default class Navigation extends Component {
 							<Link to='/'>Tweeter</Link>
 						</li>
 						<li>
-							<Link to='/'>Contact</Link>
+							<Link to='/'>
+								Contact
+								<span role='img' aria-label='Heart'>
+									❤️
+								</span>
+							</Link>
 						</li>
 					</ul>
 				</div>

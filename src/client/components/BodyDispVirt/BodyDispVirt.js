@@ -11,7 +11,7 @@ class BodyDispVirt extends Component {
 
 				<div className='columns is-multiline is-hidden-mobile'>
 					<Styles.MainBDVButtonWrapper className='column'>
-						<Button text={'I love this idea!'} background={'#000'} />
+						<Button text={'I love this idea!'} />
 					</Styles.MainBDVButtonWrapper>
 
 					<Styles.MainBDVStores className='column'>
