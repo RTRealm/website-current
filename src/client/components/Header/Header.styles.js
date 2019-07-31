@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import * as vars from '../../assests/styles/_variables';
-import * as mixins from '../../assests/styles/_mixins';
+import * as vars from '../../assets/styles/_variables';
+import * as mixins from '../../assets/styles/_mixins';
 
 // added min-height in HeaderMobileButton
 

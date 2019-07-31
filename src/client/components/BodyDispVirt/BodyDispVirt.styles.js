@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import * as mixins from '../../assests/styles/_mixins';
-import * as vars from '../../assests/styles/_variables';
+import * as mixins from '../../assets/styles/_mixins';
+import * as vars from '../../assets/styles/_variables';
 
 export const MainBDV = styled.div`
 	margin-top: 25px;

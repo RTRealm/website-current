@@ -4,10 +4,10 @@ import React, { PureComponent } from 'react';
 import TheCard from '../Home/TheCard/TheCard';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
+import AboutUs from '../Home/AboutUs/AboutUs';
 
 // components
 import Page from '../../components/Page/index';
-import FixedHeader from '../../components/FixedHeader/FixedHeader';
 
 class Home extends PureComponent {
 	render() {
@@ -23,11 +23,13 @@ class Home extends PureComponent {
 					burgerMenuColor={'black'}
 				/>
 				<main className='main_content'>
+					<div className='is-hidden-mobile' />
+					<TheCard />
+					<div className='fixed-header__trigger-start' />
+					<span className='mobile-cta__start' />
 					<div className='is-hidden-mobile'>
-						<FixedHeader />
+						<AboutUs />
 					</div>
-					<TheCard />
-					<TheCard />
 					<TheCard />
 					<Footer />
 				</main>

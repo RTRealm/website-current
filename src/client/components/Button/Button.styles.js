@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import * as vars from '../../assests/styles/_variables';
+import * as vars from '../../assets/styles/_variables';
 
 export const Button = styled.button`
 	background-color: ${vars.colorAccent};

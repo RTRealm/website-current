@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import * as mixins from '../../../assests/styles/_mixins';
+import * as mixins from '../../../assets/styles/_mixins';
 
 export const YourCard = styled.section`
 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
