@@ -5,6 +5,7 @@ import TheCard from '../Home/TheCard/TheCard';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import AboutUs from '../Home/AboutUs/AboutUs';
+import Convenience from '../Home/Convenience/Convenience';
 
 // components
 import Page from '../../components/Page/index';
@@ -30,9 +31,10 @@ class Home extends PureComponent {
 					<div className='is-hidden-mobile'>
 						<AboutUs />
 					</div>
-					<TheCard />
+					<Convenience />
 					<Footer />
 				</main>
+				<div className='fixed-header__trigger-end' />
 			</Page>
 		);
 	}
