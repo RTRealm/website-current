@@ -1,7 +1,5 @@
 import React from 'react';
 
-import LazyLoad from 'react-lazyload';
-
 import * as Styles from './FeaturesList.styles';
 
 const FeaturesList = () => {

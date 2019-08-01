@@ -3,12 +3,12 @@ import * as Styles from './Footer.styles';
 
 import FooterNav from './FooterNav/FooterNav';
 
-export default function Footer() {
+const Footer = props => {
 	return (
 		<Styles.Footer>
-			<div className='is-hidden-mobile'>
-				<FooterNav />
-			</div>
+			<FooterNav page={props.page} />
 		</Styles.Footer>
 	);
-}
+};
+
+export default Footer;

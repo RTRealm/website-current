@@ -36,15 +36,16 @@ class Home extends PureComponent {
 						<div className='is-hidden-tablet'>
 							<FeaturesList />
 						</div>
-						<div className='is-hidden-tablet'>
+						<Convenience />
+						<div className='is-hidden-mobile'>
 							<Control />
 						</div>
-						<div className='is-hidden-mobile'>
+						<div className='is-hidden-tablet'>
 							<Control />
 						</div>
 					</main>
 					<div className='fixed-header__trigger-end' />
-					<Footer />
+					<Footer page={'Home'} />
 				</div>
 			</Page>
 		);
