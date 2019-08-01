@@ -1,9 +1,14 @@
 import React from 'react';
+import * as Styles from './Footer.styles';
+
+import FooterNav from './FooterNav/FooterNav';
 
 export default function Footer() {
 	return (
-		<div>
-			<h2>This is footer</h2>
-		</div>
+		<Styles.Footer>
+			<div className='is-hidden-mobile'>
+				<FooterNav />
+			</div>
+		</Styles.Footer>
 	);
 }
