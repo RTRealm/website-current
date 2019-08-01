@@ -18,9 +18,9 @@ export default class TheCard extends PureComponent {
 							}}
 							source={{
 								mob:
-									'https://res.cloudinary.com/ohcash/image/upload/v1564497675/cardWallet/pictureOneCardBlurr1.png',
+									'https://res.cloudinary.com/dzatxn6bx/image/upload/v1537449190/website-v2/Homepage/Light/your-card-phone-m',
 								desk:
-									'https://res.cloudinary.com/ohcash/image/upload/v1562852068/cardWallet/pictureOneCardBlurr.png'
+									'https://res.cloudinary.com/dzatxn6bx/image/upload/v1548240636/website-v2/Homepage/Light/home-intro-phone'
 							}}
 							size={{ max: 'max-width:768px', min: 'min-width:769px' }}
 							alt='Virt card and mobile app'
