@@ -13,6 +13,10 @@ import Page from '../../components/Page/index';
 import FeaturesList from './FeaturesList/FeaturesList';
 
 class Home extends PureComponent {
+	componentDidUpdate() {
+		window.scrollTo(0, 0);
+	}
+
 	render() {
 		return (
 			<Page>

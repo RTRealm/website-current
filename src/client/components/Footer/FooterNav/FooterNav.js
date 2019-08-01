@@ -16,13 +16,13 @@ export default class FooterNav extends Component {
 				<Styles.FooterNavWrapper className='footer-nav__one'>
 					<Styles.FooterNavContent className='columns is-centered is-multiline'>
 						<li className='column is-narrow'>
-							<Link to='/cards'>About</Link>
+							<Link to='/'>About</Link>
 						</li>
 						<li className='column is-narrow'>
-							<Link to='/travel'>Contact us</Link>
+							<Link to='/'>Contact us</Link>
 						</li>
 						<li className='column is-narrow'>
-							<Link to='/go-back-in-time'>We're hiring</Link>
+							<Link to='/'>We're hiring</Link>
 						</li>
 					</Styles.FooterNavContent>
 				</Styles.FooterNavWrapper>
@@ -68,7 +68,7 @@ export default class FooterNav extends Component {
 
 						<li className='column is-narrow footer-nav__social'>
 							<a
-								href='https://www.instagram.com/imaginecurve/'
+								href='#'
 								target='_blank'
 								rel='noopener noreferrer'
 								className='footer-nav__social-item footer-nav__social-item--instagram'
@@ -86,7 +86,7 @@ export default class FooterNav extends Component {
 						</li>
 						<li className='column is-narrow footer-nav__social'>
 							<a
-								href='https://twitter.com/imaginecurve'
+								href='#'
 								target='_blank'
 								rel='noopener noreferrer'
 								data-eventcategory='SocialLinks'
@@ -103,7 +103,7 @@ export default class FooterNav extends Component {
 						</li>
 						<li className='column is-narrow footer-nav__social'>
 							<a
-								href='https://www.facebook.com/imaginecurve/'
+								href='#'
 								target='_blank'
 								rel='noopener noreferrer'
 								data-eventcategory='SocialLinks'
@@ -120,7 +120,7 @@ export default class FooterNav extends Component {
 						</li>
 						<li className='column is-narrow footer-nav__social'>
 							<a
-								href='https://www.linkedin.com/company/curve-ltd-'
+								href='#'
 								target='_blank'
 								rel='noopener noreferrer'
 								data-eventcategory='SocialLinks'
