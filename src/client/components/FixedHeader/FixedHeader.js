@@ -4,12 +4,16 @@ import * as Styles from './FixedHeader.styles';
 import Button from '../Button/Button';
 
 export default class FixedHeader extends Component {
+	constructor(props) {
+		super(props);
+		this.inputRef = React.createRef();
+	}
+
 	static defaultProps = {
 		name: 'Contact us!'
 	};
 
 	image = null;
-	modal = React.createRef();
 	controller = null;
 	scene1 = null;
 	scene2 = null;
@@ -17,7 +21,7 @@ export default class FixedHeader extends Component {
 	componentDidMount() {
 		const gsap = require('gsap');
 		const scrollMagic = require('scrollmagic');
-		require('animation.gsap');
+		// require('animation.gsap');
 
 		this.controller = new scrollMagic.Controller();
 
@@ -67,7 +71,7 @@ export default class FixedHeader extends Component {
 				<Styles.FixedHeader>
 					<Styles.FixedHeaderButtonWrapper
 						className='fixed-header__button-wrapper'
-						innerRef={image => {
+						ref={image => {
 							this.image = image;
 						}}
 					>

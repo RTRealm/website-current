@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import * as mixins from '../../assets/styles/_mixins';
 
+// added min-height in FixedHeaderButtonWrapper
+
 export const FixedHeader = styled.header`
   position: fixed;
   top: 2%;
@@ -31,6 +33,7 @@ export const FixedHeaderButtonWrapper = styled.div`
     top: 0px;
     box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
     transition: box-shadow 0.3s, top 0.3s;
+    min-height: 40px;
 
     &:hover{
       box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
