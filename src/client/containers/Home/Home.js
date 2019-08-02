@@ -7,6 +7,7 @@ import Footer from '../../components/Footer/Footer';
 import AboutUs from '../Home/AboutUs/AboutUs';
 import Convenience from '../Home/Convenience/Convenience';
 import Control from '../Home/Control/Control';
+import FixedHeader from '../../components/FixedHeader/FixedHeader';
 
 // components
 import Page from '../../components/Page/index';
@@ -31,6 +32,8 @@ class Home extends PureComponent {
 					/>
 					<main className='main_content'>
 						<div className='is-hidden-mobile' />
+						<FixedHeader />
+
 						<TheCard />
 						<div className='fixed-header__trigger-start' />
 						<span className='mobile-cta__start' />
