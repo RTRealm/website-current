@@ -69,7 +69,7 @@ export default class FooterNav extends Component {
 						<li className='column is-narrow footer-nav__social'>
 							<a
 								href='#'
-								target='_blank'
+								// target='_blank'
 								rel='noopener noreferrer'
 								className='footer-nav__social-item footer-nav__social-item--instagram'
 								data-eventcategory='SocialLinks'
@@ -87,7 +87,7 @@ export default class FooterNav extends Component {
 						<li className='column is-narrow footer-nav__social'>
 							<a
 								href='#'
-								target='_blank'
+								// target='_blank'
 								rel='noopener noreferrer'
 								data-eventcategory='SocialLinks'
 								data-eventaction='Go to Twitter'
@@ -104,7 +104,7 @@ export default class FooterNav extends Component {
 						<li className='column is-narrow footer-nav__social'>
 							<a
 								href='#'
-								target='_blank'
+								// target='_blank'
 								rel='noopener noreferrer'
 								data-eventcategory='SocialLinks'
 								data-eventaction='Go to Facebook'
@@ -121,7 +121,7 @@ export default class FooterNav extends Component {
 						<li className='column is-narrow footer-nav__social'>
 							<a
 								href='#'
-								target='_blank'
+								// target='_blank'
 								rel='noopener noreferrer'
 								data-eventcategory='SocialLinks'
 								data-eventaction='Go to LinkedIn'
@@ -135,23 +135,6 @@ export default class FooterNav extends Component {
 								</LazyLoad>
 							</a>
 						</li>
-						{/* <li className='column is-narrow footer-nav__social'>
-							<a
-								href='https://dribbble.com/imaginecurve'
-								target='_blank'
-								rel='noopener noreferrer'
-								data-eventcategory='SocialLinks'
-								data-eventaction='Go to Dribbble'
-								data-eventlabel={`Dribbble - ${this.props.page} footer`}
-							>
-								<LazyLoad once={true} height={24} offset={100}>
-									<img
-										src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1548164910/website-v2/Icons/dribbble-white.svg'
-										alt='Dribbble logo'
-									/>
-								</LazyLoad>
-							</a>
-						</li> */}
 					</Styles.FooterNavContent>
 				</Styles.FooterNavWrapper>
 			</Styles.FooterNav>
