@@ -73,7 +73,6 @@ class AboutUs extends PureComponent {
 								your money. So, we’ve created one very simple card that puts all your finances in
 								one very smart place.
 							</p>
-
 							<p>
 								With all your finances at your fingertips, you can get on with the business of
 								enjoying life. Get Curve now.

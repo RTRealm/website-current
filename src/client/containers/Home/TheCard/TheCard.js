@@ -28,7 +28,7 @@ export default class TheCard extends PureComponent {
 						/>
 					</Styles.YourCardMainImage>
 					<Styles.YourCardTag className='column is-7'>
-						<BodyDispVirt title='The Right Way to Pay' theme='themeBlack'>
+						<BodyDispVirt title='The Right Way to Pay' theme='themeBlack' page='home'>
 							<p className='is-hidden-mobile'>
 								Connect your cards to Virt and enjoy a whole new banking experience. One Interface.
 								One Virt card. A whole new world - real-time notifications, Zero Fx, 1% Cashback,
