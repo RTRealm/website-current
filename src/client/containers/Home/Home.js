@@ -31,9 +31,9 @@ class Home extends PureComponent {
 						burgerMenuColor={'black'}
 					/>
 					<main className='main_content'>
-						<div className='is-hidden-mobile' />
-						<FixedHeader />
-
+						<div className='is-hidden-mobile'>
+							<FixedHeader />
+						</div>
 						<TheCard />
 						<div className='fixed-header__trigger-start' />
 						<span className='mobile-cta__start' />
