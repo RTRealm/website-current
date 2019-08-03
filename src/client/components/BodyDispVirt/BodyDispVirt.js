@@ -15,7 +15,7 @@ class BodyDispVirt extends Component {
 					</Styles.MainBDVButtonWrapper>
 
 					<Styles.MainBDVStores className='column'>
-						<a href='/'>
+						{/* <a href='/'>
 							<img
 								src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1536850250/website-v2/Icons/apple-black.svg'
 								alt='App store icon'
@@ -28,7 +28,7 @@ class BodyDispVirt extends Component {
 								alt='Google play store icon'
 								width='26'
 							/>
-						</a>
+						</a> */}
 					</Styles.MainBDVStores>
 				</div>
 			</Styles.MainBDV>

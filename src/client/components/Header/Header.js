@@ -66,7 +66,7 @@ export default class Header extends Component {
 					<Link to='/'>About</Link>
 				</li>
 				<li className='column is-narrow is-6'>
-					<Link to='/'>Contact</Link>
+					<a href='mailto:contact@rtrealm.com'>Contact</a>
 				</li>
 			</ul>
 		);

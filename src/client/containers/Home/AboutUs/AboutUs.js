@@ -80,7 +80,7 @@ class AboutUs extends PureComponent {
 						</InfoGroup>
 						<LazyLoad once={true} height={71} offset={500}>
 							<Styles.AboutUsContentAppStores className='columns'>
-								<li className='column is-narrow'>
+								{/* <li className='column is-narrow'>
 									<a
 										href='https://itunes.apple.com/gb/app/id1049397112?mt=8'
 										target='_blank'
@@ -109,7 +109,7 @@ class AboutUs extends PureComponent {
 											alt='Play store'
 										/>
 									</a>
-								</li>
+								</li> */}
 							</Styles.AboutUsContentAppStores>
 						</LazyLoad>
 					</div>
