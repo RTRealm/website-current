@@ -28,11 +28,10 @@ export default class TheCard extends PureComponent {
 						/>
 					</Styles.YourCardMainImage>
 					<Styles.YourCardTag className='column is-7'>
-						<BodyDispVirt title='{comprehensive software solutions}' theme='themeBlack' page='home'>
+						<BodyDispVirt title='{ integrated IT services }' theme='themeBlack' page='home'>
 							<p className='is-hidden-mobile'>
 								Connect your cards to Virt and enjoy a whole new banking experience. One Interface.
-								One Virt card. A whole new world - real-time notifications, Zero Fx, 1% Cashback,
-								and even time travel.
+								One Virt card.
 							</p>
 						</BodyDispVirt>
 					</Styles.YourCardTag>

@@ -49,7 +49,7 @@ export default class FixedHeader extends Component {
 		this.scene2 = new scrollMagic.Scene({
 			triggerElement: '.fixed-header__trigger-end',
 			duration: 20,
-			offset: -400
+			offset: -700
 		})
 			.addTo(this.controller)
 			.on('enter leave', e => {

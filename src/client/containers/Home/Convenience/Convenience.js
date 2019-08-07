@@ -91,7 +91,7 @@ class Convenience extends PureComponent {
 						</Styles.ConvenienceImageWrapper>
 					</Styles.ConvenienceImage>
 					<div className='column is-6 convenience__copy'>
-						<InfoGroup title={'All for you'} subtitle={'Convenience'}>
+						<InfoGroup title={'All for you'} subtitle={'Tech Consultancy'}>
 							<p>
 								Wouldn’t it be nice if managing your money wasn’t a big, stressful, complicated
 								thing?

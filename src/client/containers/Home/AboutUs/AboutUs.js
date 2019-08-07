@@ -4,6 +4,8 @@ import LazyLoad from 'react-lazyload';
 
 import InfoGroup from '../../../components/InfoGroup/InfoGroup';
 
+// import scrollMagic from 'scrollmagic';
+
 import * as Styles from './AboutUs.styles';
 
 class AboutUs extends PureComponent {
@@ -11,53 +13,52 @@ class AboutUs extends PureComponent {
 		activateAnimation: false
 	};
 
-	// componentDidMount() {
+	componentDidMount() {
+		const gsap = require('gsap');
 
-	//   const gsap = require("gsap");
+		const scrollMagic = require('ScrollMagic');
 
-	//   const scrollMagic = require("scrollmagic");
+		require('scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap');
 
-	//   require("animation.gsap");
+		let width = document.querySelector('body').clientWidth;
 
-	//   let width = document.querySelector("body").clientWidth;
+		if (width >= 1224) {
+			this.setState({ activateAnimation: true });
+			let controller = new scrollMagic.Controller();
 
-	//   if (width >= 1224) {
-	//     this.setState({ activateAnimation: true });
-	//     let controller = new scrollMagic.Controller();
+			let tween_phone = new gsap.TimelineLite().add([
+				gsap.TweenLite.fromTo(
+					'.about-us__phone',
+					1,
+					{ top: -150 },
+					{ top: 250, ease: gsap.Linear.easeNone }
+				)
+			]);
 
-	//     let tween_phone = new gsap.TimelineLite().add([
-	//       gsap.TweenLite.fromTo(
-	//         ".about-us__phone",
-	//         1,
-	//         { top: -150 },
-	//         { top: 250, ease: gsap.Linear.easeNone }
-	//       )
-	//     ]);
+			new scrollMagic.Scene({
+				triggerElement: '.about-us',
+				duration: '250%'
+			})
+				.setTween(tween_phone)
+				.addTo(controller);
 
-	//     new scrollMagic.Scene({
-	//       triggerElement: ".about-us",
-	//       duration: "250%"
-	//     })
-	//       .setTween(tween_phone)
-	//       .addTo(controller);
+			let scene = new scrollMagic.Scene({
+				triggerElement: '.about-us'
+			})
+				.setTween(
+					gsap.TweenLite.to('.about-us__copy', 0.75, {
+						autoAlpha: 1,
+						display: 'block',
+						marginTop: 0,
+						ease: gsap.Power1.easeOut
+					})
+				)
+				.reverse(false)
+				.addTo(controller);
 
-	//     let scene = new scrollMagic.Scene({
-	//       triggerElement: ".about-us"
-	//     })
-	//       .setTween(
-	//         gsap.TweenLite.to(".about-us__copy", 0.75, {
-	//           autoAlpha: 1,
-	//           display: "block",
-	//           marginTop: 0,
-	//           ease: gsap.Power1.easeOut
-	//         })
-	//       )
-	//       .reverse(false)
-	//       .addTo(controller);
-
-	//     scene.triggerHook(0.75);
-	//   }
-	// }
+			scene.triggerHook(0.75);
+		}
+	}
 
 	render() {
 		return (
@@ -67,7 +68,7 @@ class AboutUs extends PureComponent {
 				<Styles.AboutUsSplash2 />
 				<Styles.AboutUsContent className='about-us__content columns is-hidden-mobile'>
 					<div className='column is-7 about-us__copy'>
-						<InfoGroup title={'But it’s really about you'} subtitle={'About Us'}>
+						<InfoGroup title={'Web and mobile'} subtitle={'Development'}>
 							<p>
 								It seems to us you don’t need another bank. You just need a better way to control
 								your money. So, we’ve created one very simple card that puts all your finances in

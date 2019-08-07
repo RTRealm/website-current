@@ -86,7 +86,7 @@ export default class Control extends PureComponent {
 								}}
 								source={{
 									mob:
-										'https://res.cloudinary.com/dzatxn6bx/image/upload//v1539860039/website-v2/Homepage/Light/your-the-boss-phone-m_2x'
+										'https://res.cloudinary.com/dzatxn6bx/image/upload/v1539860039/website-v2/Homepage/Light/your-the-boss-phone-m_2x'
 								}}
 								size={{ max: 'max-width:768px' }}
 								alt='iPhone with curve app opened displaying a transaction'
@@ -95,15 +95,15 @@ export default class Control extends PureComponent {
 						</LazyLoad>
 					</Styles.ControlImage>
 					<Styles.ControlCopy className='control__copy'>
-						<InfoStyles.InfoGroupSubTitle>Control</InfoStyles.InfoGroupSubTitle>
-						<InfoStyles.InfoGroupTitle>You're the boss.</InfoStyles.InfoGroupTitle>
+						<InfoStyles.InfoGroupSubTitle>Outsorcing</InfoStyles.InfoGroupSubTitle>
+						<InfoStyles.InfoGroupTitle>Focus on your business</InfoStyles.InfoGroupTitle>
 						<InfoStyles.InfoGroupText>{copy()}</InfoStyles.InfoGroupText>
 					</Styles.ControlCopy>
 				</Styles.ControlContent>
 				<Styles.ControlContent className='columns is-hidden-mobile'>
 					<div className='column is-6'>
 						<Styles.ControlCopy className='control__copy'>
-							<InfoGroup title={"You're the boss."} subtitle={'Control'}>
+							<InfoGroup title={'Focus on your business'} subtitle={'Outsourcing'}>
 								{copy()}
 							</InfoGroup>
 						</Styles.ControlCopy>
@@ -116,10 +116,10 @@ export default class Control extends PureComponent {
 								}}
 								source={{
 									desk:
-										'https://res.cloudinary.com/dzatxn6bx/image/upload//v1539859868/website-v2/Homepage/Light/your-the-boss-phone_2x'
+										'https://res.cloudinary.com/dzatxn6bx/image/upload/v1539859868/website-v2/Homepage/Light/your-the-boss-phone_2x'
 								}}
 								size={{ max: 'min-width:769px' }}
-								alt='Curve app displaying a transaction'
+								alt='Displaying a transaction'
 								defaultFormat='png'
 							/>
 						</LazyLoad>
