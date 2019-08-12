@@ -16,9 +16,9 @@ class AboutUs extends PureComponent {
 	componentDidMount() {
 		const gsap = require('gsap');
 
-		const scrollMagic = require('ScrollMagic');
+		const scrollMagic = require('scrollmagic');
 
-		require('scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap');
+		// require('animation.gsap');
 
 		let width = document.querySelector('body').clientWidth;
 
