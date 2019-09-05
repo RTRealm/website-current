@@ -4,9 +4,9 @@ import LazyLoad from 'react-lazyload';
 
 import InfoGroup from '../../../components/InfoGroup/InfoGroup';
 
-// import scrollMagic from 'scrollmagic';
-
 import * as Styles from './AboutUs.styles';
+
+// import * as scrollMagic from 'scrollmagic';
 
 class AboutUs extends PureComponent {
 	state = {
@@ -14,50 +14,42 @@ class AboutUs extends PureComponent {
 	};
 
 	componentDidMount() {
-		const gsap = require('gsap');
-
-		const scrollMagic = require('scrollmagic');
-
+		// const gsap = require('gsap');
+		// const scrollMagic = require('scrollmagic');
 		// require('animation.gsap');
-
-		let width = document.querySelector('body').clientWidth;
-
-		if (width >= 1224) {
-			this.setState({ activateAnimation: true });
-			let controller = new scrollMagic.Controller();
-
-			let tween_phone = new gsap.TimelineLite().add([
-				gsap.TweenLite.fromTo(
-					'.about-us__phone',
-					1,
-					{ top: -150 },
-					{ top: 250, ease: gsap.Linear.easeNone }
-				)
-			]);
-
-			new scrollMagic.Scene({
-				triggerElement: '.about-us',
-				duration: '250%'
-			})
-				.setTween(tween_phone)
-				.addTo(controller);
-
-			let scene = new scrollMagic.Scene({
-				triggerElement: '.about-us'
-			})
-				.setTween(
-					gsap.TweenLite.to('.about-us__copy', 0.75, {
-						autoAlpha: 1,
-						display: 'block',
-						marginTop: 0,
-						ease: gsap.Power1.easeOut
-					})
-				)
-				.reverse(false)
-				.addTo(controller);
-
-			scene.triggerHook(0.75);
-		}
+		// let width = document.querySelector('body').clientWidth;
+		// if (width >= 1224) {
+		// 	this.setState({ activateAnimation: true });
+		// 	let controller = new scrollMagic.Controller();
+		// 	let tween_phone = new gsap.TimelineLite().add([
+		// 		gsap.TweenLite.fromTo(
+		// 			'.about-us__phone',
+		// 			1,
+		// 			{ top: -150 },
+		// 			{ top: 250, ease: gsap.Linear.easeNone }
+		// 		)
+		// 	]);
+		// 	new scrollMagic.Scene({
+		// 		triggerElement: '.about-us',
+		// 		duration: '250%'
+		// 	})
+		// 		.setTween(tween_phone)
+		// 		.addTo(controller);
+		// 	let scene = new scrollMagic.Scene({
+		// 		triggerElement: '.about-us'
+		// 	})
+		// 		.setTween(
+		// 			gsap.TweenLite.to('.about-us__copy', 0.75, {
+		// 				autoAlpha: 1,
+		// 				display: 'block',
+		// 				marginTop: 0,
+		// 				ease: gsap.Power1.easeOut
+		// 			})
+		// 		)
+		// 		.reverse(false)
+		// 		.addTo(controller);
+		// 	scene.triggerHook(0.75);
+		// }
 	}
 
 	render() {

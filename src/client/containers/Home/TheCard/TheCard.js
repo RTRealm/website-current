@@ -28,7 +28,7 @@ export default class TheCard extends PureComponent {
 						/>
 					</Styles.YourCardMainImage>
 					<Styles.YourCardTag className='column is-7'>
-						<BodyDispVirt title='{ integrated IT services }' theme='themeBlack' page='home'>
+						<BodyDispVirt title='comprehensive IT services' theme='themeBlack' page='home'>
 							<p className='is-hidden-mobile'>
 								Connect your cards to Virt and enjoy a whole new banking experience. One Interface.
 								One Virt card.

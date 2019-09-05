@@ -3,6 +3,10 @@ import Button from '../Button/Button';
 import * as Styles from './BodyDispVirt.styles';
 
 class BodyDispVirt extends Component {
+	clickLink() {
+		window.location.href = `mailto:contact@rtrealm.com`;
+	}
+
 	render() {
 		return (
 			<Styles.MainBDV>
@@ -11,7 +15,7 @@ class BodyDispVirt extends Component {
 
 				<div className='columns is-multiline is-hidden-mobile'>
 					<Styles.MainBDVButtonWrapper className='column'>
-						<Button text={'Yes! I need help!'} />
+						<Button text={'Yes! I need help!'} click={this.clickLink} />
 					</Styles.MainBDVButtonWrapper>
 
 					<Styles.MainBDVStores className='column'>

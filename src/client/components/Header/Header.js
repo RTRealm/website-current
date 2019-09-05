@@ -130,7 +130,7 @@ export default class Header extends Component {
 						className={`column is-${12 - this.state.columnWidth.desktop}-desktop is-${12 -
 							this.state.columnWidth.tablet}-tablet`}
 					>
-						{this.navLinks()}
+						{/* {this.navLinks()} */}
 					</Styles.HeaderNav>
 				</div>
 				<Styles.HeadeMobileNavList className='is-hidden-tablet header__mobile-nav-list'>

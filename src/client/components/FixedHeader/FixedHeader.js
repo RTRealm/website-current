@@ -3,6 +3,8 @@ import * as Styles from './FixedHeader.styles';
 
 import Button from '../Button/Button';
 
+import * as scrollMagic from 'scrollmagic';
+
 export default class FixedHeader extends Component {
 	constructor(props) {
 		super(props);
@@ -18,9 +20,13 @@ export default class FixedHeader extends Component {
 	scene1 = null;
 	scene2 = null;
 
+	clickLink() {
+		window.location.href = `mailto:contact@rtrealm.com`;
+	}
+
 	componentDidMount() {
 		const gsap = require('gsap');
-		const scrollMagic = require('scrollmagic');
+		// const scrollMagic = require('scrollmagic');
 		// require('animation.gsap');
 
 		this.controller = new scrollMagic.Controller();
@@ -35,7 +41,8 @@ export default class FixedHeader extends Component {
 
 		this.scene1 = new scrollMagic.Scene({
 			triggerElement: '.fixed-header__trigger-start',
-			duration: 20
+			duration: 20,
+			offset: 300
 		})
 			.addTo(this.controller)
 			.on('enter leave', e => {
@@ -76,7 +83,11 @@ export default class FixedHeader extends Component {
 							this.image = image;
 						}}
 					>
-						<Button className={'fixed-header__button'} text={this.props.name} />
+						<Button
+							className={'fixed-header__button'}
+							text={this.props.name}
+							click={this.clickLink}
+						/>
 					</Styles.FixedHeaderButtonWrapper>
 				</Styles.FixedHeader>
 			</div>
