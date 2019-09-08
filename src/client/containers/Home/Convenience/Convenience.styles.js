@@ -109,16 +109,16 @@ export const ConvenienceSplash2 = styled.span`
 	width: 50%;
 
 	&:after {
-		background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1539808311/website-v2/Homepage/Light/save-money-splash-1.jpg');
+		background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1567620422/cardWallet/conven-bckr-1x.png');
 		background-repeat: no-repeat;
 		display: block;
-		width: 910px;
+		width: 1000px;
 		height: 955px;
 		content: '';
 		float: right;
 
 		${mixins.image2x(
-			'https://res.cloudinary.com/dzatxn6bx/image/upload/v1539808311/website-v2/Homepage/Light/save-money-splash-1_2x.jpg',
+			'https://res.cloudinary.com/ohcash/image/upload/v1567620423/cardWallet/conven-bckr-2x.png',
 			'910px',
 			'955px'
 		)};

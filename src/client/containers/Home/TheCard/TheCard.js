@@ -10,6 +10,14 @@ export default class TheCard extends PureComponent {
 		return (
 			<Styles.YourCard>
 				<div className='columns'>
+					<Styles.YourCardTag className='column is-7'>
+						<BodyDispVirt title='Comprehensive IT services' theme='themeBlack' page='home'>
+							<p className='is-hidden-mobile'>
+								Connect your cards to Virt and enjoy a whole new banking experience. One Interface.
+								One Virt card.
+							</p>
+						</BodyDispVirt>
+					</Styles.YourCardTag>
 					<Styles.YourCardMainImage className='column is-5'>
 						<Image
 							set={{
@@ -27,18 +35,10 @@ export default class TheCard extends PureComponent {
 							defaultFormat='png'
 						/>
 					</Styles.YourCardMainImage>
-					<Styles.YourCardTag className='column is-7'>
-						<BodyDispVirt title='comprehensive IT services' theme='themeBlack' page='home'>
-							<p className='is-hidden-mobile'>
-								Connect your cards to Virt and enjoy a whole new banking experience. One Interface.
-								One Virt card.
-							</p>
-						</BodyDispVirt>
-					</Styles.YourCardTag>
 				</div>
 				<Styles.YourCardPRWrapper>
 					<Styles.YourCardPR className='columns is-mobile is-multiline'>
-						<li className='column is-narrow'>
+						{/* <li className='column is-narrow'>
 							<img
 								src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1541082226/website-v2/Icons/wired-black.svg'
 								alt='Wired'
@@ -73,7 +73,7 @@ export default class TheCard extends PureComponent {
 								src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1541082226/website-v2/Icons/wallstreetjourney-black.svg'
 								alt='The Wall Street Journal'
 							/>
-						</li>
+						</li> */}
 					</Styles.YourCardPR>
 				</Styles.YourCardPRWrapper>
 			</Styles.YourCard>

@@ -76,7 +76,7 @@ export const AboutUsSplash = styled.span`
 	z-index: -2;
 	width: 28%;
 	&:after {
-		background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/c_scale,f_auto,q_auto,w_0.5/v1548246933/website-v2/Homepage/Light/welcome-splash-v2');
+		background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1567619807/cardWallet/phone-1x.png');
 		background-repeat: no-repeat;
 		display: block;
 		width: 737px;
@@ -84,7 +84,7 @@ export const AboutUsSplash = styled.span`
 		content: '';
 
 		${mixins.image2x(
-			'https://res.cloudinary.com/dzatxn6bx/image/upload/f_auto,q_auto/v1548246933/website-v2/Homepage/Light/welcome-splash-v2',
+			'https://res.cloudinary.com/ohcash/image/upload/v1567619807/cardWallet/phone-2x.png',
 			'737px',
 			'1127px'
 		)};
@@ -105,7 +105,7 @@ export const AboutUsSplash2 = styled.span`
 		left: 0px;
 
 		&:after {
-			background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1539382060/website-v2/Homepage/Light/welcome-splash-1.jpg');
+			background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1567619431/cardWallet/about-us-side-1x.png');
 			background-repeat: no-repeat;
 			display: block;
 			width: 373px;
@@ -114,7 +114,7 @@ export const AboutUsSplash2 = styled.span`
 			float: right;
 
 			${mixins.image2x(
-				'https://res.cloudinary.com/dzatxn6bx/image/upload/v1539382060/website-v2/Homepage/Light/welcome-splash-1_2x.jpg',
+				'https://res.cloudinary.com/ohcash/image/upload/v1567619432/cardWallet/about-us-side-2x.png',
 				'373px',
 				'1323px'
 			)};

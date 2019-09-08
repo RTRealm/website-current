@@ -102,7 +102,7 @@ export const ControlSplash = styled.span`
 	right: 0px;
 	z-index: -2;
 	&:after {
-		background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/c_scale,f_auto,q_auto,w_0.5/v1539945354/website-v2/Homepage/Light/time-travel-splash-m_2x');
+		background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1567621596/cardWallet/control-bcg-mob-1x.png');
 		background-repeat: no-repeat;
 		display: block;
 		width: 770px;
@@ -110,7 +110,7 @@ export const ControlSplash = styled.span`
 		content: '';
 
 		${mixins.image2x(
-			'https://res.cloudinary.com/dzatxn6bx/image/upload/f_auto,q_auto/v1539945354/website-v2/Homepage/Light/time-travel-splash-m_2x',
+			'https://res.cloudinary.com/ohcash/image/upload/v1567621596/cardWallet/control-bcg-mob-2x.png',
 			'770px',
 			'448px'
 		)};
@@ -122,12 +122,12 @@ export const ControlSplash = styled.span`
 		width: 80%;
 
 		&:after {
-			background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/c_scale,f_auto,q_auto,w_0.5/v1539379427/website-v2/Homepage/Light/time-travel-splash-1_2x');
+			background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1567619247/cardWallet/control-bcg-1x.png');
 			width: 1540px;
 			height: 604px;
 
 			${mixins.image2x(
-				'https://res.cloudinary.com/dzatxn6bx/image/upload/f_auto,q_auto/v1539379427/website-v2/Homepage/Light/time-travel-splash-1_2x',
+				'https://res.cloudinary.com/ohcash/image/upload/v1567619312/cardWallet/control-bcg-2x.png',
 				'1540px',
 				'604px'
 			)};
@@ -146,7 +146,7 @@ export const ControlSplash2 = styled.span`
 	z-index: -2;
 
 	&:after {
-		background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/c_scale,f_auto,q_auto,w_0.5/v1539382603/website-v2/Homepage/Light/time-travel-splash-2_2x');
+		background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1567622114/cardWallet/control-bcg-corner-1x.png');
 		background-repeat: no-repeat;
 		display: block;
 		width: 574px;
@@ -155,7 +155,7 @@ export const ControlSplash2 = styled.span`
 		float: right;
 
 		${mixins.image2x(
-			'https://res.cloudinary.com/dzatxn6bx/image/upload/f_auto,q_auto/v1539382603/website-v2/Homepage/Light/time-travel-splash-2_2x',
+			'https://res.cloudinary.com/ohcash/image/upload/v1567622114/cardWallet/control-bcg-corner-2x.png',
 			'574px',
 			'722px'
 		)};
