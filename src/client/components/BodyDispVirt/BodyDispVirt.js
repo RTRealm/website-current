@@ -3,9 +3,9 @@ import Button from '../Button/Button';
 import * as Styles from './BodyDispVirt.styles';
 
 class BodyDispVirt extends Component {
-	clickLink() {
+	clickLink = () => {
 		window.location.href = `mailto:contact@rtrealm.com`;
-	}
+	};
 
 	render() {
 		return (
