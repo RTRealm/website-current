@@ -23,11 +23,18 @@ const Homepage = Loadable({
 	modules: ['homepage']
 });
 
+const Contact = Loadable({
+	loader: () => import('./Contact/Contact'),
+	loading: () => null,
+	modules: ['contact']
+});
+
 const Routing = () => {
 	return (
 		<HashRouter>
 			<Switch>
 				<Route exact path='/' component={Homepage} />
+				<Route exact path='/contact' component={Contact} />
 			</Switch>
 		</HashRouter>
 	);

@@ -16,7 +16,7 @@ export default class FooterNav extends Component {
 				<Styles.FooterNavWrapper className='footer-nav__one'>
 					<Styles.FooterNavContent className='columns is-centered is-multiline'>
 						<li className='column is-narrow'>
-							<Link to='/'>About</Link>
+							<Link to='/contact'>Contact</Link>
 						</li>
 						<li className='column is-narrow'>
 							<Link to='/'>Contact us</Link>

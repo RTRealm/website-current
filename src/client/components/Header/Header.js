@@ -63,10 +63,10 @@ export default class Header extends Component {
 		return (
 			<ul className='columns'>
 				<li className='column is-narrow is-6'>
-					<Link to='/'>About</Link>
+					<Link to='/contact'>Contact</Link>
 				</li>
 				<li className='column is-narrow is-6'>
-					<a href='mailto:contact@rtrealm.com'>Contact</a>
+					<a href='mailto:contact@rtrealm.com'>Mail us</a>
 				</li>
 			</ul>
 		);
@@ -118,9 +118,7 @@ export default class Header extends Component {
 				</Styles.HeaderMobile>
 				<div className='columns is-hidden-mobile'>
 					<div
-						className={`column is-${this.state.columnWidth.desktop}-desktop is-${
-							this.state.columnWidth.tablet
-						}-tablet`}
+						className={`column is-${this.state.columnWidth.desktop}-desktop is-${this.state.columnWidth.tablet}-tablet`}
 					>
 						<Link to={this.props.link}>
 							<img src={this.props.logo} alt='Virtu Logo' />
@@ -130,7 +128,7 @@ export default class Header extends Component {
 						className={`column is-${12 - this.state.columnWidth.desktop}-desktop is-${12 -
 							this.state.columnWidth.tablet}-tablet`}
 					>
-						{/* {this.navLinks()} */}
+						{this.navLinks()}
 					</Styles.HeaderNav>
 				</div>
 				<Styles.HeadeMobileNavList className='is-hidden-tablet header__mobile-nav-list'>
