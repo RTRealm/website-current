@@ -214,7 +214,8 @@ class Contact extends Component {
 					</Styles.ContactSection>
 				</div>
 				<div className='fixed-header__trigger-end' />
-				<Footer CTAHandler={this.openCTAModal.bind(this)} page={'Contact'} />
+				{/* <Footer CTAHandler={this.openCTAModal.bind(this)} page={'Contact'} /> */}
+				<Footer page={'Contact'} />
 			</Page>
 		);
 	}

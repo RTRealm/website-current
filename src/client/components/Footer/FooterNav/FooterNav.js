@@ -18,9 +18,9 @@ export default class FooterNav extends Component {
 						<li className='column is-narrow'>
 							<Link to='/contact'>Contact</Link>
 						</li>
-						<li className='column is-narrow'>
+						{/* <li className='column is-narrow'>
 							<Link to='/'>Contact us</Link>
-						</li>
+						</li> */}
 						<li className='column is-narrow'>
 							<Link to='/'>We're hiring</Link>
 						</li>

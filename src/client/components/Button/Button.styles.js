@@ -3,7 +3,7 @@ import * as vars from '../../assets/styles/_variables';
 
 export const Button = styled.button`
 	background-color: ${vars.colorAccent};
-	padding: 11px 12 px;
+	padding: 11px 12px;
 	border-radius: 20px;
 	font-weight: ${vars.poppinsSemibold};
 	color: #fff;
