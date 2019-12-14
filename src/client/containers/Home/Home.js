@@ -28,7 +28,6 @@ class Home extends PureComponent {
 						logo={
 							'https://res.cloudinary.com/ohcash/image/upload/v1576341382/landingpage/logo_black_line_landing_svg.svg'
 						}
-						// 'https://res.cloudinary.com/dzatxn6bx/image/upload/v1537358404/website-v2/Icons/curve-logo-black.svg'
 						link={'/'}
 						page='Home'
 						burgerMenuColor={'black'}
