@@ -24,7 +24,9 @@ class Home extends PureComponent {
 				<div className='app'>
 					<Header
 						textColor={'white'}
-						logo={'https://res.cloudinary.com/ohcash/image/upload/v1561891997/logo_negative1.png'}
+						logo={
+							'https://res.cloudinary.com/ohcash/image/upload/v1576339126/landingpage/logo_black_line_landing.png'
+						}
 						// 'https://res.cloudinary.com/dzatxn6bx/image/upload/v1537358404/website-v2/Icons/curve-logo-black.svg'
 						link={'/'}
 						page='Home'
