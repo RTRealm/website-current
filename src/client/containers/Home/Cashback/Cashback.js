@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import * as Styles from './Cashback.styles';
 
+import * as scrollMagic from 'scrollmagic';
+
 import InfoGroup from '../../../components/InfoGroup/InfoGroup';
 
 class Cashback extends Component {
@@ -11,9 +13,9 @@ class Cashback extends Component {
 	// 	// $FlowFixMe;
 	// 	const gsap = require('gsap');
 	// 	// $FlowFixMe;
-	// 	const scrollMagic = require('ScrollMagic');
-	// 	// $FlowFixMe;
-	// 	require('animation.gsap');
+	// 	// const scrollMagic = require('ScrollMagic');
+	// 	// // $FlowFixMe;
+	// 	// require('animation.gsap');
 
 	// 	// $FlowFixMe;
 	// 	let width = document.querySelector('body').clientWidth;

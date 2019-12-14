@@ -10,43 +10,43 @@ export const TravelCashback = styled.section`
 	}
 `;
 
-export const TravelCashbackSplash = styled.span`
-	position: absolute;
-	top: -350px;
-	right: 0px;
-	z-index: -2;
+// export const TravelCashbackSplash = styled.span`
+// 	position: absolute;
+// 	top: -350px;
+// 	right: 0px;
+// 	z-index: -2;
 
-	&:after {
-		background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1536834125/website-v2/Travel/cashback-sand-1-m.jpg');
-		background-repeat: no-repeat;
-		display: block;
-		width: 273px;
-		height: 485px;
-		content: '';
+// 	&:after {
+// 		background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1536834125/website-v2/Travel/cashback-sand-1-m.jpg');
+// 		background-repeat: no-repeat;
+// 		display: block;
+// 		width: 273px;
+// 		height: 485px;
+// 		content: '';
 
-		${mixins.image2x(
-			'https://res.cloudinary.com/dzatxn6bx/image/upload/v1536834125/website-v2/Travel/cashback-sand-1-m_2x.jpg',
-			'273px',
-			'485px'
-		)};
-	}
+// 		${mixins.image2x(
+// 			'https://res.cloudinary.com/dzatxn6bx/image/upload/v1536834125/website-v2/Travel/cashback-sand-1-m_2x.jpg',
+// 			'273px',
+// 			'485px'
+// 		)};
+// 	}
 
-	@media (${mixins.breakpoint('tablet-landscape-up')}) {
-		top: -975px;
+// 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
+// 		top: -975px;
 
-		&:after {
-			background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1539939028/website-v2/Travel/cashback-sand-1.jpg');
-			width: 158px;
-			height: 985px;
+// 		&:after {
+// 			background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1539939028/website-v2/Travel/cashback-sand-1.jpg');
+// 			width: 158px;
+// 			height: 985px;
 
-			${mixins.image2x(
-				'https://res.cloudinary.com/dzatxn6bx/image/upload/v1539939028/website-v2/Travel/cashback-sand-1_2x.jpg',
-				'158px',
-				'985px'
-			)};
-		}
-	}
-`;
+// 			${mixins.image2x(
+// 				'https://res.cloudinary.com/dzatxn6bx/image/upload/v1539939028/website-v2/Travel/cashback-sand-1_2x.jpg',
+// 				'158px',
+// 				'985px'
+// 			)};
+// 		}
+// 	}
+// `;
 
 export const TravelCashbackContent = styled.div`
 	margin: 300px 11% 0 11%;
@@ -119,8 +119,8 @@ export const TravelCashbackBrandsItem = styled.div`
 
 	@media (${mixins.breakpoint('desktop-up')}) {
 		top: 20px;
-		opacity: 0;
-		visibility: hidden;
+		/* opacity: 0;
+		visibility: hidden; */
 		position: relative;
 	}
 
