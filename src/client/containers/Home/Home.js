@@ -7,6 +7,7 @@ import Footer from '../../components/Footer/Footer';
 import AboutUs from '../Home/AboutUs/AboutUs';
 import Convenience from '../Home/Convenience/Convenience';
 import Control from '../Home/Control/Control';
+import Cashback from '../Home/Cashback/Cashback';
 import FixedHeader from '../../components/FixedHeader/FixedHeader';
 
 // components
@@ -46,6 +47,12 @@ class Home extends PureComponent {
 							<FeaturesList />
 						</div>
 						<Convenience />
+						<div className='is-hidden-mobile'>
+							<Cashback />
+						</div>
+						<div className='is-hidden-tablet'>
+							<Cashback />
+						</div>
 						<div className='is-hidden-mobile'>
 							<Control />
 						</div>
