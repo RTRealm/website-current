@@ -49,6 +49,8 @@ class Contact extends Component {
 					<Header
 						textColor={'white'}
 						link={'/'}
+						navLink={'/'}
+						navName={'Main'}
 						logo={
 							'https://res.cloudinary.com/ohcash/image/upload/v1576341382/landingpage/logo_black_line_landing_svg.svg'
 						}

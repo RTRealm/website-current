@@ -29,6 +29,8 @@ class Home extends PureComponent {
 							'https://res.cloudinary.com/ohcash/image/upload/v1576341382/landingpage/logo_black_line_landing_svg.svg'
 						}
 						link={'/'}
+						navLink={'/contact'}
+						navName={'Contact'}
 						page='Home'
 						burgerMenuColor={'black'}
 					/>
