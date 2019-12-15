@@ -27,7 +27,7 @@ export default class FixedHeader extends Component {
 	componentDidMount() {
 		const gsap = require('gsap');
 		// const scrollMagic = require('scrollmagic');
-		// require('animation.gsap');
+		require('animation.gsap');
 
 		this.controller = new scrollMagic.Controller();
 

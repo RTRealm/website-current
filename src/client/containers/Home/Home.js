@@ -25,6 +25,7 @@ class Home extends PureComponent {
 				<div className='app'>
 					<Header
 						textColor={'white'}
+						link={'/'}
 						logo={
 							'https://res.cloudinary.com/ohcash/image/upload/v1576341382/landingpage/logo_black_line_landing_svg.svg'
 						}
@@ -33,7 +34,7 @@ class Home extends PureComponent {
 						// }
 						navLink={'/contact'}
 						navName={'Contact'}
-						page='Home'
+						page='Contact'
 						burgerMenuColor={'black'}
 					/>
 					<main className='main_content'>
