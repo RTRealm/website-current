@@ -29,10 +29,7 @@ export default class TheCard extends PureComponent {
 					</Styles.YourCardMainImage>
 					<Styles.YourCardTag className='column is-7'>
 						<BodyDispVirt title='Comprehensive IT services' theme='themeBlack' page='home'>
-							<p className='is-hidden-mobile'>
-								Connect your cards to Virt and enjoy a whole new banking experience. One Interface.
-								One Virt card.
-							</p>
+							<p className='is-hidden-mobile'>More than just a software house.</p>
 						</BodyDispVirt>
 					</Styles.YourCardTag>
 				</div>
