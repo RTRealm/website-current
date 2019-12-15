@@ -1,1 +1,15 @@
-{}
+{
+	"auth": {
+		"landingpgreactaws59d9f4fb": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	},
+	"storage": {
+		"landingPageReact": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}

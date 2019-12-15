@@ -10,6 +10,11 @@
             "StackName": "amplify-landing-pg-react-aws-local-235902",
             "StackId": "arn:aws:cloudformation:eu-central-1:038909035013:stack/amplify-landing-pg-react-aws-local-235902/7d61f410-1f8e-11ea-80aa-02165db3bfb6",
             "AmplifyAppId": "d3v8c6ezbcf0cd"
+        },
+        "categories": {
+            "auth": {
+                "landingpgreactaws59d9f4fb": {}
+            }
         }
     }
 }
