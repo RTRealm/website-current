@@ -1,0 +1,15 @@
+{
+    "local": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-landing-pg-react-aws-local-235902-authRole",
+            "UnauthRoleArn": "arn:aws:iam::038909035013:role/amplify-landing-pg-react-aws-local-235902-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::038909035013:role/amplify-landing-pg-react-aws-local-235902-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplify-landing-pg-react-aws-local-235902-deployment",
+            "UnauthRoleName": "amplify-landing-pg-react-aws-local-235902-unauthRole",
+            "StackName": "amplify-landing-pg-react-aws-local-235902",
+            "StackId": "arn:aws:cloudformation:eu-central-1:038909035013:stack/amplify-landing-pg-react-aws-local-235902/7d61f410-1f8e-11ea-80aa-02165db3bfb6",
+            "AmplifyAppId": "d3v8c6ezbcf0cd"
+        }
+    }
+}
