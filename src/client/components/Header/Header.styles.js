@@ -3,6 +3,8 @@ import * as vars from '../../assets/styles/_variables';
 import * as mixins from '../../assets/styles/_mixins';
 
 // added min-height in HeaderMobileButton
+// set img width to 200px from original 96px
+// set img width to 200px from original 150px at tablet-portrait-up
 
 export const Header = styled.header`
   padding-top: 29px;
@@ -20,11 +22,11 @@ export const Header = styled.header`
     }
 
     img {
-        width: 96px;
+        width: 200px;
         display: inline-block;
 
         @media (${mixins.breakpoint('tablet-portrait-up')}) {
-            width: 150px;
+            width: 200px;
         }
 
         @media (${mixins.breakpoint('tablet-landscape-up')}) {
