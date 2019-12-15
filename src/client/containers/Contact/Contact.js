@@ -8,27 +8,22 @@ import ReactPixel from 'react-facebook-pixel';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import Page from '../../components/Page';
+import FixedHeader from '../../components/FixedHeader/FixedHeader';
 
 // STyles
 import * as Styles from './Contact.styles';
 
 class Contact extends Component {
-	modalCTA = React.createRef();
-
 	componentDidMount() {
 		ReactGA.pageview(window.location.pathname);
 		ReactPixel.pageView();
 	}
 
-	openCTAModal() {
-		this.modalCTA.current.openClickHandler();
-	}
-
-	openGoogleMaps() {
+	openGoogleMaps = () => {
 		let url = 'https://goo.gl/maps/M9tX5kEK9gR2';
 		let win = window.open(url, '_blank');
 		win.focus();
-	}
+	};
 
 	render() {
 		const mapStyles = {
@@ -40,11 +35,7 @@ class Contact extends Component {
 		};
 
 		return (
-			<Page
-				id='contact'
-				title='Contact |'
-				description='Curve uploads all your credit cards and debit cards into one single card which is accepted everywhere MasterCard® cards are. Save time, money and stay secure.'
-			>
+			<Page id='contact' title='Contact |' description='RTRealm'>
 				<div className='app'>
 					<Header
 						textColor={'white'}
@@ -59,7 +50,7 @@ class Contact extends Component {
 					/>
 					<Styles.ContactSection>
 						<div className='is-hidden-mobile'></div>
-
+						<FixedHeader />
 						<Styles.HeadingGroup>
 							<Styles.HeadingH2>Get in touch with us</Styles.HeadingH2>
 							<Styles.HeadingSubtitle>
@@ -182,7 +173,7 @@ class Contact extends Component {
 							<Styles.ContactAddressList className='columns is-mobile'>
 								<Styles.ContactAddressItem className='column'>
 									<p>
-										<em>Curve 1 Limited</em>
+										<em>RT.Realm</em>
 									</p>
 									<p>Company 09523903</p>
 								</Styles.ContactAddressItem>
@@ -197,7 +188,7 @@ class Contact extends Component {
 							</Styles.ContactAddressList>
 						</Styles.ContactAddress>
 
-						<Styles.MapWrapper onClick={this.openGoogleMaps.bind(this)}>
+						<Styles.MapWrapper onClick={this.openGoogleMaps}>
 							<Styles.Map>
 								<iframe
 									width='100%'
@@ -205,7 +196,7 @@ class Contact extends Component {
 									frameBorder='0'
 									src='https://www.google.com/maps/d/embed?mid=1FPN9hdXRl9TqkajTKctqVOR8CepKj68H'
 									allowFullScreen
-									title='curve office location'
+									title='office location'
 									scrolling='no'
 									style={mapStyles}
 								/>
@@ -213,9 +204,9 @@ class Contact extends Component {
 						</Styles.MapWrapper>
 					</Styles.ContactSection>
 				</div>
-				<div className='fixed-header__trigger-end' />
 				{/* <Footer CTAHandler={this.openCTAModal.bind(this)} page={'Contact'} /> */}
 				<Footer page={'Contact'} />
+				<div className='fixed-header__trigger-end' />
 			</Page>
 		);
 	}
