@@ -1,6 +1,6 @@
 {
 	"auth": {
-		"landingpgreactaws59d9f4fb": {
+		"landingpgreactawsd6a2e316": {
 			"service": "Cognito",
 			"providerPlugin": "awscloudformation",
 			"dependsOn": []
