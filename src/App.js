@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Routes from './client/containers/routes';
+import { withAuthenticator } from 'aws-amplify-react';
 
 import ScrollToTop from './client/components/ScrollToTop/ScrollToTop';
 
@@ -23,4 +24,4 @@ class App extends Component {
 	}
 }
 
-export default App;
+export default withAuthenticator(App);
