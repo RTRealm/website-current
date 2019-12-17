@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Routes from './client/containers/routes';
-// import { withAuthenticator } from 'aws-amplify-react';
+import { Authenticator } from 'aws-amplify-react';
 import ScrollToTop from './client/components/ScrollToTop/ScrollToTop';
 
 import * as Styles from './App.styles';
@@ -12,13 +12,17 @@ class App extends Component {
 
 	render() {
 		return (
-			<Styles.App>
-				<div id='content'>
-					<ScrollToTop>
-						<Routes />
-					</ScrollToTop>
-				</div>
-			</Styles.App>
+			<div>
+				<Authenticator>
+					<Styles.App>
+						<div id='content'>
+							<ScrollToTop>
+								<Routes />
+							</ScrollToTop>
+						</div>
+					</Styles.App>
+				</Authenticator>
+			</div>
 		);
 	}
 }
