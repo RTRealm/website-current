@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import Routes from './client/containers/routes';
 import { withAuthenticator } from 'aws-amplify-react';
+import Amplify from 'aws-amplify';
+import awsconfig from './aws-exports';
+
+Amplify.configure(awsconfig);
 
 import ScrollToTop from './client/components/ScrollToTop/ScrollToTop';
 
