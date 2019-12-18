@@ -18,12 +18,12 @@ export default class TheCard extends PureComponent {
 							}}
 							source={{
 								mob:
-									'https://res.cloudinary.com/dzatxn6bx/image/upload/v1537449190/website-v2/Homepage/Light/your-card-phone-m',
+									'https://landingpagereactreact-local.s3.eu-central-1.amazonaws.com/main-mob.png',
 								desk:
-									'https://res.cloudinary.com/dzatxn6bx/image/upload/v1548240636/website-v2/Homepage/Light/home-intro-phone'
+									'https://landingpagereactreact-local.s3.eu-central-1.amazonaws.com/main-web.png'
 							}}
 							size={{ max: 'max-width:768px', min: 'min-width:769px' }}
-							alt='Virt card and mobile app'
+							alt='RTR desktop and mobile dev'
 							defaultFormat='png'
 						/>
 					</Styles.YourCardMainImage>
