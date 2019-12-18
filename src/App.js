@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import Routes from './client/containers/routes';
 import ScrollToTop from './client/components/ScrollToTop/ScrollToTop';
 import * as Styles from './App.styles';
-import Amplify from 'aws-amplify';
-import awsconfig from './aws-exports';
-import { withAuthenticator } from 'aws-amplify-react';
-Amplify.configure(awsconfig);
 
 class App extends Component {
 	componentDidMount() {
@@ -25,4 +21,4 @@ class App extends Component {
 	}
 }
 
-export default withAuthenticator(App, true);
+export default App;
