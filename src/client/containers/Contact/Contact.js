@@ -87,7 +87,7 @@ class Contact extends Component {
 								<p>
 									Contact our Support Team:{' '}
 									<span>
-										<a href='mailto:support@curve.app'>support@curve.app</a>
+										<a href='mailto:contact@rtrealm.com'>contact@rtrealm.com</a>
 									</span>
 								</p>
 								<Styles.InfoHr className='is-hidden-tablet' />
@@ -98,7 +98,7 @@ class Contact extends Component {
 							<p>
 								If you are a security researcher and believe you have found a security
 								vulnerability, please send an e-mail to us{' '}
-								<a href='mailto:security@curve.app'>security@curve.app</a>.
+								<a href='mailto:contact@rtrealm.com'>contact@rtrealm.com</a>.
 							</p>
 						</Styles.ContactSecurity>
 

@@ -29,7 +29,7 @@ export default class TheCard extends PureComponent {
 					</Styles.YourCardMainImage>
 					<Styles.YourCardTag className='column is-7'>
 						<BodyDispVirt title='Comprehensive IT services' theme='themeBlack' page='home'>
-							<p className='is-hidden-mobile'>More than just a software house. AWS test...</p>
+							<p className='is-hidden-mobile'>More than just a software house. DEV env</p>
 						</BodyDispVirt>
 					</Styles.YourCardTag>
 				</div>
