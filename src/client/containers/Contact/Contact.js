@@ -59,7 +59,7 @@ class Contact extends Component {
 						</Styles.HeadingGroup>
 						<div className='fixed-header__trigger-start' />
 						<Styles.ContactSupport className='columns'>
-							<Styles.ContactSupportItem className='column is-4'>
+							{/* <Styles.ContactSupportItem className='column is-4'>
 								<p>
 									If you have any questions check our{' '}
 									<a
@@ -71,9 +71,9 @@ class Contact extends Component {
 									</a>
 								</p>
 								<Styles.InfoHr className='is-hidden-tablet' />
-							</Styles.ContactSupportItem>
+							</Styles.ContactSupportItem> */}
 
-							<Styles.ContactSupportItem className='column is-4'>
+							<Styles.ContactSupportItem className='column is-4 is-offset-2'>
 								<p>
 									Join our{' '}
 									<a href='https://community.curve.app/' target='_blank' rel='noopener noreferrer'>
