@@ -190,7 +190,7 @@ class Contact extends Component {
 
 						<Styles.MapWrapper onClick={this.openGoogleMaps}>
 							<Styles.Map>
-								<iframe
+								{/* <iframe
 									width='100%'
 									height='650'
 									frameBorder='0'
@@ -199,7 +199,7 @@ class Contact extends Component {
 									title='office location'
 									scrolling='no'
 									style={mapStyles}
-								/>
+								/> */}
 							</Styles.Map>
 						</Styles.MapWrapper>
 					</Styles.ContactSection>
