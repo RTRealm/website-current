@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // $FlowFixMe;
-import ReactGA from 'react-ga';
+// import ReactGA from 'react-ga';
 // $FlowFixMe;
 import ReactPixel from 'react-facebook-pixel';
 
@@ -15,8 +15,8 @@ import * as Styles from './Contact.styles';
 
 class Contact extends Component {
 	componentDidMount() {
-		ReactGA.pageview(window.location.pathname);
-		ReactPixel.pageView();
+		// ReactGA.pageview(window.location.pathname);
+		// ReactPixel.pageView();
 	}
 
 	openGoogleMaps = () => {
@@ -28,7 +28,7 @@ class Contact extends Component {
 	render() {
 		const mapStyles = {
 			position: 'relative',
-			top: '-50px',
+			top: '0px',
 			border: 'none',
 			zIndex: 0,
 			pointerEvents: 'none'

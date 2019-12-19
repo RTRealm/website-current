@@ -24,54 +24,54 @@ export default class FixedHeader extends Component {
 		window.location.href = `mailto:contact@rtrealm.com`;
 	}
 
-	// componentDidMount() {
-	// 	const gsap = require('gsap');
-	// 	// const scrollMagic = require('scrollmagic');
-	// 	require('animation.gsap');
+	componentDidMount() {
+		const gsap = require('gsap');
+		// const scrollMagic = require('scrollmagic');
+		// require('animation.gsap');
 
-	// 	this.controller = new scrollMagic.Controller();
+		this.controller = new scrollMagic.Controller();
 
-	// 	const tweenHide = () => {
-	// 		gsap.TweenLite.to(this.image, 0.3, { autoAlpha: 0, display: 'none' });
-	// 	};
+		const tweenHide = () => {
+			gsap.TweenLite.to(this.image, 0.3, { autoAlpha: 0, display: 'none' });
+		};
 
-	// 	const tweenShow = () => {
-	// 		gsap.TweenLite.to(this.image, 0.3, { autoAlpha: 1, display: 'block' });
-	// 	};
+		const tweenShow = () => {
+			gsap.TweenLite.to(this.image, 0.3, { autoAlpha: 1, display: 'block' });
+		};
 
-	// 	this.scene1 = new scrollMagic.Scene({
-	// 		triggerElement: '.fixed-header__trigger-start',
-	// 		duration: 20,
-	// 		offset: 300
-	// 	})
-	// 		.addTo(this.controller)
-	// 		.on('enter leave', e => {
-	// 			if (e.scrollDirection === 'FORWARD') {
-	// 				tweenShow();
-	// 			} else {
-	// 				tweenHide();
-	// 			}
-	// 		});
+		this.scene1 = new scrollMagic.Scene({
+			triggerElement: '.fixed-header__trigger-start',
+			duration: 20,
+			offset: 300
+		})
+			.addTo(this.controller)
+			.on('enter leave', e => {
+				if (e.scrollDirection === 'FORWARD') {
+					tweenShow();
+				} else {
+					tweenHide();
+				}
+			});
 
-	// 	this.scene2 = new scrollMagic.Scene({
-	// 		triggerElement: '.fixed-header__trigger-end',
-	// 		duration: 20,
-	// 		offset: -700
-	// 	})
-	// 		.addTo(this.controller)
-	// 		.on('enter leave', e => {
-	// 			if (e.scrollDirection === 'FORWARD') {
-	// 				tweenHide();
-	// 			} else {
-	// 				tweenShow();
-	// 			}
-	// 		});
-	// }
+		this.scene2 = new scrollMagic.Scene({
+			triggerElement: '.fixed-header__trigger-end',
+			duration: 20,
+			offset: -700
+		})
+			.addTo(this.controller)
+			.on('enter leave', e => {
+				if (e.scrollDirection === 'FORWARD') {
+					tweenHide();
+				} else {
+					tweenShow();
+				}
+			});
+	}
 
-	// componentWillUnmount() {
-	// 	this.controller.destroy();
-	// 	this.scene1.destroy();
-	// }
+	componentWillUnmount() {
+		this.controller.destroy();
+		this.scene1.destroy();
+	}
 
 	render() {
 		return (
