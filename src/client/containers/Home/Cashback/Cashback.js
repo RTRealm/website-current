@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import * as Styles from './Cashback.styles';
 
-// import * as scrollMagic from 'scrollmagic';
+import * as scrollMagic from 'scrollmagic';
 
 import InfoGroup from '../../../components/InfoGroup/InfoGroup';
 
@@ -9,48 +9,48 @@ class Cashback extends Component {
 	controller = null;
 	scene = null;
 
-	// componentDidMount() {
-	// 	// $FlowFixMe;
-	// 	const gsap = require('gsap');
-	// 	// $FlowFixMe;
-	// 	const scrollMagic = require('ScrollMagic');
-	// 	// // $FlowFixMe;
-	// 	require('animation.gsap');
+	componentDidMount() {
+		// $FlowFixMe;
+		const gsap = require('gsap');
+		// $FlowFixMe;
+		// const scrollMagic = require('ScrollMagic');
+		// // $FlowFixMe;
+		// require('animation.gsap');
 
-	// 	// $FlowFixMe;
-	// 	let width = document.querySelector('body').clientWidth;
+		// $FlowFixMe;
+		let width = document.querySelector('body').clientWidth;
 
-	// 	if (width >= 1224) {
-	// 		this.controller = new scrollMagic.Controller();
+		if (width >= 1224) {
+			this.controller = new scrollMagic.Controller();
 
-	// 		this.scene = new scrollMagic.Scene({
-	// 			triggerElement: '.travel-cashback__content'
-	// 		})
-	// 			.setTween(() => {
-	// 				gsap.TweenMax.staggerTo(
-	// 					'.travel-cashback__brands-item',
-	// 					0.3,
-	// 					{
-	// 						autoAlpha: 1,
-	// 						display: 'block',
-	// 						top: 0,
-	// 						ease: gsap.Power1.easeOut
-	// 					},
-	// 					0.1
-	// 				);
-	// 			})
-	// 			.addTo(this.controller);
+			this.scene = new scrollMagic.Scene({
+				triggerElement: '.travel-cashback__content'
+			})
+				.setTween(() => {
+					gsap.TweenMax.staggerTo(
+						'.travel-cashback__brands-item',
+						0.3,
+						{
+							autoAlpha: 1,
+							display: 'block',
+							top: 0,
+							ease: gsap.Power1.easeOut
+						},
+						0.1
+					);
+				})
+				.addTo(this.controller);
 
-	// 		this.scene.triggerHook(0.25);
-	// 	}
-	// }
+			this.scene.triggerHook(0.25);
+		}
+	}
 
-	// componentWillUnmount() {
-	// 	if (this.controller) {
-	// 		this.controller.destroy();
-	// 		this.scene.destroy();
-	// 	}
-	// }
+	componentWillUnmount() {
+		if (this.controller) {
+			this.controller.destroy();
+			this.scene.destroy();
+		}
+	}
 
 	render() {
 		return (

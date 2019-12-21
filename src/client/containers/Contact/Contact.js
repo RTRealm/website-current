@@ -50,7 +50,7 @@ class Contact extends Component {
 					/>
 					<Styles.ContactSection>
 						<div className='is-hidden-mobile'></div>
-						<FixedHeader />
+						{/* <FixedHeader /> */}
 						<Styles.HeadingGroup>
 							<Styles.HeadingH2>Get in touch with us</Styles.HeadingH2>
 							<Styles.HeadingSubtitle>

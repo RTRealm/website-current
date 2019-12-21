@@ -9,6 +9,8 @@ import Convenience from '../Home/Convenience/Convenience';
 import Control from '../Home/Control/Control';
 import Cashback from '../Home/Cashback/Cashback';
 import FixedHeader from '../../components/FixedHeader/FixedHeader';
+import GetService from '../Home/GetService/GetService';
+import Intro from '../Home/Intro/Intro';
 
 // components
 import Page from '../../components/Page/index';
@@ -41,10 +43,12 @@ class Home extends PureComponent {
 						<div className='is-hidden-mobile'>
 							<FixedHeader />
 						</div>
-						<TheCard />
+						{/* <TheCard /> */}
+						<Intro />
 						<div className='fixed-header__trigger-start' />
 						<span className='mobile-cta__start' />
 						<div className='is-hidden-mobile'>
+							<GetService />
 							<AboutUs />
 						</div>
 						<div className='is-hidden-tablet'>
