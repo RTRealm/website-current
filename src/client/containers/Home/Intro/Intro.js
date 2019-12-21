@@ -17,15 +17,18 @@ const intro = () => {
 					className='is-hidden-tablet'
 				/>
 				<img
-					src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1537882156/website-v2/Travel/main-card.png'
-					srcSet='https://res.cloudinary.com/dzatxn6bx/image/upload/v1537882156/website-v2/Travel/main-card_2x.png 2x'
+					src='https://res.cloudinary.com/ohcash/image/upload/v1576925844/landingpage/Intro1-large.png'
+					srcSet='https://res.cloudinary.com/ohcash/image/upload/v1576925844/landingpage/Intro1-large.png 2x'
 					alt='Curve card'
 					className='is-hidden-mobile'
 				/>
 			</Styles.IntroImage>
 			<Styles.IntroContent className='column is-6'>
 				<BodyDispVirt title='Comprehensive IT services' theme='themeBlack' page='home'>
-					<p className='is-hidden-mobile'>More than just a software house. DEV env</p>
+					<p className='is-hidden-mobile'>
+						More than just a software house. DEV env. More than just a software house. DEV env. More
+						than just a software house. DEV env
+					</p>
 				</BodyDispVirt>
 			</Styles.IntroContent>
 		</Styles.Intro>

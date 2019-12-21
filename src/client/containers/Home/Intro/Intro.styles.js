@@ -8,7 +8,10 @@ export const Intro = styled.section`
 		margin: 5% auto 0 auto;
 
 		&:before {
-			background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1539904639/website-v2/Travel/beach-desk.jpg');
+			/* background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1539904639/website-v2/Travel/beach-desk.jpg'); */
+
+			background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1576927806/landingpage/tobias-van-schneider-hWCxtv3q9iw-unsplash.png');
+
 			background-repeat: no-repeat;
 			background-size: cover;
 			width: 100vw;
@@ -73,7 +76,7 @@ export const IntroImage = styled.div`
 		margin-top: 28px;
 
 		@media (${mixins.breakpoint('tablet-landscape-up')}) {
-			top: 183px;
+			top: 100px;
 			left: 45px;
 			width: 80%;
 		}
@@ -81,6 +84,7 @@ export const IntroImage = styled.div`
 		@media (${mixins.breakpoint('desktop-up')}) {
 			left: -60px;
 			width: auto;
+			top: 60px;
 		}
 	}
 `;
