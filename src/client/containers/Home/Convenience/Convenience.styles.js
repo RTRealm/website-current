@@ -5,7 +5,6 @@ export const Convenience = styled.section`
 	width: 100%;
 	position: relative;
 	margin-top: 375px;
-	background-color: blue;
 
 	@media (${mixins.breakpoint('desktop-up')}) {
 		margin-top: 222px;
