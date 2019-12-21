@@ -9,7 +9,7 @@ const getCurve = () => {
 		<Styles.GetCurve>
 			<Styles.GetCurveSplash />
 			<Styles.GetCurveContent>
-				<InfoGroup title={'Your Travel Buddy'} subtitle={'Get Curve'}>
+				<InfoGroup title={'Our Top Skills'} subtitle={'Get Service'}>
 					<p className='is-hidden-tablet'>
 						When you sync all your cards with Curve, your payment information is encrypted so your
 						real card numbers are never shared with the retailer.
