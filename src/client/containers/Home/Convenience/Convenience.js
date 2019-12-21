@@ -66,7 +66,7 @@ class Convenience extends PureComponent {
 									}}
 									source={{
 										desk:
-											'https://res.cloudinary.com/dzatxn6bx/image/upload/v1539855474/website-v2/Homepage/Light/convenience-card_2x'
+											'https://res.cloudinary.com/ohcash/image/upload/v1576936123/landingpage/TechConsultancy.png'
 									}}
 									size={{ max: 'min-width:769px' }}
 									alt='Curve mobile app showing Natwest card transactions'
@@ -80,7 +80,7 @@ class Convenience extends PureComponent {
 									}}
 									source={{
 										desk:
-											'https://res.cloudinary.com/dzatxn6bx/image/upload/v1539354369/website-v2/Homepage/Light/simple-phone_2x'
+											'https://res.cloudinary.com/ohcash/image/upload/v1576936123/landingpage/TechConsultancy.png'
 									}}
 									size={{ max: 'min-width:769px' }}
 									alt='Curve mobile app showing Natwest card transactions'

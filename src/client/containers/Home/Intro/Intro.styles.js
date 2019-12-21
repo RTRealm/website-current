@@ -12,6 +12,8 @@ export const Intro = styled.section`
 
 			background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1576927806/landingpage/tobias-van-schneider-hWCxtv3q9iw-unsplash.png');
 
+			/* background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1576931308/landingpage/christian-perner-UKLIuV8rAks-unsplash.png'); */
+
 			background-repeat: no-repeat;
 			background-size: cover;
 			width: 100vw;
