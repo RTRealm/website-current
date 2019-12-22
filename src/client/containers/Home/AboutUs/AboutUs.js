@@ -6,10 +6,10 @@ import InfoGroup from '../../../components/InfoGroup/InfoGroup';
 
 import * as Styles from './AboutUs.styles';
 
-import * as scrollMagic from 'scrollmagic';
 import { TweenMax, TimelineMax } from 'gsap';
 // import { gsap } from 'gsap';
 import { ScrollMagicPluginGsap } from 'scrollmagic-plugin-gsap';
+import * as scrollMagic from 'scrollmagic';
 ScrollMagicPluginGsap(scrollMagic, TweenMax, TimelineMax);
 
 class AboutUs extends PureComponent {
