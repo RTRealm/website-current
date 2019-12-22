@@ -13,6 +13,10 @@ import { ScrollMagicPluginGsap } from 'scrollmagic-plugin-gsap';
 ScrollMagicPluginGsap(scrollMagic, TweenMax, TimelineMax);
 
 class AboutUs extends PureComponent {
+	controller = null;
+	scene1 = null;
+	scene2 = null;
+
 	state = {
 		activateAnimation: false
 	};
@@ -24,7 +28,7 @@ class AboutUs extends PureComponent {
 		let width = document.querySelector('body').clientWidth;
 		if (width >= 1224) {
 			this.setState({ activateAnimation: true });
-			let controller = new scrollMagic.Controller();
+			this.controller = new scrollMagic.Controller();
 			let tween_phone = new gsap.TimelineLite().add([
 				gsap.TweenLite.fromTo(
 					'.about-us__phone',
@@ -33,13 +37,15 @@ class AboutUs extends PureComponent {
 					{ top: 300, ease: gsap.Linear.easeNone }
 				)
 			]);
-			new scrollMagic.Scene({
+
+			this.scene1 = new scrollMagic.Scene({
 				triggerElement: '.about-us',
 				duration: '250%'
 			})
 				.setTween(tween_phone)
-				.addTo(controller);
-			let scene = new scrollMagic.Scene({
+				.addTo(this.controller);
+
+			this.scene2 = new scrollMagic.Scene({
 				triggerElement: '.about-us'
 			})
 				.setTween(
@@ -51,8 +57,16 @@ class AboutUs extends PureComponent {
 					})
 				)
 				.reverse(false)
-				.addTo(controller);
-			scene.triggerHook(0.75);
+				.addTo(this.controller);
+			this.scene2.triggerHook(0.75);
+		}
+	}
+
+	componentWillUnmount() {
+		if (this.controller) {
+			this.controller.destroy();
+			this.scene1.destroy();
+			this.scene2.destroy();
 		}
 	}
 
