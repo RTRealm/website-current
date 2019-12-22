@@ -4,11 +4,9 @@ import InfoGroup from '../../../components/InfoGroup/InfoGroup';
 
 import { TweenMax, TimelineMax } from 'gsap';
 // import { gsap } from 'gsap';
-import { ScrollMagicPluginGsap } from 'scrollmagic-plugin-gsap';
 import * as scrollMagic from 'scrollmagic';
+import { ScrollMagicPluginGsap } from 'scrollmagic-plugin-gsap';
 ScrollMagicPluginGsap(scrollMagic, TweenMax, TimelineMax);
-
-// gsap.registerPlugin(ScrollMagicPluginGsap);
 
 class Cashback extends Component {
 	controller = null;
@@ -26,18 +24,26 @@ class Cashback extends Component {
 			this.scene = new scrollMagic.Scene({
 				triggerElement: '.travel-cashback__content'
 			})
-				.setTween(() =>
-					gsap.TweenMax.staggerTo(
-						'.travel-cashback__brands-item',
-						0.3,
-						{
-							autoAlpha: 1,
-							display: 'block',
-							top: 0,
-							ease: gsap.Power1.easeOut
-						},
-						0.1
-					)
+				// .setTween(() =>
+				// 	gsap.TweenMax.staggerTo(
+				// 		'.travel-cashback__brands-item',
+				// 		0.3,
+				// 		{
+				// 			autoAlpha: 1,
+				// 			display: 'block',
+				// 			top: 0,
+				// 			ease: gsap.Power1.easeOut
+				// 		},
+				// 		0.1
+				// 	)
+				// )
+				.setTween(
+					gsap.TweenLite.to('.travel-cashback__brands-item', 1, {
+						autoAlpha: 1,
+						display: 'block',
+						top: 0,
+						ease: gsap.Power1.easeOut
+					})
 				)
 				.addTo(this.controller);
 			this.scene.triggerHook(0.25);
