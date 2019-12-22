@@ -69,8 +69,10 @@ export default class FixedHeader extends Component {
 	}
 
 	componentWillUnmount() {
-		this.controller.destroy();
-		this.scene1.destroy();
+		if (this.controller) {
+			this.controller.destroy();
+			this.scene1.destroy();
+		}
 	}
 
 	render() {

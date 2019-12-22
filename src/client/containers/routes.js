@@ -25,7 +25,7 @@ const Homepage = Loadable({
 
 const Contact = Loadable({
 	loader: () => import('./Contact/Contact'),
-	loading: () => null,
+	loading: Loading,
 	modules: ['contact']
 });
 
