@@ -7,8 +7,8 @@ import InfoGroup from '../../../components/InfoGroup/InfoGroup';
 import * as Styles from './AboutUs.styles';
 
 import * as scrollMagic from 'scrollmagic';
-// import { gsap } from 'gsap';
 import { TweenMax, TimelineMax } from 'gsap';
+// import { gsap } from 'gsap';
 import { ScrollMagicPluginGsap } from 'scrollmagic-plugin-gsap';
 ScrollMagicPluginGsap(scrollMagic, TweenMax, TimelineMax);
 
