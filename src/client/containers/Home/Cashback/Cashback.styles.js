@@ -119,8 +119,8 @@ export const TravelCashbackBrandsItem = styled.div`
 
 	@media (${mixins.breakpoint('desktop-up')}) {
 		top: 20px;
-		opacity: 0;
-		visibility: hidden;
+		/* opacity: 0;
+		visibility: hidden; */
 		position: relative;
 	}
 

@@ -7,8 +7,8 @@ import InfoGroup from '../../../components/InfoGroup/InfoGroup';
 import * as Styles from './AboutUs.styles';
 
 import * as scrollMagic from 'scrollmagic';
+// import { gsap } from 'gsap';
 import { TweenMax, TimelineMax } from 'gsap';
-// // import { gsap } from 'gsap';
 import { ScrollMagicPluginGsap } from 'scrollmagic-plugin-gsap';
 ScrollMagicPluginGsap(scrollMagic, TweenMax, TimelineMax);
 
@@ -34,7 +34,7 @@ class AboutUs extends PureComponent {
 					'.about-us__phone',
 					1,
 					{ top: -200 },
-					{ top: 300, ease: gsap.Linear.easeNone }
+					{ top: 400, ease: gsap.Linear.easeNone }
 				)
 			]);
 
@@ -49,7 +49,7 @@ class AboutUs extends PureComponent {
 				triggerElement: '.about-us'
 			})
 				.setTween(
-					gsap.TweenLite.to('.about-us__copy', 0.75, {
+					gsap.TweenLite.to('.about-us__copy', 1, {
 						autoAlpha: 1,
 						display: 'block',
 						marginTop: 0,

@@ -4,25 +4,22 @@ import InfoGroup from '../../../components/InfoGroup/InfoGroup';
 
 import * as scrollMagic from 'scrollmagic';
 import { TweenMax, TimelineMax } from 'gsap';
-// // import { gsap } from 'gsap';
+// import { gsap } from 'gsap';
 import { ScrollMagicPluginGsap } from 'scrollmagic-plugin-gsap';
 ScrollMagicPluginGsap(scrollMagic, TweenMax, TimelineMax);
+
+// gsap.registerPlugin(ScrollMagicPluginGsap);
 
 class Cashback extends Component {
 	controller = null;
 	scene = null;
 
 	componentDidMount() {
-		// $FlowFixMe;
-		// ScrollMagicPluginGsap(scrollMagic, TweenMax, TimelineMax);
 		const gsap = require('gsap');
-		// // $FlowFixMe;
+
 		// const ScrollMagic = require('scrollmagic');
-		// // $FlowFixMe;
 		// require('animation.gsap');
-
 		let width = document.querySelector('body').clientWidth;
-
 		if (width >= 1224) {
 			this.controller = new scrollMagic.Controller();
 
@@ -43,7 +40,6 @@ class Cashback extends Component {
 					)
 				)
 				.addTo(this.controller);
-
 			this.scene.triggerHook(0.25);
 		}
 	}
