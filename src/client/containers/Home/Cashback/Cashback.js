@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import * as Styles from './Cashback.styles';
 import InfoGroup from '../../../components/InfoGroup/InfoGroup';
 
-import { TweenMax, TimelineMax } from 'gsap';
 // import { gsap } from 'gsap';
 import * as scrollMagic from 'scrollmagic';
+import { TweenMax, TimelineMax } from 'gsap';
 import { ScrollMagicPluginGsap } from 'scrollmagic-plugin-gsap';
 ScrollMagicPluginGsap(scrollMagic, TweenMax, TimelineMax);
 
@@ -37,14 +37,16 @@ class Cashback extends Component {
 				// 		0.1
 				// 	)
 				// )
+
 				.setTween(
-					gsap.TweenLite.to('.travel-cashback__brands-item', 1, {
+					gsap.TweenLite.to('.travel-cashback__brands-item', 0.3, {
 						autoAlpha: 1,
 						display: 'block',
 						top: 0,
 						ease: gsap.Power1.easeOut
 					})
 				)
+				.reverse(false)
 				.addTo(this.controller);
 			this.scene.triggerHook(0.25);
 		}
