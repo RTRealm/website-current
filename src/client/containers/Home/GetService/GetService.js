@@ -77,11 +77,15 @@ const getCurve = () => {
 							<div className='columns'>
 								<Styles.GetCurveBenefitHeading className='column is-4-tablet is-3-desktop'>
 									<h4>
-										<em>210+</em>
+										<em>
+											£15
+											<span>M</span>
+										</em>{' '}
+										insurance
 									</h4>
 								</Styles.GetCurveBenefitHeading>
 								<Styles.GetCurveBenefitContent className='column'>
-									<p>Curve works in all the countries and territories that support Mastercard</p>
+									<p>Global medical insurance, baggage loss, rental car damage & more...</p>
 								</Styles.GetCurveBenefitContent>
 							</div>
 						</Styles.GetCurveBenefit>
@@ -101,26 +105,6 @@ const getCurve = () => {
 								</Styles.GetCurveBenefitContent>
 							</div>
 						</Styles.GetCurveBenefit>
-
-						{/* <Styles.GetCurveBenefit className="column is-6">
-              <div className="columns">
-                <Styles.GetCurveBenefitHeading className="column is-4-tablet is-3-desktop">
-                  <h4>
-                    <em>
-                      £15
-                      <span>M</span>
-                    </em>{" "}
-                    insurance
-                  </h4>
-                </Styles.GetCurveBenefitHeading>
-                <div className="column get-curve__benefit-content">
-                  <p>
-                    Global medical insurance, baggage loss, rental car damage &
-                    more...
-                  </p>
-                </div>
-              </div>
-            </Styles.GetCurveBenefit> */}
 					</Styles.GetCurveBenefits>
 					{/* <UnlimitedCards animate={true} cls={'get-curve__benefits'} /> */}
 				</div>

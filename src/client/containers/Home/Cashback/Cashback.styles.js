@@ -10,43 +10,43 @@ export const TravelCashback = styled.section`
 	}
 `;
 
-export const TravelCashbackSplash = styled.span`
-	position: absolute;
-	top: -350px;
-	right: 0px;
-	z-index: -2;
+// export const TravelCashbackSplash = styled.span`
+// 	position: absolute;
+// 	top: -350px;
+// 	right: 0px;
+// 	z-index: -2;
 
-	&:after {
-		background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1536834125/website-v2/Travel/cashback-sand-1-m.jpg');
-		background-repeat: no-repeat;
-		display: block;
-		width: 273px;
-		height: 485px;
-		content: '';
+// 	&:after {
+// 		background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1536834125/website-v2/Travel/cashback-sand-1-m.jpg');
+// 		background-repeat: no-repeat;
+// 		display: block;
+// 		width: 273px;
+// 		height: 485px;
+// 		content: '';
 
-		${mixins.image2x(
-			'https://res.cloudinary.com/dzatxn6bx/image/upload/v1536834125/website-v2/Travel/cashback-sand-1-m_2x.jpg',
-			'273px',
-			'485px'
-		)};
-	}
+// 		${mixins.image2x(
+// 			'https://res.cloudinary.com/dzatxn6bx/image/upload/v1536834125/website-v2/Travel/cashback-sand-1-m_2x.jpg',
+// 			'273px',
+// 			'485px'
+// 		)};
+// 	}
 
-	@media (${mixins.breakpoint('tablet-landscape-up')}) {
-		top: -975px;
+// 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
+// 		top: -975px;
 
-		&:after {
-			background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1539939028/website-v2/Travel/cashback-sand-1.jpg');
-			width: 158px;
-			height: 985px;
+// 		&:after {
+// 			background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1539939028/website-v2/Travel/cashback-sand-1.jpg');
+// 			width: 158px;
+// 			height: 985px;
 
-			${mixins.image2x(
-				'https://res.cloudinary.com/dzatxn6bx/image/upload/v1539939028/website-v2/Travel/cashback-sand-1_2x.jpg',
-				'158px',
-				'985px'
-			)};
-		}
-	}
-`;
+// 			${mixins.image2x(
+// 				'https://res.cloudinary.com/dzatxn6bx/image/upload/v1539939028/website-v2/Travel/cashback-sand-1_2x.jpg',
+// 				'158px',
+// 				'985px'
+// 			)};
+// 		}
+// 	}
+// `;
 
 export const TravelCashbackContent = styled.div`
 	margin: 300px 11% 0 11%;
@@ -180,49 +180,49 @@ export const TravelCashbackBrandsImage = styled.div`
 	}
 `;
 
-// export const TravelCashbackSplash2 = styled.span`
-// 	position: absolute;
-// 	bottom: -100px;
-// 	left: 0px;
-// 	z-index: -2;
+export const TravelCashbackSplash2 = styled.span`
+	position: absolute;
+	bottom: -100px;
+	left: 0px;
+	z-index: -2;
 
-// 	&:after {
-// 		background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1536836717/website-v2/Travel/cashback-sand-2-m.jpg');
-// 		background-repeat: no-repeat;
-// 		display: block;
-// 		width: 375px;
-// 		height: 262px;
-// 		content: '';
-// 		float: right;
+	&:after {
+		background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1536836717/website-v2/Travel/cashback-sand-2-m.jpg');
+		background-repeat: no-repeat;
+		display: block;
+		width: 375px;
+		height: 262px;
+		content: '';
+		float: right;
 
-// 		${mixins.image2x(
-// 			'https://res.cloudinary.com/dzatxn6bx/image/upload/v1536836717/website-v2/Travel/cashback-sand-2-m_2x.jpg',
-// 			'375px',
-// 			'262px'
-// 		)};
-// 	}
+		${mixins.image2x(
+			'https://res.cloudinary.com/dzatxn6bx/image/upload/v1536836717/website-v2/Travel/cashback-sand-2-m_2x.jpg',
+			'375px',
+			'262px'
+		)};
+	}
 
-// 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
-// 		bottom: -540px;
-// 		width: 70%;
+	@media (${mixins.breakpoint('tablet-landscape-up')}) {
+		bottom: -540px;
+		width: 70%;
 
-// 		@media (${mixins.breakpoint('desktop-up')}) {
-// 			width: auto;
-// 		}
+		@media (${mixins.breakpoint('desktop-up')}) {
+			width: auto;
+		}
 
-// 		&:after {
-// 			background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1537887640/website-v2/Travel/cashback-sand-2.jpg');
-// 			width: 831px;
-// 			height: 599px;
+		&:after {
+			background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1537887640/website-v2/Travel/cashback-sand-2.jpg');
+			width: 831px;
+			height: 599px;
 
-// 			${mixins.image2x(
-// 				'https://res.cloudinary.com/dzatxn6bx/image/upload/v1537887642/website-v2/Travel/cashback-sand-2_2x.jpg',
-// 				'831px',
-// 				'599px'
-// 			)};
-// 		}
-// 	}
-// `;
+			${mixins.image2x(
+				'https://res.cloudinary.com/dzatxn6bx/image/upload/v1537887642/website-v2/Travel/cashback-sand-2_2x.jpg',
+				'831px',
+				'599px'
+			)};
+		}
+	}
+`;
 
 export const TravelCashbacksplash3 = styled.span`
 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
@@ -258,8 +258,6 @@ export const TravelCashbackImage = styled.div`
     position: absolute;
     top: -40%;
     left: 40%;
-
-
 
     span {
     position: absolute;

@@ -205,7 +205,7 @@ class Cashback extends Component {
 						</Styles.TravelCashbackImage>
 					</Styles.TravelCaskbackCopy>
 				</Styles.TravelCashbackContent>
-				{/* <Styles.TravelCashbackSplash2 /> */}
+				<Styles.TravelCashbackSplash2 />
 			</Styles.TravelCashback>
 		);
 	}
