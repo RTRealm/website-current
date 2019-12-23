@@ -39,7 +39,7 @@ class Cashback extends Component {
 				// )
 
 				.setTween(
-					gsap.TweenLite.to('.travel-cashback__brands-item', 0.3, {
+					gsap.TweenLite.to('.travel-cashback__brands-item', 1, {
 						autoAlpha: 1,
 						display: 'block',
 						top: 0,
@@ -65,20 +65,20 @@ class Cashback extends Component {
 				<Styles.TravelCashbacksplash3 className=' is-hidden-mobile' />
 				<Styles.TravelCashbackContent className='travel-cashback__content'>
 					<Styles.TravelCaskbackCopy>
-						<InfoGroup title={'With you in mind abroad.'} subtitle={'Instant Cashback'}>
+						<InfoGroup title={'Solution providers.'} subtitle={'Credentials & TechStack'}>
 							<p>
-								We work behind the scenes to make your travels more rewarding and convenient. You
-								still keep your original credit cards rewards but now you earn an additional 1%
-								instant cashback on top, wherever you are in the world. Happy travels!!!
+								We put our clients interests first. Each day we develop our competences and master
+								new technologies to make sure we deliver our clients the best solutions possible.
+								Client satisfaction is at the center of what we do.
 							</p>
 						</InfoGroup>
 						<Styles.TravelCashbackBrands>
 							<p className='is-hidden-tablet is-hidden-mobile travel-cashback__mobile-p'>
 								Enjoy 1% instant cashback in all of these retailers...
 							</p>
-							<div class='tabs is-left is-toggle is-toggle-rounded'>
+							<div className='tabs is-left is-toggle is-toggle-rounded'>
 								<ul>
-									<li class='is-active'>
+									<li className='is-active'>
 										<a
 											onClick={() => {
 												document.getElementById('brandlist').style.visibility = 'visible';
