@@ -73,7 +73,7 @@ class Cashback extends Component {
 							</p>
 						</InfoGroup>
 						<Styles.TravelCashbackBrands>
-							<p className='is-hidden-tablet travel-cashback__mobile-p'>
+							<p className='is-hidden-tablet is-hidden-mobile travel-cashback__mobile-p'>
 								Enjoy 1% instant cashback in all of these retailers...
 							</p>
 							<div class='tabs is-left is-toggle is-toggle-rounded'>
