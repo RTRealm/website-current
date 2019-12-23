@@ -69,14 +69,39 @@ class Cashback extends Component {
 							<p>
 								We work behind the scenes to make your travels more rewarding and convenient. You
 								still keep your original credit cards rewards but now you earn an additional 1%
-								instant cashback on top, wherever you are in the world. Happy travels!
+								instant cashback on top, wherever you are in the world. Happy travels!!!
 							</p>
 						</InfoGroup>
 						<Styles.TravelCashbackBrands>
 							<p className='is-hidden-tablet travel-cashback__mobile-p'>
 								Enjoy 1% instant cashback in all of these retailers...
 							</p>
-							<Styles.TravelCashbackBrandsList className='columns is-multiline is-mobile'>
+							<div class='tabs is-left is-toggle is-toggle-rounded'>
+								<ul>
+									<li class='is-active'>
+										<a
+											onClick={() => {
+												document.getElementById('brandlist').style.visibility = 'hidden';
+											}}
+										>
+											Credentials
+										</a>
+									</li>
+									<li>
+										<a
+											onClick={() => {
+												document.getElementById('brandlist').style.visibility = 'visible';
+											}}
+										>
+											Technologies
+										</a>
+									</li>
+								</ul>
+							</div>
+							<Styles.TravelCashbackBrandsList
+								className=' columns is-multiline is-mobile'
+								id='brandlist'
+							>
 								<Styles.TravelCashbackBrandsItem className='column is-4-mobile is-2-tablet is-offset-1-tablet is-narrow travel-cashback__brands-item'>
 									<span />
 									<Styles.TravelCashbackBrandsImage>

@@ -84,7 +84,7 @@ export default class FooterNav extends Component {
 								</LazyLoad>
 							</a>
 						</li>
-						<li className='column is-narrow footer-nav__social'>
+						{/* <li className='column is-narrow footer-nav__social'>
 							<a
 								href='#'
 								// target='_blank'
@@ -100,7 +100,7 @@ export default class FooterNav extends Component {
 									/>
 								</LazyLoad>
 							</a>
-						</li>
+						</li> */}
 						<li className='column is-narrow footer-nav__social'>
 							<a
 								href='#'

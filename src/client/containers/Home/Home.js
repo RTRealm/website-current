@@ -56,16 +56,16 @@ class Home extends PureComponent {
 						</div>
 						<Convenience />
 						<div className='is-hidden-mobile'>
-							<Cashback />
+							<Control />
 						</div>
 						<div className='is-hidden-tablet'>
-							<Cashback />
+							<Control />
 						</div>
 						<div className='is-hidden-mobile'>
-							<Control />
+							<Cashback />
 						</div>
 						<div className='is-hidden-tablet'>
-							<Control />
+							<Cashback />
 						</div>
 					</main>
 					<div className='fixed-header__trigger-end' />
