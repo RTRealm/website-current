@@ -49,7 +49,7 @@ class AboutUs extends PureComponent {
 				triggerElement: '.about-us'
 			})
 				.setTween(
-					gsap.TweenLite.to('.about-us__copy', 1, {
+					gsap.TweenLite.to('.about-us__copy', 3, {
 						autoAlpha: 1,
 						display: 'block',
 						marginTop: 0,

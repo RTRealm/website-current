@@ -81,7 +81,7 @@ class Cashback extends Component {
 									<li class='is-active'>
 										<a
 											onClick={() => {
-												document.getElementById('brandlist').style.visibility = 'hidden';
+												document.getElementById('brandlist').style.visibility = 'visible';
 											}}
 										>
 											Credentials
@@ -90,7 +90,7 @@ class Cashback extends Component {
 									<li>
 										<a
 											onClick={() => {
-												document.getElementById('brandlist').style.visibility = 'visible';
+												document.getElementById('brandlist').style.visibility = 'hidden';
 											}}
 										>
 											Technologies
