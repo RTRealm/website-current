@@ -180,6 +180,65 @@ export const TravelCashbackBrandsImage = styled.div`
 	}
 `;
 
+export const TravelCashbackTechList = styled.ul`
+	display: none;
+	text-align: center;
+	align-items: center;
+
+	@media (${mixins.breakpoint('tablet-landscape-up')}) {
+		margin-left: -10%;
+	}
+`;
+
+export const TravelCashbackTechItem = styled.div`
+	position: relative;
+	height: 71px;
+
+	@media (${mixins.breakpoint('tablet-landscape-up')}) {
+		margin-bottom: 30px;
+	}
+
+	@media (${mixins.breakpoint('desktop-up')}) {
+		top: 20px;
+		opacity: 0;
+		display: none;
+		position: relative;
+	}
+
+	span {
+		display: flex;
+		display: -webkit-flex;
+		width: 100%;
+		height: 100%;
+		-webkit-box-pack: center;
+		justify-content: center;
+		-webkit-box-align: baseline;
+		align-items: baseline;
+		position: relative;
+
+		&:after {
+			content: '';
+			top: 0px;
+			position: absolute;
+			border-radius: 18px;
+			box-shadow: 0px 27.7581px 27.7581px rgba(0, 0, 0, 0.1);
+			width: 54.1px;
+			height: 54.33px;
+			margin-top: 45px;
+
+			@media (${mixins.breakpoint('tablet-landscape-up')}) {
+				left: 5px;
+			}
+
+			@media (${mixins.breakpoint('desktop-up')}) {
+				margin-top: 35px;
+				width: 74px;
+				height: 74px;
+			}
+		}
+	}
+`;
+
 export const TravelCashbackSplash2 = styled.span`
 	position: absolute;
 	bottom: -100px;

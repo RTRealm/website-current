@@ -1,20 +1,21 @@
 import React, { Component } from 'react';
 import * as Styles from './Cashback.styles';
 import InfoGroup from '../../../components/InfoGroup/InfoGroup';
+// import Tab from '../../../components/Tab/Tab';
 
 // import { gsap } from 'gsap';
 import * as scrollMagic from 'scrollmagic';
 import { TweenMax, TimelineMax } from 'gsap';
 import { ScrollMagicPluginGsap } from 'scrollmagic-plugin-gsap';
+import { isConstructSignatureDeclaration } from 'typescript';
 ScrollMagicPluginGsap(scrollMagic, TweenMax, TimelineMax);
 
 class Cashback extends Component {
 	controller = null;
 	scene = null;
 
-	componentDidMount() {
+	handleListLoad = list => {
 		const gsap = require('gsap');
-
 		// const ScrollMagic = require('scrollmagic');
 		// require('animation.gsap');
 		let width = document.querySelector('body').clientWidth;
@@ -39,7 +40,7 @@ class Cashback extends Component {
 				// )
 
 				.setTween(
-					gsap.TweenLite.to('.travel-cashback__brands-item', 1, {
+					gsap.TweenLite.to(list, 1, {
 						autoAlpha: 1,
 						display: 'block',
 						top: 0,
@@ -50,6 +51,11 @@ class Cashback extends Component {
 				.addTo(this.controller);
 			this.scene.triggerHook(0.25);
 		}
+	};
+
+	componentDidMount() {
+		this.handleListLoad('.travel-cashback__brands-item');
+		document.getElementById('techlist').style.display = 'none';
 	}
 
 	componentWillUnmount() {
@@ -76,12 +82,13 @@ class Cashback extends Component {
 							<p className='is-hidden-tablet is-hidden-mobile travel-cashback__mobile-p'>
 								Enjoy 1% instant cashback in all of these retailers...
 							</p>
-							<div className='tabs is-left is-toggle is-toggle-rounded'>
+							<div className='tabs is-center is-toggle-rounded'>
 								<ul>
 									<li className='is-active'>
 										<a
 											onClick={() => {
-												document.getElementById('brandlist').style.visibility = 'visible';
+												document.getElementById('brandlist').style.display = 'flex';
+												document.getElementById('techlist').style.display = 'none';
 											}}
 										>
 											Credentials
@@ -90,7 +97,8 @@ class Cashback extends Component {
 									<li>
 										<a
 											onClick={() => {
-												document.getElementById('brandlist').style.visibility = 'hidden';
+												document.getElementById('brandlist').style.display = 'none';
+												document.getElementById('techlist').style.display = 'flex';
 											}}
 										>
 											Technologies
@@ -193,6 +201,105 @@ class Cashback extends Component {
 									</Styles.TravelCashbackBrandsImage>
 								</Styles.TravelCashbackBrandsItem>
 							</Styles.TravelCashbackBrandsList>
+							{/* Tech list */}
+							<Styles.TravelCashbackTechList
+								className=' columns is-multiline is-mobile'
+								id='techlist'
+							>
+								<Styles.TravelCashbackTechItem
+									className='column is-4-mobile is-2-tablet is-offset-1-tablet is-narrow travel-cashback__brands-item'
+									id='techlist'
+								>
+									<span />
+									<Styles.TravelCashbackBrandsImage>
+										{/* <img
+											src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1536836235/website-v2/Icons/easyjet.svg'
+											alt='Easyjet logo'
+										/> */}
+									</Styles.TravelCashbackBrandsImage>
+								</Styles.TravelCashbackTechItem>
+								<Styles.TravelCashbackTechItem className='column is-4-mobile is-2-tablet is-narrow travel-cashback__brands-item'>
+									<span />
+									<Styles.TravelCashbackBrandsImage>
+										<img
+											src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1536836235/website-v2/Icons/four-seasons.svg'
+											alt='Four Season logo'
+										/>
+									</Styles.TravelCashbackBrandsImage>
+								</Styles.TravelCashbackTechItem>
+								<Styles.TravelCashbackTechItem className='column is-4-mobile is-2-tablet is-narrow travel-cashback__brands-item'>
+									<span />
+									<Styles.TravelCashbackBrandsImage>
+										<img
+											src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1536836235/website-v2/Icons/shell.svg'
+											alt='Shell logo'
+										/>
+									</Styles.TravelCashbackBrandsImage>
+								</Styles.TravelCashbackTechItem>
+								<Styles.TravelCashbackTechItem className='column is-4-mobile is-2-tablet is-narrow travel-cashback__brands-item'>
+									<span />
+									<Styles.TravelCashbackBrandsImage>
+										<img
+											src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1536836237/website-v2/Icons/uber.svg'
+											alt='Uber logo'
+										/>
+									</Styles.TravelCashbackBrandsImage>
+								</Styles.TravelCashbackTechItem>
+								<Styles.TravelCashbackTechItem className='column is-4-mobile is-2-tablet is-narrow travel-cashback__brands-item'>
+									<span />
+									<Styles.TravelCashbackBrandsImage>
+										<img
+											src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1536836237/website-v2/Icons/starbucks.svg'
+											alt='Starbuck logo'
+										/>
+									</Styles.TravelCashbackBrandsImage>
+								</Styles.TravelCashbackTechItem>
+								<Styles.TravelCashbackTechItem className='column is-4-mobile is-2-tablet is-narrow is-offset-1-tablet travel-cashback__brands-item'>
+									<span />
+									<Styles.TravelCashbackBrandsImage>
+										<img
+											src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1536836235/website-v2/Icons/netflix.svg'
+											alt='Netflix logo'
+										/>
+									</Styles.TravelCashbackBrandsImage>
+								</Styles.TravelCashbackTechItem>
+								<Styles.TravelCashbackTechItem className='column is-4-mobile is-2-tablet is-narrow travel-cashback__brands-item'>
+									<span />
+									<Styles.TravelCashbackBrandsImage>
+										<img
+											src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1536836235/website-v2/Icons/amazon.svg'
+											alt='Amazon logo'
+										/>
+									</Styles.TravelCashbackBrandsImage>
+								</Styles.TravelCashbackTechItem>
+								<Styles.TravelCashbackTechItem className='column is-4-mobile is-2-tablet is-narrow travel-cashback__brands-item'>
+									<span />
+									<Styles.TravelCashbackBrandsImage>
+										<img
+											src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1536836235/website-v2/Icons/gett.svg'
+											alt='Gett logo'
+										/>
+									</Styles.TravelCashbackBrandsImage>
+								</Styles.TravelCashbackTechItem>
+								<Styles.TravelCashbackTechItem className='column is-4-mobile is-2-tablet is-narrow travel-cashback__brands-item'>
+									<span />
+									<Styles.TravelCashbackBrandsImage>
+										<img
+											src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1536836237/website-v2/Icons/spotify.svg'
+											alt='Spotify logo'
+										/>
+									</Styles.TravelCashbackBrandsImage>
+								</Styles.TravelCashbackTechItem>
+								<Styles.TravelCashbackTechItem className='column is-4-mobile is-2-tablet is-narrow travel-cashback__brands-item is-hidden-mobile'>
+									<span />
+									<Styles.TravelCashbackBrandsImage>
+										<img
+											src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1536938437/website-v2/Icons/bp.svg'
+											alt='BP logo'
+										/>
+									</Styles.TravelCashbackBrandsImage>
+								</Styles.TravelCashbackTechItem>
+							</Styles.TravelCashbackTechList>
 							<p className='is-hidden-tablet'>and many more...</p>
 						</Styles.TravelCashbackBrands>
 						<Styles.TravelCashbackImage className=' is-hidden-mobile'>

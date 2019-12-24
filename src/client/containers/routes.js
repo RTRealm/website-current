@@ -4,9 +4,11 @@ import Loadable from 'react-loadable';
 
 function Loading(props) {
 	if (props.error) {
+		console.log('error', props.error);
 		return (
 			<div>
-				Error! <button onClick={props.retry}>Retry</button>
+				Error!
+				<button onClick={props.retry}>Retry</button>
 			</div>
 		);
 	} else if (props.pastDelay) {
@@ -26,6 +28,7 @@ const Homepage = Loadable({
 const Contact = Loadable({
 	loader: () => import('./Contact/Contact'),
 	loading: Loading,
+	delay: 30000,
 	modules: ['contact']
 });
 
