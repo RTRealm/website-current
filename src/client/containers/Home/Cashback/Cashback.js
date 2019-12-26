@@ -8,6 +8,7 @@ import * as scrollMagic from 'scrollmagic';
 import { TweenMax, TimelineMax } from 'gsap';
 import { ScrollMagicPluginGsap } from 'scrollmagic-plugin-gsap';
 import { isConstructSignatureDeclaration } from 'typescript';
+import { ClientDevice } from 'aws-amplify';
 ScrollMagicPluginGsap(scrollMagic, TweenMax, TimelineMax);
 
 class Cashback extends Component {
@@ -93,30 +94,6 @@ class Cashback extends Component {
 							<p className='is-hidden-tablet is-hidden-mobile travel-cashback__mobile-p'>
 								Enjoy 1% instant cashback in all of these retailers...
 							</p>
-							{/* <div className='tabs is-center is-toggle-rounded'>
-								<ul>
-									<li className='is-active'>
-										<a
-											onClick={() => {
-												document.getElementById('brandlist').style.display = 'flex';
-												document.getElementById('techlist').style.display = 'none';
-											}}
-										>
-											Credentials
-										</a>
-									</li>
-									<li>
-										<a
-											onClick={() => {
-												document.getElementById('brandlist').style.display = 'none';
-												document.getElementById('techlist').style.display = 'flex';
-											}}
-										>
-											Technologies
-										</a>
-									</li>
-								</ul>
-							</div> */}
 							<Tab activeTab={this.state.activeTab} toggleList={this.toggleList} />
 							<Styles.TravelCashbackBrandsList
 								className=' columns is-multiline is-mobile'
