@@ -14,7 +14,7 @@ class Cashback extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			techListVisible: false
+			activeTab: 1
 		};
 	}
 	controller = null;
@@ -59,9 +59,14 @@ class Cashback extends Component {
 		}
 	};
 
+	toggleList = () => {
+		this.setState(prevState => {
+			return prevState.activeTab === 1 ? { activeTab: 2 } : { activeTab: 1 };
+		});
+	};
+
 	componentDidMount() {
 		this.handleListLoad('.travel-cashback__brands-item');
-		document.getElementById('techlist').style.display = 'none';
 	}
 
 	componentWillUnmount() {
@@ -112,10 +117,11 @@ class Cashback extends Component {
 									</li>
 								</ul>
 							</div> */}
-							<Tab />
+							<Tab activeTab={this.state.activeTab} toggleList={this.toggleList} />
 							<Styles.TravelCashbackBrandsList
 								className=' columns is-multiline is-mobile'
 								id='brandlist'
+								style={this.state.activeTab === 1 ? { display: 'flex' } : { display: 'none' }}
 							>
 								<Styles.TravelCashbackBrandsItem className='column is-4-mobile is-2-tablet is-offset-1-tablet is-narrow travel-cashback__brands-item'>
 									<span />
@@ -212,6 +218,7 @@ class Cashback extends Component {
 							<Styles.TravelCashbackTechList
 								className=' columns is-multiline is-mobile'
 								id='techlist'
+								style={this.state.activeTab === 2 ? { display: 'flex' } : { display: 'none' }}
 							>
 								<Styles.TravelCashbackTechItem
 									className='column is-4-mobile is-2-tablet is-offset-1-tablet is-narrow travel-cashback__brands-item'
@@ -219,18 +226,9 @@ class Cashback extends Component {
 								>
 									<span />
 									<Styles.TravelCashbackBrandsImage>
-										{/* <img
-											src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1536836235/website-v2/Icons/easyjet.svg'
-											alt='Easyjet logo'
-										/> */}
-									</Styles.TravelCashbackBrandsImage>
-								</Styles.TravelCashbackTechItem>
-								<Styles.TravelCashbackTechItem className='column is-4-mobile is-2-tablet is-narrow travel-cashback__brands-item'>
-									<span />
-									<Styles.TravelCashbackBrandsImage>
 										<img
-											src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1536836235/website-v2/Icons/four-seasons.svg'
-											alt='Four Season logo'
+											src='https://res.cloudinary.com/ohcash/image/upload/v1577365946/techstack/angular.svg'
+											alt='Angular'
 										/>
 									</Styles.TravelCashbackBrandsImage>
 								</Styles.TravelCashbackTechItem>
@@ -238,8 +236,8 @@ class Cashback extends Component {
 									<span />
 									<Styles.TravelCashbackBrandsImage>
 										<img
-											src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1536836235/website-v2/Icons/shell.svg'
-											alt='Shell logo'
+											src='https://res.cloudinary.com/ohcash/image/upload/v1577366053/techstack/react.svg'
+											alt='React'
 										/>
 									</Styles.TravelCashbackBrandsImage>
 								</Styles.TravelCashbackTechItem>
@@ -247,8 +245,17 @@ class Cashback extends Component {
 									<span />
 									<Styles.TravelCashbackBrandsImage>
 										<img
-											src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1536836237/website-v2/Icons/uber.svg'
-											alt='Uber logo'
+											src='https://res.cloudinary.com/ohcash/image/upload/v1577366235/techstack/BNPParibas.svg'
+											alt='BNPP'
+										/>
+									</Styles.TravelCashbackBrandsImage>
+								</Styles.TravelCashbackTechItem>
+								<Styles.TravelCashbackTechItem className='column is-4-mobile is-2-tablet is-narrow travel-cashback__brands-item'>
+									<span />
+									<Styles.TravelCashbackBrandsImage>
+										<img
+											src='https://res.cloudinary.com/ohcash/image/upload/v1577366359/techstack/henkel.svg'
+											alt='Henkel'
 										/>
 									</Styles.TravelCashbackBrandsImage>
 								</Styles.TravelCashbackTechItem>
