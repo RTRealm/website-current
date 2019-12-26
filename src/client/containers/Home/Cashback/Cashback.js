@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import * as Styles from './Cashback.styles';
 import InfoGroup from '../../../components/InfoGroup/InfoGroup';
-// import Tab from '../../../components/Tab/Tab';
+import Tab from '../../../components/Tab/Tab';
 
 // import { gsap } from 'gsap';
 import * as scrollMagic from 'scrollmagic';
@@ -11,6 +11,12 @@ import { isConstructSignatureDeclaration } from 'typescript';
 ScrollMagicPluginGsap(scrollMagic, TweenMax, TimelineMax);
 
 class Cashback extends Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			techListVisible: false
+		};
+	}
 	controller = null;
 	scene = null;
 
@@ -82,7 +88,7 @@ class Cashback extends Component {
 							<p className='is-hidden-tablet is-hidden-mobile travel-cashback__mobile-p'>
 								Enjoy 1% instant cashback in all of these retailers...
 							</p>
-							<div className='tabs is-center is-toggle-rounded'>
+							{/* <div className='tabs is-center is-toggle-rounded'>
 								<ul>
 									<li className='is-active'>
 										<a
@@ -105,7 +111,8 @@ class Cashback extends Component {
 										</a>
 									</li>
 								</ul>
-							</div>
+							</div> */}
+							<Tab />
 							<Styles.TravelCashbackBrandsList
 								className=' columns is-multiline is-mobile'
 								id='brandlist'
