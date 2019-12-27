@@ -66,7 +66,7 @@ export default class Header extends Component {
 					<Link to={this.props.navLink}>{this.props.navName}</Link>
 				</li>
 				<li className='column is-narrow is-6'>
-					<a href='mailto:contact@rtrealm.com'>Mail us</a>
+					<a href='mailto:contact@rtrealm.com'>PL/GB</a>
 				</li>
 			</ul>
 		);
