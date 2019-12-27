@@ -3,6 +3,8 @@ import React from 'react';
 // Custom components
 import BodyDispVirt from '../../../components/BodyDispVirt/BodyDispVirt';
 
+import { Text } from '../../../containers/Language';
+
 // Styles
 import * as Styles from './Intro.styles';
 
@@ -26,8 +28,7 @@ const intro = () => {
 			<Styles.IntroContent className='column is-6'>
 				<BodyDispVirt title='Comprehensive IT services' theme='themeBlack' page='home'>
 					<p className='is-hidden-mobile'>
-						More than just a software house. DEV env. More than just a software house. DEV env. More
-						than just a software house. DEV env
+						<Text tid='welcomeDescription' />
 					</p>
 				</BodyDispVirt>
 			</Styles.IntroContent>
