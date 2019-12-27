@@ -1,16 +1,9 @@
-import React, { Component } from 'react';
-import * as Styles from './Tab.styles';
+import React from 'react';
 
 const Tab = props => {
 	let width = document.querySelector('body').clientWidth;
 	return (
-		<div
-			className={
-				width >= 599
-					? 'tabs is-left is-toggle-rounded'
-					: 'tabs is-centered is-toggle-rounded is-small'
-			}
-		>
+		<div className={width >= 599 ? 'tabs is-left' : 'tabs is-centered is-small'}>
 			<ul>
 				<li className={props.activeTab === 1 ? 'is-active' : ''}>
 					<a
