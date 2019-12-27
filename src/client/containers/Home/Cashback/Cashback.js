@@ -60,9 +60,9 @@ class Cashback extends Component {
 		}
 	};
 
-	toggleList = () => {
-		this.setState(prevState => {
-			return prevState.activeTab === 1 ? { activeTab: 2 } : { activeTab: 1 };
+	toggleList = activeTab => {
+		this.setState(() => {
+			return { activeTab: activeTab };
 		});
 	};
 

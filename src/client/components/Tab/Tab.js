@@ -4,12 +4,18 @@ import * as Styles from './Tab.styles';
 const Tab = props => {
 	let width = document.querySelector('body').clientWidth;
 	return (
-		<div className={'tabs is-left is-toggle-rounded'}>
+		<div
+			className={
+				width >= 599
+					? 'tabs is-left is-toggle-rounded'
+					: 'tabs is-centered is-toggle-rounded is-small'
+			}
+		>
 			<ul>
 				<li className={props.activeTab === 1 ? 'is-active' : ''}>
 					<a
 						onClick={() => {
-							props.toggleList();
+							props.toggleList(1);
 						}}
 					>
 						Credentials
@@ -18,7 +24,7 @@ const Tab = props => {
 				<li className={props.activeTab === 2 ? 'is-active' : ''}>
 					<a
 						onClick={() => {
-							props.toggleList();
+							props.toggleList(2);
 						}}
 					>
 						Technologies
