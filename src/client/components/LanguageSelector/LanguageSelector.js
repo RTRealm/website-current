@@ -8,16 +8,14 @@ export default function LanguageSelector() {
 	const handleLanguageChange = event => {
 		const selectedLanguage = languageOptions.find(item => item.id === event.target.value);
 		languageContext.setLanguage(selectedLanguage);
+		// localStorage.setItem('language', selectedLanguage);
 	};
 
 	return (
-		<div
-			className='select is-rounded'
-			style={{ marginTop: '-1px' }}
-			onChange={handleLanguageChange}
-			value={languageContext.language.id}
-		>
+		<div className='select is-rounded' style={{ marginTop: '-2px' }}>
 			<select
+				onChange={handleLanguageChange}
+				value={languageContext.language.id}
 				style={{ backgroundColor: '#4ecfff', border: 'none', fontWeight: 'bold', color: 'white' }}
 			>
 				{languageOptions.map(item => (

@@ -3,7 +3,10 @@ import React, { useState, createContext, useContext } from 'react';
 import { languageOptions, dictionaryList } from '../languages';
 
 export const LanguageContext = createContext({
-	language: languageOptions[0],
+	language:
+		localStorage.getItem('language') != null
+			? localStorage.getItem('language')
+			: languageOptions[0],
 	dictionary: dictionaryList[languageOptions[0].id]
 });
 
