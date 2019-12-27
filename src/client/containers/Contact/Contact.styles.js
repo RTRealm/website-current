@@ -135,7 +135,7 @@ export const ContactSupport = styled.ul`
 	margin: 0 auto;
 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
 		${mixins.container()};
-		margin-top: 180px;
+		margin-top: 80px;
 		padding-bottom: 29px;
 	}
 `;

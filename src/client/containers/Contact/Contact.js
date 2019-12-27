@@ -57,9 +57,19 @@ class Contact extends Component {
 								We're ready to lead you into the future of connected finance.
 							</Styles.HeadingSubtitle>
 						</Styles.HeadingGroup>
+
+						<Styles.ContactSecurity>
+							<p>
+								If you are a security researcher and believe you have found a security
+								vulnerability, please send an e-mail to us{' '}
+								<a href='mailto:contact@rtrealm.com'>contact@rtrealm.com</a>.
+							</p>
+						</Styles.ContactSecurity>
+
 						<div className='fixed-header__trigger-start' />
 						<Styles.ContactSupport className='columns'>
-							{/* <Styles.ContactSupportItem className='column is-4'>
+							<Styles.InfoHr className='is-hidden-tablet' />
+							<Styles.ContactSupportItem className='column is-4'>
 								<p>
 									If you have any questions check our{' '}
 									<a
@@ -71,9 +81,9 @@ class Contact extends Component {
 									</a>
 								</p>
 								<Styles.InfoHr className='is-hidden-tablet' />
-							</Styles.ContactSupportItem> */}
+							</Styles.ContactSupportItem>
 
-							<Styles.ContactSupportItem className='column is-4 is-offset-2'>
+							<Styles.ContactSupportItem className='column is-4'>
 								<p>
 									Join our{' '}
 									<a href='https://community.curve.app/' target='_blank' rel='noopener noreferrer'>
@@ -90,22 +100,14 @@ class Contact extends Component {
 										<a href='mailto:contact@rtrealm.com'>contact@rtrealm.com</a>
 									</span>
 								</p>
-								<Styles.InfoHr className='is-hidden-tablet' />
+								{/* <Styles.InfoHr className='is-hidden-tablet' /> */}
 							</Styles.ContactSupportItem>
 						</Styles.ContactSupport>
-
-						<Styles.ContactSecurity>
-							<p>
-								If you are a security researcher and believe you have found a security
-								vulnerability, please send an e-mail to us{' '}
-								<a href='mailto:contact@rtrealm.com'>contact@rtrealm.com</a>.
-							</p>
-						</Styles.ContactSecurity>
 
 						<Styles.ContactSocial>
 							<Styles.ContactH3>Follow us on social media:</Styles.ContactH3>
 							<ul className='columns is-mobile'>
-								<li className='column is-narrow-tablet'>
+								{/* <li className='column is-narrow-tablet'>
 									<Styles.ContactSocialLinks
 										href='https://twitter.com/imaginecurve?lang=en-gb'
 										target='_blank'
@@ -116,7 +118,7 @@ class Contact extends Component {
 											alt='twitter logo'
 										/>
 									</Styles.ContactSocialLinks>
-								</li>
+								</li> */}
 								<li className='column is-narrow-tablet'>
 									<Styles.ContactSocialLinks
 										href='https://www.facebook.com/imaginecurve/'
@@ -153,7 +155,7 @@ class Contact extends Component {
 										/>
 									</Styles.ContactSocialLinks>
 								</li>
-								<li className='column is-narrow-tablet'>
+								{/* <li className='column is-narrow-tablet'>
 									<Styles.ContactSocialLinks
 										href='https://dribbble.com/imaginecurve'
 										target='_blank'
@@ -164,11 +166,11 @@ class Contact extends Component {
 											alt='Dribbble logo'
 										/>
 									</Styles.ContactSocialLinks>
-								</li>
+								</li> */}
 							</ul>
 							<Styles.InfoHr />
 						</Styles.ContactSocial>
-						<Styles.ContactAddress>
+						{/* <Styles.ContactAddress>
 							<Styles.ContactH3>Company Address:</Styles.ContactH3>
 							<Styles.ContactAddressList className='columns is-mobile'>
 								<Styles.ContactAddressItem className='column'>
@@ -186,11 +188,11 @@ class Contact extends Component {
 									<p>WC1A 2TH</p>
 								</Styles.ContactAddressItem>
 							</Styles.ContactAddressList>
-						</Styles.ContactAddress>
+						</Styles.ContactAddress> */}
 
-						<Styles.MapWrapper onClick={this.openGoogleMaps}>
+						{/* <Styles.MapWrapper onClick={this.openGoogleMaps}>
 							<Styles.Map>
-								{/* <iframe
+								<iframe
 									width='100%'
 									height='650'
 									frameBorder='0'
@@ -199,9 +201,9 @@ class Contact extends Component {
 									title='office location'
 									scrolling='no'
 									style={mapStyles}
-								/> */}
+								/>
 							</Styles.Map>
-						</Styles.MapWrapper>
+						</Styles.MapWrapper> */}
 					</Styles.ContactSection>
 				</div>
 				{/* <Footer CTAHandler={this.openCTAModal.bind(this)} page={'Contact'} /> */}
