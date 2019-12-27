@@ -11,8 +11,15 @@ export default function LanguageSelector() {
 	};
 
 	return (
-		<div className='select' onChange={handleLanguageChange} value={languageContext.language.id}>
-			<select>
+		<div
+			className='select is-rounded'
+			style={{ marginTop: '-1px' }}
+			onChange={handleLanguageChange}
+			value={languageContext.language.id}
+		>
+			<select
+				style={{ backgroundColor: '#4ecfff', border: 'none', fontWeight: 'bold', color: 'white' }}
+			>
 				{languageOptions.map(item => (
 					<option key={item.id} value={item.id}>
 						{item.text}
