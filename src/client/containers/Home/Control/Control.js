@@ -4,47 +4,60 @@ import LazyLoad from 'react-lazyload';
 import InfoGroup from '../../../components/InfoGroup/InfoGroup';
 import * as InfoStyles from '../../../components/InfoGroup/InfoGroup.styles';
 import Image from '../../../components/Image/Image';
-
 import * as Styles from './Control.styles';
+
+import * as scrollMagic from 'scrollmagic';
+import { TweenMax, TimelineMax } from 'gsap';
+import { ScrollMagicPluginGsap } from 'scrollmagic-plugin-gsap';
+
+ScrollMagicPluginGsap(scrollMagic, TweenMax, TimelineMax);
 
 export default class Control extends PureComponent {
 	state = {
 		activateAnimation: false
 	};
 
-	// componentDidMount() {
-	//   // $FlowFixMe;
-	//   const gsap = require("gsap");
-	//   // $FlowFixMe;
-	//   const scrollMagic = require("ScrollMagic");
-	//   // $FlowFixMe;
-	//   require("animation.gsap");
+	componentDidMount() {
+		// $FlowFixMe;
+		const gsap = require('gsap');
+		// $FlowFixMe;
+		// const scrollMagic = require("ScrollMagic");
+		// $FlowFixMe;
+		// require("animation.gsap");
 
-	//   // $FlowFixMe;
-	//   let width: number = document.querySelector("body").clientWidth;
+		// $FlowFixMe;
+		let width = document.querySelector('body').clientWidth;
 
-	//   if (width >= 1224) {
-	//     this.setState({ activateAnimation: true });
+		if (width >= 1224) {
+			this.setState({ activateAnimation: true });
 
-	//     let controller = new scrollMagic.Controller();
+			let controller = new scrollMagic.Controller();
 
-	//     let scene = new scrollMagic.Scene({
-	//       triggerElement: ".control"
-	//     })
-	//       .setTween(
-	//         gsap.TweenLite.to(".control__copy", 0.75, {
-	//           autoAlpha: 1,
-	//           display: "block",
-	//           marginTop: 0,
-	//           ease: gsap.Power1.easeOut
-	//         })
-	//       )
-	//       .reverse(false)
-	//       .addTo(controller);
+			let scene = new scrollMagic.Scene({
+				triggerElement: '.control'
+			})
+				.setTween(
+					gsap.TweenLite.to('.control__copy', 0.75, {
+						autoAlpha: 1,
+						display: 'block',
+						marginTop: 0,
+						ease: gsap.Power1.easeOut
+					})
+				)
+				.reverse(false)
+				.addTo(controller);
 
-	//     scene.triggerHook(0.75);
-	//   }
-	// }
+			scene.triggerHook(0.75);
+		}
+	}
+
+	componentWillUnmount() {
+		if (this.controller) {
+			this.controller.destroy();
+			this.scene1.destroy();
+			this.scene2.destroy();
+		}
+	}
 
 	render() {
 		const copy = () => {

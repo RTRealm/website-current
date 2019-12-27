@@ -6,47 +6,58 @@ import LazyLoad from 'react-lazyload';
 // Custom components
 import InfoGroup from '../../../components/InfoGroup/InfoGroup';
 import Image from '../../../components/Image/Image';
-
-// Styles
 import * as Styles from './Convenience.styles';
+
+import * as scrollMagic from 'scrollmagic';
+import { TweenMax, TimelineMax } from 'gsap';
+import { ScrollMagicPluginGsap } from 'scrollmagic-plugin-gsap';
+
+ScrollMagicPluginGsap(scrollMagic, TweenMax, TimelineMax);
 
 class Convenience extends PureComponent {
 	state = {
 		activateAnimation: false
 	};
 
-	// componentDidMount() {
+	componentDidMount() {
+		const gsap = require('gsap');
 
-	//   const gsap = require("gsap");
+		// const scrollMagic = require("ScrollMagic");
 
-	//   const scrollMagic = require("ScrollMagic");
+		// require("animation.gsap");
 
-	//   require("animation.gsap");
+		let width = document.querySelector('body').clientWidth;
 
-	//   let width = document.querySelector("body").clientWidth;
+		if (width >= 1224) {
+			this.setState({ activateAnimation: true });
 
-	//   if (width >= 1224) {
-	//     this.setState({ activateAnimation: true });
+			let controller = new scrollMagic.Controller();
 
-	//     let controller = new scrollMagic.Controller();
+			let scene = new scrollMagic.Scene({
+				triggerElement: '.convenience__content'
+			})
+				.setTween(
+					gsap.TweenLite.to('.convenience__copy', 1, {
+						autoAlpha: 0.75,
+						display: 'block',
+						marginTop: 0,
+						ease: gsap.Power1.easeOut
+					})
+				)
+				.reverse(false)
+				.addTo(controller);
 
-	//     let scene = new scrollMagic.Scene({
-	//       triggerElement: ".convenience__content"
-	//     })
-	//       .setTween(
-	//         gsap.TweenLite.to(".convenience__copy", 1, {
-	//           autoAlpha: 0.75,
-	//           display: "block",
-	//           marginTop: 0,
-	//           ease: gsap.Power1.easeOut
-	//         })
-	//       )
-	//       .reverse(false)
-	//       .addTo(controller);
+			scene.triggerHook(0.75);
+		}
+	}
 
-	//     scene.triggerHook(0.75);
-	//   }
-	// }
+	componentWillUnmount() {
+		if (this.controller) {
+			this.controller.destroy();
+			this.scene1.destroy();
+			this.scene2.destroy();
+		}
+	}
 
 	render() {
 		return (
