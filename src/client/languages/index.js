@@ -7,6 +7,6 @@ export const dictionaryList = {
 };
 
 export const languageOptions = [
-	{ id: 'en', text: 'English' },
-	{ id: 'pl', text: 'Polski' }
+	{ id: 'en', text: 'GB' },
+	{ id: 'pl', text: 'PL' }
 ];
