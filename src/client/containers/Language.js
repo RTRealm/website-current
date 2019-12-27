@@ -23,3 +23,8 @@ export function LanguageProvider(props) {
 
 	return <LanguageContext.Provider value={provider}>{props.children}</LanguageContext.Provider>;
 }
+
+export function Text(props) {
+	const languageContext = useContext(LanguageContext);
+	return languageContext.dictionary[props.tid];
+}

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Button from '../Button/Button';
 import Navigation from '../Navigation/Navigation';
+import LanguageSelector from '../LanguageSelector/LanguageSelector';
 
 import * as Styles from './Header.styles';
 
@@ -66,7 +67,8 @@ export default class Header extends Component {
 					<Link to={this.props.navLink}>{this.props.navName}</Link>
 				</li>
 				<li className='column is-narrow is-6'>
-					<a href='mailto:contact@rtrealm.com'>PL/GB</a>
+					<LanguageSelector />
+					{/* <a href='mailto:contact@rtrealm.com'>PL/GB</a> */}
 				</li>
 			</ul>
 		);
