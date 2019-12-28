@@ -36,3 +36,5 @@ export function Text(props) {
 	const languageContext = useContext(LanguageContext);
 	return languageContext.dictionary[props.tid];
 }
+
+
