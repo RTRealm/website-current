@@ -40,8 +40,7 @@ class Home extends PureComponent {
 						burgerMenuColor={'black'}
 					/>
 					<main className='main_content'>
-						{/* <div className='is-hidden-mobile'> */}
-						<div>
+						<div className='is-hidden-mobile'>
 							<FixedHeader />
 						</div>
 						{/* <TheCard /> */}
