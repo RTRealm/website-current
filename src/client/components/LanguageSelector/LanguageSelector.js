@@ -8,7 +8,7 @@ export default function LanguageSelector() {
 	const handleLanguageChange = event => {
 		const selectedLanguage = languageOptions.find(item => item.id === event.target.value);
 		languageContext.setLanguage(selectedLanguage);
-		// localStorage.setItem('language', selectedLanguage);
+		localStorage.setItem('language', selectedLanguage.id);
 	};
 
 	return (

@@ -5,9 +5,14 @@ import { languageOptions, dictionaryList } from '../languages';
 export const LanguageContext = createContext({
 	language:
 		localStorage.getItem('language') != null
-			? localStorage.getItem('language')
+			? languageOptions.find(item => item.id === localStorage.getItem('language'))
 			: languageOptions[0],
-	dictionary: dictionaryList[languageOptions[0].id]
+	dictionary:
+		dictionaryList[
+			localStorage.getItem('language') != null
+				? localStorage.getItem('language')
+				: languageOptions[0].id
+		]
 });
 
 export function LanguageProvider(props) {
