@@ -15,6 +15,7 @@ import * as Styles from './Contact.styles';
 
 class Contact extends Component {
 	componentDidMount() {
+		window.scrollTo(0, 0);
 		// ReactGA.pageview(window.location.pathname);
 		// ReactPixel.pageView();
 	}

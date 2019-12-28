@@ -104,7 +104,7 @@ export default class Header extends Component {
 					</Styles.HeaderMobileButton> */}
 					<Styles.HeaderMobileNav
 						className={
-							'column is-8 header__mobile-nav ' +
+							'column is-10 header__mobile-nav ' +
 							(this.props.burgerMenuColor === 'black' ? 'header__mobile-nav--black' : '')
 						}
 					>

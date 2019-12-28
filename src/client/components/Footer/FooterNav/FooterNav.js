@@ -15,15 +15,18 @@ export default class FooterNav extends Component {
 			<Styles.FooterNav>
 				<Styles.FooterNavWrapper className='footer-nav__one'>
 					<Styles.FooterNavContent className='columns is-centered is-multiline'>
-						<li className='column is-narrow'>
-							<Link to='/contact'>Contact</Link>
-						</li>
+						{this.props.page === 'Home' ? (
+							<li className='column is-narrow'>
+								<Link to='/contact'>Contact</Link>
+							</li>
+						) : (
+							<li className='column is-narrow'>
+								<Link to='/'>Home</Link>
+							</li>
+						)}
 						{/* <li className='column is-narrow'>
-							<Link to='/'>Contact us</Link>
-						</li> */}
-						<li className='column is-narrow'>
 							<Link to='/'>We're hiring</Link>
-						</li>
+						</li> */}
 					</Styles.FooterNavContent>
 				</Styles.FooterNavWrapper>
 				<Styles.FooterNavWrapper className='footer-nav__two is-hidden-desktop' />

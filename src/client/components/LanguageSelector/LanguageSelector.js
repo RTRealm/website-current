@@ -12,7 +12,7 @@ export default function LanguageSelector() {
 	};
 
 	return (
-		<div className='select is-rounded' style={{ marginTop: '-2px' }}>
+		<div className='select is-rounded' style={{ marginTop: '0px' }}>
 			<select
 				onChange={handleLanguageChange}
 				value={languageContext.language.id}
