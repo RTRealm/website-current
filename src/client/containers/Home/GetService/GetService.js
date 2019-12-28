@@ -17,7 +17,7 @@ class getCurve extends Component {
 		// const ScrollMagic = require('scrollmagic');
 		// require('animation.gsap');
 		let width = document.querySelector('body').clientWidth;
-		if (width >= 1224) {
+		if (width >= 599) {
 			this.controller = new scrollMagic.Controller();
 
 			this.scene = new scrollMagic.Scene({

@@ -99,23 +99,24 @@ export default class Header extends Component {
 							/>
 						</Link>
 					</div>
-					<Styles.HeaderMobileButton className='column is-5-mobile header__mobile-button'>
+					{/* <Styles.HeaderMobileButton className='column is-5-mobile header__mobile-button'>
 						<Button text={'About'} />
-					</Styles.HeaderMobileButton>
+					</Styles.HeaderMobileButton> */}
 					<Styles.HeaderMobileNav
 						className={
-							'column is-2 header__mobile-nav ' +
+							'column is-8 header__mobile-nav ' +
 							(this.props.burgerMenuColor === 'black' ? 'header__mobile-nav--black' : '')
 						}
 					>
-						<button
+						{/* <button
 							className={
 								'header__mobile-menu-button ' +
 								(this.state.mobileOpen ? 'header__mobile-menu-button--close' : '')
 							}
 							type='button'
 							onClick={this.onMenuClickHandler.bind(this)}
-						/>
+						/> */}
+						<LanguageSelector />
 					</Styles.HeaderMobileNav>
 				</Styles.HeaderMobile>
 				<div className='columns is-hidden-mobile'>
