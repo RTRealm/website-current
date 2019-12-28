@@ -70,6 +70,8 @@ export const GetCurveSplash = styled.span`
 export const GetCurveBenefits = styled.ul`
 	margin-top: 75px;
 	padding-bottom: 15px;
+	opacity: 0;
+	visibility: hidden;
 `;
 
 export const GetCurveBenefit = styled.li`

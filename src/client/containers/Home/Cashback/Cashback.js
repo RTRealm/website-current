@@ -7,8 +7,7 @@ import Tab from '../../../components/Tab/Tab';
 import * as scrollMagic from 'scrollmagic';
 import { TweenMax, TimelineMax } from 'gsap';
 import { ScrollMagicPluginGsap } from 'scrollmagic-plugin-gsap';
-import { isConstructSignatureDeclaration } from 'typescript';
-import { ClientDevice } from 'aws-amplify';
+// import { isConstructSignatureDeclaration } from 'typescript';
 ScrollMagicPluginGsap(scrollMagic, TweenMax, TimelineMax);
 
 class Cashback extends Component {
