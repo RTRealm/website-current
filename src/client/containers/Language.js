@@ -2,17 +2,6 @@ import React, { useState, createContext, useContext } from 'react';
 
 import { languageOptions, dictionaryList } from '../languages';
 
-// async function getGeoInfo(langOpt) {
-// 	await fetch('https://ipapi.co/json/')
-// 		.then(response => response.json())
-// 		.then(data => {
-// 			const lang = langOpt.find(item => item.text === data.country_code);
-// 			return lang;
-// 		})
-// 		.catch(error => {
-// 			console.log(error);
-// 		});
-// }
 
 export const LanguageContext = createContext({
 	language:
