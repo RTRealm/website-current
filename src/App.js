@@ -2,9 +2,13 @@ import React, { Component } from 'react';
 import Routes from './client/containers/routes';
 import ScrollToTop from './client/components/ScrollToTop/ScrollToTop';
 import * as Styles from './App.styles';
+import CookieBanner from './client/components/CookieBanner/CookieBanner';
 import { LanguageProvider } from './client/containers/Language';
 
 class App extends Component {
+	state = {
+		cookies: false
+	};
 	// async getGeoInfo(langOpt) {
 	// 	await fetch('https://ipapi.co/json/')
 	// 		.then(response => response.json())
@@ -20,19 +24,23 @@ class App extends Component {
 
 	componentDidMount() {
 		window.scrollTo(0, 0);
+		if (localStorage.getItem('cookieAcknowledgement')) {
+			this.setState({ cookies: true });
+		}
 	}
 
 	render() {
 		return (
-			<LanguageProvider>
-				<Styles.App>
+			<Styles.App>
+				<LanguageProvider>
 					<div id='content'>
 						<ScrollToTop>
 							<Routes />
+							{/* <Routes>{this.state.cookies ? <CookieBanner /> : null}</Routes> */}
 						</ScrollToTop>
 					</div>
-				</Styles.App>
-			</LanguageProvider>
+				</LanguageProvider>
+			</Styles.App>
 		);
 	}
 }

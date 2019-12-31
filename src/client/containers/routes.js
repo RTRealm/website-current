@@ -32,12 +32,20 @@ const Contact = Loadable({
 	modules: ['contact']
 });
 
+const TermsCookies = Loadable({
+	loader: () => import('./Terms/Cookies/Cookies'),
+	loading: () => null,
+	delay: 30000,
+	modules: ['terms-cookies']
+});
+
 const Routing = () => {
 	return (
 		<HashRouter>
 			<Switch>
 				<Route exact path='/' component={Homepage} />
 				<Route exact path='/contact' component={Contact} />
+				<Route exact path='/cookie-policy' component={TermsCookies} />
 			</Switch>
 		</HashRouter>
 	);
