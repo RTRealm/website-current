@@ -15,6 +15,7 @@ import Intro from '../Home/Intro/Intro';
 // components
 import Page from '../../components/Page/index';
 import FeaturesList from './FeaturesList/FeaturesList';
+import MobileFloat from '../../components/MobileFloat/MobileFloat';
 
 class Home extends PureComponent {
 	componentDidUpdate() {
@@ -68,6 +69,7 @@ class Home extends PureComponent {
 							<Cashback />
 						</div>
 					</main>
+					<MobileFloat />
 					<div className='fixed-header__trigger-end' />
 					<Footer page={'Home'} />
 				</div>
