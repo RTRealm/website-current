@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import * as mixins from '../../assets/styles/_mixins';
 
 export const MobileCTAFooterWrapper = styled.div`
-	padding: 20px 11% 0 11%;
+	padding: 20px 11% 0px 11%;
 `;
 
 export const MobileCTAFooterContent = styled.div`
