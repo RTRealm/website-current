@@ -22,6 +22,10 @@ class MobileFloat extends Component {
 	scene2 = null;
 	scene3 = null;
 
+	clickLink = () => {
+		window.location.href = `mailto:contact@rtrealm.com`;
+	};
+
 	componentDidMount() {
 		// $FlowFixMe;
 		const gsap = require('gsap');
@@ -140,7 +144,7 @@ class MobileFloat extends Component {
 						<div className='mobile-cta-footer__wrapper'>
 							<Button
 								text={'Contact us!'}
-								// click={appStoreHandler.bind(this)}
+								click={this.clickLink}
 								class={'mobileFooter__cta'}
 								background={'#4ecfff'}
 								id={'mobileFooter__cta'}
