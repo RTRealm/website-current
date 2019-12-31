@@ -79,7 +79,7 @@ class Cashback extends Component {
 	render() {
 		return (
 			<Styles.TravelCashback>
-				<Styles.TravelCashbacksplash3 className=' is-hidden-mobile' />
+				{/* <Styles.TravelCashbacksplash3 className=' is-hidden-mobile' /> */}
 				<Styles.TravelCashbackContent className='travel-cashback__content'>
 					<Styles.TravelCaskbackCopy>
 						<InfoGroup title={'Solution providers.'} subtitle={'Credentials & TechStack'}>

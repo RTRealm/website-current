@@ -68,7 +68,7 @@ class Convenience extends PureComponent {
 			>
 				<Styles.ConvenienceContent className='convenience__content columns'>
 					<Styles.ConvenienceImage className='column is-5'>
-						<Styles.ConvenienceSplash2 />
+						{/* <Styles.ConvenienceSplash2 /> */}
 						<Styles.ConvenienceImageWrapper>
 							<LazyLoad once={true} height={644} offset={500}>
 								<Image

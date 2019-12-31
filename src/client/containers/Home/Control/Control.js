@@ -80,7 +80,7 @@ export default class Control extends PureComponent {
 			<Styles.Control
 				className={'control ' + (this.state.activateAnimation ? 'control--animate' : '')}
 			>
-				<div className='is-hidden-mobile'>
+				{/* <div className='is-hidden-mobile'>
 					<LazyLoad once={true} height={604} offset={500}>
 						<Styles.ControlSplash />
 					</LazyLoad>
@@ -89,7 +89,7 @@ export default class Control extends PureComponent {
 					<LazyLoad once={true} height={448} offset={400}>
 						<Styles.ControlSplash />
 					</LazyLoad>
-				</div>
+				</div> */}
 				<Styles.ControlContent className='is-hidden-tablet'>
 					<Styles.ControlImage>
 						<LazyLoad once={true} height={531} offset={400}>
@@ -138,7 +138,7 @@ export default class Control extends PureComponent {
 						</LazyLoad>
 					</Styles.ControlImage>
 				</Styles.ControlContent>
-				<Styles.ControlSplash2 className='is-hidden-mobile' />
+				{/* <Styles.ControlSplash2 className='is-hidden-mobile' /> */}
 			</Styles.Control>
 		);
 	}

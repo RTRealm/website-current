@@ -65,7 +65,7 @@ class getCurve extends Component {
 	render() {
 		return (
 			<Styles.GetCurve className='title-trigger'>
-				<Styles.GetCurveSplash />
+				{/* <Styles.GetCurveSplash /> */}
 				<Styles.GetCurveContent className='getservice-trigger'>
 					<InfoGroup title={'Our Top Skills'} subtitle={'Get Service'}>
 						<p className='is-hidden-tablet'>

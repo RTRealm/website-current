@@ -75,7 +75,7 @@ class AboutUs extends PureComponent {
 			<Styles.AboutUs
 				className={'about-us ' + (this.state.activateAnimation ? 'about-us--animate' : '')}
 			>
-				<Styles.AboutUsSplash2 />
+				{/* <Styles.AboutUsSplash2 /> */}
 				<Styles.AboutUsContent className='about-us__content columns is-hidden-mobile'>
 					<div className='column is-7 about-us__copy'>
 						<InfoGroup title={'Web and mobile'} subtitle={'Development'}>
@@ -127,7 +127,7 @@ class AboutUs extends PureComponent {
 				</Styles.AboutUsContent>
 				<div>
 					<Styles.AboutUsPhone className='about-us__phone is-hidden-mobile' />
-					<Styles.AboutUsSplash className='about-us__splash' />
+					{/* <Styles.AboutUsSplash className='about-us__splash' /> */}
 				</div>
 			</Styles.AboutUs>
 		);
