@@ -1,6 +1,8 @@
 import React from 'react';
-import { BrowserRouter as HashRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, HashRouter, Route, Switch } from 'react-router-dom';
 import Loadable from 'react-loadable';
+
+import CookieBanner from '../../client/components/CookieBanner/CookieBanner';
 
 function Loading(props) {
 	if (props.error) {
@@ -41,13 +43,14 @@ const TermsCookies = Loadable({
 
 const Routing = () => {
 	return (
-		<HashRouter>
+		<Router>
+			{!localStorage.getItem('cookieAcknowledgement') ? <CookieBanner /> : null}
 			<Switch>
 				<Route exact path='/' component={Homepage} />
 				<Route exact path='/contact' component={Contact} />
 				<Route exact path='/cookie-policy' component={TermsCookies} />
 			</Switch>
-		</HashRouter>
+		</Router>
 	);
 };
 

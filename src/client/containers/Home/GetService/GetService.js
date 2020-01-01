@@ -120,7 +120,7 @@ class getCurve extends Component {
 									<Styles.GetCurveBenefitHeading className='column is-4-tablet is-3-desktop'>
 										<h4>
 											<img
-												src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1537361448/website-v2/Icons/sync.svg'
+												src='https://res.cloudinary.com/ohcash/image/upload/v1577882084/landingpage/infinity_ff7f50.svg'
 												alt='infinite loop'
 											/>
 										</h4>
@@ -135,11 +135,10 @@ class getCurve extends Component {
 								<div className='columns'>
 									<Styles.GetCurveBenefitHeading className='column is-4-tablet is-3-desktop'>
 										<h4>
-											<em>
-												£15
-												<span>M</span>
-											</em>{' '}
-											insurance
+											<img
+												src='https://res.cloudinary.com/ohcash/image/upload/v1577882084/landingpage/infinity_green.svg'
+												alt='infinite loop'
+											/>
 										</h4>
 									</Styles.GetCurveBenefitHeading>
 									<Styles.GetCurveBenefitContent className='column'>
@@ -153,7 +152,7 @@ class getCurve extends Component {
 									<Styles.GetCurveBenefitHeading className='column is-4-tablet is-3-desktop'>
 										<h4>
 											<img
-												src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1537361448/website-v2/Icons/sync.svg'
+												src='https://res.cloudinary.com/ohcash/image/upload/v1577882084/landingpage/infinity.svg'
 												alt='infinite loop'
 											/>
 										</h4>
