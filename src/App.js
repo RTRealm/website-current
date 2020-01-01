@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Routes from './client/containers/routes';
 import ScrollToTop from './client/components/ScrollToTop/ScrollToTop';
 import * as Styles from './App.styles';
-import CookieBanner from './client/components/CookieBanner/CookieBanner';
+
 import { LanguageProvider } from './client/containers/Language';
 
 class App extends Component {
@@ -30,7 +30,6 @@ class App extends Component {
 					<div id='content'>
 						<ScrollToTop>
 							<Routes />
-							{/* <Routes>{this.state.cookies ? <CookieBanner /> : null}</Routes> */}
 						</ScrollToTop>
 					</div>
 				</Styles.App>

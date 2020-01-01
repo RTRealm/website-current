@@ -30,7 +30,7 @@ class Cookies extends Component {
 					<Header
 						textColor={'white'}
 						logo={
-							'https://res.cloudinary.com/dzatxn6bx/image/upload/v1537358404/website-v2/Icons/curve-logo-black.svg'
+							'https://landingpagereactreact-local.s3.eu-central-1.amazonaws.com/logo_black_line_landing_svg.svg'
 						}
 						link={'/'}
 						burgerMenuColor={'black'}
@@ -39,12 +39,12 @@ class Cookies extends Component {
 					/>
 					<Styles.Terms>
 						<div className='terms__heading'>
-							<h1>Cookie Policy for Curve</h1>
+							<h1>Cookie Policy for RT.Realm</h1>
 						</div>
 
 						<div className='terms__content'>
 							<p>
-								This is the Cookie Policy for Curve, accessible from{' '}
+								This is the Cookie Policy for RT.Realm.
 								{/* <LocalisedLink to='/'>https://www.curve.app</LocalisedLink> */}
 							</p>
 
@@ -172,7 +172,7 @@ class Cookies extends Component {
 
 							<ul>
 								<li>
-									Email: <a href='mailto:support@curve.app'>support@curve.app</a>
+									Email: <a href='mailto:contact@rtrealm.com'>contact@rtrealm.com</a>
 								</li>
 							</ul>
 						</div>
