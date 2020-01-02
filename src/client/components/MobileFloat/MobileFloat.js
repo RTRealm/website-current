@@ -23,7 +23,7 @@ class MobileFloat extends Component {
 	scene3 = null;
 
 	clickLink = () => {
-		window.location = `/contact`;
+		window.location.href = `mailto:contact@rtrealm.com`;
 	};
 
 	componentDidMount() {
