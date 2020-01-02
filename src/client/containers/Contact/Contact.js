@@ -20,11 +20,11 @@ class Contact extends Component {
 		// ReactPixel.pageView();
 	}
 
-	openGoogleMaps = () => {
-		let url = 'https://goo.gl/maps/M9tX5kEK9gR2';
-		let win = window.open(url, '_blank');
-		win.focus();
-	};
+	// openGoogleMaps = () => {
+	// 	let url = 'https://goo.gl/maps/M9tX5kEK9gR2';
+	// 	let win = window.open(url, '_blank');
+	// 	win.focus();
+	// };
 
 	render() {
 		const mapStyles = {
@@ -53,7 +53,7 @@ class Contact extends Component {
 						<div className='is-hidden-mobile'></div>
 						{/* <FixedHeader /> */}
 						<Styles.HeadingGroup>
-							<Styles.HeadingH2>Get in touch with us</Styles.HeadingH2>
+							<Styles.HeadingH2>Reach out to us.</Styles.HeadingH2>
 							<Styles.HeadingSubtitle>
 								We're ready to lead you into the future of connected finance.
 							</Styles.HeadingSubtitle>
@@ -196,13 +196,13 @@ class Contact extends Component {
 							</Styles.ContactAddressList>
 						</Styles.ContactAddress> */}
 
-						{/* <Styles.MapWrapper onClick={this.openGoogleMaps}>
+						{/* <Styles.MapWrapper>
 							<Styles.Map>
 								<iframe
 									width='100%'
 									height='650'
 									frameBorder='0'
-									src='https://www.google.com/maps/d/embed?mid=1FPN9hdXRl9TqkajTKctqVOR8CepKj68H'
+									src='https://res.cloudinary.com/ohcash/image/upload/v1578004946/landingpage/contactMap.png'
 									allowFullScreen
 									title='office location'
 									scrolling='no'

@@ -51,6 +51,7 @@ export const ContactH3 = styled.h3`
 	margin-bottom: 12px;
 	color: #000;
 	margin-top: 24px;
+	visibility: hidden;
 
 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
 		font-size: 40px;
@@ -167,11 +168,14 @@ export const ContactSupportItem = styled.li`
 `;
 
 export const ContactSocial = styled.div`
+	background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1578004323/landingpage/Screenshot_2020-01-02_at_23.31.01.png');
+	opacity: 0.5;
 	margin: 50px auto 0 auto;
 	width: 90%;
+	height: 10%;
 
 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
-		margin-top: 100px;
+		margin-top: 50px;
 	}
 	ul {
 		justify-content: center;
@@ -196,6 +200,7 @@ export const ContactSocialLinks = styled.a`
 	text-align: center;
 	display: block;
 	padding: 0;
+	visibility: hidden;
 
 	@media (${mixins.breakpoint('tablet-portrait-up')}) {
 		padding: 0 25px;
