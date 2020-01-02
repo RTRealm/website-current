@@ -54,7 +54,7 @@ export const AboutUsPhone = styled.span`
 	}
 
 	&:after {
-		background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1537821852/website-v2/Homepage/Light/welcome-phone.png');
+		background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1577997875/landingpage/about-us-1x.png');
 		background-repeat: no-repeat;
 		display: block;
 		width: 647px;
@@ -62,7 +62,7 @@ export const AboutUsPhone = styled.span`
 		content: '';
 
 		${mixins.image2x(
-			'https://res.cloudinary.com/dzatxn6bx/image/upload/v1537821852/website-v2/Homepage/Light/welcome-phone_2x.png',
+			'https://res.cloudinary.com/ohcash/image/upload/v1577997872/landingpage/about-us.png',
 			'647px',
 			'714px'
 		)};

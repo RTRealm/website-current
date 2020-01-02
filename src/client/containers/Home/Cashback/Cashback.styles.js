@@ -5,8 +5,8 @@ export const TravelCashback = styled.section`
 	position: relative;
 
 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
-		margin-top: 575px;
-		margin-bottom: 540px;
+		margin-top: 275px;
+		margin-bottom: 340px;
 	}
 `;
 
