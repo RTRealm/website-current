@@ -79,7 +79,9 @@ class getCurve extends Component {
 								<div className='columns'>
 									<Styles.GetCurveBenefitHeading className='column is-4-tablet is-3-desktop'>
 										<h4>
-											<em>Save</em>
+											<em>
+												<i class='fas fa-mobile-alt'></i>
+											</em>
 										</h4>
 									</Styles.GetCurveBenefitHeading>
 									<Styles.GetCurveBenefitContent className='column'>

@@ -101,10 +101,11 @@ export const GetCurveBenefitHeading = styled.div`
 
 		text-align: right;
 		em {
-			font-size: 40px;
+			font-size: 50px;
 			font-weight: ${vars.poppinsSemibold};
 			font-style: normal;
 			display: block;
+			padding-right: 20px;
 			span {
 				font-size: 32px;
 				font-weight: ${vars.poppinsMedium};
