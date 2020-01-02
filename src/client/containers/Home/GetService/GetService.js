@@ -80,7 +80,7 @@ class getCurve extends Component {
 									<Styles.GetCurveBenefitHeading className='column is-4-tablet is-3-desktop'>
 										<h4>
 											<em>
-												<i class='fas fa-mobile-alt'></i>
+												<i id='skillicon' class='fas fa-mobile-alt'></i>
 											</em>
 										</h4>
 									</Styles.GetCurveBenefitHeading>

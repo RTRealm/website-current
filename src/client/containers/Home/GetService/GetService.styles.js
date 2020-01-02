@@ -112,6 +112,13 @@ export const GetCurveBenefitHeading = styled.div`
 			}
 		}
 	}
+	#skillicon {
+		-webkit-transition: transform 2s;
+		transition: transform 2s;
+	}
+	#skillicon:hover {
+		transform: rotate(360deg);
+	}
 `;
 
 export const GetCurveBenefitContent = styled.div`
