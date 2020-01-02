@@ -4,7 +4,7 @@ import * as mixins from '../../../assets/styles/_mixins';
 export const Control = styled.section`
 	width: 100%;
 	position: relative;
-	margin-top: 420px;
+	margin-top: 320px;
 	margin-bottom: 110px;
 
 	@media (${mixins.breakpoint('phone-only')}) {
@@ -14,7 +14,7 @@ export const Control = styled.section`
 	}
 
 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
-		margin-top: 479px;
+		margin-top: 279px;
 	}
 
 	@media (${mixins.breakpoint('desktop-up')}) {
@@ -96,78 +96,78 @@ export const ControlImage = styled.div`
 	}
 `;
 
-export const ControlSplash = styled.span`
-	position: absolute;
-	top: -326px;
-	right: 0px;
-	z-index: -2;
-	&:after {
-		background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1567621596/cardWallet/control-bcg-mob-1x.png');
-		background-repeat: no-repeat;
-		display: block;
-		width: 770px;
-		height: 448px;
-		content: '';
+// export const ControlSplash = styled.span`
+// 	position: absolute;
+// 	top: -326px;
+// 	right: 0px;
+// 	z-index: -2;
+// 	&:after {
+// 		background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1567621596/cardWallet/control-bcg-mob-1x.png');
+// 		background-repeat: no-repeat;
+// 		display: block;
+// 		width: 770px;
+// 		height: 448px;
+// 		content: '';
 
-		${mixins.image2x(
-			'https://res.cloudinary.com/ohcash/image/upload/v1567621596/cardWallet/control-bcg-mob-2x.png',
-			'770px',
-			'448px'
-		)};
-	}
+// 		${mixins.image2x(
+// 			'https://res.cloudinary.com/ohcash/image/upload/v1567621596/cardWallet/control-bcg-mob-2x.png',
+// 			'770px',
+// 			'448px'
+// 		)};
+// 	}
 
-	@media (${mixins.breakpoint('tablet-landscape-up')}) {
-		top: -235px;
-		right: -165px;
-		width: 80%;
+// 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
+// 		top: -235px;
+// 		right: -165px;
+// 		width: 80%;
 
-		&:after {
-			background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1567619247/cardWallet/control-bcg-1x.png');
-			width: 1540px;
-			height: 604px;
+// 		&:after {
+// 			background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1567619247/cardWallet/control-bcg-1x.png');
+// 			width: 1540px;
+// 			height: 604px;
 
-			${mixins.image2x(
-				'https://res.cloudinary.com/ohcash/image/upload/v1567619312/cardWallet/control-bcg-2x.png',
-				'1540px',
-				'604px'
-			)};
-		}
-	}
+// 			${mixins.image2x(
+// 				'https://res.cloudinary.com/ohcash/image/upload/v1567619312/cardWallet/control-bcg-2x.png',
+// 				'1540px',
+// 				'604px'
+// 			)};
+// 		}
+// 	}
 
-	@media (${mixins.breakpoint('desktop-up')}) {
-		right: -305px;
-	}
-`;
+// 	@media (${mixins.breakpoint('desktop-up')}) {
+// 		right: -305px;
+// 	}
+// `;
 
-export const ControlSplash2 = styled.span`
-	position: absolute;
-	top: -430px;
-	left: 0px;
-	z-index: -2;
+// export const ControlSplash2 = styled.span`
+// 	position: absolute;
+// 	top: -430px;
+// 	left: 0px;
+// 	z-index: -2;
 
-	&:after {
-		background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1567622114/cardWallet/control-bcg-corner-1x.png');
-		background-repeat: no-repeat;
-		display: block;
-		width: 574px;
-		height: 722px;
-		content: '';
-		float: right;
+// 	&:after {
+// 		background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1567622114/cardWallet/control-bcg-corner-1x.png');
+// 		background-repeat: no-repeat;
+// 		display: block;
+// 		width: 574px;
+// 		height: 722px;
+// 		content: '';
+// 		float: right;
 
-		${mixins.image2x(
-			'https://res.cloudinary.com/ohcash/image/upload/v1567622114/cardWallet/control-bcg-corner-2x.png',
-			'574px',
-			'722px'
-		)};
-	}
+// 		${mixins.image2x(
+// 			'https://res.cloudinary.com/ohcash/image/upload/v1567622114/cardWallet/control-bcg-corner-2x.png',
+// 			'574px',
+// 			'722px'
+// 		)};
+// 	}
 
-	@media (${mixins.breakpoint('tablet-landscape-up')}) {
-		top: 100px;
-		width: 39%;
-	}
+// 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
+// 		top: 100px;
+// 		width: 39%;
+// 	}
 
-	@media (${mixins.breakpoint('desktop-up')}) {
-		top: 200px;
-		width: auto;
-	}
-`;
+// 	@media (${mixins.breakpoint('desktop-up')}) {
+// 		top: 200px;
+// 		width: auto;
+// 	}
+// `;

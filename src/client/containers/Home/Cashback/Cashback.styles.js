@@ -49,7 +49,7 @@ export const TravelCashback = styled.section`
 // `;
 
 export const TravelCashbackContent = styled.div`
-	margin: 300px 11% 0 11%;
+	margin: 100px 11% 0 11%;
 
 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
 		margin: 350px 11% 0 11%;

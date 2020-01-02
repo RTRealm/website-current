@@ -10,7 +10,7 @@ export const GetCurve = styled.section`
 	}
 
 	@media (${mixins.breakpoint('desktop-up')}) {
-		margin-top: 430px;
+		margin-top: 230px;
 	}
 `;
 
