@@ -92,11 +92,10 @@ class getCurve extends Component {
 							<Styles.GetCurveBenefit className='column is-6'>
 								<div className='columns'>
 									<Styles.GetCurveBenefitHeading className='column is-4-tablet is-3-desktop'>
-										<h5>Earn</h5>
 										<h4>
 											<em>
-												1 <span>%</span>
-											</em>{' '}
+												<i class='fas fa-cogs'></i>
+											</em>
 										</h4>
 									</Styles.GetCurveBenefitHeading>
 									<Styles.GetCurveBenefitContent className='column'>
@@ -108,7 +107,9 @@ class getCurve extends Component {
 								<div className='columns'>
 									<Styles.GetCurveBenefitHeading className='column is-4-tablet is-3-desktop'>
 										<h4>
-											<em>210+</em>
+											<em>
+												<i class='fas fa-share-alt'></i>
+											</em>
 										</h4>
 									</Styles.GetCurveBenefitHeading>
 									<Styles.GetCurveBenefitContent className='column'>
