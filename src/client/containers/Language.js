@@ -1,4 +1,4 @@
-import React, { useState, createContext, useContext } from 'react';
+import React, { useState, createContext, useContext, useEffect } from 'react';
 
 import { languageOptions, dictionaryList } from '../languages';
 
@@ -7,8 +7,7 @@ async function getGeoInfo(langOpt) {
 		.then(response => response.json())
 		.then(data => {
 			const lang = langOpt.find(item => item.text === data.country_code);
-			localStorage.setItem('language', lang);
-			console.log(lang.id);
+			localStorage.getItem('language', lang.id);
 		})
 		.catch(error => {
 			console.log(error);
