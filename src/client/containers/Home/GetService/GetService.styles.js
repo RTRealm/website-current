@@ -23,49 +23,49 @@ export const GetCurveContent = styled.div`
 	}
 `;
 
-export const GetCurveSplash = styled.span`
-	position: absolute;
-	top: -240px;
-	right: 0px;
-	z-index: -2;
+// export const GetCurveSplash = styled.span`
+// 	position: absolute;
+// 	top: -240px;
+// 	right: 0px;
+// 	z-index: -2;
 
-	&:after {
-		background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1536829492/website-v2/Travel/get-curve-splash-1-m.png');
-		background-repeat: no-repeat;
-		display: block;
-		width: 166px;
-		height: 400px;
-		content: '';
+// 	&:after {
+// 		background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1536829492/website-v2/Travel/get-curve-splash-1-m.png');
+// 		background-repeat: no-repeat;
+// 		display: block;
+// 		width: 166px;
+// 		height: 400px;
+// 		content: '';
 
-		${mixins.image2x(
-			'https://res.cloudinary.com/dzatxn6bx/image/upload/v1536829492/website-v2/Travel/get-curve-splash-1-m_2x.png',
-			'166px',
-			'400px'
-		)};
-	}
+// 		${mixins.image2x(
+// 			'https://res.cloudinary.com/dzatxn6bx/image/upload/v1536829492/website-v2/Travel/get-curve-splash-1-m_2x.png',
+// 			'166px',
+// 			'400px'
+// 		)};
+// 	}
 
-	@media (${mixins.breakpoint('tablet-landscape-up')}) {
-		&:after {
-			background-image: none;
-		}
-	}
+// 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
+// 		&:after {
+// 			background-image: none;
+// 		}
+// 	}
 
-	@media (${mixins.breakpoint('desktop-up')}) {
-		top: 50px;
+// 	@media (${mixins.breakpoint('desktop-up')}) {
+// 		top: 50px;
 
-		&:after {
-			background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1539939028/website-v2/Travel/get-curve-splash.jpg');
-			width: 299px;
-			height: 722px;
+// 		&:after {
+// 			background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1539939028/website-v2/Travel/get-curve-splash.jpg');
+// 			width: 299px;
+// 			height: 722px;
 
-			${mixins.image2x(
-				'https://res.cloudinary.com/dzatxn6bx/image/upload/v1539939028/website-v2/Travel/get-curve-splash_2x.jpg',
-				'299px',
-				'722px'
-			)};
-		}
-	}
-`;
+// 			${mixins.image2x(
+// 				'https://res.cloudinary.com/dzatxn6bx/image/upload/v1539939028/website-v2/Travel/get-curve-splash_2x.jpg',
+// 				'299px',
+// 				'722px'
+// 			)};
+// 		}
+// 	}
+// `;
 
 export const GetCurveBenefits = styled.ul`
 	margin-top: 75px;
@@ -85,7 +85,7 @@ export const GetCurveBenefitHeading = styled.div`
 	float: left;
 	padding: 10px 10px 0 0;
 	position: relative;
-	border-right: 1px solid ${vars.colorAccent};
+	border-right: 1.5px solid ${vars.colorAccent};
 
 	h5 {
 		font-size: 22px;

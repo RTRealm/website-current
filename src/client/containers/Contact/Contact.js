@@ -71,35 +71,41 @@ class Contact extends Component {
 							<Styles.InfoHr className='is-hidden-tablet' />
 							<Styles.ContactSupportItem className='column is-4'>
 								<p>
-									If you have any questions check our{' '}
-									<a
+									<i id='skillicon' class='fas fa-map-marker-alt'></i> Barcelona
+								</p>
+								{/* <a
 										href='https://support.imaginecurve.com/hc/en-gb'
 										target='_blank'
 										rel='noopener noreferrer'
 									>
 										FAQ
-									</a>
-								</p>
+									</a> */}
 								<Styles.InfoHr className='is-hidden-tablet' />
 							</Styles.ContactSupportItem>
 
 							<Styles.ContactSupportItem className='column is-4'>
 								<p>
+									<i id='skillicon' class='fas fa-map-marker-alt'></i> London
+								</p>
+								{/* <p>
 									Join our{' '}
 									<a href='https://community.curve.app/' target='_blank' rel='noopener noreferrer'>
 										Curve Community
 									</a>{' '}
 									to find more about Curve
-								</p>
+								</p> */}
 								<Styles.InfoHr className='is-hidden-tablet' />
 							</Styles.ContactSupportItem>
 							<Styles.ContactSupportItem className='column is-4'>
 								<p>
+									<i id='skillicon' class='fas fa-map-marker-alt'></i> Warsaw
+								</p>
+								{/* <p>
 									Contact our Support Team:{' '}
 									<span>
 										<a href='mailto:contact@rtrealm.com'>contact@rtrealm.com</a>
 									</span>
-								</p>
+								</p> */}
 								{/* <Styles.InfoHr className='is-hidden-tablet' /> */}
 							</Styles.ContactSupportItem>
 						</Styles.ContactSupport>
@@ -107,7 +113,7 @@ class Contact extends Component {
 						<Styles.ContactSocial>
 							<Styles.ContactH3>Follow us on social media:</Styles.ContactH3>
 							<ul className='columns is-mobile'>
-								{/* <li className='column is-narrow-tablet'>
+								<li className='column is-narrow-tablet'>
 									<Styles.ContactSocialLinks
 										href='https://twitter.com/imaginecurve?lang=en-gb'
 										target='_blank'
@@ -118,7 +124,7 @@ class Contact extends Component {
 											alt='twitter logo'
 										/>
 									</Styles.ContactSocialLinks>
-								</li> */}
+								</li>
 								<li className='column is-narrow-tablet'>
 									<Styles.ContactSocialLinks
 										href='https://www.facebook.com/imaginecurve/'
@@ -155,7 +161,7 @@ class Contact extends Component {
 										/>
 									</Styles.ContactSocialLinks>
 								</li>
-								{/* <li className='column is-narrow-tablet'>
+								<li className='column is-narrow-tablet'>
 									<Styles.ContactSocialLinks
 										href='https://dribbble.com/imaginecurve'
 										target='_blank'
@@ -166,10 +172,10 @@ class Contact extends Component {
 											alt='Dribbble logo'
 										/>
 									</Styles.ContactSocialLinks>
-								</li> */}
+								</li>
 							</ul>
-							<Styles.InfoHr />
 						</Styles.ContactSocial>
+						<Styles.InfoHr />
 						{/* <Styles.ContactAddress>
 							<Styles.ContactH3>Company Address:</Styles.ContactH3>
 							<Styles.ContactAddressList className='columns is-mobile'>

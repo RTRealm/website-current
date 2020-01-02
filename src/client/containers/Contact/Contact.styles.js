@@ -140,12 +140,13 @@ export const ContactSupport = styled.ul`
 	}
 `;
 export const ContactSupportItem = styled.li`
-	a {
-		color: ${vars.colorAccent};
+	#skillicon {
+		color: #ff7f50;
 		transition: color 0.2s;
+		font-size: 1.5em;
 		font-weight: ${vars.poppinsMedium};
 		&:hover {
-			color: ${vars.colorHover};
+			color: #ff6347;
 		}
 	}
 
@@ -155,6 +156,7 @@ export const ContactSupportItem = styled.li`
 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
 		padding: 10px 30px;
 		display: flex;
+		justify-content: center;
 		align-items: center;
 		border-right: 3px solid rgba(196, 196, 196, 0.3);
 
