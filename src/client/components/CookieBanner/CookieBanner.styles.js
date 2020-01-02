@@ -49,4 +49,8 @@ export const CookieBanner = styled.div`
 		text-decoration-line: underline;
 		color: #4ecfff;
 	}
+
+	#cookie {
+		color: #4ecfff;
+	}
 `;

@@ -118,6 +118,7 @@ export const GetCurveBenefitHeading = styled.div`
 	}
 	#skillicon:hover {
 		transform: rotate(360deg);
+		color: ${vars.colorHover};
 	}
 `;
 

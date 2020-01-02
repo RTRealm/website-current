@@ -26,10 +26,11 @@ class CookieBanner extends Component {
 				<Styles.CookieBannerWrapper className='cookie-banner'>
 					<Styles.CookieBanner className='columns is-mobile'>
 						<p className='column is-10'>
-							We use cookies <i class='fas fa-spin fa-cookie-bite'></i>.{' '}
-							{/* <span role='img' aria-label='cookie'>
-								🍪
-							</span> */}
+							We use cookies{' '}
+							<span id='cookie'>
+								{/* 🍪 */}
+								<i class='fas fa-spin fa-cookie-bite'></i>.
+							</span>{' '}
 							By continuing to use our website, you agree to our{' '}
 							<Link to='/cookie-policy'>cookies policy</Link>.
 						</p>
