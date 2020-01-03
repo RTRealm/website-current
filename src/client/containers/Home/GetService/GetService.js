@@ -126,7 +126,7 @@ class getCurve extends Component {
 									<Styles.GetCurveBenefitHeading className='column is-4-tablet is-3-desktop'>
 										<h4>
 											<img
-												src='https://res.cloudinary.com/ohcash/image/upload/v1577882084/landingpage/infinity_ff7f50.svg'
+												src='https://res.cloudinary.com/ohcash/image/upload/v1578069540/landingpage/code.svg'
 												alt='infinite loop'
 											/>
 										</h4>

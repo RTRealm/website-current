@@ -56,7 +56,7 @@ export const IntroImage = styled.div`
 	}
 
 	&:before {
-		background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1576925844/landingpage/Intro1-large.png');
+		background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1536833185/website-v2/Travel/beach.jpg');
 		background-repeat: no-repeat;
 		width: 769px;
 		height: 658px;
@@ -64,7 +64,7 @@ export const IntroImage = styled.div`
 		content: '';
 
 		${mixins.image2x(
-			'https://res.cloudinary.com/ohcash/image/upload/v1576925844/landingpage/Intro1-large.png',
+			'https://res.cloudinary.com/dzatxn6bx/image/upload/v1536833186/website-v2/Travel/beach_2x.jpg',
 			'769px',
 			'658px'
 		)};

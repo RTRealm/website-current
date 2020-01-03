@@ -34,7 +34,8 @@ const intro = () => {
 			</Styles.IntroImage>
 			<Styles.IntroContent className='column is-6'>
 				<BodyDispVirt title={textTitle()} theme='themeBlack' page='home'>
-					<p className='is-hidden-mobile'>{textBody()}</p>
+					{/* <p className='is-hidden-mobile'>{textBody()}</p> */}
+					<p>{textBody()}</p>
 				</BodyDispVirt>
 			</Styles.IntroContent>
 		</Styles.Intro>
