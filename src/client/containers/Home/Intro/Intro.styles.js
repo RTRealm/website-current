@@ -10,7 +10,7 @@ export const Intro = styled.section`
 		&:before {
 			/* background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1539904639/website-v2/Travel/beach-desk.jpg'); */
 
-			/* background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1576927806/landingpage/tobias-van-schneider-hWCxtv3q9iw-unsplash.png'); */
+			background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1578041521/landingpage/main-back-desk.png');
 
 			/* background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1576931308/landingpage/christian-perner-UKLIuV8rAks-unsplash.png'); */
 
@@ -24,6 +24,7 @@ export const Intro = styled.section`
 			top: -250px;
 			left: 0px;
 			z-index: -2;
+			opacity: 0.2;
 
 			@media (${mixins.breakpoint('desktop-up')}) {
 				top: 0px;

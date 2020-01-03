@@ -203,7 +203,7 @@ class Cashback extends Component {
 									<span />
 									<Styles.TravelCashbackBrandsImage>
 										<img
-											src='https://res.cloudinary.com/ohcash/image/upload/v1577365946/techstack/angular.svg'
+											src='https://res.cloudinary.com/ohcash/image/upload/v1578043359/landingpage/techlogos/angular.svg'
 											alt='Angular'
 										/>
 									</Styles.TravelCashbackBrandsImage>
@@ -212,7 +212,7 @@ class Cashback extends Component {
 									<span />
 									<Styles.TravelCashbackBrandsImage>
 										<img
-											src='https://res.cloudinary.com/ohcash/image/upload/v1577366053/techstack/react.svg'
+											src='https://res.cloudinary.com/ohcash/image/upload/v1578043357/landingpage/techlogos/react.svg'
 											alt='React'
 										/>
 									</Styles.TravelCashbackBrandsImage>
@@ -221,8 +221,8 @@ class Cashback extends Component {
 									<span />
 									<Styles.TravelCashbackBrandsImage>
 										<img
-											src='https://res.cloudinary.com/ohcash/image/upload/v1577366235/techstack/BNPParibas.svg'
-											alt='BNPP'
+											src='https://res.cloudinary.com/ohcash/image/upload/v1578043335/landingpage/techlogos/rn.svg'
+											alt='React Native'
 										/>
 									</Styles.TravelCashbackBrandsImage>
 								</Styles.TravelCashbackTechItem>
@@ -230,8 +230,8 @@ class Cashback extends Component {
 									<span />
 									<Styles.TravelCashbackBrandsImage>
 										<img
-											src='https://res.cloudinary.com/ohcash/image/upload/v1577366359/techstack/henkel.svg'
-											alt='Henkel'
+											src='https://res.cloudinary.com/ohcash/image/upload/v1578043334/landingpage/techlogos/graphql.svg'
+											alt='GraphQL'
 										/>
 									</Styles.TravelCashbackBrandsImage>
 								</Styles.TravelCashbackTechItem>
@@ -239,8 +239,8 @@ class Cashback extends Component {
 									<span />
 									<Styles.TravelCashbackBrandsImage>
 										<img
-											src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1536836237/website-v2/Icons/starbucks.svg'
-											alt='Starbuck logo'
+											src='https://res.cloudinary.com/ohcash/image/upload/v1578043333/landingpage/techlogos/aws.svg'
+											alt='AWS'
 										/>
 									</Styles.TravelCashbackBrandsImage>
 								</Styles.TravelCashbackTechItem>
@@ -248,8 +248,8 @@ class Cashback extends Component {
 									<span />
 									<Styles.TravelCashbackBrandsImage>
 										<img
-											src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1536836235/website-v2/Icons/netflix.svg'
-											alt='Netflix logo'
+											src='https://res.cloudinary.com/ohcash/image/upload/v1578043333/landingpage/techlogos/firebase.svg'
+											alt='Firebase'
 										/>
 									</Styles.TravelCashbackBrandsImage>
 								</Styles.TravelCashbackTechItem>
@@ -257,8 +257,8 @@ class Cashback extends Component {
 									<span />
 									<Styles.TravelCashbackBrandsImage>
 										<img
-											src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1536836235/website-v2/Icons/amazon.svg'
-											alt='Amazon logo'
+											src='https://res.cloudinary.com/ohcash/image/upload/v1578043723/landingpage/techlogos/nodejs-black.png'
+											alt='Nodejs'
 										/>
 									</Styles.TravelCashbackBrandsImage>
 								</Styles.TravelCashbackTechItem>
@@ -266,8 +266,8 @@ class Cashback extends Component {
 									<span />
 									<Styles.TravelCashbackBrandsImage>
 										<img
-											src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1536836235/website-v2/Icons/gett.svg'
-											alt='Gett logo'
+											src='https://res.cloudinary.com/ohcash/image/upload/v1578043881/landingpage/techlogos/redux.svg'
+											alt='Redux'
 										/>
 									</Styles.TravelCashbackBrandsImage>
 								</Styles.TravelCashbackTechItem>
@@ -275,8 +275,8 @@ class Cashback extends Component {
 									<span />
 									<Styles.TravelCashbackBrandsImage>
 										<img
-											src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1536836237/website-v2/Icons/spotify.svg'
-											alt='Spotify logo'
+											src='https://res.cloudinary.com/ohcash/image/upload/v1578044351/landingpage/techlogos/java.svg'
+											alt='Java'
 										/>
 									</Styles.TravelCashbackBrandsImage>
 								</Styles.TravelCashbackTechItem>
@@ -284,13 +284,14 @@ class Cashback extends Component {
 									<span />
 									<Styles.TravelCashbackBrandsImage>
 										<img
-											src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1536938437/website-v2/Icons/bp.svg'
-											alt='BP logo'
+											src='https://res.cloudinary.com/ohcash/image/upload/v1578044584/landingpage/techlogos/sketch.svg'
+											alt='Sketch'
 										/>
 									</Styles.TravelCashbackBrandsImage>
 								</Styles.TravelCashbackTechItem>
 							</Styles.TravelCashbackTechList>
-							<p className='is-hidden-tablet'>and many more...</p>
+							{/* <p className='is-hidden-tablet'>and many more...</p> */}
+							<p>and more...</p>
 						</Styles.TravelCashbackBrands>
 						<Styles.TravelCashbackImage className=' is-hidden-mobile'>
 							<span />

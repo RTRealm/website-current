@@ -26,7 +26,7 @@ const intro = () => {
 					className='is-hidden-tablet'
 				/> */}
 				<img
-					src='https://res.cloudinary.com/ohcash/image/upload/v1576925844/landingpage/Intro1-large.png'
+					// src='https://res.cloudinary.com/ohcash/image/upload/v1576925844/landingpage/Intro1-large.png'
 					srcSet='https://res.cloudinary.com/ohcash/image/upload/v1576925844/landingpage/Intro1-large.png 2x'
 					alt='Curve card'
 					className='is-hidden-mobile'
