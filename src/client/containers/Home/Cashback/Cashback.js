@@ -148,7 +148,7 @@ class Cashback extends Component {
 									<span />
 									<Styles.TravelCashbackBrandsImage>
 										<img
-											src='https://res.cloudinary.com/ohcash/image/upload/v1578058639/landingpage/credentials/dataspan.svg'
+											src='https://res.cloudinary.com/ohcash/image/upload/v1578067170/landingpage/credentials/dataspan1.svg'
 											alt='DataSpan'
 										/>
 									</Styles.TravelCashbackBrandsImage>
@@ -157,7 +157,7 @@ class Cashback extends Component {
 									<span />
 									<Styles.TravelCashbackBrandsImage>
 										<img
-											src='https://res.cloudinary.com/ohcash/image/upload/v1578066207/landingpage/credentials/be.svg'
+											src='https://res.cloudinary.com/ohcash/image/upload/v1578067714/landingpage/credentials/be1.svg'
 											alt='Be'
 										/>
 									</Styles.TravelCashbackBrandsImage>
@@ -166,7 +166,7 @@ class Cashback extends Component {
 									<span />
 									<Styles.TravelCashbackBrandsImage>
 										<img
-											src='https://res.cloudinary.com/ohcash/image/upload/v1578048701/landingpage/credentials/neoprof.png'
+											src='https://res.cloudinary.com/ohcash/image/upload/v1578067324/landingpage/credentials/neoprof1.svg'
 											alt='Neoprof'
 										/>
 									</Styles.TravelCashbackBrandsImage>
@@ -184,7 +184,7 @@ class Cashback extends Component {
 									<span />
 									<Styles.TravelCashbackBrandsImage>
 										<img
-											src='https://res.cloudinary.com/ohcash/image/upload/v1578049074/landingpage/credentials/itkontrakt.svg'
+											src='https://res.cloudinary.com/ohcash/image/upload/v1578067421/landingpage/credentials/itkontrakt.svg'
 											alt='ITkontrakt'
 										/>
 									</Styles.TravelCashbackBrandsImage>
