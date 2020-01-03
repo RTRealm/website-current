@@ -112,7 +112,7 @@ class Cashback extends Component {
 									<span />
 									<Styles.TravelCashbackBrandsImage>
 										<img
-											src='hhttps://res.cloudinary.com/ohcash/image/upload/v1578065826/landingpage/credentials/bp2s.svg'
+											src='https://res.cloudinary.com/ohcash/image/upload/v1578065826/landingpage/credentials/bp2s.svg'
 											alt='BP2S'
 										/>
 									</Styles.TravelCashbackBrandsImage>
