@@ -85,7 +85,7 @@ export const GetCurveBenefitHeading = styled.div`
 	float: left;
 	padding: 10px 10px 0 0;
 	position: relative;
-	border-right: 1.5px solid ${vars.colorAccent};
+	border-right: 1px solid ${vars.colorAccent};
 
 	h5 {
 		font-size: 22px;
@@ -111,15 +111,18 @@ export const GetCurveBenefitHeading = styled.div`
 				font-weight: ${vars.poppinsMedium};
 			}
 		}
+		img {
+			margin-right: 15px;
+		}
 	}
-	#skillicon {
+	/* #skillicon {
 		-webkit-transition: transform 2s;
 		transition: transform 2s;
 	}
 	#skillicon:hover {
 		transform: rotate(360deg);
 		color: ${vars.colorHover};
-	}
+	} */
 `;
 
 export const GetCurveBenefitContent = styled.div`

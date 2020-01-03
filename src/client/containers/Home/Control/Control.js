@@ -99,7 +99,7 @@ export default class Control extends PureComponent {
 								}}
 								source={{
 									mob:
-										'https://res.cloudinary.com/dzatxn6bx/image/upload/v1539860039/website-v2/Homepage/Light/your-the-boss-phone-m_2x'
+										'https://res.cloudinary.com/ohcash/image/upload/v1578068182/landingpage/control-mob.png'
 								}}
 								size={{ max: 'max-width:768px' }}
 								alt='iPhone with curve app opened displaying a transaction'
