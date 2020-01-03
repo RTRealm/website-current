@@ -112,7 +112,7 @@ class Cashback extends Component {
 									<span />
 									<Styles.TravelCashbackBrandsImage>
 										<img
-											src='https://res.cloudinary.com/ohcash/image/upload/v1578058459/landingpage/credentials/bp2s.svg'
+											src='https://res.cloudinary.com/ohcash/image/upload/v1578058869/landingpage/credentials/bp2s.svg'
 											alt='BP2S'
 										/>
 									</Styles.TravelCashbackBrandsImage>
@@ -121,7 +121,7 @@ class Cashback extends Component {
 									<span />
 									<Styles.TravelCashbackBrandsImage>
 										<img
-											src='https://res.cloudinary.com/ohcash/image/upload/v1578045588/landingpage/credentials/ipopema.svg'
+											src='https://res.cloudinary.com/ohcash/image/upload/v1578058852/landingpage/credentials/ipopema.svg'
 											alt='Ipopema'
 										/>
 									</Styles.TravelCashbackBrandsImage>
@@ -148,7 +148,7 @@ class Cashback extends Component {
 									<span />
 									<Styles.TravelCashbackBrandsImage>
 										<img
-											src='https://res.cloudinary.com/ohcash/image/upload/v1578048073/landingpage/credentials/dataspan.svg'
+											src='https://res.cloudinary.com/ohcash/image/upload/v1578058639/landingpage/credentials/dataspan.svg'
 											alt='DataSpan'
 										/>
 									</Styles.TravelCashbackBrandsImage>
