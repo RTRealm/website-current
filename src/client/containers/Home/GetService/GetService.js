@@ -79,9 +79,10 @@ class getCurve extends Component {
 								<div className='columns'>
 									<Styles.GetCurveBenefitHeading className='column is-4-tablet is-3-desktop'>
 										<h4>
-											<em>
-												<i id='skillicon' class='far fa-file-code'></i>
-											</em>
+											<img
+												src='https://res.cloudinary.com/ohcash/image/upload/v1577882084/landingpage/infinity_ff7f50.svg'
+												alt='infinite loop'
+											/>
 										</h4>
 									</Styles.GetCurveBenefitHeading>
 									<Styles.GetCurveBenefitContent className='column'>
@@ -93,9 +94,10 @@ class getCurve extends Component {
 								<div className='columns'>
 									<Styles.GetCurveBenefitHeading className='column is-4-tablet is-3-desktop'>
 										<h4>
-											<em>
-												<i id='skillicon' class='fas fa-cogs'></i>
-											</em>
+											<img
+												src='https://res.cloudinary.com/ohcash/image/upload/v1577882084/landingpage/infinity_ff7f50.svg'
+												alt='infinite loop'
+											/>
 										</h4>
 									</Styles.GetCurveBenefitHeading>
 									<Styles.GetCurveBenefitContent className='column'>
@@ -107,9 +109,10 @@ class getCurve extends Component {
 								<div className='columns'>
 									<Styles.GetCurveBenefitHeading className='column is-4-tablet is-3-desktop'>
 										<h4>
-											<em>
-												<i id='skillicon' class='fa fa-share-alt'></i>
-											</em>
+											<img
+												src='https://res.cloudinary.com/ohcash/image/upload/v1577882084/landingpage/infinity_ff7f50.svg'
+												alt='infinite loop'
+											/>
 										</h4>
 									</Styles.GetCurveBenefitHeading>
 									<Styles.GetCurveBenefitContent className='column'>
