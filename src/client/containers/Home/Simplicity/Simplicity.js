@@ -73,12 +73,15 @@ class Simplicity extends Component {
 							/>
 						</div>
 						<Styles.SimplicityCopy className='column is-offset-1'>
-							<InfoGroup title={'IT & Finance'} subtitle={'Simplicity'}>
+							<InfoGroup title={'Banking and more...'} subtitle={'IT & Finance'}>
 								<p>
-									We have a decades long experience in banking and financial markets. Curve is all
-									your cards in one, so you only carry one brilliant card wherever you go. And
-									thanks to our instant notifications, you can be on top of your spend abroad. So
-									relax, enjoy the ride and leave the complicated stuff to us.
+									We have a decades long experience in banking and financial markets. This is why we
+									can be your preferred partner when it comes to digitilizing your business, whether
+									you're a bank, brokerage house, insurance company or a fintech startup.
+								</p>
+								<p>
+									Here we deliver a unique combination of technology and business expertise. Simply,
+									we understand what you're doing!
 								</p>
 							</InfoGroup>
 

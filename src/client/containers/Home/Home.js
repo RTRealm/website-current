@@ -55,9 +55,9 @@ class Home extends PureComponent {
 						<div className='is-hidden-tablet'>
 							<FeaturesList />
 						</div>
-						<Simplicity />
 						<AboutUs />
-						<Convenience />
+						<Simplicity />
+						{/* <Convenience /> */}
 						<div className='is-hidden-mobile'>
 							<Control />
 						</div>
