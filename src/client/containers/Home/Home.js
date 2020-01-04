@@ -51,13 +51,13 @@ class Home extends PureComponent {
 						<span className='mobile-cta__start' />
 						<div className='is-hidden-mobile'>
 							<GetService />
-							<AboutUs />
 						</div>
 						<div className='is-hidden-tablet'>
 							<FeaturesList />
 						</div>
 						<Simplicity />
-						{/* <Convenience /> */}
+						<AboutUs />
+						<Convenience />
 						<div className='is-hidden-mobile'>
 							<Control />
 						</div>

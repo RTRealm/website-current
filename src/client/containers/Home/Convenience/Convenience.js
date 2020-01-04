@@ -38,7 +38,7 @@ class Convenience extends PureComponent {
 			})
 				.setTween(
 					gsap.TweenLite.to('.convenience__copy', 1, {
-						autoAlpha: 0.75,
+						autoAlpha: 1,
 						display: 'block',
 						marginTop: 0,
 						ease: gsap.Power1.easeOut

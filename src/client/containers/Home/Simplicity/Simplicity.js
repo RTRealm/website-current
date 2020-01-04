@@ -73,12 +73,12 @@ class Simplicity extends Component {
 							/>
 						</div>
 						<Styles.SimplicityCopy className='column is-offset-1'>
-							<InfoGroup title={'Travel simply'} subtitle={'Simplicity'}>
+							<InfoGroup title={'IT & Finance'} subtitle={'Simplicity'}>
 								<p>
-									We make travel simple. Curve is all your cards in one, so you only carry one
-									brilliant card wherever you go. And thanks to our instant notifications, you can
-									be on top of your spend abroad. So relax, enjoy the ride and leave the complicated
-									stuff to us.
+									We have a decades long experience in banking and financial markets. Curve is all
+									your cards in one, so you only carry one brilliant card wherever you go. And
+									thanks to our instant notifications, you can be on top of your spend abroad. So
+									relax, enjoy the ride and leave the complicated stuff to us.
 								</p>
 							</InfoGroup>
 
