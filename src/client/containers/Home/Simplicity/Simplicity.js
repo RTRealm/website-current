@@ -85,16 +85,16 @@ class Simplicity extends Component {
 							<Styles.SimplicityFeatures className='columns is-narrow is-mobile'>
 								<Styles.SimplicityFeaturesItem className='column simplicity__features-item'>
 									<img
-										src='https://res.cloudinary.com/ohcash/image/upload/v1578144266/landingpage/cisco1.svg'
+										src='https://res.cloudinary.com/ohcash/image/upload/v1578144500/landingpage/cisco.svg'
 										alt='Cisco'
 									/>
 								</Styles.SimplicityFeaturesItem>
-								{/* <Styles.SimplicityFeaturesItem className='column simplicity__features-item'>
+								<Styles.SimplicityFeaturesItem className='column simplicity__features-item'>
 									<img
-										src='https://res.cloudinary.com/ohcash/image/upload/v1578143991/landingpage/cfa-logo.svg'
+										src='https://res.cloudinary.com/ohcash/image/upload/v1578144498/landingpage/cfa-logo.svg'
 										alt='CFA'
 									/>
-								</Styles.SimplicityFeaturesItem> */}
+								</Styles.SimplicityFeaturesItem>
 								{/* <Styles.SimplicityFeaturesItem className='column simplicity__features-item'>
 									<img
 										src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1536844208/website-v2/Icons/receipt.svg'
