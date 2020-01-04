@@ -3,7 +3,7 @@ import * as mixins from '../../../assets/styles/_mixins';
 
 export const Simplicity = styled.section`
 	position: relative;
-	margin-top: 185px;
+	margin-top: 140px;
 	z-index: 0;
 
 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
