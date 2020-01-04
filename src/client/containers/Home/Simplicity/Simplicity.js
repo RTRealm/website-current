@@ -73,7 +73,7 @@ class Simplicity extends Component {
 							/>
 						</div>
 						<Styles.SimplicityCopy className='column is-offset-1'>
-							<InfoGroup title={'Banking and more...'} subtitle={'IT & Finance'}>
+							<InfoGroup title={'Banking and more'} subtitle={'Digital Finance'}>
 								<p>
 									We have a decades long experience in banking and financial markets. This is why we
 									can be your preferred partner when it comes to digitilizing your business, whether

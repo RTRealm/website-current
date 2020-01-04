@@ -78,16 +78,13 @@ class AboutUs extends PureComponent {
 				{/* <Styles.AboutUsSplash2 /> */}
 				<Styles.AboutUsContent className='about-us__content columns is-hidden-mobile'>
 					<div className='column is-7 about-us__copy'>
-						<InfoGroup title={'Web and mobile'} subtitle={'Development'}>
+						<InfoGroup title={'Desktop and mobile'} subtitle={'Software'}>
 							<p>
-								It seems to us you don’t need another bank. You just need a better way to control
-								your money. So, we’ve created one very simple card that puts all your finances in
-								one very smart place.
+								This is our bread and butter. We live and breath software development. And it is not
+								only about coding: we'll implement and maintain your app, so that it's trouble-free
+								for you. All this with cutting edge technologies.
 							</p>
-							<p>
-								With all your finances at your fingertips, you can get on with the business of
-								enjoying life. Get Curve now.
-							</p>
+							<p>serverless, cloud... Reach out to us now to discuss your project!</p>
 						</InfoGroup>
 						<LazyLoad once={true} height={71} offset={500}>
 							<Styles.AboutUsContentAppStores className='columns'>

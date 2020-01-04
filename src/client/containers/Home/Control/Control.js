@@ -64,13 +64,12 @@ export default class Control extends PureComponent {
 			return (
 				<div>
 					<p>
-						Managing your money just got a lot easier. With Curve, you get real-time alerts that
-						tell you how much you’ve spent (and in which currency).
+						Focus on your core business. We are here to help you design, implement and maintain your
+						system architecture. Managing the IT just got a lot easier.
 					</p>
 					<p>
-						We also show you how you’re spending to help you budget. And if you use the wrong card
-						to pay, you can Go Back in Time and change it. With Curve you’re in complete control.
-						Brilliant.
+						Let's optimise and manage your tech resources. And if you prefer to have it off your
+						head we're here to take it over. Awesome, isn't it?
 					</p>
 				</div>
 			);
@@ -116,7 +115,7 @@ export default class Control extends PureComponent {
 				<Styles.ControlContent className='columns is-hidden-mobile'>
 					<div className='column is-6'>
 						<Styles.ControlCopy className='control__copy'>
-							<InfoGroup title={'Focus on your business'} subtitle={'Outsourcing'}>
+							<InfoGroup title={'More than a software house'} subtitle={'Outsourcing'}>
 								{copy()}
 							</InfoGroup>
 						</Styles.ControlCopy>
