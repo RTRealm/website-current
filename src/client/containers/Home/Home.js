@@ -9,6 +9,7 @@ import Convenience from '../Home/Convenience/Convenience';
 import Control from '../Home/Control/Control';
 import Cashback from '../Home/Cashback/Cashback';
 import FixedHeader from '../../components/FixedHeader/FixedHeader';
+import Simplicity from '../Home/Simplicity/Simplicity';
 import GetService from '../Home/GetService/GetService';
 import Intro from '../Home/Intro/Intro';
 
@@ -55,6 +56,7 @@ class Home extends PureComponent {
 						<div className='is-hidden-tablet'>
 							<FeaturesList />
 						</div>
+						<Simplicity />
 						<Convenience />
 						<div className='is-hidden-mobile'>
 							<Control />
