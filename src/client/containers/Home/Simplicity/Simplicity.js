@@ -31,7 +31,7 @@ class Simplicity extends Component {
 			})
 				.setTween(
 					gsap.TweenLite.to('.simplicity__features-item', 1, {
-						autoAlpha: 0.75,
+						autoAlpha: 1,
 						display: 'block',
 						top: 0,
 						ease: gsap.Power1.easeOut
@@ -72,16 +72,16 @@ class Simplicity extends Component {
 								alt='Phone displaying a notification'
 							/>
 						</div>
-						<Styles.SimplicityCopy className='column is-offset-1 simplicity__features-item'>
-								<InfoGroup title={'Travel simply'} subtitle={'Simplicity'}>
-									<p>
-										We make travel simple. Curve is all your cards in one, so you only carry one
-										brilliant card wherever you go. And thanks to our instant notifications, you can
-										be on top of your spend abroad. So relax, enjoy the ride and leave the
-										complicated stuff to us.
-									</p>
-								</InfoGroup>
-				
+						<Styles.SimplicityCopy className='column is-offset-1'>
+							<InfoGroup title={'Travel simply'} subtitle={'Simplicity'}>
+								<p>
+									We make travel simple. Curve is all your cards in one, so you only carry one
+									brilliant card wherever you go. And thanks to our instant notifications, you can
+									be on top of your spend abroad. So relax, enjoy the ride and leave the complicated
+									stuff to us.
+								</p>
+							</InfoGroup>
+
 							<Styles.SimplicityFeatures className='columns is-narrow is-mobile'>
 								<Styles.SimplicityFeaturesItem className='column simplicity__features-item'>
 									<img

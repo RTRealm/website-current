@@ -11,7 +11,7 @@ export const Simplicity = styled.section`
 	}
 
 	@media (${mixins.breakpoint('desktop-up')}) {
-		margin-top: 500px;
+		margin-top: 250px;
 	}
 `;
 
@@ -46,8 +46,6 @@ export const SimplicityContent = styled.div`
 `;
 
 export const SimplicityCopy = styled.div`
-	opacity: 0;
-	visibility: hidden;
 	margin-top: 50px;
 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
 		margin-top: 80px;
@@ -58,75 +56,75 @@ export const SimplicityCopy = styled.div`
 	}
 `;
 
-export const SimplicitySplash = styled.span`
-	position: absolute;
-	top: -175px;
-	right: 0px;
-	z-index: -2;
+// export const SimplicitySplash = styled.span`
+// 	position: absolute;
+// 	top: -175px;
+// 	right: 0px;
+// 	z-index: -2;
 
-	&:after {
-		background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1536842986/website-v2/Travel/notifications-sand-1-m.jpg');
-		background-repeat: no-repeat;
-		display: block;
-		width: 290px;
-		height: 184px;
-		content: '';
+// 	&:after {
+// 		background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1536842986/website-v2/Travel/notifications-sand-1-m.jpg');
+// 		background-repeat: no-repeat;
+// 		display: block;
+// 		width: 290px;
+// 		height: 184px;
+// 		content: '';
 
-		${mixins.image2x(
-			'https://res.cloudinary.com/dzatxn6bx/image/upload/v1536842986/website-v2/Travel/notifications-sand-1-m_2x.jpg',
-			'290px',
-			'184px'
-		)};
-	}
+// 		${mixins.image2x(
+// 			'https://res.cloudinary.com/dzatxn6bx/image/upload/v1536842986/website-v2/Travel/notifications-sand-1-m_2x.jpg',
+// 			'290px',
+// 			'184px'
+// 		)};
+// 	}
 
-	@media (${mixins.breakpoint('tablet-landscape-up')}) {
-		top: -245px;
-	}
+// 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
+// 		top: -245px;
+// 	}
 
-	@media (${mixins.breakpoint('desktop-up')}) {
-		top: -490px;
+// 	@media (${mixins.breakpoint('desktop-up')}) {
+// 		top: -490px;
 
-		&:after {
-			background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1537890394/website-v2/Travel/notifications-sand-1.jpg');
-			background-repeat: no-repeat;
-			display: block;
-			width: 762px;
-			height: 394px;
-			content: '';
+// 		&:after {
+// 			background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1537890394/website-v2/Travel/notifications-sand-1.jpg');
+// 			background-repeat: no-repeat;
+// 			display: block;
+// 			width: 762px;
+// 			height: 394px;
+// 			content: '';
 
-			${mixins.image2x(
-				'https://res.cloudinary.com/dzatxn6bx/image/upload/v1537890394/website-v2/Travel/notifications-sand-1_2x.jpg',
-				'762px',
-				'394px'
-			)};
-		}
-	}
-`;
+// 			${mixins.image2x(
+// 				'https://res.cloudinary.com/dzatxn6bx/image/upload/v1537890394/website-v2/Travel/notifications-sand-1_2x.jpg',
+// 				'762px',
+// 				'394px'
+// 			)};
+// 		}
+// 	}
+// `;
 
-export const SimplicitySplash2 = styled.div`
-	@media (${mixins.breakpoint('desktop-up')}) {
-		position: absolute;
-		top: -300px;
-		left: 0px;
-		z-index: -2;
+// export const SimplicitySplash2 = styled.div`
+// 	@media (${mixins.breakpoint('desktop-up')}) {
+// 		position: absolute;
+// 		top: -300px;
+// 		left: 0px;
+// 		z-index: -2;
 
-		&:after {
-			background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1539939028/website-v2/Travel/notifications-sand-2.jpg');
-			background-repeat: no-repeat;
-			display: block;
-			width: 353px;
-			height: 1276px;
-			content: '';
-			float: right;
+// 		&:after {
+// 			background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1539939028/website-v2/Travel/notifications-sand-2.jpg');
+// 			background-repeat: no-repeat;
+// 			display: block;
+// 			width: 353px;
+// 			height: 1276px;
+// 			content: '';
+// 			float: right;
 
-			${mixins.image2x(
-				'https://res.cloudinary.com/dzatxn6bx/image/upload/v1539939028/website-v2/Travel/notifications-sand-2_2x.jpg',
-				'353px',
-				'1276px'
-			)};
-		}
-	}
-`;
+// 			${mixins.image2x(
+// 				'https://res.cloudinary.com/dzatxn6bx/image/upload/v1539939028/website-v2/Travel/notifications-sand-2_2x.jpg',
+// 				'353px',
+// 				'1276px'
+// 			)};
+// 		}
+// 	}
+// `;
 
 export const SimplicityFeatures = styled.ul`
 	width: 75%;
