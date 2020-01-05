@@ -8,24 +8,28 @@ const FeaturesList = () => {
 			<Styles.FeaturesListContent>
 				<Styles.FeaturesListItem className='features-list__item--sync'>
 					<span />
-					<h3>Software house and more...</h3>
+					<h3>Software engineering</h3>
 					<p>
-						Add unlimited debit and credit cards to your Curve App and choose which one you want to
-						pay with from the App using your Curve Card
+						This is our bread and butter. We live and breath software development. And it is not
+						only about coding: we'll implement and maintain your app, so that it's trouble-free for
+						you. All this with cutting edge technologies.
 					</p>
 				</Styles.FeaturesListItem>
 				<Styles.FeaturesListItem className='features-list__item--insights'>
 					<span />
-					<h3>Development</h3>
+					<h3>Consultancy</h3>
 					<p>
-						Curve helps you take back control of your spending by showing you rich insights
-						instantly in the App
+						We combine the tech know-how with the business line logic. Let's discuss your system
+						design, implementaion and optimization options.
 					</p>
 				</Styles.FeaturesListItem>
 				<Styles.FeaturesListItem className='features-list__item--abroad'>
 					<span />
-					<h3>Tech Consultancy</h3>
-					<p>No currency exchange fees when spending abroad with Curve.</p>
+					<h3>Outsourcing</h3>
+					<p>
+						Tired with running your systems? Want to focus on your core business? Reach out to us
+						and we'll manage it for you.
+					</p>
 				</Styles.FeaturesListItem>
 			</Styles.FeaturesListContent>
 		</Styles.FeaturesList>

@@ -90,9 +90,9 @@ class Cashback extends Component {
 							<p>Client satisfaction is at the center of what we do.</p>
 						</InfoGroup>
 						<Styles.TravelCashbackBrands>
-							<p className='is-hidden-tablet is-hidden-mobile travel-cashback__mobile-p'>
+							{/* <p className='is-hidden-tablet is-hidden-mobile travel-cashback__mobile-p'>
 								Enjoy 1% instant cashback in all of these retailers...
-							</p>
+							</p> */}
 							<Tab activeTab={this.state.activeTab} toggleList={this.toggleList} />
 							<Styles.TravelCashbackBrandsList
 								className=' columns is-multiline is-mobile'

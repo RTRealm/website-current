@@ -6,13 +6,13 @@ export const FeaturesList = styled.section`
 `;
 
 export const FeaturesListContent = styled.ul`
-	margin: 110px 0 155px 13%;
+	margin: 50px 0 50px 13%;
 	width: 75%;
 `;
 
 export const FeaturesListItem = styled.li`
 	padding-bottom: 40px;
-	margin-bottom: 80px;
+	margin-bottom: 40px;
 	border-bottom: 2px solid rgba(0, 0, 0, 0.15);
 
 	span {

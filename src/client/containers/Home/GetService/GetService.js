@@ -91,30 +91,26 @@ class getCurve extends Component {
 							<Styles.GetCurveBenefit className='column is-6'>
 								<div className='columns'>
 									<Styles.GetCurveBenefitHeading className='column is-4-tablet is-3-desktop'>
-										<h4>
-											<img
-												src='https://res.cloudinary.com/ohcash/image/upload/v1577882084/landingpage/infinity_ff7f50.svg'
-												alt='infinite loop'
-											/>
-										</h4>
+										<img
+											src='https://res.cloudinary.com/ohcash/image/upload/v1577882084/landingpage/infinity_ff7f50.svg'
+											alt='infinite loop'
+										/>
 									</Styles.GetCurveBenefitHeading>
 									<Styles.GetCurveBenefitContent className='column'>
-										<p>Get 1% instant cashback from a choice of Premium Retailers</p>
+										<p>Consulting. Combination of tech know-how with business logic.</p>
 									</Styles.GetCurveBenefitContent>
 								</div>
 							</Styles.GetCurveBenefit>
 							<Styles.GetCurveBenefit className='column is-6'>
 								<div className='columns'>
 									<Styles.GetCurveBenefitHeading className='column is-4-tablet is-3-desktop'>
-										<h4>
-											<img
-												src='https://res.cloudinary.com/ohcash/image/upload/v1578068866/landingpage/card-blue.svg'
-												alt='infinite loop'
-											/>
-										</h4>
+										<img
+											src='https://res.cloudinary.com/ohcash/image/upload/v1578068866/landingpage/card-blue.svg'
+											alt='infinite loop'
+										/>
 									</Styles.GetCurveBenefitHeading>
 									<Styles.GetCurveBenefitContent className='column'>
-										<p>Curve works in all the countries and territories that support Mastercard</p>
+										<p>Fintech.</p>
 									</Styles.GetCurveBenefitContent>
 								</div>
 							</Styles.GetCurveBenefit>
@@ -122,15 +118,13 @@ class getCurve extends Component {
 							<Styles.GetCurveBenefit className='column is-6'>
 								<div className='columns'>
 									<Styles.GetCurveBenefitHeading className='column is-4-tablet is-3-desktop'>
-										<h4>
-											<img
-												src='https://res.cloudinary.com/ohcash/image/upload/v1578072144/landingpage/code.svg'
-												alt='infinite loop'
-											/>
-										</h4>
+										<img
+											src='https://res.cloudinary.com/ohcash/image/upload/v1578072144/landingpage/code.svg'
+											alt='infinite loop'
+										/>
 									</Styles.GetCurveBenefitHeading>
 									<Styles.GetCurveBenefitContent className='column'>
-										<p>All your cards in one Curve Card</p>
+										<p>Outsourcing.</p>
 									</Styles.GetCurveBenefitContent>
 								</div>
 							</Styles.GetCurveBenefit>
@@ -138,15 +132,13 @@ class getCurve extends Component {
 							<Styles.GetCurveBenefit className='column is-6'>
 								<div className='columns'>
 									<Styles.GetCurveBenefitHeading className='column is-4-tablet is-3-desktop'>
-										<h4>
-											<img
-												src='https://res.cloudinary.com/ohcash/image/upload/v1577882084/landingpage/infinity_green.svg'
-												alt='infinite loop'
-											/>
-										</h4>
+										<img
+											src='https://res.cloudinary.com/ohcash/image/upload/v1577882084/landingpage/infinity_green.svg'
+											alt='infinite loop'
+										/>
 									</Styles.GetCurveBenefitHeading>
 									<Styles.GetCurveBenefitContent className='column'>
-										<p>Global medical insurance, baggage loss, rental car damage & more...</p>
+										<p>System design, implementation and maintenance.</p>
 									</Styles.GetCurveBenefitContent>
 								</div>
 							</Styles.GetCurveBenefit>
@@ -154,15 +146,13 @@ class getCurve extends Component {
 							<Styles.GetCurveBenefit className='column is-6'>
 								<div className='columns'>
 									<Styles.GetCurveBenefitHeading className='column is-4-tablet is-3-desktop'>
-										<h4>
-											<img
-												src='https://res.cloudinary.com/ohcash/image/upload/v1577882084/landingpage/infinity.svg'
-												alt='infinite loop'
-											/>
-										</h4>
+										<img
+											src='https://res.cloudinary.com/ohcash/image/upload/v1577882084/landingpage/infinity.svg'
+											alt='infinite loop'
+										/>
 									</Styles.GetCurveBenefitHeading>
 									<Styles.GetCurveBenefitContent className='column'>
-										<p>All your cards in one Curve Card</p>
+										<p>Audit.</p>
 									</Styles.GetCurveBenefitContent>
 								</div>
 							</Styles.GetCurveBenefit>
