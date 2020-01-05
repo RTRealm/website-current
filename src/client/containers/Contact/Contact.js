@@ -9,6 +9,7 @@ import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import Page from '../../components/Page';
 import FixedHeader from '../../components/FixedHeader/FixedHeader';
+import { Text } from '../Language';
 
 // STyles
 import * as Styles from './Contact.styles';
@@ -19,6 +20,10 @@ class Contact extends Component {
 		// ReactGA.pageview(window.location.pathname);
 		// ReactPixel.pageView();
 	}
+
+	textBody = text => {
+		return <Text tid={text} />;
+	};
 
 	// openGoogleMaps = () => {
 	// 	let url = 'https://goo.gl/maps/M9tX5kEK9gR2';
@@ -42,7 +47,7 @@ class Contact extends Component {
 						textColor={'white'}
 						link={'/'}
 						navLink={'/'}
-						navName={'Home'}
+						navName={this.textBody('homeHeader')}
 						logo={
 							'https://res.cloudinary.com/ohcash/image/upload/v1576341382/landingpage/logo_black_line_landing_svg.svg'
 						}

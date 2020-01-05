@@ -14,7 +14,11 @@ const en = {
 	//
 	// ******** Contact Page ********
 	//
-
+	homeHeader: 'Home',
+	title: 'Reach out to us.',
+	subtitle: "We're ready to lead you into the future of connected finance.",
+	contactEmail:
+		'If you want to get in touch with one of our consultants to know more how we can help you, please e-mail us:',
 	//
 	// ******** Cookies Banner & Page ********
 	//

@@ -12,9 +12,17 @@ const pl = {
 	emergencyButton: 'Pomocy!',
 	getInTouch: 'Skontaktuj się z nami',
 	//
+	// ******** Contact Page ********
+	//
+	homeHeader: 'Home',
+	title: 'Reach out to us.',
+	subtitle: "We're ready to lead you into the future of connected finance.",
+	contactEmail:
+		'If you want to get in touch with one of our consultants to know more how we can help you, please e-mail us:',
+	//
 	// ******** Cookies ********
 	//
-	cookieBannerA: 'Uzywamy cookies',
+	cookieBannerA: 'Używamy cookies',
 	cookieBannerB: 'By continuing to use our website, you agree to our',
 	cookieTitle: 'To jest Cookie Policy dla RT.Realm.',
 	cookieHead1: 'What Are Cookies',
@@ -50,3 +58,6 @@ const pl = {
 };
 
 export default pl;
+
+
+// ąćłńżźó
