@@ -8,7 +8,7 @@ const pl = {
 	//
 	// ******** Cookies ********
 	//
-	cookieBannerA: 'We use cookies',
+	cookieBannerA: 'Uzywamy cookies',
 	cookieBannerB: 'By continuing to use our website, you agree to our',
 	cookieTitle: 'To jest Cookie Policy dla RT.Realm.',
 	cookieHead1: 'What Are Cookies',

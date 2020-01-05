@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { Text } from '../../containers/Language';
 
 // Styles
 import * as Styles from './CookieBanner.styles';
@@ -20,19 +21,22 @@ class CookieBanner extends Component {
 		}).to('.cookie-banner', 0.1, { autoAlpha: 0 });
 	};
 
+	textBody = text => {
+		return <Text tid={text} />;
+	};
+
 	render() {
 		return (
 			<div>
 				<Styles.CookieBannerWrapper className='cookie-banner'>
 					<Styles.CookieBanner className='columns is-mobile'>
 						<p className='column is-10'>
-							We use cookies{' '}
+							{this.textBody('cookieBannerA')}{' '}
 							<span id='cookie'>
 								{/* 🍪 */}
 								<i class='fas fa-spin fa-cookie-bite'></i>.
 							</span>{' '}
-							By continuing to use our website, you agree to our{' '}
-							<Link to='/cookie-policy'>cookies policy</Link>.
+							{this.textBody('cookieBannerB')} <Link to='/cookie-policy'>cookies policy</Link>.
 						</p>
 						<button className='column is-2' onClick={this.saveCookieAgreement}>
 							<img
