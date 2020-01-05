@@ -82,7 +82,8 @@ export const GetCurveBenefitHeading = styled.div`
 	text-align: right;
 	display: inline-block;
 	width: 113px;
-	float: left;
+	/* justify-content: center; */
+	float: right;
 	padding: 10px 10px 0 0;
 	position: relative;
 	border-right: 1px solid ${vars.colorAccent};
