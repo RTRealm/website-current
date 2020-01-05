@@ -23,7 +23,6 @@ const en = {
 	cookieBody3a:
 		'You can prevent the setting of cookies by adjusting the settings on your browser (see your browser Help for how to do this). Be aware that disabling cookies will affect the functionality of this and many other websites that you visit. Disabling cookies will usually result in also disabling certain functionality and features of the this site. Therefore it is recommended that you do not disable cookies.',
 	cookieBody3b: 'You can learn how to manage cookies on your web browser by following the',
-	cookieBody3c: 'Browser Cookies Guide',
 	cookieHead4: 'The Cookies We Set',
 	cookieSubHead41: 'Site preferences cookies',
 	cookieBody4a:

@@ -62,7 +62,7 @@ class Contact extends Component {
 						<Styles.ContactSecurity>
 							<p>
 								If you want to get in touch with one of our consultants to know more how we can help
-								you, please e-mail us: <a href='mailto:contact@rtrealm.com'>contact@rtrealm.com</a>.
+								you, please e-mail us: <a href='mailto:contact@rtrealm.com'>contact@rtrealm.com</a>
 							</p>
 						</Styles.ContactSecurity>
 
