@@ -4,6 +4,10 @@ const pl = {
 	//
 	contactHeader: 'Kontakt',
 	//
+	// ******** Fixed Header ********
+	//
+	buttonFH: 'Napisz do nas!',
+	//
 	// ******** Intro ********
 	//
 	introTitle: 'Kompleksowe usługi IT',
@@ -50,6 +54,21 @@ const pl = {
 		"Let's optimise and manage your tech resources. And if you prefer to get it over we're here to take it.",
 	bodyCO3: "Awesome, isn't it?",
 	//
+	// ******** Cashback ********
+	//
+	titleCB: 'Solution providers.',
+	subtitleCB: 'Credentials & TechStack',
+	bodyCB1:
+		'We put our clients interests first. Each day we develop our competences and master new technologies to make sure we deliver our clients the best solutions possible.',
+	bodyCB2: 'Client satisfaction is at the center of what we do.',
+	bodyCB3: 'i to nie wszystko...',
+	//
+	// ******** Tab ********
+	//
+	tab1: 'Referencje',
+	tab2: 'Technologie',
+	//
+	//
 	// ******** Contact Page ********
 	//
 	homeHeader: 'Home',
@@ -57,6 +76,18 @@ const pl = {
 	subtitleCP: "We're ready to lead you into the future of connected finance.",
 	contactEmail:
 		'Jeśli chcesz skontaktować się z jednym z naszych konsultantów, aby dowiedzieć się więcej, jak możemy Ci pomóc, wyślij wiadomość:',
+	//
+	// ******** Features List ********
+	//
+	titleFL1: 'Software engineering',
+	bodyFL1:
+		"This is our bread and butter. We live and breath software development. And it is not only about coding: we'll implement and maintain your app, so that it's trouble-free for you. All this with cutting edge technologies.",
+	titleFL2: 'Consultancy',
+	bodyFL2:
+		"We combine the tech know-how with the business line logic. Let's discuss your system design, implementaion and optimization options.",
+	titleFL3: 'Outsourcing',
+	bodyFL3:
+		"Tired with running your systems? Want to focus on your core business? Reach out to us and we'll manage it for you.",
 	//
 	// ******** Cookies ********
 	//

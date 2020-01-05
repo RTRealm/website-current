@@ -1,4 +1,9 @@
 import React from 'react';
+import { Text } from '../../containers/Language';
+
+const textBody = text => {
+	return <Text tid={text} />;
+};
 
 const Tab = props => {
 	let width = document.querySelector('body').clientWidth;
@@ -11,7 +16,7 @@ const Tab = props => {
 							props.toggleList(1);
 						}}
 					>
-						Credentials
+						{textBody('tab1')}
 					</a>
 				</li>
 				<li className={props.activeTab === 2 ? 'is-active' : ''}>
@@ -20,7 +25,7 @@ const Tab = props => {
 							props.toggleList(2);
 						}}
 					>
-						Technologies
+						{textBody('tab2')}
 					</a>
 				</li>
 			</ul>

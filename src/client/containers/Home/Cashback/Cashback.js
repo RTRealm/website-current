@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import * as Styles from './Cashback.styles';
 import InfoGroup from '../../../components/InfoGroup/InfoGroup';
 import Tab from '../../../components/Tab/Tab';
+import { Text } from '../../Language';
 
 // import { gsap } from 'gsap';
 import * as scrollMagic from 'scrollmagic';
@@ -19,6 +20,10 @@ class Cashback extends Component {
 	}
 	controller = null;
 	scene = null;
+
+	textBody = text => {
+		return <Text tid={text} />;
+	};
 
 	handleListLoad = list => {
 		const gsap = require('gsap');
@@ -82,12 +87,9 @@ class Cashback extends Component {
 				{/* <Styles.TravelCashbacksplash3 className=' is-hidden-mobile' /> */}
 				<Styles.TravelCashbackContent className='travel-cashback__content'>
 					<Styles.TravelCaskbackCopy>
-						<InfoGroup title={'Solution providers.'} subtitle={'Credentials & TechStack'}>
-							<p>
-								We put our clients interests first. Each day we develop our competences and master
-								new technologies to make sure we deliver our clients the best solutions possible.
-							</p>
-							<p>Client satisfaction is at the center of what we do.</p>
+						<InfoGroup title={this.textBody('titleCB')} subtitle={this.textBody('subtitleCB')}>
+							<p>{this.textBody('bodyCB1')}</p>
+							<p>{this.textBody('bodyCB2')}</p>
 						</InfoGroup>
 						<Styles.TravelCashbackBrands>
 							{/* <p className='is-hidden-tablet is-hidden-mobile travel-cashback__mobile-p'>
@@ -291,7 +293,7 @@ class Cashback extends Component {
 								</Styles.TravelCashbackTechItem>
 							</Styles.TravelCashbackTechList>
 							{/* <p className='is-hidden-tablet'>and many more...</p> */}
-							<p>and more...</p>
+							<p>{this.textBody('bodyCB3')}</p>
 						</Styles.TravelCashbackBrands>
 						<Styles.TravelCashbackImage className=' is-hidden-mobile'>
 							<span />

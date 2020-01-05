@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import * as Styles from './FixedHeader.styles';
 
+import { Text } from '../../containers/Language';
 import Button from '../Button/Button';
 
 import * as scrollMagic from 'scrollmagic';
@@ -11,9 +12,9 @@ export default class FixedHeader extends Component {
 		this.inputRef = React.createRef();
 	}
 
-	static defaultProps = {
-		name: 'Send us a message!'
-	};
+	// static defaultProps = {
+	// 	name: 'Send us a message!'
+	// };
 
 	image = null;
 	controller = null;
@@ -23,6 +24,10 @@ export default class FixedHeader extends Component {
 	clickLink() {
 		window.location.href = `mailto:contact@rtrealm.com`;
 	}
+
+	textBody = text => {
+		return <Text tid={text} />;
+	};
 
 	componentDidMount() {
 		const gsap = require('gsap');
@@ -87,7 +92,7 @@ export default class FixedHeader extends Component {
 					>
 						<Button
 							className={'fixed-header__button'}
-							text={this.props.name}
+							text={this.textBody('buttonFH')}
 							click={this.clickLink}
 						/>
 					</Styles.FixedHeaderButtonWrapper>

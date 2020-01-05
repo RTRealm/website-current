@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { Text } from '../../../containers/Language';
 
 import * as Styles from './FooterNav.styles';
 
@@ -10,6 +11,10 @@ export default class FooterNav extends Component {
 		dropDownActive: false
 	};
 
+	textBody = text => {
+		return <Text tid={text} />;
+	};
+
 	render() {
 		return (
 			<Styles.FooterNav>
@@ -17,11 +22,11 @@ export default class FooterNav extends Component {
 					<Styles.FooterNavContent className='columns is-centered is-multiline'>
 						{this.props.page === 'Home' ? (
 							<li className='column is-narrow'>
-								<Link to='/contact'>Contact</Link>
+								<Link to='/contact'>{this.textBody('contactHeader')}</Link>
 							</li>
 						) : (
 							<li className='column is-narrow'>
-								<Link to='/'>Home</Link>
+								<Link to='/'>{this.textBody('homeHeader')}</Link>
 							</li>
 						)}
 						{/* <li className='column is-narrow'>
