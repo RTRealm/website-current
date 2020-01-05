@@ -10,20 +10,48 @@ const pl = {
 	welcomeDescription:
 		'To jest polska wersja. To jest polska wersja. To jest polska wersja. To jest polska wersja. To jest polska wersja. To jest polska wersja.',
 	emergencyButton: 'Pomocy!',
-	getInTouch: 'Skontaktuj się z nami',
+	//
+	// ******** Get Service ********
+	//
+	titleGS: 'Our Top Skills',
+	subtitleGS: 'Get Service',
+	skill1: 'Software engineering. Full stack applications of any size and complexity',
+	skill2: 'Consulting. Combination of tech know-how with business logic.',
+	skill3: 'Fintech.',
+	skill4: 'Outsourcing.',
+	skill5: 'System design, implementation and maintenance.',
+	skill6: 'Audit.',
+	//
+	// ******** About us ********
+	//
+	titleAU: 'Software engineering',
+	subtitleAU: 'Development',
+	bodyAU1:
+		"This is our bread and butter. We live and breath software development. And it is not only about coding: we'll implement and maintain your app, so that it's trouble-free for you. All this with cutting edge technologies.",
+	bodyAU2: 'And no need to invest in own architecture. We can go serverless for you.',
+	bodyAU3: 'Reach out to us now to discuss your project!',
+	//
+	// ******** Simplicity ********
+	//
+	titleSI: 'Banking and more',
+	subtitleSI: 'Digital Finance',
+	bodySI1:
+		'We have a decades long experience in banking and financial markets. This is why we can be your preferred partner when it comes to digitilizing your business if you are a bank, brokerage house, insurance company or a fintech startup.',
+	bodySI2:
+		"Here we deliver a unique combination of technology and business expertise. Simply, we understand what you're doing!",
 	//
 	// ******** Contact Page ********
 	//
 	homeHeader: 'Home',
-	title: 'Reach out to us.',
-	subtitle: "We're ready to lead you into the future of connected finance.",
+	titleCP: 'Reach out to us.',
+	subtitleCP: "We're ready to lead you into the future of connected finance.",
 	contactEmail:
-		'If you want to get in touch with one of our consultants to know more how we can help you, please e-mail us:',
+		'Jeśli chcesz skontaktować się z jednym z naszych konsultantów, aby dowiedzieć się więcej, jak możemy Ci pomóc, wyślij wiadomość:',
 	//
 	// ******** Cookies ********
 	//
-	cookieBannerA: 'Używamy cookies',
-	cookieBannerB: 'By continuing to use our website, you agree to our',
+	cookieBannerA: 'Lubimy ciasteczka',
+	cookieBannerB: 'Pozostając na naszej stronie akceptujesz naszą',
 	cookieTitle: 'To jest Cookie Policy dla RT.Realm.',
 	cookieHead1: 'What Are Cookies',
 	cookieBody1a:
@@ -59,5 +87,4 @@ const pl = {
 
 export default pl;
 
-
-// ąćłńżźó
+// ąśćłńżźó

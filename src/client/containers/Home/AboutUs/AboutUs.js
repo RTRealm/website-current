@@ -3,6 +3,7 @@ import React, { PureComponent } from 'react';
 import LazyLoad from 'react-lazyload';
 
 import InfoGroup from '../../../components/InfoGroup/InfoGroup';
+import { Text } from '../../Language';
 
 import * as Styles from './AboutUs.styles';
 
@@ -19,6 +20,10 @@ class AboutUs extends PureComponent {
 
 	state = {
 		activateAnimation: false
+	};
+
+	textBody = text => {
+		return <Text tid={text} />;
 	};
 
 	componentDidMount() {
@@ -78,14 +83,10 @@ class AboutUs extends PureComponent {
 				{/* <Styles.AboutUsSplash2 /> */}
 				<Styles.AboutUsContent className='about-us__content columns is-hidden-mobile'>
 					<div className='column is-7 about-us__copy'>
-						<InfoGroup title={'Software engineering'} subtitle={'Development'}>
-							<p>
-								This is our bread and butter. We live and breath software development. And it is not
-								only about coding: we'll implement and maintain your app, so that it's trouble-free
-								for you. All this with cutting edge technologies.
-							</p>
-							<p>And no need to invest in own architecture. We can go serverless for you.</p>
-							<p>Reach out to us now to discuss your project!</p>
+						<InfoGroup title={this.textBody('titleAU')} subtitle={this.textBody('subtitleAU')}>
+							<p>{this.textBody('bodyAU1')}</p>
+							<p>{this.textBody('bodyAU2')}</p>
+							<p>{this.textBody('bodyAU3')}</p>
 						</InfoGroup>
 						<LazyLoad once={true} height={71} offset={500}>
 							<Styles.AboutUsContentAppStores className='columns'>

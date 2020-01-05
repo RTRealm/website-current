@@ -10,19 +10,47 @@ const en = {
 	welcomeDescription:
 		'We deliver comprehesive bespoke IT solutions. Whether you need a simple app or a complex system implementation we are the right partner for you. And because of our exceptional skills mix we feel great operating at the intersection of technology and finance. Truly, more than just a software house.',
 	emergencyButton: 'Yes! I need help!',
-	getInTouch: 'Get in touch with us',
+	//
+	// ******** Get Service ********
+	//
+	titleGS: 'Our Top Skills',
+	subtitleGS: 'Get Service',
+	skill1: 'Software engineering. Full stack applications of any size and complexity',
+	skill2: 'Consulting. Combination of tech know-how with business logic.',
+	skill3: 'Fintech.',
+	skill4: 'Outsourcing.',
+	skill5: 'System design, implementation and maintenance.',
+	skill6: 'Audit.',
+	//
+	// ******** About us ********
+	//
+	titleAU: 'Software engineering',
+	subtitleAU: 'Development',
+	bodyAU1:
+		"This is our bread and butter. We live and breath software development. And it is not only about coding: we'll implement and maintain your app, so that it's trouble-free for you. All this with cutting edge technologies.",
+	bodyAU2: 'And no need to invest in own architecture. We can go serverless for you.',
+	bodyAU3: 'Reach out to us now to discuss your project!',
+	//
+	// ******** Simplicity ********
+	//
+	titleSI: 'Banking and more',
+	subtitleSI: 'Digital Finance',
+	bodySI1:
+		'We have a decades long experience in banking and financial markets. This is why we can be your preferred partner when it comes to digitilizing your business if you are a bank, brokerage house, insurance company or a fintech startup.',
+	bodySI2:
+		"Here we deliver a unique combination of technology and business expertise. Simply, we understand what you're doing!",
 	//
 	// ******** Contact Page ********
 	//
 	homeHeader: 'Home',
-	title: 'Reach out to us.',
-	subtitle: "We're ready to lead you into the future of connected finance.",
+	titleCP: 'Reach out to us.',
+	subtitleCP: "We're ready to lead you into the future of connected finance.",
 	contactEmail:
 		'If you want to get in touch with one of our consultants to know more how we can help you, please e-mail us:',
 	//
 	// ******** Cookies Banner & Page ********
 	//
-	cookieBannerA: 'We use cookies',
+	cookieBannerA: 'We like cookies',
 	cookieBannerB: 'By continuing to use our website, you agree to our',
 	cookieTitle: 'This is the Cookie Policy for RT.Realm.',
 	cookieHead1: 'What Are Cookies',

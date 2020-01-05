@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import * as Styles from './Simplicity.styles';
 
 import InfoGroup from '../../../components/InfoGroup/InfoGroup';
+import { Text } from '../../Language';
 
 import * as scrollMagic from 'scrollmagic';
 import { TweenMax, TimelineMax } from 'gsap';
@@ -11,6 +12,10 @@ ScrollMagicPluginGsap(scrollMagic, TweenMax, TimelineMax);
 class Simplicity extends Component {
 	controller = null;
 	scene = null;
+
+	textBody = text => {
+		return <Text tid={text} />;
+	};
 
 	componentDidMount() {
 		// $FlowFixMe;
@@ -73,18 +78,10 @@ class Simplicity extends Component {
 							/>
 						</div>
 						<Styles.SimplicityCopy className='column is-offset-1'>
-							<InfoGroup title={'Banking and more'} subtitle={'Digital Finance'}>
-								<p>
-									We have a decades long experience in banking and financial markets. This is why we
-									can be your preferred partner when it comes to digitilizing your business if you
-									are a bank, brokerage house, insurance company or a fintech startup.
-								</p>
-								<p>
-									Here we deliver a unique combination of technology and business expertise. Simply,
-									we understand what you're doing!
-								</p>
+							<InfoGroup title={this.textBody('titleSI')} subtitle={this.textBody('subtitleSI')}>
+								<p>{this.textBody('bodySI1')}</p>
+								<p>{this.textBody('bodySI2')}</p>
 							</InfoGroup>
-
 							<Styles.SimplicityFeatures className='columns is-narrow is-mobile'>
 								<Styles.SimplicityFeaturesItem className='column simplicity__features-item'>
 									<img

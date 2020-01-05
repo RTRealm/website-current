@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import * as Styles from './GetService.styles';
 
 import InfoGroup from '../../../components/InfoGroup/InfoGroup';
+import { Text } from '../../Language';
 // import UnlimitedCards from '../../../components/UnlimitedCards/UnlimitedCards';
 import * as scrollMagic from 'scrollmagic';
 import { TweenMax, TimelineMax } from 'gsap';
@@ -51,6 +52,10 @@ class getCurve extends Component {
 		}
 	};
 
+	textBody = text => {
+		return <Text tid={text} />;
+	};
+
 	componentDidMount() {
 		this.handleListLoad('.getservice');
 	}
@@ -67,11 +72,11 @@ class getCurve extends Component {
 			<Styles.GetCurve className='title-trigger'>
 				{/* <Styles.GetCurveSplash /> */}
 				<Styles.GetCurveContent className='getservice-trigger'>
-					<InfoGroup title={'Our Top Skills'} subtitle={'Get Service'}>
-						<p className='is-hidden-tablet'>
+					<InfoGroup title={this.textBody('titleGS')} subtitle={this.textBody('subtitleGS')}>
+						{/* <p className='is-hidden-tablet'>
 							When you sync all your cards with, your payment information is encrypted so your real
 							card numbers are never shared with the retailer.
-						</p>
+						</p> */}
 					</InfoGroup>
 					<div className='is-hidden-mobile'>
 						<Styles.GetCurveBenefits className='get-curve__benefits columns is-multiline getservice'>
@@ -84,7 +89,7 @@ class getCurve extends Component {
 										/>
 									</Styles.GetCurveBenefitHeading>
 									<Styles.GetCurveBenefitContent className='column'>
-										<p>Software engineering. Full stack applications of any size and complexity.</p>
+										<p>{this.textBody('skill1')}</p>
 									</Styles.GetCurveBenefitContent>
 								</div>
 							</Styles.GetCurveBenefit>
@@ -97,7 +102,7 @@ class getCurve extends Component {
 										/>
 									</Styles.GetCurveBenefitHeading>
 									<Styles.GetCurveBenefitContent className='column'>
-										<p>Consulting. Combination of tech know-how with business logic.</p>
+										<p>{this.textBody('skill2')}</p>
 									</Styles.GetCurveBenefitContent>
 								</div>
 							</Styles.GetCurveBenefit>
@@ -110,7 +115,7 @@ class getCurve extends Component {
 										/>
 									</Styles.GetCurveBenefitHeading>
 									<Styles.GetCurveBenefitContent className='column'>
-										<p>Fintech.</p>
+										<p>{this.textBody('skill3')}</p>
 									</Styles.GetCurveBenefitContent>
 								</div>
 							</Styles.GetCurveBenefit>
@@ -124,7 +129,7 @@ class getCurve extends Component {
 										/>
 									</Styles.GetCurveBenefitHeading>
 									<Styles.GetCurveBenefitContent className='column'>
-										<p>Outsourcing.</p>
+										<p>{this.textBody('skill4')}</p>
 									</Styles.GetCurveBenefitContent>
 								</div>
 							</Styles.GetCurveBenefit>
@@ -138,7 +143,7 @@ class getCurve extends Component {
 										/>
 									</Styles.GetCurveBenefitHeading>
 									<Styles.GetCurveBenefitContent className='column'>
-										<p>System design, implementation and maintenance.</p>
+										<p>{this.textBody('skill5')}</p>
 									</Styles.GetCurveBenefitContent>
 								</div>
 							</Styles.GetCurveBenefit>
@@ -152,7 +157,7 @@ class getCurve extends Component {
 										/>
 									</Styles.GetCurveBenefitHeading>
 									<Styles.GetCurveBenefitContent className='column'>
-										<p>Audit.</p>
+										<p>{this.textBody('skill6')}</p>
 									</Styles.GetCurveBenefitContent>
 								</div>
 							</Styles.GetCurveBenefit>

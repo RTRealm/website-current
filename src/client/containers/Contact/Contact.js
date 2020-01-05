@@ -58,16 +58,14 @@ class Contact extends Component {
 						<div className='is-hidden-mobile'></div>
 						{/* <FixedHeader /> */}
 						<Styles.HeadingGroup>
-							<Styles.HeadingH2>Reach out to us.</Styles.HeadingH2>
-							<Styles.HeadingSubtitle>
-								We're ready to lead you into the future of connected finance.
-							</Styles.HeadingSubtitle>
+							<Styles.HeadingH2>{this.textBody('titleCP')}</Styles.HeadingH2>
+							<Styles.HeadingSubtitle>{this.textBody('subtitleCP')}</Styles.HeadingSubtitle>
 						</Styles.HeadingGroup>
 
 						<Styles.ContactSecurity>
 							<p>
-								If you want to get in touch with one of our consultants to know more how we can help
-								you, please e-mail us: <a href='mailto:contact@rtrealm.com'>contact@rtrealm.com</a>
+								{this.textBody('contactEmail')}{' '}
+								<a href='mailto:contact@rtrealm.com'>contact@rtrealm.com</a>
 							</p>
 						</Styles.ContactSecurity>
 
