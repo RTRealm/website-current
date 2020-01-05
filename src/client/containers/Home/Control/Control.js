@@ -4,6 +4,7 @@ import LazyLoad from 'react-lazyload';
 import InfoGroup from '../../../components/InfoGroup/InfoGroup';
 import * as InfoStyles from '../../../components/InfoGroup/InfoGroup.styles';
 import Image from '../../../components/Image/Image';
+import { Text } from '../../Language';
 import * as Styles from './Control.styles';
 
 import * as scrollMagic from 'scrollmagic';
@@ -15,6 +16,10 @@ ScrollMagicPluginGsap(scrollMagic, TweenMax, TimelineMax);
 export default class Control extends PureComponent {
 	state = {
 		activateAnimation: false
+	};
+
+	textBody = text => {
+		return <Text tid={text} />;
 	};
 
 	componentDidMount() {
@@ -63,15 +68,9 @@ export default class Control extends PureComponent {
 		const copy = () => {
 			return (
 				<div>
-					<p>
-						Focus on your core business. We are here to help you design, implement and maintain your
-						system architecture. Managing the IT just got a lot easier.
-					</p>
-					<p>
-						Let's optimise and manage your tech resources. And if you prefer to get it over we're
-						here to take it.
-					</p>
-					<p>Awesome, isn't it?</p>
+					<p>{this.textBody('bodyCO1')}</p>
+					<p>{this.textBody('bodyCO2')}</p>
+					<p>{this.textBody('bodyCO3')}</p>
 				</div>
 			);
 		};
@@ -116,7 +115,7 @@ export default class Control extends PureComponent {
 				<Styles.ControlContent className='columns is-hidden-mobile'>
 					<div className='column is-6'>
 						<Styles.ControlCopy className='control__copy'>
-							<InfoGroup title={'More than a software house'} subtitle={'Outsourcing'}>
+							<InfoGroup title={this.textBody('titleCO')} subtitle={this.textBody('subtitleCO')}>
 								{copy()}
 							</InfoGroup>
 						</Styles.ControlCopy>

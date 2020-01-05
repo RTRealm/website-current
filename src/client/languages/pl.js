@@ -40,6 +40,16 @@ const pl = {
 	bodySI2:
 		"Here we deliver a unique combination of technology and business expertise. Simply, we understand what you're doing!",
 	//
+	// ******** Control ********
+	//
+	titleCO: 'More than a software house',
+	subtitleCO: 'Outsourcing',
+	bodyCO1:
+		'Focus on your core business. We are here to help you design, implement and maintain your system architecture. Managing the IT just got a lot easier.',
+	bodyCO2:
+		"Let's optimise and manage your tech resources. And if you prefer to get it over we're here to take it.",
+	bodyCO3: "Awesome, isn't it?",
+	//
 	// ******** Contact Page ********
 	//
 	homeHeader: 'Home',
