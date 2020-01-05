@@ -78,7 +78,7 @@ class AboutUs extends PureComponent {
 				{/* <Styles.AboutUsSplash2 /> */}
 				<Styles.AboutUsContent className='about-us__content columns is-hidden-mobile'>
 					<div className='column is-7 about-us__copy'>
-						<InfoGroup title={'Desktop and mobile'} subtitle={'Software'}>
+						<InfoGroup title={'Software enginnering'} subtitle={'Development'}>
 							<p>
 								This is our bread and butter. We live and breath software development. And it is not
 								only about coding: we'll implement and maintain your app, so that it's trouble-free

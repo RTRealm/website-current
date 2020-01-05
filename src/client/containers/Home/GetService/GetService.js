@@ -69,8 +69,8 @@ class getCurve extends Component {
 				<Styles.GetCurveContent className='getservice-trigger'>
 					<InfoGroup title={'Our Top Skills'} subtitle={'Get Service'}>
 						<p className='is-hidden-tablet'>
-							When you sync all your cards with Curve, your payment information is encrypted so your
-							real card numbers are never shared with the retailer.
+							When you sync all your cards with, your payment information is encrypted so your real
+							card numbers are never shared with the retailer.
 						</p>
 					</InfoGroup>
 					<div className='is-hidden-mobile'>
@@ -78,15 +78,13 @@ class getCurve extends Component {
 							<Styles.GetCurveBenefit className='column is-6'>
 								<div className='columns'>
 									<Styles.GetCurveBenefitHeading className='column is-4-tablet is-3-desktop'>
-										<h4>
-											<img
-												src='https://res.cloudinary.com/ohcash/image/upload/v1577882084/landingpage/infinity_ff7f50.svg'
-												alt='infinite loop'
-											/>
-										</h4>
+										<img
+											src='https://res.cloudinary.com/ohcash/image/upload/v1577882084/landingpage/infinity_ff7f50.svg'
+											alt='infinite loop'
+										/>
 									</Styles.GetCurveBenefitHeading>
 									<Styles.GetCurveBenefitContent className='column'>
-										<p>With access to the interbank rate, you can spend like a local.</p>
+										<p>Software engineering. Full stack applications of any size and complexity.</p>
 									</Styles.GetCurveBenefitContent>
 								</div>
 							</Styles.GetCurveBenefit>
