@@ -86,8 +86,8 @@ class Cashback extends Component {
 							<p>
 								We put our clients interests first. Each day we develop our competences and master
 								new technologies to make sure we deliver our clients the best solutions possible.
-								Client satisfaction is at the center of what we do.
 							</p>
+							<p>Client satisfaction is at the center of what we do.</p>
 						</InfoGroup>
 						<Styles.TravelCashbackBrands>
 							<p className='is-hidden-tablet is-hidden-mobile travel-cashback__mobile-p'>
