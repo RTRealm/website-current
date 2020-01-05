@@ -84,7 +84,7 @@ class AboutUs extends PureComponent {
 								only about coding: we'll implement and maintain your app, so that it's trouble-free
 								for you. All this with cutting edge technologies.
 							</p>
-							<p>serverless, cloud... </p>
+							<p>And no need to invest in own architecture. We can go serverless for you.</p>
 							<p>Reach out to us now to discuss your project!</p>
 						</InfoGroup>
 						<LazyLoad once={true} height={71} offset={500}>

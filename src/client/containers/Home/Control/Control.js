@@ -68,8 +68,8 @@ export default class Control extends PureComponent {
 						system architecture. Managing the IT just got a lot easier.
 					</p>
 					<p>
-						Let's optimise and manage your tech resources. And if you prefer to have it off your
-						head we're here to take it over.
+						Let's optimise and manage your tech resources. And if you prefer to get it over we're
+						here to take it.
 					</p>
 					<p>Awesome, isn't it?</p>
 				</div>
