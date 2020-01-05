@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 // Custom Components
 import Button from '../Button/Button';
+import { Text } from '../../containers/Language';
 
 // Styles
 import * as Styles from './MobileFloat.styles';
@@ -24,6 +25,10 @@ class MobileFloat extends Component {
 
 	clickLink = () => {
 		window.location.href = `mailto:contact@rtrealm.com`;
+	};
+
+	textBody = text => {
+		return <Text tid={text} />;
 	};
 
 	componentDidMount() {
@@ -143,7 +148,7 @@ class MobileFloat extends Component {
 						<span />
 						<div className='mobile-cta-footer__wrapper'>
 							<Button
-								text={'Contact us!'}
+								text={this.textBody('buttonFH')}
 								click={this.clickLink}
 								class={'mobileFooter__cta'}
 								background={'#4ecfff'}
