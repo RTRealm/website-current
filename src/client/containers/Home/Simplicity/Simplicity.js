@@ -76,8 +76,8 @@ class Simplicity extends Component {
 							<InfoGroup title={'Banking and more'} subtitle={'Digital Finance'}>
 								<p>
 									We have a decades long experience in banking and financial markets. This is why we
-									can be your preferred partner when it comes to digitilizing your business, whether
-									you're a bank, brokerage house, insurance company or a fintech startup.
+									can be your preferred partner when it comes to digitilizing your business if you
+									are a bank, brokerage house, insurance company or a fintech startup.
 								</p>
 								<p>
 									Here we deliver a unique combination of technology and business expertise. Simply,

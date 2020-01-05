@@ -84,7 +84,8 @@ class AboutUs extends PureComponent {
 								only about coding: we'll implement and maintain your app, so that it's trouble-free
 								for you. All this with cutting edge technologies.
 							</p>
-							<p>serverless, cloud... Reach out to us now to discuss your project!</p>
+							<p>serverless, cloud... </p>
+							<p>Reach out to us now to discuss your project!</p>
 						</InfoGroup>
 						<LazyLoad once={true} height={71} offset={500}>
 							<Styles.AboutUsContentAppStores className='columns'>

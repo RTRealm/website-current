@@ -69,8 +69,9 @@ export default class Control extends PureComponent {
 					</p>
 					<p>
 						Let's optimise and manage your tech resources. And if you prefer to have it off your
-						head we're here to take it over. Awesome, isn't it?
+						head we're here to take it over.
 					</p>
+					<p>Awesome, isn't it?</p>
 				</div>
 			);
 		};

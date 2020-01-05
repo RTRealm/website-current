@@ -12,7 +12,7 @@ export default class FixedHeader extends Component {
 	}
 
 	static defaultProps = {
-		name: 'Contact us!'
+		name: 'Send us a message!'
 	};
 
 	image = null;
