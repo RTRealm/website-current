@@ -6,7 +6,7 @@ import ReactPixel from 'react-facebook-pixel';
 import Header from '../../../components/Header/Header';
 import Footer from '../../../components/Footer/Footer';
 import Page from '../../../components/Page';
-import Text from '../../../containers/Language';
+import { Text } from '../../../containers/Language';
 // import FloatingCTA from '../../../components/FloatingCTA/FloatingCTA';
 // import { LocalisedLink } from '../../../components/LocalisedLink/LocalisedLink';
 
@@ -15,11 +15,9 @@ import * as Styles from '../Terms.styles';
 class Cookies extends Component {
 	modalCTA = React.createRef();
 
-
-
 	textBody = () => {
-	return <Text tid='welcomeDescription' />;
-	}
+		return <Text tid='welcomeDescription' />;
+	};
 	// componentDidMount() {
 	// 	ReactGA.pageview(window.location.pathname);
 	// 	ReactPixel.pageView();
@@ -135,12 +133,13 @@ class Cookies extends Component {
 										analytics solution on the web for helping us to understand how you use the site
 										and ways that we can improve your experience. These cookies may track things
 										such as how long you spend on the site and the pages that you visit so we can
-										continue to produce engaging content.
+										continue to produce engaging content. For more information on Google Analytics
+										cookies, see the official Google Analytics page.
 									</p>
-									<p>
+									{/* <p>
 										For more information on Google Analytics cookies, see the official Google
 										Analytics page.
-									</p>
+									</p> */}
 								</li>
 
 								<li>
@@ -171,10 +170,7 @@ class Cookies extends Component {
 								our site.
 							</p>
 
-							<p>
-								However if you are still looking for more information then you can contact us
-								through one of our preferred contact methods:
-							</p>
+							<p>However if you are still looking for more information then you can contact us:</p>
 
 							<ul>
 								<li>
