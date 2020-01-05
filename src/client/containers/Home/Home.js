@@ -17,11 +17,16 @@ import Intro from '../Home/Intro/Intro';
 import Page from '../../components/Page/index';
 import FeaturesList from './FeaturesList/FeaturesList';
 import MobileFloat from '../../components/MobileFloat/MobileFloat';
+import { Text } from '../Language';
 
 class Home extends PureComponent {
 	componentDidUpdate() {
 		window.scrollTo(0, 0);
 	}
+
+	textBody = text => {
+		return <Text tid={text} />;
+	};
 
 	render() {
 		return (
@@ -37,7 +42,7 @@ class Home extends PureComponent {
 						// 	'https://res.cloudinary.com/dzatxn6bx/image/upload/v1537358404/website-v2/Icons/curve-logo-black.svg'
 						// }
 						navLink={'/contact'}
-						navName={'Contact'}
+						navName={this.textBody('contactHeader')}
 						page='Contact'
 						burgerMenuColor={'black'}
 					/>

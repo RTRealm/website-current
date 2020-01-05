@@ -1,9 +1,15 @@
 const pl = {
+	//
+	// ******** Header ********
+	//
+	contactHeader: 'Kontakt',
+	//
+	// ******** Intro ********
+	//
 	introTitle: 'Kompleksowe usługi IT',
-	contacHeader: 'Kontakt',
 	welcomeDescription:
 		'To jest polska wersja. To jest polska wersja. To jest polska wersja. To jest polska wersja. To jest polska wersja. To jest polska wersja.',
-	contactUsButton: 'Pomocy!',
+	emergencyButton: 'Pomocy!',
 	getInTouch: 'Skontaktuj się z nami',
 	//
 	// ******** Cookies ********

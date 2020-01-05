@@ -1,12 +1,22 @@
 const en = {
+	//
+	// ******** Header ********
+	//
+	contactHeader: 'Contact',
+	//
+	// ******** Intro ********
+	//
 	introTitle: 'More than a software house',
-	contacHeader: 'Contact',
 	welcomeDescription:
 		'We deliver comprehesive bespoke IT solutions. Whether you need a simple app or a complex system implementation we are the right partner for you. And because of our exceptional skills mix we feel great operating at the intersection of technology and finance. Truly, more than just a software house.',
-	contactUsButton: 'Contact us!',
+	emergencyButton: 'Yes! I need help!',
 	getInTouch: 'Get in touch with us',
 	//
-	// ******** Cookies ********
+	// ******** Contact Page ********
+	//
+
+	//
+	// ******** Cookies Banner & Page ********
 	//
 	cookieBannerA: 'We use cookies',
 	cookieBannerB: 'By continuing to use our website, you agree to our',

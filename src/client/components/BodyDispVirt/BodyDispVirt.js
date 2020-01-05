@@ -2,9 +2,15 @@ import React, { Component } from 'react';
 import Button from '../Button/Button';
 import * as Styles from './BodyDispVirt.styles';
 
+import { Text } from '../../containers/Language';
+
 class BodyDispVirt extends Component {
 	clickLink = () => {
 		window.location.href = `mailto:contact@rtrealm.com`;
+	};
+
+	textBody = text => {
+		return <Text tid={text} />;
 	};
 
 	render() {
@@ -15,7 +21,7 @@ class BodyDispVirt extends Component {
 
 				<div className='columns is-multiline is-hidden-mobile'>
 					<Styles.MainBDVButtonWrapper className='column'>
-						<Button text={'Yes! I need help!'} click={this.clickLink} />
+						<Button text={this.textBody('emergencyButton')} click={this.clickLink} />
 					</Styles.MainBDVButtonWrapper>
 
 					<Styles.MainBDVStores className='column'>

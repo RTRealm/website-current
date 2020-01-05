@@ -8,11 +8,8 @@ import { Text } from '../../../containers/Language';
 // Styles
 import * as Styles from './Intro.styles';
 
-const textBody = () => {
-	return <Text tid='welcomeDescription' />;
-};
-const textTitle = () => {
-	return <Text tid='introTitle' />;
+const textBody = text => {
+	return <Text tid={text} />;
 };
 
 const intro = () => {
@@ -33,9 +30,9 @@ const intro = () => {
 				/>
 			</Styles.IntroImage>
 			<Styles.IntroContent className='column is-6'>
-				<BodyDispVirt title={textTitle()} theme='themeBlack' page='home'>
+				<BodyDispVirt title={textBody('introTitle')} theme='themeBlack' page='home'>
 					{/* <p className='is-hidden-mobile'>{textBody()}</p> */}
-					<p>{textBody()}</p>
+					<p>{textBody('welcomeDescription')}</p>
 				</BodyDispVirt>
 			</Styles.IntroContent>
 		</Styles.Intro>
