@@ -6,6 +6,7 @@ import ReactPixel from 'react-facebook-pixel';
 import Header from '../../../components/Header/Header';
 import Footer from '../../../components/Footer/Footer';
 import Page from '../../../components/Page';
+import Text from '../../../containers/Language';
 // import FloatingCTA from '../../../components/FloatingCTA/FloatingCTA';
 // import { LocalisedLink } from '../../../components/LocalisedLink/LocalisedLink';
 
@@ -14,6 +15,11 @@ import * as Styles from '../Terms.styles';
 class Cookies extends Component {
 	modalCTA = React.createRef();
 
+
+
+	textBody = () => {
+	return <Text tid='welcomeDescription' />;
+	}
 	// componentDidMount() {
 	// 	ReactGA.pageview(window.location.pathname);
 	// 	ReactPixel.pageView();
