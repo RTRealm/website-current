@@ -66,14 +66,14 @@ class Simplicity extends Component {
 						<div className='column is-5'>
 							<img
 								className='is-hidden-tablet'
-								src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1539903924/website-v2/Travel/notifications-phone-m.jpg'
-								srcSet='https://res.cloudinary.com/dzatxn6bx/image/upload/v1539903924/website-v2/Travel/notifications-phone-m_2x.jpg 2x'
+								src='https://res.cloudinary.com/ohcash/image/upload/v1578310884/landingpage/finance-s-mob.png'
+								srcSet='https://res.cloudinary.com/ohcash/image/upload/v1578310883/landingpage/finance-l-mob.png 2x'
 								alt='Phone displaying a notification'
 							/>
 							<img
 								className='is-hidden-mobile'
-								src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1537890393/website-v2/Travel/notifications-phone.png'
-								srcSet='https://res.cloudinary.com/dzatxn6bx/image/upload/v1537890394/website-v2/Travel/notifications-phone_2x.png 2x'
+								src='https://res.cloudinary.com/ohcash/image/upload/v1578310126/landingpage/finance-s.png'
+								srcSet='https://res.cloudinary.com/ohcash/image/upload/v1578310129/landingpage/finance-l.png 2x'
 								alt='Phone displaying a notification'
 							/>
 						</div>
