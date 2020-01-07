@@ -1,0 +1,8 @@
+.next-particle {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	background-color: black;
+	width: 400px;
+	height: 400px;
+}

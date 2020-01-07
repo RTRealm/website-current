@@ -34,7 +34,7 @@ class CookieBanner extends Component {
 							{this.textBody('cookieBannerA')}{' '}
 							<span id='cookie'>
 								{/* 🍪 */}
-								<i class='fas fa-spin fa-cookie-bite'></i>.
+								<i className='fas fa-spin fa-cookie-bite'></i>.
 							</span>{' '}
 							{this.textBody('cookieBannerB')} <Link to='/cookie-policy'>cookies policy</Link>.
 						</p>

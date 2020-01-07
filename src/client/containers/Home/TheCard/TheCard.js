@@ -4,6 +4,8 @@ import BodyDispVirt from '../../../components/BodyDispVirt/BodyDispVirt';
 import Image from '../../../components/Image/Image';
 import { Text } from '../../../containers/Language';
 
+import NextParticleHome from '../../../NextParticle/NextParticleHome';
+
 import * as Styles from './TheCard.styles';
 
 export default class TheCard extends PureComponent {
@@ -15,7 +17,8 @@ export default class TheCard extends PureComponent {
 			<Styles.YourCard>
 				<div className='columns'>
 					<Styles.YourCardMainImage className='column is-5'>
-						<Image
+						<NextParticleHome className='img' />
+						{/* <Image
 							set={{
 								mob: true,
 								desk: true
@@ -29,8 +32,9 @@ export default class TheCard extends PureComponent {
 							size={{ max: 'max-width:768px', min: 'min-width:769px' }}
 							alt='RTR desktop and mobile dev'
 							defaultFormat='png'
-						/>
+						/> */}
 					</Styles.YourCardMainImage>
+
 					<Styles.YourCardTag className='column is-7'>
 						<BodyDispVirt title={this.textBody('introTitle')} theme='themeBlack' page='home'>
 							<p className='is-hidden-mobile'>{this.textBody('welcomeDescription')}</p>
@@ -41,7 +45,7 @@ export default class TheCard extends PureComponent {
 					<Styles.YourCardPR className='columns is-mobile is-multiline'>
 						<li className='column is-narrow'>
 							<img
-								src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1541082226/website-v2/Icons/wired-black.svg'
+								src='https://res.cloudinary.com/ohcash/image/upload/v1578144500/landingpage/cisco.svg'
 								alt='Wired'
 							/>
 						</li>

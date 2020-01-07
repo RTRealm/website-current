@@ -49,7 +49,7 @@ export const YourCardMainImage = styled.div`
 		margin-top: 10px;
 	}
 
-	img {
+	.img {
 		display: block;
 		position: relative;
 		top: 0px;
