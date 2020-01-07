@@ -1,4 +1,4 @@
-import React, { FC, createRef, useEffect } from 'react';
+import React, { createRef, useEffect } from 'react';
 
 import { NextParticle as NP } from './NextParticle';
 

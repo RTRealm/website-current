@@ -17,8 +17,8 @@ export default class TheCard extends PureComponent {
 			<Styles.YourCard>
 				<div className='columns'>
 					<Styles.YourCardMainImage className='column is-6'>
-						{/* <NextParticleHome className='img' /> */}
-						<Image
+						<NextParticleHome />
+						{/* <Image
 							set={{
 								mob: true,
 								desk: true
@@ -32,7 +32,7 @@ export default class TheCard extends PureComponent {
 							size={{ max: 'max-width:768px', min: 'min-width:769px' }}
 							alt='RTR desktop and mobile dev'
 							defaultFormat='png'
-						/>
+						/> */}
 					</Styles.YourCardMainImage>
 
 					<Styles.YourCardTag className='column is-6'>

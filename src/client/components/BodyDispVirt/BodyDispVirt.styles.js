@@ -33,7 +33,7 @@ export const MainBDV = styled.div`
 			margin: 0 0 20px 0;
 
 			&:last-of-type {
-				margin: 0 0 90px 0;
+				margin: 0 0 80px 0;
 			}
 		}
 	}

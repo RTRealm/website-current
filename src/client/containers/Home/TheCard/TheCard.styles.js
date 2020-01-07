@@ -14,7 +14,7 @@ export const YourCard = styled.section`
 
 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
 		p {
-			line-height: 1.6em;
+			line-height: 1.3em;
 		}
 		h1 {
 			line-height: 3rem;
@@ -48,10 +48,10 @@ export const YourCardMainImage = styled.div`
 	padding-bottom: 0px;
 
 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
-		margin-top: 10px;
+		margin-top: -30px;
 	}
 
-	.img {
+	img {
 		display: block;
 		position: relative;
 		top: 0px;
@@ -137,6 +137,7 @@ export const YourCardPR = styled.ul`
 export const YourCardPRWrapper = styled.div`
 	display: block;
 	padding-bottom: 40px;
+	margin-top: 70px;
 
 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
 		padding-bottom: 0px;
