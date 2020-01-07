@@ -7,15 +7,16 @@ export const NextParticleHome = () => {
 	const [settings, setSettings] = useState({
 		// colorArr: undefined,
 		renderer: 'default',
-		imageUrl: 'https://res.cloudinary.com/ohcash/image/upload/v1578426392/landingpage/plh1.png',
-		particleGap: 3,
+		imageUrl:
+			'https://res.cloudinary.com/ohcash/image/upload/v1578427220/landingpage/logoRTblack.png',
+		particleGap: 1,
 		gravity: 0.2,
-		noise: 10,
+		noise: 20,
 		width: Math.min(window.innerWidth - 30, 1140),
 		height: Math.min(window.innerHeight - 120 - 30, 600),
-		maxWidth: 450,
-		maxHeight: 450,
-		mouseForce: 60,
+		maxWidth: 550,
+		maxHeight: 550,
+		mouseForce: 80,
 		clickStrength: 100
 		// particleSize: 1,
 		// layerCount: 2,
