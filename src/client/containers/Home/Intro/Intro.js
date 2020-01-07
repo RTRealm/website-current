@@ -31,7 +31,7 @@ const intro = () => {
 			</Styles.IntroImage>
 			<Styles.IntroContent className='column is-6'>
 				<BodyDispVirt title={textBody('introTitle')} theme='themeBlack' page='home'>
-					{/* <p className='is-hidden-mobile'>{textBody()}</p> */}
+					<p className='is-hidden-mobile'>{textBody()}</p>
 					<p>{textBody('welcomeDescription')}</p>
 				</BodyDispVirt>
 			</Styles.IntroContent>

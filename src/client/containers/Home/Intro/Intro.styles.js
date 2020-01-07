@@ -90,12 +90,6 @@ export const IntroImage = styled.div`
 			top: 60px;
 		}
 	}
-	/* place code here */
-	canvas {
-		position: absolute;
-		left: 0;
-		top: 0;
-	}
 `;
 
 export const IntroContent = styled.div`

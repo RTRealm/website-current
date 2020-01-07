@@ -17,13 +17,15 @@ export const YourCard = styled.section`
 			line-height: 1.6em;
 		}
 		h1 {
-			line-height: 3.5rem;
+			line-height: 3rem;
+			margin-bottom: 36px;
 		}
 	}
 
 	@media (${mixins.breakpoint('desktop-up')}) {
 		h1 {
-			line-height: 5rem;
+			line-height: 4rem;
+			margin-bottom: 36px;
 		}
 	}
 `;
