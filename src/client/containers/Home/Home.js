@@ -50,8 +50,8 @@ class Home extends PureComponent {
 						<div className='is-hidden-mobile'>
 							<FixedHeader />
 						</div>
-						{/* <TheCard /> */}
-						<Intro />
+						<TheCard />
+						{/* <Intro /> */}
 						<div className='fixed-header__trigger-start' />
 						<span className='mobile-cta__start' />
 						<div className='is-hidden-mobile'>

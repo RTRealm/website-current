@@ -2,10 +2,14 @@ import React, { PureComponent } from 'react';
 
 import BodyDispVirt from '../../../components/BodyDispVirt/BodyDispVirt';
 import Image from '../../../components/Image/Image';
+import { Text } from '../../../containers/Language';
 
 import * as Styles from './TheCard.styles';
 
 export default class TheCard extends PureComponent {
+	textBody = text => {
+		return <Text tid={text} />;
+	};
 	render() {
 		return (
 			<Styles.YourCard>
@@ -28,14 +32,14 @@ export default class TheCard extends PureComponent {
 						/>
 					</Styles.YourCardMainImage>
 					<Styles.YourCardTag className='column is-7'>
-						<BodyDispVirt title='Comprehensive IT services' theme='themeBlack' page='home'>
-							<p className='is-hidden-mobile'>More than just a software house. DEV env</p>
+						<BodyDispVirt title={this.textBody('introTitle')} theme='themeBlack' page='home'>
+							<p className='is-hidden-mobile'>{this.textBody('welcomeDescription')}</p>
 						</BodyDispVirt>
 					</Styles.YourCardTag>
 				</div>
 				<Styles.YourCardPRWrapper>
 					<Styles.YourCardPR className='columns is-mobile is-multiline'>
-						{/* <li className='column is-narrow'>
+						<li className='column is-narrow'>
 							<img
 								src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1541082226/website-v2/Icons/wired-black.svg'
 								alt='Wired'
@@ -70,7 +74,7 @@ export default class TheCard extends PureComponent {
 								src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1541082226/website-v2/Icons/wallstreetjourney-black.svg'
 								alt='The Wall Street Journal'
 							/>
-						</li> */}
+						</li>
 					</Styles.YourCardPR>
 				</Styles.YourCardPRWrapper>
 			</Styles.YourCard>
