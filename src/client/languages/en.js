@@ -66,7 +66,7 @@ const en = {
 	// ******** Tab ********
 	//
 	tab1: 'Credentials',
-	tab2: 'Technology',
+	tab2: 'Technologies',
 	//
 	// ******** Contact Page ********
 	//
