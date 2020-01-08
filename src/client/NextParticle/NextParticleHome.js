@@ -5,7 +5,7 @@ import './NextParticle.css';
 
 export const NextParticleHome = () => {
 	const [settings, setSettings] = useState({
-		// colorArr: undefined,
+		colorArr: undefined,
 		renderer: 'default',
 		imageUrl:
 			'https://res.cloudinary.com/ohcash/image/upload/v1578427220/landingpage/logoRTblack.png',
@@ -13,10 +13,10 @@ export const NextParticleHome = () => {
 		gravity: 0.2,
 		noise: 7,
 		width: Math.min(window.innerWidth - 30, 1140),
-		height: Math.min(window.innerHeight - 120 - 30, 800),
-		maxWidth: 450,
-		maxHeight: 450,
-		mouseForce: 90,
+		height: Math.min(window.innerHeight - 120 - 30, 600),
+		maxWidth: 500,
+		maxHeight: 500,
+		mouseForce: 100,
 		clickStrength: 100
 		// particleSize: 1,
 		// layerCount: 2,
@@ -44,7 +44,7 @@ export const NextParticleHome = () => {
 	});
 
 	return (
-		<div className='np-home'>
+		<div className='home-np'>
 			<NextParticleAnim {...settings} className='next-particle' />
 		</div>
 	);

@@ -4,8 +4,7 @@
 	align-content: center;
 	justify-content: center;
 	/* background-color: #fff; */
-	margin-top: -150px;
-	max-width: 500px;
-	max-height: 800px;
-	/* border: solid 1px red; */
+	width: 500px;
+	height: 500px;
+	border: solid 1px red;
 }
