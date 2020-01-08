@@ -1,9 +1,11 @@
 .next-particle {
+	/* position: relative; */
 	display: flex;
 	align-content: center;
 	justify-content: center;
-	background-color: #fff;
-	width: 500px;
-	height: 500px;
+	/* background-color: #fff; */
+	margin-top: -150px;
+	max-width: 500px;
+	max-height: 800px;
 	/* border: solid 1px red; */
 }
