@@ -239,78 +239,78 @@ export const TravelCashbackTechItem = styled.div`
 	}
 `;
 
-export const TravelCashbackSplash2 = styled.span`
-	position: absolute;
-	bottom: -100px;
-	left: 0px;
-	z-index: -2;
+// export const TravelCashbackSplash2 = styled.span`
+// 	position: absolute;
+// 	bottom: -100px;
+// 	left: 0px;
+// 	z-index: -2;
 
-	&:after {
-		background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1536836717/website-v2/Travel/cashback-sand-2-m.jpg');
-		background-repeat: no-repeat;
-		display: block;
-		width: 375px;
-		height: 262px;
-		content: '';
-		float: right;
+// 	&:after {
+// 		background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1536836717/website-v2/Travel/cashback-sand-2-m.jpg');
+// 		background-repeat: no-repeat;
+// 		display: block;
+// 		width: 375px;
+// 		height: 262px;
+// 		content: '';
+// 		float: right;
 
-		${mixins.image2x(
-			'https://res.cloudinary.com/dzatxn6bx/image/upload/v1536836717/website-v2/Travel/cashback-sand-2-m_2x.jpg',
-			'375px',
-			'262px'
-		)};
-	}
+// 		${mixins.image2x(
+// 			'https://res.cloudinary.com/dzatxn6bx/image/upload/v1536836717/website-v2/Travel/cashback-sand-2-m_2x.jpg',
+// 			'375px',
+// 			'262px'
+// 		)};
+// 	}
 
-	@media (${mixins.breakpoint('tablet-landscape-up')}) {
-		bottom: -540px;
-		width: 70%;
+// 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
+// 		bottom: -540px;
+// 		width: 70%;
 
-		@media (${mixins.breakpoint('desktop-up')}) {
-			width: auto;
-		}
+// 		@media (${mixins.breakpoint('desktop-up')}) {
+// 			width: auto;
+// 		}
 
-		&:after {
-			background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1537887640/website-v2/Travel/cashback-sand-2.jpg');
-			width: 831px;
-			height: 599px;
+// 		&:after {
+// 			background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1537887640/website-v2/Travel/cashback-sand-2.jpg');
+// 			width: 831px;
+// 			height: 599px;
 
-			${mixins.image2x(
-				'https://res.cloudinary.com/dzatxn6bx/image/upload/v1537887642/website-v2/Travel/cashback-sand-2_2x.jpg',
-				'831px',
-				'599px'
-			)};
-		}
-	}
-`;
+// 			${mixins.image2x(
+// 				'https://res.cloudinary.com/dzatxn6bx/image/upload/v1537887642/website-v2/Travel/cashback-sand-2_2x.jpg',
+// 				'831px',
+// 				'599px'
+// 			)};
+// 		}
+// 	}
+// `;
 
-export const TravelCashbacksplash3 = styled.span`
-	@media (${mixins.breakpoint('tablet-landscape-up')}) {
-		position: absolute;
-		top: -410px;
-		left: 0px;
-		z-index: -2;
+// export const TravelCashbacksplash3 = styled.span`
+// 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
+// 		position: absolute;
+// 		top: -410px;
+// 		left: 0px;
+// 		z-index: -2;
 
-		@media (${mixins.breakpoint('desktop-up')}) {
-			top: -325px;
-		}
+// 		@media (${mixins.breakpoint('desktop-up')}) {
+// 			top: -325px;
+// 		}
 
-		&:after {
-			background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1539939728/website-v2/Travel/cashback-splash-1.jpg');
-			background-repeat: no-repeat;
-			display: block;
-			width: 265px;
-			height: 384px;
-			content: '';
-			float: right;
+// 		&:after {
+// 			background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1539939728/website-v2/Travel/cashback-splash-1.jpg');
+// 			background-repeat: no-repeat;
+// 			display: block;
+// 			width: 265px;
+// 			height: 384px;
+// 			content: '';
+// 			float: right;
 
-			${mixins.image2x(
-				'https://res.cloudinary.com/dzatxn6bx/image/upload/v1539939729/website-v2/Travel/cashback-splash-1_2x.jpg',
-				'265px',
-				'384px'
-			)};
-		}
-	}
-`;
+// 			${mixins.image2x(
+// 				'https://res.cloudinary.com/dzatxn6bx/image/upload/v1539939729/website-v2/Travel/cashback-splash-1_2x.jpg',
+// 				'265px',
+// 				'384px'
+// 			)};
+// 		}
+// 	}
+// `;
 
 export const TravelCashbackImage = styled.div`
  @media (${mixins.breakpoint('tablet-landscape-up')}) {
@@ -329,12 +329,12 @@ export const TravelCashbackImage = styled.div`
     }
 
     &:after {
-      background-image: url("https://res.cloudinary.com/dzatxn6bx/image/upload/v1537349710/website-v2/Travel/cashback-splash-2.jpg");
+      /* background-image: url("https://res.cloudinary.com/dzatxn6bx/image/upload/v1537349710/website-v2/Travel/cashback-splash-2.jpg"); */
       background-repeat: no-repeat;
       display: block;
       width: 2268px;
       height: 1185px;
-      content: "";
+      /* content: ""; */
     }
   }
 
@@ -353,8 +353,8 @@ export const TravelCashbackImage = styled.div`
   }
 
   &:before {
-    content: "";
-    background-image: url("https://res.cloudinary.com/dzatxn6bx/image/upload/v1536939259/website-v2/Travel/cashback-bubbles-2.png");
+    /* content: "";
+    background-image: url("https://res.cloudinary.com/dzatxn6bx/image/upload/v1536939259/website-v2/Travel/cashback-bubbles-2.png"); */
     width: 300px;
     height: 300px;
     display: block;
@@ -363,11 +363,11 @@ export const TravelCashbackImage = styled.div`
     z-index: -3;
     left: 100px;
 
-    ${mixins.image2x(
+    /* ${mixins.image2x(
 			'https://res.cloudinary.com/dzatxn6bx/image/upload/v1536939259/website-v2/Travel/cashback-bubbles-2_2x.png',
 			'300px',
 			'300px'
-		)};
+		)}; */
 
     @media (${mixins.breakpoint('desktop-up')}) {
       left: 190px;
@@ -375,8 +375,8 @@ export const TravelCashbackImage = styled.div`
   }
 
   &:after {
-    content: "";
-    background-image: url("https://res.cloudinary.com/dzatxn6bx/image/upload/v1536939258/website-v2/Travel/cashback-bubbles-1.png");
+    /* content: "";
+    background-image: url("https://res.cloudinary.com/dzatxn6bx/image/upload/v1536939258/website-v2/Travel/cashback-bubbles-1.png"); */
     width: 61px;
     height: 163px;
     display: block;
@@ -385,11 +385,11 @@ export const TravelCashbackImage = styled.div`
     z-index: -4;
     left: 140px;
 
-    ${mixins.image2x(
+    /* ${mixins.image2x(
 			'https://res.cloudinary.com/dzatxn6bx/image/upload/v1536939258/website-v2/Travel/cashback-bubbles-1_2x.png',
 			'61px',
 			'163px'
-		)};
+		)}; */
 
     @media (${mixins.breakpoint('desktop-up')}) {
       top: 150px;
