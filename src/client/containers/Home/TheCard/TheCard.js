@@ -37,7 +37,8 @@ export default class TheCard extends PureComponent {
 
 					<Styles.YourCardTag className='column is-6'>
 						<BodyDispVirt title={this.textBody('introTitle')} theme='themeBlack' page='home'>
-							<p className='is-hidden-mobile'>{this.textBody('welcomeDescription')}</p>
+							<p>{this.textBody('welcomeDescription')}</p>
+							{/* <p className='is-hidden-mobile'>{this.textBody('welcomeDescription')}</p> */}
 						</BodyDispVirt>
 					</Styles.YourCardTag>
 				</div>

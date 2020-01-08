@@ -3,9 +3,10 @@ import React, { useEffect, useState } from 'react';
 
 import './NextParticle.css';
 
+const isMobile = window.innerWidth < 768;
+const isSmall = window.innerWidth >= 768 && window.innerWidth < 1000;
+
 export const NextParticleHome = () => {
-	var isMobile = navigator.userAgent && navigator.userAgent.toLowerCase().indexOf('mobile') >= 0;
-	var isSmall = window.innerWidth < 1000;
 	const [settings, setSettings] = useState({
 		colorArr: undefined,
 		renderer: 'default',
@@ -15,10 +16,10 @@ export const NextParticleHome = () => {
 		gravity: 0.1,
 		noise: 7,
 		// width: Math.min(window.innerWidth - 30, 1140),
-		width: Math.min(window.innerHeight - 120 - 30, 520),
-		height: Math.min(window.innerHeight - 120 - 30, 520),
-		maxWidth: isMobile || isSmall ? 180 : 320,
-		maxHeight: isMobile || isSmall ? 180 : 320,
+		width: isMobile ? 300 : Math.min(window.innerHeight - 120 - 30, 520),
+		height: isMobile ? 300 : Math.min(window.innerHeight - 120 - 30, 520),
+		maxWidth: isMobile || isSmall ? 200 : 320,
+		maxHeight: isMobile || isSmall ? 200 : 320,
 		mouseForce: 30,
 		clickStrength: 100
 		// particleSize: 1,
@@ -35,10 +36,11 @@ export const NextParticleHome = () => {
 	const mergeSettings = partialSettings => setSettings({ ...settings, ...partialSettings });
 
 	const resizeWindow = () => {
+		const isMobile = window.innerWidth < 768;
 		mergeSettings({
 			// width: Math.min(window.innerWidth - 30, 1140),
-			width: Math.min(window.innerHeight - 120 - 30, 500),
-			height: Math.min(window.innerHeight - 120 - 30, 500)
+			width: isMobile ? 300 : Math.min(window.innerHeight - 120 - 30, 520),
+			height: isMobile ? 300 : Math.min(window.innerHeight - 120 - 30, 520)
 		});
 	};
 
