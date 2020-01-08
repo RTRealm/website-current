@@ -14,8 +14,8 @@ export const NextParticleHome = () => {
 		noise: 7,
 		width: Math.min(window.innerWidth - 30, 1140),
 		height: Math.min(window.innerHeight - 120 - 30, 600),
-		maxWidth: 550,
-		maxHeight: 550,
+		maxWidth: 500,
+		maxHeight: 500,
 		mouseForce: 100,
 		clickStrength: 100
 		// particleSize: 1,
@@ -44,7 +44,7 @@ export const NextParticleHome = () => {
 	});
 
 	return (
-		<div className='home'>
+		<div className='home-np'>
 			<NextParticleAnim {...settings} className='next-particle' />
 		</div>
 	);

@@ -51,8 +51,8 @@ export const YourCardMainImage = styled.div`
 		margin-top: -30px;
 	}
 
-	img {
-		display: block;
+	.img {
+		display: flex;
 		position: relative;
 		top: 0px;
 		left: 0px;
