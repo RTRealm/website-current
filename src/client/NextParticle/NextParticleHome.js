@@ -11,7 +11,7 @@ export const NextParticleHome = () => {
 		colorArr: undefined,
 		renderer: 'default',
 		imageUrl:
-			'https://res.cloudinary.com/ohcash/image/upload/v1578489583/landingpage/logoRTblack510.svg',
+			'https://res.cloudinary.com/ohcash/image/upload/v1578506304/landingpage/logoRTblue510.svg',
 		particleGap: 1,
 		gravity: 0.1,
 		noise: 7,
