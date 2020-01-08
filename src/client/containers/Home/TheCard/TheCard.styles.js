@@ -4,7 +4,7 @@ import * as mixins from '../../../assets/styles/_mixins';
 export const YourCard = styled.section`
 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
 		width: 95%;
-		margin: 5% auto 0 auto;
+		margin: 0 auto 0 auto;
 	}
 
 	@media (${mixins.breakpoint('desktop-up')}) {

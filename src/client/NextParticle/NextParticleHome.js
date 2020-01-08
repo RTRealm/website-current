@@ -13,11 +13,11 @@ export const NextParticleHome = () => {
 		gravity: 0.2,
 		noise: 7,
 		width: Math.min(window.innerWidth - 30, 1140),
-		height: Math.min(window.innerHeight - 120 - 30, 600),
+		height: Math.min(window.innerHeight - 120 - 30, 800),
 		maxWidth: 500,
 		maxHeight: 500,
 		mouseForce: 100,
-		clickStrength: 100
+		clickStrength: 108
 		// particleSize: 1,
 		// layerCount: 2,
 		// layerDistance: 5,
