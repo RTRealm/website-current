@@ -54,7 +54,7 @@ export const AboutUsPhone = styled.span`
 	}
 
 	&:after {
-		background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1578040888/landingpage/ab-us-1x.png');
+		background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1578509299/landingpage/ab-us-new1x.png');
 		background-repeat: no-repeat;
 		display: block;
 		width: 647px;
@@ -62,7 +62,7 @@ export const AboutUsPhone = styled.span`
 		content: '';
 
 		${mixins.image2x(
-			'https://res.cloudinary.com/ohcash/image/upload/v1578040900/landingpage/ab-us-2x.png',
+			'https://res.cloudinary.com/ohcash/image/upload/v1578509310/landingpage/ab-us-new2x.png',
 			'647px',
 			'714px'
 		)};
