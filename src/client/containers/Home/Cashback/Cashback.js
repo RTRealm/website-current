@@ -298,8 +298,8 @@ class Cashback extends Component {
 						<Styles.TravelCashbackImage className=' is-hidden-mobile'>
 							<span />
 							<img
-								src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1536938947/website-v2/Travel/cashback-card.png'
-								srcSet='https://res.cloudinary.com/dzatxn6bx/image/upload/v1536938947/website-v2/Travel/cashback-card_2x.png 2x'
+								src='https://res.cloudinary.com/ohcash/image/upload/v1578527117/landingpage/credentials_1x.png'
+								srcSet='https://res.cloudinary.com/ohcash/image/upload/v1578527128/landingpage/credentials_2x.png 2x'
 								alt='Curve rewards'
 							/>
 						</Styles.TravelCashbackImage>
