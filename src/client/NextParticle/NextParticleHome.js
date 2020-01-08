@@ -4,6 +4,8 @@ import React, { useEffect, useState } from 'react';
 import './NextParticle.css';
 
 export const NextParticleHome = () => {
+	var isMobile = navigator.userAgent && navigator.userAgent.toLowerCase().indexOf('mobile') >= 0;
+	var isSmall = window.innerWidth < 1000;
 	const [settings, setSettings] = useState({
 		colorArr: undefined,
 		renderer: 'default',
@@ -13,10 +15,10 @@ export const NextParticleHome = () => {
 		gravity: 0.1,
 		noise: 7,
 		// width: Math.min(window.innerWidth - 30, 1140),
-		width: Math.min(window.innerHeight - 120 - 30, 500),
-		height: Math.min(window.innerHeight - 120 - 30, 500),
-		maxWidth: 300,
-		maxHeight: 300,
+		width: Math.min(window.innerHeight - 120 - 30, 520),
+		height: Math.min(window.innerHeight - 120 - 30, 520),
+		maxWidth: isMobile || isSmall ? 180 : 320,
+		maxHeight: isMobile || isSmall ? 180 : 320,
 		mouseForce: 30,
 		clickStrength: 100
 		// particleSize: 1,
