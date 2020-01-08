@@ -5,7 +5,7 @@ import './NextParticle.css';
 
 export const NextParticleHome = () => {
 	const [settings, setSettings] = useState({
-		// colorArr: undefined,
+		colorArr: undefined,
 		renderer: 'default',
 		imageUrl:
 			'https://res.cloudinary.com/ohcash/image/upload/v1578427220/landingpage/logoRTblack.png',
@@ -16,7 +16,7 @@ export const NextParticleHome = () => {
 		height: Math.min(window.innerHeight - 120 - 30, 600),
 		maxWidth: 550,
 		maxHeight: 550,
-		mouseForce: 90,
+		mouseForce: 100,
 		clickStrength: 100
 		// particleSize: 1,
 		// layerCount: 2,
