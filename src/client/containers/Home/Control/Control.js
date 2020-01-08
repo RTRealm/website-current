@@ -98,7 +98,7 @@ export default class Control extends PureComponent {
 								}}
 								source={{
 									mob:
-										'https://res.cloudinary.com/ohcash/image/upload/v1578068182/landingpage/control-mob.png'
+										'https://res.cloudinary.com/ohcash/image/upload/v1578527846/landingpage/oursource_mob.png'
 								}}
 								size={{ max: 'max-width:768px' }}
 								alt='iPhone with curve app opened displaying a transaction'
@@ -107,8 +107,10 @@ export default class Control extends PureComponent {
 						</LazyLoad>
 					</Styles.ControlImage>
 					<Styles.ControlCopy className='control__copy'>
-						<InfoStyles.InfoGroupSubTitle>Outsorcing</InfoStyles.InfoGroupSubTitle>
-						<InfoStyles.InfoGroupTitle>Focus on your business</InfoStyles.InfoGroupTitle>
+						<InfoStyles.InfoGroupSubTitle>
+							{this.textBody('subtitleCO')}
+						</InfoStyles.InfoGroupSubTitle>
+						<InfoStyles.InfoGroupTitle>{this.textBody('titleCO')}</InfoStyles.InfoGroupTitle>
 						<InfoStyles.InfoGroupText>{copy()}</InfoStyles.InfoGroupText>
 					</Styles.ControlCopy>
 				</Styles.ControlContent>
