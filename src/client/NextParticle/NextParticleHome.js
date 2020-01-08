@@ -34,7 +34,7 @@ export const NextParticleHome = () => {
 	const resizeWindow = () => {
 		mergeSettings({
 			width: Math.min(window.innerWidth - 30, 1140),
-			height: Math.min(window.innerHeight - 120 - 30, 600)
+			height: Math.min(window.innerHeight - 120 - 30, 800)
 		});
 	};
 
