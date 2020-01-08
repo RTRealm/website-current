@@ -128,7 +128,7 @@ export default class Control extends PureComponent {
 								}}
 								source={{
 									desk:
-										'https://res.cloudinary.com/ohcash/image/upload/v1576935840/landingpage/Outsourcing.png'
+										'https://res.cloudinary.com/ohcash/image/upload/v1578522455/landingpage/Real2.png'
 								}}
 								size={{ max: 'min-width:769px' }}
 								alt='Displaying a transaction'
