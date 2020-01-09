@@ -98,7 +98,7 @@ export default class Control extends PureComponent {
 								}}
 								source={{
 									mob:
-										'https://res.cloudinary.com/ohcash/image/upload/v1578527846/landingpage/oursource_mob.png'
+										'https://res.cloudinary.com/ohcash/image/upload/v1578573366/landingpage/outsourcing_mob_new.png'
 								}}
 								size={{ max: 'max-width:768px' }}
 								alt='iPhone with curve app opened displaying a transaction'
