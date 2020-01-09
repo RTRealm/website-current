@@ -48,7 +48,7 @@ class Cookies extends Component {
 
 						<div className='terms__content'>
 							<p>
-								{this.textBody('cookieTitle')}
+								{this.textBody('cookieSubTitle')}
 								{/* <LocalisedLink to='/'>https://www.curve.app</LocalisedLink> */}
 							</p>
 
@@ -56,7 +56,17 @@ class Cookies extends Component {
 
 							<p>{this.textBody('cookieBody1a')}</p>
 
-							<p>{this.textBody('cookieBody1b')}</p>
+							<p>
+								{this.textBody('cookieBody1b')}{' '}
+								<a
+									href='https://en.wikipedia.org/wiki/HTTP_cookie'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
+									Wikipedia section on HTTP Cookies
+								</a>
+								.
+							</p>
 
 							<Styles.TermsSectionTitles>{this.textBody('cookieHead2')}</Styles.TermsSectionTitles>
 
@@ -97,11 +107,17 @@ class Cookies extends Component {
 
 							<ul>
 								<li>
-									<p>{this.textBody('cookieBody4c')}</p>
-									{/* <p>
-										For more information on Google Analytics cookies, see the official Google
-										Analytics page.
-									</p> */}
+									<p>
+										{this.textBody('cookieBody4c')}{' '}
+										<a
+											href='https://analytics.google.com/analytics/web/provision/#/provision'
+											target='_blank'
+											rel='noopener noreferrer'
+										>
+											Google Analitics page
+										</a>
+										.
+									</p>
 								</li>
 
 								<li>

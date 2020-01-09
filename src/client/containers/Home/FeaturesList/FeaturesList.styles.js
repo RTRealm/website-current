@@ -39,20 +39,20 @@ export const FeaturesListItem = styled.li`
 	}
 
 	&.features-list__item--sync span {
-		background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1537361448/website-v2/Icons/sync.svg');
+		background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1577882084/landingpage/infinity.svg');
 		width: 91px;
 		height: 38px;
 	}
 
 	&.features-list__item--insights span {
-		background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1537361448/website-v2/Icons/insight.svg');
-		width: 68px;
-		height: 49px;
+		background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1577882084/landingpage/infinity_green.svg');
+		width: 91px;
+		height: 38px;
 	}
 
 	&.features-list__item--abroad span {
-		background-image: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1537361448/website-v2/Icons/card.svg');
-		width: 67px;
-		height: 45px;
+		background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1578573888/landingpage/infinity_yellow.svg');
+		width: 91px;
+		height: 38px;
 	}
 `;
