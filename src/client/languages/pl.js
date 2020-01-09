@@ -10,15 +10,15 @@ const pl = {
 	//
 	// ******** Intro ********
 	//
-	introTitle: 'Kompleksowe usługi IT',
+	introTitle: 'Więcej niż software house',
 	welcomeDescription:
-		'To jest polska wersja. To jest polska wersja. To jest polska wersja. To jest polska wersja. To jest polska wersja. To jest polska wersja.',
-	emergencyButton: 'Pomocy!',
+		'Dostarczamy kompleksowe indywidualne rozwiązania informatyczne. Bez względu na to czy potrzebujesz prostej aplikacji czy wdrożenia złożonego systemu, jesteśmy dla Ciebie odpowiednim partnerem. Dodatkowo, dzięki naszemu wyjątkowemu zestawowi umiejętności czujemy się wspaniale działając na styku technologii i finansów. Naprawdę, jesteśmy więcej niż tylko software house.',
+	emergencyButton: 'Tak, chcę wsparcia!',
 	//
 	// ******** Get Service ********
 	//
-	titleGS: 'Our Top Skills',
-	subtitleGS: 'Get Service',
+	titleGS: 'Nasze kompetencje',
+	subtitleGS: 'Profil usług',
 	skill1: 'Software engineering. Full stack applications of any size and complexity',
 	skill2: 'Consulting. Combination of tech know-how with business logic.',
 	skill3: 'Fintech.',
@@ -28,38 +28,39 @@ const pl = {
 	//
 	// ******** About us ********
 	//
-	titleAU: 'Software engineering',
-	subtitleAU: 'Development',
+	titleAU: 'Produkcja oprogramowania',
+	subtitleAU: 'Aplikacje',
 	bodyAU1:
-		"This is our bread and butter. We live and breath software development. And it is not only about coding: we'll implement and maintain your app, so that it's trouble-free for you. All this with cutting edge technologies.",
-	bodyAU2: 'And no need to invest in own architecture. We can go serverless for you.',
-	bodyAU3: 'Reach out to us now to discuss your project!',
+		'To jemy na śniadanie. Naszą pasją jest produkcja oprogramowania. I nie chodzi tylko o samo kodowanie: zaimplementujemy i utrzymamy twoją aplikację, tak żebyś miał problem z głowy. I to wszystko w oparciu o najnowocześniejsze technologie.',
+	bodyAU2:
+		'I nie musisz inwestować w architekturę sprzętową. Wykorzystamy dla Ciebie serwisy chmurowe.',
+	bodyAU3: 'Skontaktuj się z nami już teraz żeby omówić swój projekt!',
 	//
 	// ******** Simplicity ********
 	//
-	titleSI: 'Banking and more',
-	subtitleSI: 'Digital Finance',
+	titleSI: 'Bankowość i więcej',
+	subtitleSI: 'Cyfrowe Finanse',
 	bodySI1:
-		'We have a decades long experience in banking and financial markets. This is why we can be your preferred partner when it comes to digitilizing your business if you are a bank, brokerage house, insurance company or a fintech startup.',
+		"Mamy ponad dwadzieścia lat doświadczenia w bankowości i na rynkach finansowych. Dlatego możemy być dla Ciebie preferowanym partnerem w digitalizacji Twojego biznesu jeżeli jesteś bankiem, domem maklerskim, firmą ubezpieczeniową lub fintech startup'em.",
 	bodySI2:
-		"Here we deliver a unique combination of technology and business expertise. Simply, we understand what you're doing!",
+		'Reprezentujemy unikalne połączenie technologii i wiedzy biznesowej. Po prostu rozumiemy co robisz!',
 	//
 	// ******** Control ********
 	//
-	titleCO: 'More than a software house',
+	titleCO: 'Nie tylko software house',
 	subtitleCO: 'Outsourcing',
 	bodyCO1:
-		'Focus on your core business. We are here to help you design, implement and maintain your system architecture. Managing the IT just got a lot easier.',
+		'Skoncentruj się na swojej podstawowej działalności. My pomożemy Ci zaprojektować, wdrożyć i utrzymywać architekturę systemu. Dzięki nam, zarządzanie IT staje się o wiele łatwiejsze.',
 	bodyCO2:
-		"Let's optimise and manage your tech resources. And if you prefer to get it over we're here to take it.",
-	bodyCO3: "Awesome, isn't it?",
+		'A jeżeli wolisz mieć to wszystko z głowy, jesteśmy tutaj żeby zarządzać wszystkim za Ciebie.',
+	bodyCO3: 'Superancko, co nie?',
 	//
 	// ******** Cashback ********
 	//
-	titleCB: 'Solution providers.',
-	subtitleCB: 'Credentials & TechStack',
+	titleCB: 'Dostarczamy rozwiązań',
+	subtitleCB: 'Referencje i Technologie',
 	bodyCB1:
-		'We put our clients interests first. Each day we develop our competences and master new technologies to make sure we deliver our clients the best solutions possible.',
+		'Jesteś dla nas najważniejszy. Na pierwszym miejscu stawiamy interesy naszych klientów. Każdego dnia rozwijamy nasze kompetencje i doskonalimy nowe technologie, aby zapewnić naszym klientom najlepsze możliwe rozwiązania.',
 	bodyCB2: 'Client satisfaction is at the center of what we do.',
 	bodyCB3: 'i to nie wszystko...',
 	//
@@ -73,15 +74,15 @@ const pl = {
 	//
 	homeHeader: 'Home',
 	titleCP: 'Reach out to us.',
-	subtitleCP: "We're ready to lead you into the future of connected finance.",
+	subtitleCP: "We're ready to solve your problems.",
 	contactEmail:
 		'Jeśli chcesz skontaktować się z jednym z naszych konsultantów, aby dowiedzieć się więcej, jak możemy Ci pomóc, wyślij wiadomość:',
 	//
 	// ******** Features List ********
 	//
-	titleFL1: 'Software engineering',
+	titleFL1: 'Produkcja oprogramowania',
 	bodyFL1:
-		"This is our bread and butter. We live and breath software development. And it is not only about coding: we'll implement and maintain your app, so that it's trouble-free for you. All this with cutting edge technologies.",
+		"Naszą pasją jest produkcja oprogramowania. I nie chodzi tylko o samo kodowanie: zaimplementujemy i utrzymamy twoją aplikację, tak żebyś miał problem z głowy. I to wszystko w oparciu o najnowocześniejsze technologie.",
 	titleFL2: 'Consultancy',
 	bodyFL2:
 		"We combine the tech know-how with the business line logic. Let's discuss your system design, implementaion and optimization options.",
@@ -129,4 +130,4 @@ const pl = {
 
 export default pl;
 
-// ąśćłńżźó
+// ąśćłęńżźóŻŁŚ

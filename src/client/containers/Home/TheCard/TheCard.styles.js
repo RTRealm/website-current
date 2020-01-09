@@ -24,7 +24,7 @@ export const YourCard = styled.section`
 
 	@media (${mixins.breakpoint('desktop-up')}) {
 		h1 {
-			line-height: 4rem;
+			line-height: 5rem;
 			margin-bottom: 36px;
 		}
 	}
