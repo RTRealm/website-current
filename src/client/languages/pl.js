@@ -60,8 +60,8 @@ const pl = {
 	titleCB: 'Dostarczamy rozwiązań',
 	subtitleCB: 'Referencje i Technologie',
 	bodyCB1:
-		'Jesteś dla nas najważniejszy. Na pierwszym miejscu stawiamy interesy naszych klientów. Każdego dnia rozwijamy nasze kompetencje i doskonalimy nowe technologie, aby zapewnić naszym klientom najlepsze możliwe rozwiązania.',
-	bodyCB2: 'Client satisfaction is at the center of what we do.',
+		'Na pierwszym miejscu stawiamy interesy naszych klientów. Każdego dnia rozwijamy nasze kompetencje i doskonalimy nowe technologie, aby zapewnić naszym klientom najlepsze możliwe rozwiązania.',
+	bodyCB2: 'Twoja satysfakcja z naszych usług jest dla nas najważniejsza.',
 	bodyCB3: 'i to nie wszystko...',
 	//
 	// ******** Tab ********
@@ -82,13 +82,13 @@ const pl = {
 	//
 	titleFL1: 'Produkcja oprogramowania',
 	bodyFL1:
-		"Naszą pasją jest produkcja oprogramowania. I nie chodzi tylko o samo kodowanie: zaimplementujemy i utrzymamy twoją aplikację, tak żebyś miał problem z głowy. I to wszystko w oparciu o najnowocześniejsze technologie.",
+		'Naszą pasją jest produkcja oprogramowania. I nie chodzi tylko o samo kodowanie: zaimplementujemy i utrzymamy twoją aplikację, tak żebyś miał problem z głowy. I to wszystko w oparciu o najnowocześniejsze technologie.',
 	titleFL2: 'Consultancy',
 	bodyFL2:
-		"We combine the tech know-how with the business line logic. Let's discuss your system design, implementaion and optimization options.",
+		'Łączymy wiedzę technologiczną z logiką biznesu. Chętnie omówimy z Tobą koncepcję projektu, wdrożenia i optymalizacji Twojego systemu.',
 	titleFL3: 'Outsourcing',
 	bodyFL3:
-		"Tired with running your systems? Want to focus on your core business? Reach out to us and we'll manage it for you.",
+		'Masz już dosyć zarządzania swoim systemem? Chcesz się skoncentrować się na swojej podstawowej działalności biznesowej? Daj nam znać, a my zajmiemy się Twoim IT za Ciebie.',
 	//
 	// ******** Cookies ********
 	//

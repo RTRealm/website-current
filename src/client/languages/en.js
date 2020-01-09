@@ -56,7 +56,7 @@ const en = {
 	//
 	// ******** Cashback ********
 	//
-	titleCB: 'Solution providers.',
+	titleCB: 'Solution providers',
 	subtitleCB: 'Credentials & TechStack',
 	bodyCB1:
 		'We put our clients interests first. Each day we develop our competences and master new technologies to make sure we deliver our clients the best solutions possible.',
@@ -86,7 +86,7 @@ const en = {
 		"We combine the tech know-how with the business line logic. Let's discuss your system design, implementaion and optimization options.",
 	titleFL3: 'Outsourcing',
 	bodyFL3:
-		"Tired with running your systems? Want to focus on your core business? Reach out to us and we'll manage it for you.",
+		"Tired with running your systems? Want to focus on your core business? Reach out to us and we'll manage the IT for you.",
 	//
 	// ******** Cookies Banner & Page ********
 	//
