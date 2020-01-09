@@ -205,7 +205,7 @@ class Contact extends Component {
 									width='100%'
 									height='650'
 									frameBorder='0'
-									src='https://res.cloudinary.com/ohcash/image/upload/v1578004946/landingpage/contactMap.png'
+									src='https://res.cloudinary.com/ohcash/image/upload/v1578574106/landingpage/contactMap.png'
 									allowFullScreen
 									title='office location'
 									scrolling='no'

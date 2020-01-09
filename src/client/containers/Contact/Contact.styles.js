@@ -168,7 +168,7 @@ export const ContactSupportItem = styled.li`
 `;
 
 export const ContactSocial = styled.div`
-	background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1578004323/landingpage/Screenshot_2020-01-02_at_23.31.01.png');
+	background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1578574202/landingpage/Screenshot_2020-01-02_at_23.31.01.png');
 	opacity: 0.5;
 	margin: 50px auto 0 auto;
 	width: 90%;
