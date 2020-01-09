@@ -27,7 +27,7 @@ export const SimplicityContent = styled.div`
 		${mixins.container()};
 	}
 	h2 {
-		margin-bottom: 53px;
+		margin-bottom: 20px;
 	}
 
 	p {
