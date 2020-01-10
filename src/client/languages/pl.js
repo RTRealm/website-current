@@ -47,8 +47,8 @@ const pl = {
 	//
 	// ******** Control ********
 	//
-	titleCO: 'Nie tylko software house',
-	subtitleCO: 'Outsourcing',
+	titleCO: 'Więcej czasu na rozwój',
+	subtitleCO: 'Modus operandi',
 	bodyCO1:
 		'Skoncentruj się na swojej podstawowej działalności. My pomożemy Ci zaprojektować, wdrożyć i utrzymywać architekturę systemu. Dzięki nam, zarządzanie IT staje się o wiele łatwiejsze.',
 	bodyCO2:
@@ -72,7 +72,7 @@ const pl = {
 	//
 	// ******** Contact Page ********
 	//
-	homeHeader: 'Oferta',
+	homeHeader: 'Home',
 	titleCP: 'Skontaktuj się z nami.',
 	subtitleCP: 'Jesteśmy żeby Tobie pomóc.',
 	contactEmail:
@@ -82,13 +82,15 @@ const pl = {
 	//
 	titleFL1: 'Produkcja oprogramowania',
 	bodyFL1:
-		'Naszą pasją jest produkcja oprogramowania. I nie chodzi tylko o samo kodowanie: zaimplementujemy i utrzymamy twoją aplikację, tak żebyś miał problem z głowy. I to wszystko w oparciu o najnowocześniejsze technologie.',
-	titleFL2: 'Consultancy',
+		'Stworzymy i utrzymamy twoją aplikację, tak żebyś miał problem z głowy. I to wszystko w oparciu o najnowocześniejsze technologie.',
+	titleFL2: 'Maintenance',
 	bodyFL2:
-		'Łączymy wiedzę technologiczną z logiką biznesu. Chętnie omówimy z Tobą koncepcję projektu, wdrożenia i optymalizacji Twojego systemu.',
+		'Łączymy wiedzę technologiczną z logiką biznesu. Chętnie omówimy z Tobą koncepcję optymalizacji i utrzymania Twojego systemu.',
 	titleFL3: 'Outsourcing',
 	bodyFL3:
-		'Masz już dosyć zarządzania swoim systemem? Chcesz się skoncentrować się na swojej podstawowej działalności biznesowej? Daj nam znać, a my zajmiemy się Twoim IT za Ciebie.',
+		'Chcesz się skoncentrować się na swojej podstawowej działalności biznesowej? Daj nam znać, a my zajmiemy się Twoim IT za Ciebie.',
+	titleFL4: 'Zarządzanie infrastrukturą',
+	bodyFL4: 'Administrujemy rozwiązaniami opartymi o środowiska zarówno fizyczne jak i wirtualne.',
 	//
 	// ******** Cookies Banner & Page ********
 	//

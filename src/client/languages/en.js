@@ -47,8 +47,8 @@ const en = {
 	//
 	// ******** Control ********
 	//
-	titleCO: 'More than a software house',
-	subtitleCO: 'Outsourcing',
+	titleCO: 'Free up time for growth',
+	subtitleCO: 'Modus operandi',
 	bodyCO1:
 		'Focus on your core business. We are here to help you design, implement and maintain your system architecture. Managing the IT just got a lot easier.',
 	bodyCO2:
@@ -81,13 +81,15 @@ const en = {
 	//
 	titleFL1: 'Software engineering',
 	bodyFL1:
-		"This is our bread and butter. We live and breath software development. And it is not only about coding: we'll implement and maintain your app, so that it's trouble-free for you. All this with cutting edge technologies.",
-	titleFL2: 'Consultancy',
+		"We'll develop and maintain your app, so that it's trouble-free for you. All this with cutting edge technologies.",
+	titleFL2: 'Maintenance',
 	bodyFL2:
 		"We combine the tech know-how with the business line logic. Let's discuss your system design, implementaion and optimization options.",
 	titleFL3: 'Outsourcing',
 	bodyFL3:
 		"Tired with running your systems? Want to focus on your core business? Reach out to us and we'll manage the IT for you.",
+	titleFL4: 'Infrastructure management',
+	bodyFL4: 'We administer systems based on both physical and virtual environments.',
 	//
 	// ******** Cookies Banner & Page ********
 	//

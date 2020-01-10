@@ -21,10 +21,15 @@ const FeaturesList = () => {
 					<h3>{textBody('titleFL2')}</h3>
 					<p>{textBody('bodyFL2')}</p>
 				</Styles.FeaturesListItem>
-				<Styles.FeaturesListItem className='features-list__item--abroad'>
+				<Styles.FeaturesListItem className='features-list__item--outsource'>
 					<span />
 					<h3>{textBody('titleFL3')}</h3>
 					<p>{textBody('bodyFL3')}</p>
+				</Styles.FeaturesListItem>
+				<Styles.FeaturesListItem className='features-list__item--abroad'>
+					<span />
+					<h3>{textBody('titleFL4')}</h3>
+					<p>{textBody('bodyFL4')}</p>
 				</Styles.FeaturesListItem>
 			</Styles.FeaturesListContent>
 		</Styles.FeaturesList>

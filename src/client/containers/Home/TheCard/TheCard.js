@@ -46,37 +46,37 @@ export default class TheCard extends PureComponent {
 					<Styles.YourCardPR className='columns is-mobile is-multiline'>
 						<li className='column is-narrow'>
 							<img
-								src='https://res.cloudinary.com/ohcash/image/upload/v1578144500/landingpage/cisco.svg'
+								src='https://res.cloudinary.com/ohcash/image/upload/v1578663809/landingpage/scrumorg.svg'
 								alt='Wired'
 							/>
 						</li>
 						<li className='column is-narrow'>
 							<img
-								src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1541082226/website-v2/Icons/techcrunch-black.svg'
+								src='https://res.cloudinary.com/ohcash/image/upload/v1578144500/landingpage/cisco.svg'
 								alt='Tech Crunch'
 							/>
 						</li>
 						<li className='column is-narrow'>
 							<img
-								src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1541082226/website-v2/Icons/telegraph-black.svg'
+								src='https://res.cloudinary.com/ohcash/image/upload/v1578665789/landingpage/ITILlogo.svg'
 								alt='Telegraph'
 							/>
 						</li>
 						<li className='column is-narrow'>
 							<img
-								src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1541082226/website-v2/Icons/sundaytime-black.svg'
+								src='https://res.cloudinary.com/ohcash/image/upload/v1578665601/landingpage/leanlogo.svg'
 								alt='The Sunday Times'
 							/>
 						</li>
 						<li className='column is-narrow '>
 							<img
-								src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1541082226/website-v2/Icons/forbes-black.svg'
+								src='https://res.cloudinary.com/ohcash/image/upload/v1578666726/landingpage/agilelogo.svg'
 								alt='Forbes'
 							/>
 						</li>
-						<li className='column is-narrow is-hidden-mobile'>
+						<li className='column is-narrow'>
 							<img
-								src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1541082226/website-v2/Icons/wallstreetjourney-black.svg'
+								src='https://res.cloudinary.com/ohcash/image/upload/v1578144500/landingpage/cisco.svg'
 								alt='The Wall Street Journal'
 							/>
 						</li>

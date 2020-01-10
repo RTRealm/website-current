@@ -96,6 +96,9 @@ export const YourCardPR = styled.ul`
 	}
 
 	li {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		padding: 0 12px 0 0;
 		width: 45%;
 		margin-bottom: 20px;
