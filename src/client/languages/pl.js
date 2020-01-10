@@ -19,19 +19,19 @@ const pl = {
 	//
 	titleGS: 'Nasze kompetencje',
 	subtitleGS: 'Profil usług',
-	skill1: 'Software engineering. Full stack applications of any size and complexity',
-	skill2: 'Consulting. Combination of tech know-how with business logic.',
-	skill3: 'Fintech.',
-	skill4: 'Outsourcing.',
-	skill5: 'System design, implementation and maintenance.',
-	skill6: 'Audit.',
+	skill1: 'Produkcja oprogramowania. Aplikacje pod indywidualne potrzeby klienta.',
+	skill2: 'Outsourcing. Optymalizacja i zarządzanie zasobami IT.',
+	skill3: 'Maintenace. Optymalizacja wydajności, kontrola i rozwój.',
+	skill4: 'Consulting. Łączymy tech know-how z logiką biznesową.',
+	skill5: 'Zarządzanie infrastrukturą. Rozwiązania w środowiskach fizycznych i wirtualnych.',
+	skill6: 'Audyt. Kontrola stanu i efektywności.',
 	//
 	// ******** About us ********
 	//
 	titleAU: 'Produkcja oprogramowania',
 	subtitleAU: 'Aplikacje',
 	bodyAU1:
-		'To jemy na śniadanie. Naszą pasją jest produkcja oprogramowania. I nie chodzi tylko o samo kodowanie: zaimplementujemy i utrzymamy twoją aplikację, tak żebyś miał problem z głowy. I to wszystko w oparciu o najnowocześniejsze technologie.',
+		'Bułka z masłem. Naszą pasją jest produkcja oprogramowania. I nie chodzi tylko o samo kodowanie: zaimplementujemy i utrzymamy twoją aplikację, tak żebyś miał problem z głowy. I to wszystko w oparciu o najnowocześniejsze technologie.',
 	bodyAU2:
 		'I nie musisz inwestować w architekturę sprzętową. Wykorzystamy dla Ciebie serwisy chmurowe.',
 	bodyAU3: 'Skontaktuj się z nami już teraz żeby omówić swój projekt!',

@@ -19,12 +19,13 @@ const en = {
 	//
 	titleGS: 'Our Top Skills',
 	subtitleGS: 'Get Service',
-	skill1: 'Software engineering. Full stack applications of any size and complexity',
-	skill2: 'Consulting. Combination of tech know-how with business logic.',
-	skill3: 'Fintech.',
-	skill4: 'Outsourcing. Optimizing and managing your IT resources.',
-	skill5: 'System design, implementation and maintenance.',
-	skill6: 'Audit.',
+	skill1strong: 'Software engineering.',
+	skill1: 'Software engineering. Full stack applications of any size and complexity.',
+	skill2: 'Outsourcing. Optimizing and managing your IT resources.',
+	skill3: 'Maintenance. Performance optimization, code control and enhancement.',
+	skill4: 'Consulting. Combination of tech know-how with business logic.',
+	skill5: 'Infrastructure management. Physical and virtual environments.',
+	skill6: 'Audit. Design and effectiveness evaluation.',
 	//
 	// ******** About us ********
 	//

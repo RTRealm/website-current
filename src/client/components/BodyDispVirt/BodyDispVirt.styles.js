@@ -26,7 +26,7 @@ export const MainBDV = styled.div`
 		@media (${mixins.breakpoint('tablet-landscape-up')}) {
 			width: 85%;
 			margin: 0 0 50px 0;
-			font-weight: 400;
+			font-weight: 200;
 		}
 
 		@media (${mixins.breakpoint('desktop-up')}) {
