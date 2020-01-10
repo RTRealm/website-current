@@ -67,9 +67,9 @@ export default class TheCard extends PureComponent {
 						</li>
 						<li className='column is-narrow'>
 							<img
-								src='https://res.cloudinary.com/ohcash/image/upload/v1578667530/landingpage/leanlogo.svg'
-								alt='Sixsigma'
-								style={{ width: '50px' }}
+								src='https://res.cloudinary.com/ohcash/image/upload/v1578677143/landingpage/agilelogo.svg'
+								alt='Agile'
+								style={{ width: '80px' }}
 							/>
 						</li>
 						<li className='column is-narrow '>
@@ -81,9 +81,9 @@ export default class TheCard extends PureComponent {
 						</li>
 						<li className='column is-narrow'>
 							<img
-								src='https://res.cloudinary.com/ohcash/image/upload/v1578672943/landingpage/agilelogo.svg'
-								alt='Agile'
-								style={{ width: '80px' }}
+								src='https://res.cloudinary.com/ohcash/image/upload/v1578667530/landingpage/leanlogo.svg'
+								alt='Sixsigma'
+								style={{ width: '50px' }}
 							/>
 						</li>
 					</Styles.YourCardPR>
