@@ -114,7 +114,7 @@ class Cookies extends Component {
 											target='_blank'
 											rel='noopener noreferrer'
 										>
-											Google Analitics page
+											Google Analytics
 										</a>
 										.
 									</p>

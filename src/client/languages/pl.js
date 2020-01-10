@@ -111,24 +111,24 @@ const pl = {
 	cookieHead3: 'Kontrola ciasteczek',
 	cookieBody3a:
 		'Możesz ograniczyć wykorzystanie plików cookie lub całkowicie je wyłączyć. Plikami cookie można zarządzać, dostosowując ustawienia w przeglądarce (instrukcje znajdują się w sekcji „Pomoc” przeglądarki). Pamiętaj jednak, że wpłynie to na funkcjonalność tej i wielu innych witryn, które odwiedzasz. Wyłączenie plików cookie najprawdopodobniej spowoduje dezaktywację niektórych funkcjonalności tej witryny.',
-	cookieBody3b: 'You can learn how to manage cookies on your web browser by following the',
+	cookieBody3b: 'Dowiedz się jak zarządzać plikami cookie w przeglądarce zapoznając się z',
 	cookieHead4: 'Gdzie używamy ciasteczek',
 	cookieSubHead41: 'Ciasteczka naszej strony',
 	cookieBody4a:
-		'In order to provide you with a great experience on this site we pr ovide thefunctionality to set your preferences for how this site runs when you use it. In order to remember your preferences we need to set cookies so that this information can be called whenever you interact with a page is affected by your preferences.',
+		'Ustawiamy pliki cookie aby pomóc nam zrozumieć w jaki sposób odwiedzający korzystają z naszej witryny. Aby zapewnić Ci doskonałą jakość korzystania z tej witryny, zapewniamy funkcję umożliwiającą ustawienie preferencji dotyczących sposobu działania tej witryny podczas gdy z niej korzystasz. Aby zapamiętać Twoje preferencje musimy ustawić pliki cookie tak by informacje te można było pobierać za każdym razem gdy wchodzisz w interakcję ze stroną, której dotyczą Twoje preferencje.',
 	cookieSubHead42: 'Ciasteczka zewnętrzne',
-	cookieBody4b:
-		'In some special cases we also use cookies provided by trusted third parties. The following section details which third party cookies you might encounter through this site.',
+	cookieBody4b: 'Są przypadki, w których używamy również plików cookie zaufanych stron trzecich.',
 	cookieBody4c:
-		'This site uses Google Analytics which is one of the most widespread and trusted analytics solution on the web for helping us to understand how you use the site and ways that we can improve your experience. These cookies may track things such as how long you spend on the site and the pages that you visit so we can continue to produce engaging content. For more information on Google Analytics cookies, see the official Google Analytics page.',
+		'Ta strona korzysta z Google Analytics, które jest jednym z najbardziej rozpowszechnionych i zaufanych rozwiązań analitycznych w branży i które pomaga nam zrozumieć w jaki sposób korzystasz z witryny i jak możemy poprawić komfort użytkowania. Te pliki cookie mogą śledzić takie rzeczy jak czas spędzony w witrynie i odwiedzane strony, tak abyśmy mogli nadal tworzyć angażujące treści. Aby uzyskać więcej informacji na temat plików cookie Google Analytics, zobacz oficjalną stronę ',
 	cookieBody4d:
-		'Third party analytics are used to track and measure usage of this site so that we can continue to produce engaging content. These cookies may track things such as how long you spend on the site or pages you visit which helps us to understand how we can improve the site for you.',
+		'Narzędzia analityczne stron trzecich służą do śledzenia i mierzenia ruchu w tej witrynie, dzięki czemu możemy nadal tworzyć angażujące treści. Te pliki cookie mogą śledzić interakcje użytkownika z witryną, takie jak czas spędzony w witrynie lub odwiedzanych stronach, co pomaga nam zrozumieć, w jaki sposób możemy ulepszyć naszą usługę dla Ciebie.',
 	cookieBody4e:
-		'From time to time we test new features and make subtle changes to the way that the site is delivered. When we are still testing new features these cookies may be used to ensure that you receive a consistent experience whilst on the site whilst ensuring we understand which optimisations our users appreciate the most.',
+		'Od czasu do czasu testujemy nowe funkcje i dokonujemy subtelnych zmian w sposobie funkcjonowania strony. Gdy testujemy nowe funkcje, te pliki cookie mogą być używane w celu zapewnienia spójnego korzystania z witryny jednocześnie pomagając nam zrozumienić, które optymalizacje najbardziej doceniają nasi użytkownicy.',
 	cookieHead5: 'Więcej informacji',
 	cookieBody5a:
-		'Hopefully that has clarified things for you and as was previously mentioned if there is something that you are not sure whether you need or not it is usually safer to leave cookies enabled in case it does interact with one of the features you use on our site.',
-	cookieBody5b: 'However if you are still looking for more information then you can contact us:'
+		'Mamy nadzieję, że powyższe informacje zapewniły satysfakcjonujące wyjaśnienie technologii plików cookie i ich wykorzystania. Ogólnie rzecz biorąc, jeśli istnieje coś czego nie jesteś pewien czy potrzebujesz czy nie to zwykle bezpieczniej jest pozostawić włączoną obsługę plików cookie na wypadek gdyby działała ona w połączeniu z jedną z funkcji używanych na naszej witrynie.',
+	cookieBody5b:
+		'Jeśli jednak nadal szukasz bardziej szczegółowych informacji, skontaktuj się z nami:'
 };
 
 export default pl;

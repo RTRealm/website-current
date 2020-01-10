@@ -118,7 +118,7 @@ const en = {
 	cookieSubHead42: 'Third Party Cookies',
 	cookieBody4b: 'There are cases where we also use trusted third parties cookies.',
 	cookieBody4c:
-		'This site uses Google Analytics which is one of the most widespread and trusted analytics solution in the industry for helping us to understand how you use the site and the ways in which we can improve your user experience. These cookies may track things such as how long you spend on the site and the pages that you visit so we can continue to produce engaging content. For more information on Google Analytics cookies, see the official',
+		'This site uses Google Analytics which is one of the most widespread and trusted analytics solution in the industry for helping us to understand how you use the site and the ways in which we can improve your user experience. These cookies may track things such as how long you spend on the site and the pages that you visit so we can continue to produce engaging content. For more information on Google Analytics cookies, see the official page of',
 	cookieBody4d:
 		'Third party analytics are used to track and measure the traffic on this site so that we can continue to produce engaging content. These cookies may track your interaction with the site such as how long you spend on the site or pages you visit which helps us to understand how we can improve our service for you.',
 	cookieBody4e:

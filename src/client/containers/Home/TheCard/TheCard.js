@@ -48,36 +48,42 @@ export default class TheCard extends PureComponent {
 							<img
 								src='https://res.cloudinary.com/ohcash/image/upload/v1578663809/landingpage/scrumorg.svg'
 								alt='Scrum'
+								style={{ width: '50px' }}
 							/>
 						</li>
 						<li className='column is-narrow'>
 							<img
 								src='https://res.cloudinary.com/ohcash/image/upload/v1578144500/landingpage/cisco.svg'
 								alt='CCNP'
+								style={{ width: '50px' }}
 							/>
 						</li>
 						<li className='column is-narrow'>
 							<img
 								src='https://res.cloudinary.com/ohcash/image/upload/v1578665789/landingpage/ITILlogo.svg'
 								alt='Itil'
+								style={{ width: '70px' }}
 							/>
 						</li>
 						<li className='column is-narrow'>
 							<img
 								src='https://res.cloudinary.com/ohcash/image/upload/v1578667530/landingpage/leanlogo.svg'
 								alt='Sixsigma'
+								style={{ width: '50px' }}
 							/>
 						</li>
 						<li className='column is-narrow '>
 							<img
 								src='https://res.cloudinary.com/ohcash/image/upload/v1578667536/landingpage/isacalogo.svg'
 								alt='Isaca'
+								style={{ width: '100px' }}
 							/>
 						</li>
 						<li className='column is-narrow'>
 							<img
 								src='https://res.cloudinary.com/ohcash/image/upload/v1578672943/landingpage/agilelogo.svg'
 								alt='Agile'
+								style={{ width: '80px' }}
 							/>
 						</li>
 					</Styles.YourCardPR>

@@ -110,7 +110,7 @@ export const YourCardPR = styled.ul`
 
 		img {
 			opacity: 0.5;
-			width: 50px;
+			width: 60px;
 
 			@media (${mixins.breakpoint('tablet-portrait-up')}) {
 				width: 80%;
