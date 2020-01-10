@@ -4,11 +4,9 @@ import InfoGroup from '../../../components/InfoGroup/InfoGroup';
 import Tab from '../../../components/Tab/Tab';
 import { Text } from '../../Language';
 
-// import { gsap } from 'gsap';
 import * as scrollMagic from 'scrollmagic';
 import { TweenMax, TimelineMax } from 'gsap';
 import { ScrollMagicPluginGsap } from 'scrollmagic-plugin-gsap';
-// import { isConstructSignatureDeclaration } from 'typescript';
 ScrollMagicPluginGsap(scrollMagic, TweenMax, TimelineMax);
 
 class Cashback extends Component {

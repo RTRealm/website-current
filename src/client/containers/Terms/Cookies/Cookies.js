@@ -47,10 +47,7 @@ class Cookies extends Component {
 						</div>
 
 						<div className='terms__content'>
-							<p>
-								{this.textBody('cookieSubTitle')}
-								{/* <LocalisedLink to='/'>https://www.curve.app</LocalisedLink> */}
-							</p>
+							<p>{this.textBody('cookieSubTitle')}</p>
 
 							<Styles.TermsSectionTitles>{this.textBody('cookieHead1')}</Styles.TermsSectionTitles>
 
@@ -144,9 +141,6 @@ class Cookies extends Component {
 					</Styles.Terms>
 
 					<div className='fixed-header__trigger-end' />
-					{/* <FloatingCTA ref={this.modalCTA} /> */}
-					{/* <Footer CTAHandler={this.openCTAModal.bind(this)} 
-          page='Cookies' /> */}
 					<Footer page='Cookies' />
 				</div>
 			</Page>

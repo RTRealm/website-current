@@ -59,8 +59,6 @@ class Simplicity extends Component {
 	render() {
 		return (
 			<Styles.Simplicity>
-				{/* <Styles.SimplicitySplash /> */}
-				{/* <Styles.SimplicitySplash2 className='is-hidden-mobile' /> */}
 				<Styles.SimplicityContent className='simplicity__content'>
 					<div className='columns'>
 						<div className='column is-5'>

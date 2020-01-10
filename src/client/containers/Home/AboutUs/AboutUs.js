@@ -7,7 +7,6 @@ import { Text } from '../../Language';
 
 import * as Styles from './AboutUs.styles';
 
-// import { gsap } from 'gsap';
 import * as scrollMagic from 'scrollmagic';
 import { TweenMax, TimelineMax } from 'gsap';
 import { ScrollMagicPluginGsap } from 'scrollmagic-plugin-gsap';
@@ -89,38 +88,7 @@ class AboutUs extends PureComponent {
 							<p>{this.textBody('bodyAU3')}</p>
 						</InfoGroup>
 						<LazyLoad once={true} height={71} offset={500}>
-							<Styles.AboutUsContentAppStores className='columns'>
-								{/* <li className='column is-narrow'>
-									<a
-										href='https://itunes.apple.com/gb/app/id1049397112?mt=8'
-										target='_blank'
-										rel='noopener noreferrer'
-										data-eventcategory='AppStore'
-										data-eventaction='Go to App store'
-										data-eventlabel='App Store - Home about us'
-									>
-										<img
-											src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1537895079/website-v2/Icons/app-store-btn.svg'
-											alt='App store'
-										/>
-									</a>
-								</li>
-								<li className='column is-narrow'>
-									<a
-										href='https://play.google.com/store/apps/details?id=com.imaginecurve.curve.prd&hl=en_GB&af_prt=Rebelhack&pid=imaginecurve.com'
-										target='_blank'
-										rel='noopener noreferrer'
-										data-eventcategory='PlayStore'
-										data-eventaction='Go to Play store'
-										data-eventlabel='Play Store - Home about us'
-									>
-										<img
-											src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1537895079/website-v2/Icons/google-play-btn.svg'
-											alt='Play store'
-										/>
-									</a>
-								</li> */}
-							</Styles.AboutUsContentAppStores>
+							<Styles.AboutUsContentAppStores className='columns'></Styles.AboutUsContentAppStores>
 						</LazyLoad>
 					</div>
 				</Styles.AboutUsContent>

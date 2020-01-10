@@ -139,7 +139,6 @@ export default class Control extends PureComponent {
 						</LazyLoad>
 					</Styles.ControlImage>
 				</Styles.ControlContent>
-				{/* <Styles.ControlSplash2 className='is-hidden-mobile' /> */}
 			</Styles.Control>
 		);
 	}

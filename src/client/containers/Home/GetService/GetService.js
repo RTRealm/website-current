@@ -3,7 +3,7 @@ import * as Styles from './GetService.styles';
 
 import InfoGroup from '../../../components/InfoGroup/InfoGroup';
 import { Text } from '../../Language';
-// import UnlimitedCards from '../../../components/UnlimitedCards/UnlimitedCards';
+
 import * as scrollMagic from 'scrollmagic';
 import { TweenMax, TimelineMax } from 'gsap';
 import { ScrollMagicPluginGsap } from 'scrollmagic-plugin-gsap';
@@ -70,12 +70,10 @@ class getCurve extends Component {
 	render() {
 		return (
 			<Styles.GetCurve className='title-trigger'>
-				{/* <Styles.GetCurveSplash /> */}
 				<Styles.GetCurveContent className='getservice-trigger'>
 					<InfoGroup title={this.textBody('titleGS')} subtitle={this.textBody('subtitleGS')}>
 						{/* <p className='is-hidden-tablet'>
-							When you sync all your cards with, your payment information is encrypted so your real
-							card numbers are never shared with the retailer.
+							Lorem ipsum
 						</p> */}
 					</InfoGroup>
 					<div className='is-hidden-mobile'>
@@ -147,7 +145,6 @@ class getCurve extends Component {
 									</Styles.GetCurveBenefitContent>
 								</div>
 							</Styles.GetCurveBenefit>
-
 							<Styles.GetCurveBenefit className='column is-6'>
 								<div className='columns'>
 									<Styles.GetCurveBenefitHeading className='column is-4-tablet is-3-desktop'>
@@ -162,7 +159,6 @@ class getCurve extends Component {
 								</div>
 							</Styles.GetCurveBenefit>
 						</Styles.GetCurveBenefits>
-						{/* <UnlimitedCards animate={true} cls={'get-curve__benefits'} /> */}
 					</div>
 				</Styles.GetCurveContent>
 			</Styles.GetCurve>
