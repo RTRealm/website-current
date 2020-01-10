@@ -74,7 +74,7 @@ const pl = {
 	//
 	homeHeader: 'Oferta',
 	titleCP: 'Skontaktuj się z nami.',
-	subtitleCP: 'Jesteśmy tutaj żeby Tobie pomóc.',
+	subtitleCP: 'Jesteśmy żeby Tobie pomóc.',
 	contactEmail:
 		'Jeżeli chcesz porozmawiać z naszym konsultantem aby dowiedzieć się więcej wyślij wiadomość:',
 	//
@@ -94,27 +94,27 @@ const pl = {
 	//
 	cookieBannerA: 'Lubimy ciasteczka',
 	cookieBannerB: 'Pozostając na naszej stronie akceptujesz naszą',
-	cookieTitle: 'To jest Cookie Policy dla RT.Realm.',
+	cookieLink: 'politykę ciasteczek',
+	cookieTitle: 'To jest Polityka Ciasteczek RT.Realm.',
 	cookieSubTitle:
-		'This Cookie Policy explains what cookies are and how we use them. You should read this policy so you can understand what type of cookies we use, the information we collect using cookies and how that information is used.',
-	cookieHead1: 'Czym są ciasteczka?',
+		'Niniejsza Polityka Ciasteczek (plików cookie) wyjaśnia, czym są pliki cookie i jak ich używamy. Przeczytaj tą politykę, aby zrozumieć, jakiego rodzaju plików cookie używamy, informacji, które zbieramy za ich pomocą i jak te informacje są wykorzystywane.',
+	cookieHead1: 'Czym są ciasteczka',
 	cookieBody1a:
-		'As is common practice with almost all professional websites this site uses cookies, which are tiny files that are downloaded to your computer, to improve your experience. This page describes what information they gather, how we use it and why we sometimes need to store these cookies. We will also share how you can prevent these cookies from being stored however this may downgrade or break certain elements of the sites functionality.',
-	cookieBody1b:
-		'For more general information on cookies see the Wikipedia 	article on HTTP Cookies.',
-	cookieHead2: 'Jak wykorzystywane są ciasteczka?',
+		"Powszechną praktyką jest, że ​​prawie wszystkie profesjonalne strony internetowe używają plików cookie, które są małymi fragmentami danych w plikach tekstowych i które są przechowywane na komputerze lub innym urządzeniu podczas ładowania stron internetowych w przeglądarce. Są one szeroko stosowane do 'zapamiętywania' Twoich preferencji, aby zapewnić najwyższą jakość obsługi użytkownika. Pliki cookie mogą być ustawiane przez witrynę, którą odwiedzasz lub przez osoby trzecie takie jak te, które dostarczają treści lub świadczą usługi reklamowe lub analityczne dla danej witryny.",
+	cookieBody1b: 'Więcej informacji na temat plików cookie można znaleźć w',
+	cookieBody1c: 'Wikipedii w sekcji o HTPP Cookies',
+	cookieHead2: 'Jak wykorzystywane są ciasteczka',
 	cookieBody2:
-		'We use cookies for a variety of reasons detailed below. Unfortunately in most cases there are no industry standard options for disabling cookies without completely disabling the functionality and features they add to this site. It is recommended that you leave on all cookies if you are not sure whether you need them or not in case they are used to provide a service that you use.',
-	cookieHead3: 'Disabling Cookies',
+		'Pliki cookie są wykorzystywane do wielu różnych celów. Niektóre pliki cookie są niezbędne ze względów technicznych, niektóre umożliwiają spersonalizowane korzystanie zarówno dla odwiedzających jak i zarejestrowanych użytkowników, a inne umożliwiają wyświetlanie reklam z wybranych sieci stron trzecich. Niektóre z tych plików cookie można ustawić, gdy strona jest ładowana lub użytkownik podejmuje określone działanie. W większości przypadków nie ma standardowych opcji wyłączania plików cookie bez całkowitego wyłączenia funkcjonalności, z których korzystają witryny. Możesz zdecydować o pozostawieniu wszystkich plików cookie jeśli nie jesteś pewien, czy ich potrzebujesz czy nie, w przypadku gdy są one wykorzystywane do optymalizacji jakości używanego serwisu.',
+	cookieHead3: 'Kontrola ciasteczek',
 	cookieBody3a:
-		'You can prevent the setting of cookies by adjusting the settings on your browser (see your browser Help for how to do this). Be aware that disabling cookies will affect the functionality of this and many other websites that you visit. Disabling cookies will usually result in also disabling certain functionality and features of the this site. Therefore it is recommended that you do not disable cookies.',
+		'Możesz ograniczyć wykorzystanie plików cookie lub całkowicie je wyłączyć. Plikami cookie można zarządzać, dostosowując ustawienia w przeglądarce (instrukcje znajdują się w sekcji „Pomoc” przeglądarki). Pamiętaj jednak, że wpłynie to na funkcjonalność tej i wielu innych witryn, które odwiedzasz. Wyłączenie plików cookie najprawdopodobniej spowoduje dezaktywację niektórych funkcjonalności tej witryny.',
 	cookieBody3b: 'You can learn how to manage cookies on your web browser by following the',
-	cookieBody3c: 'Browser Cookies Guide',
-	cookieHead4: 'The Cookies We Set',
-	cookieSubHead41: 'Site preferences cookies',
+	cookieHead4: 'Gdzie używamy ciasteczek',
+	cookieSubHead41: 'Ciasteczka naszej strony',
 	cookieBody4a:
 		'In order to provide you with a great experience on this site we pr ovide thefunctionality to set your preferences for how this site runs when you use it. In order to remember your preferences we need to set cookies so that this information can be called whenever you interact with a page is affected by your preferences.',
-	cookieSubHead42: 'Third Party Cookies',
+	cookieSubHead42: 'Ciasteczka zewnętrzne',
 	cookieBody4b:
 		'In some special cases we also use cookies provided by trusted third parties. The following section details which third party cookies you might encounter through this site.',
 	cookieBody4c:
@@ -123,7 +123,7 @@ const pl = {
 		'Third party analytics are used to track and measure usage of this site so that we can continue to produce engaging content. These cookies may track things such as how long you spend on the site or pages you visit which helps us to understand how we can improve the site for you.',
 	cookieBody4e:
 		'From time to time we test new features and make subtle changes to the way that the site is delivered. When we are still testing new features these cookies may be used to ensure that you receive a consistent experience whilst on the site whilst ensuring we understand which optimisations our users appreciate the most.',
-	cookieHead5: 'More Information',
+	cookieHead5: 'Więcej informacji',
 	cookieBody5a:
 		'Hopefully that has clarified things for you and as was previously mentioned if there is something that you are not sure whether you need or not it is usually safer to leave cookies enabled in case it does interact with one of the features you use on our site.',
 	cookieBody5b: 'However if you are still looking for more information then you can contact us:'

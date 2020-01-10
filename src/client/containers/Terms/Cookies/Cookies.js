@@ -63,7 +63,7 @@ class Cookies extends Component {
 									target='_blank'
 									rel='noopener noreferrer'
 								>
-									Wikipedia section on HTTP Cookies
+									{this.textBody('cookieBody1c')}
 								</a>
 								.
 							</p>
