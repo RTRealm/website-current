@@ -72,7 +72,7 @@ const en = {
 	//
 	homeHeader: 'Home',
 	titleCP: 'Reach out to us.',
-	subtitleCP: "We're ready to lead you into the future of connected finance.",
+	subtitleCP: "We're ready to solve your problems.",
 	contactEmail:
 		'If you want to get in touch with one of our consultants to know more how we can help you, please e-mail us:',
 	//

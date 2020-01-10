@@ -57,7 +57,7 @@ const pl = {
 	//
 	// ******** Cashback ********
 	//
-	titleCB: 'Dostarczamy rozwiązań',
+	titleCB: 'Skuteczne rozwiązania',
 	subtitleCB: 'Referencje i Technologie',
 	bodyCB1:
 		'Na pierwszym miejscu stawiamy interesy naszych klientów. Każdego dnia rozwijamy nasze kompetencje i doskonalimy nowe technologie, aby zapewnić naszym klientom najlepsze możliwe rozwiązania.',
@@ -72,11 +72,11 @@ const pl = {
 	//
 	// ******** Contact Page ********
 	//
-	homeHeader: 'Home',
-	titleCP: 'Reach out to us.',
-	subtitleCP: "We're ready to solve your problems.",
+	homeHeader: 'Oferta',
+	titleCP: 'Skontaktuj się z nami.',
+	subtitleCP: 'Jesteśmy tutaj żeby Tobie pomóc.',
 	contactEmail:
-		'Jeśli chcesz skontaktować się z jednym z naszych konsultantów, aby dowiedzieć się więcej, jak możemy Ci pomóc, wyślij wiadomość:',
+		'Jeżeli chcesz porozmawiać z naszym konsultantem aby dowiedzieć się więcej wyślij wiadomość:',
 	//
 	// ******** Features List ********
 	//
@@ -90,18 +90,19 @@ const pl = {
 	bodyFL3:
 		'Masz już dosyć zarządzania swoim systemem? Chcesz się skoncentrować się na swojej podstawowej działalności biznesowej? Daj nam znać, a my zajmiemy się Twoim IT za Ciebie.',
 	//
-	// ******** Cookies ********
+	// ******** Cookies Banner & Page ********
 	//
 	cookieBannerA: 'Lubimy ciasteczka',
 	cookieBannerB: 'Pozostając na naszej stronie akceptujesz naszą',
 	cookieTitle: 'To jest Cookie Policy dla RT.Realm.',
-	cookieSubTitle: 'The Cookie Policy of RT.Realm.',
-	cookieHead1: 'What Are Cookies',
+	cookieSubTitle:
+		'This Cookie Policy explains what cookies are and how we use them. You should read this policy so you can understand what type of cookies we use, the information we collect using cookies and how that information is used.',
+	cookieHead1: 'Czym są ciasteczka?',
 	cookieBody1a:
 		'As is common practice with almost all professional websites this site uses cookies, which are tiny files that are downloaded to your computer, to improve your experience. This page describes what information they gather, how we use it and why we sometimes need to store these cookies. We will also share how you can prevent these cookies from being stored however this may downgrade or break certain elements of the sites functionality.',
 	cookieBody1b:
 		'For more general information on cookies see the Wikipedia 	article on HTTP Cookies.',
-	cookieHead2: 'How We Use Cookies',
+	cookieHead2: 'Jak wykorzystywane są ciasteczka?',
 	cookieBody2:
 		'We use cookies for a variety of reasons detailed below. Unfortunately in most cases there are no industry standard options for disabling cookies without completely disabling the functionality and features they add to this site. It is recommended that you leave on all cookies if you are not sure whether you need them or not in case they are used to provide a service that you use.',
 	cookieHead3: 'Disabling Cookies',
