@@ -128,8 +128,8 @@ export default class FooterNav extends Component {
 						</li> */}
 						<li className='column is-narrow footer-nav__social'>
 							<a
-								href='#'
-								// target='_blank'
+								href='https://www.linkedin.com/company/rtrealm'
+								target='_blank'
 								rel='noopener noreferrer'
 								data-eventcategory='SocialLinks'
 								data-eventaction='Go to LinkedIn'
