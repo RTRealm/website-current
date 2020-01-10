@@ -34,7 +34,6 @@ export default class TheCard extends PureComponent {
 							defaultFormat='png'
 						/> */}
 					</Styles.YourCardMainImage>
-
 					<Styles.YourCardTag className='column is-6'>
 						<BodyDispVirt title={this.textBody('introTitle')} theme='themeBlack' page='home'>
 							{/* <p>{this.textBody('welcomeDescription')}</p> */}

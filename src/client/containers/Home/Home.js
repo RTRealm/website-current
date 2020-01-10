@@ -5,14 +5,11 @@ import TheCard from '../Home/TheCard/TheCard';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import AboutUs from '../Home/AboutUs/AboutUs';
-import Convenience from '../Home/Convenience/Convenience';
 import Control from '../Home/Control/Control';
 import Cashback from '../Home/Cashback/Cashback';
-
 import FixedHeader from '../../components/FixedHeader/FixedHeader';
 import Simplicity from '../Home/Simplicity/Simplicity';
 import GetService from '../Home/GetService/GetService';
-import Intro from '../Home/Intro/Intro';
 
 // components
 import Page from '../../components/Page/index';
@@ -52,7 +49,6 @@ class Home extends PureComponent {
 							<FixedHeader />
 						</div>
 						<TheCard />
-						{/* <Intro /> */}
 						<div className='fixed-header__trigger-start' />
 						<span className='mobile-cta__start' />
 						<div className='is-hidden-mobile'>
