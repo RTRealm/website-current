@@ -47,37 +47,37 @@ export default class TheCard extends PureComponent {
 						<li className='column is-narrow'>
 							<img
 								src='https://res.cloudinary.com/ohcash/image/upload/v1578663809/landingpage/scrumorg.svg'
-								alt='Wired'
+								alt='Scrum'
 							/>
 						</li>
 						<li className='column is-narrow'>
 							<img
 								src='https://res.cloudinary.com/ohcash/image/upload/v1578144500/landingpage/cisco.svg'
-								alt='Tech Crunch'
+								alt='CCNP'
 							/>
 						</li>
 						<li className='column is-narrow'>
 							<img
 								src='https://res.cloudinary.com/ohcash/image/upload/v1578665789/landingpage/ITILlogo.svg'
-								alt='Telegraph'
+								alt='Itil'
 							/>
 						</li>
 						<li className='column is-narrow'>
 							<img
-								src='https://res.cloudinary.com/ohcash/image/upload/v1578665601/landingpage/leanlogo.svg'
-								alt='The Sunday Times'
+								src='https://res.cloudinary.com/ohcash/image/upload/v1578667530/landingpage/leanlogo.svg'
+								alt='Sixsigma'
 							/>
 						</li>
 						<li className='column is-narrow '>
 							<img
-								src='https://res.cloudinary.com/ohcash/image/upload/v1578666726/landingpage/agilelogo.svg'
-								alt='Forbes'
+								src='https://res.cloudinary.com/ohcash/image/upload/v1578667536/landingpage/isacalogo.svg'
+								alt='Isaca'
 							/>
 						</li>
 						<li className='column is-narrow'>
 							<img
-								src='https://res.cloudinary.com/ohcash/image/upload/v1578144500/landingpage/cisco.svg'
-								alt='The Wall Street Journal'
+								src='https://res.cloudinary.com/ohcash/image/upload/v1578672943/landingpage/agilelogo.svg'
+								alt='Agile'
 							/>
 						</li>
 					</Styles.YourCardPR>
