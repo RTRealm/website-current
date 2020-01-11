@@ -21,7 +21,7 @@ const pl = {
 	subtitleGS: 'Profil usług',
 	skill1: 'Produkcja oprogramowania. Aplikacje pod indywidualne potrzeby klienta.',
 	skill2: 'Outsourcing. Optymalizacja i zarządzanie zasobami IT.',
-	skill3: 'Maintenace. Optymalizacja wydajności, kontrola i rozwój.',
+	skill3: 'Maintenance. Optymalizacja wydajności, kontrola i rozwój.',
 	skill4: 'Consulting. Łączymy tech know-how z logiką biznesową.',
 	skill5: 'Zarządzanie infrastrukturą. Rozwiązania w środowiskach fizycznych i wirtualnych.',
 	skill6: 'Audyt. Kontrola stanu i efektywności.',
@@ -60,7 +60,7 @@ const pl = {
 	titleCB: 'Skuteczne rozwiązania',
 	subtitleCB: 'Referencje i Technologie',
 	bodyCB1:
-		'Na pierwszym miejscu stawiamy interesy naszych klientów. Każdego dnia rozwijamy nasze kompetencje i doskonalimy nowe technologie, aby zapewnić naszym klientom najlepsze możliwe rozwiązania.',
+		'Na pierwszym miejscu stawiamy interesy naszych klientów. Każdego dnia rozwijamy nasze kompetencje i doskonalimy umiejętności w nowych technologiach aby zapewnić naszym klientom najlepsze możliwe rozwiązania.',
 	bodyCB2: 'Twoja satysfakcja z naszych usług jest dla nas najważniejsza.',
 	bodyCB3: 'i to nie wszystko...',
 	//
