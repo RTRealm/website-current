@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 
 // page sections
-import TheCard from '../Home/TheCard/TheCard';
+import TheMain from './TheMain/TheMain';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import AboutUs from '../Home/AboutUs/AboutUs';
@@ -48,7 +48,7 @@ class Home extends PureComponent {
 						<div className='is-hidden-mobile'>
 							<FixedHeader />
 						</div>
-						<TheCard />
+						<TheMain />
 						<div className='fixed-header__trigger-start' />
 						<span className='mobile-cta__start' />
 						<div className='is-hidden-mobile'>

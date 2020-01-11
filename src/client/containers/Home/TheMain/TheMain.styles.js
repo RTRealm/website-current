@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import * as mixins from '../../../assets/styles/_mixins';
 
-export const YourCard = styled.section`
+export const TheMain = styled.section`
 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
 		width: 95%;
 		margin: 0 auto 0 auto;
@@ -31,7 +31,7 @@ export const YourCard = styled.section`
 	}
 `;
 
-export const YourCardTag = styled.div`
+export const TheMainTag = styled.div`
 	padding-top: 0px;
 
 	@media (${mixins.breakpoint('desktop-up')}) {
@@ -42,7 +42,7 @@ export const YourCardTag = styled.div`
 	}
 `;
 
-export const YourCardMainImage = styled.div`
+export const TheMainImage = styled.div`
 	display: flex;
 	justify-content: center;
 	margin-top: 30px;
@@ -78,7 +78,7 @@ export const YourCardMainImage = styled.div`
 	}
 `;
 
-export const YourCardPR = styled.ul`
+export const TheMainCred = styled.ul`
 	width: 90%;
 	margin-left: 12%;
 	position: relative;
@@ -138,7 +138,7 @@ export const YourCardPR = styled.ul`
 	}
 `;
 
-export const YourCardPRWrapper = styled.div`
+export const TheMainCredWrapper = styled.div`
 	display: block;
 	padding-bottom: 40px;
 
