@@ -8,7 +8,7 @@ import AboutUs from '../Home/AboutUs/AboutUs';
 import Control from '../Home/Control/Control';
 import Cashback from '../Home/Cashback/Cashback';
 import FixedHeader from '../../components/FixedHeader/FixedHeader';
-import Simplicity from '../Home/Simplicity/Simplicity';
+import Fintech from './Fintech/Fintech';
 import GetService from '../Home/GetService/GetService';
 
 // components
@@ -58,9 +58,7 @@ class Home extends PureComponent {
 							<FeaturesList />
 						</div>
 						<AboutUs />
-						<Simplicity />
-
-						{/* <Convenience /> */}
+						<Fintech />
 						<div className='is-hidden-mobile'>
 							<Control />
 						</div>
