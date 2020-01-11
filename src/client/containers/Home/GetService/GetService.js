@@ -9,14 +9,12 @@ import { TweenMax, TimelineMax } from 'gsap';
 import { ScrollMagicPluginGsap } from 'scrollmagic-plugin-gsap';
 ScrollMagicPluginGsap(scrollMagic, TweenMax, TimelineMax);
 
-class getCurve extends Component {
+class getService extends Component {
 	controller = null;
 	scene = null;
 
 	handleListLoad = list => {
 		const gsap = require('gsap');
-		// const ScrollMagic = require('scrollmagic');
-		// require('animation.gsap');
 		let width = document.querySelector('body').clientWidth;
 		if (width >= 599) {
 			this.controller = new scrollMagic.Controller();
@@ -26,7 +24,7 @@ class getCurve extends Component {
 			})
 				// .setTween(() =>
 				// 	gsap.TweenMax.staggerTo(
-				// 		'.travel-cashback__brands-item',
+				// 		'.getservice__brands-item',
 				// 		0.3,
 				// 		{
 				// 			autoAlpha: 1,
@@ -69,119 +67,119 @@ class getCurve extends Component {
 
 	render() {
 		return (
-			<Styles.GetCurve className='title-trigger'>
-				<Styles.GetCurveContent className='getservice-trigger'>
+			<Styles.GetService className='title-trigger'>
+				<Styles.GetServiceContent className='getservice-trigger'>
 					<InfoGroup title={this.textBody('titleGS')} subtitle={this.textBody('subtitleGS')}>
 						{/* <p className='is-hidden-tablet'>
 							Lorem ipsum
 						</p> */}
 					</InfoGroup>
 					<div className='is-hidden-mobile'>
-						<Styles.GetCurveBenefits className='get-curve__benefits columns is-multiline getservice'>
-							<Styles.GetCurveBenefit className='column is-6'>
+						<Styles.GetServiceBenefits className='get-service__benefits columns is-multiline getservice'>
+							<Styles.GetServiceBenefit className='column is-6'>
 								<div className='columns'>
-									<Styles.GetCurveBenefitHeading className='column is-4-tablet is-3-desktop'>
+									<Styles.GetServiceBenefitHeading className='column is-4-tablet is-3-desktop'>
 										<img
 											src='https://res.cloudinary.com/ohcash/image/upload/v1577882084/landingpage/infinity_ff7f50.svg'
 											alt='infinite loop'
 										/>
-									</Styles.GetCurveBenefitHeading>
-									<Styles.GetCurveBenefitContent className='column'>
+									</Styles.GetServiceBenefitHeading>
+									<Styles.GetServiceBenefitContent className='column'>
 										<p>
 											<span id='stronger'>{this.textBody('skill1main')}</span>{' '}
 											{this.textBody('skill1')}
 										</p>
-									</Styles.GetCurveBenefitContent>
+									</Styles.GetServiceBenefitContent>
 								</div>
-							</Styles.GetCurveBenefit>
-							<Styles.GetCurveBenefit className='column is-6'>
+							</Styles.GetServiceBenefit>
+							<Styles.GetServiceBenefit className='column is-6'>
 								<div className='columns'>
-									<Styles.GetCurveBenefitHeading className='column is-4-tablet is-3-desktop'>
+									<Styles.GetServiceBenefitHeading className='column is-4-tablet is-3-desktop'>
 										<img
 											src='https://res.cloudinary.com/ohcash/image/upload/v1578573887/landingpage/infinity_blue.svg'
 											alt='infinite loop'
 										/>
-									</Styles.GetCurveBenefitHeading>
-									<Styles.GetCurveBenefitContent className='column'>
+									</Styles.GetServiceBenefitHeading>
+									<Styles.GetServiceBenefitContent className='column'>
 										<p>
 											<span id='stronger'>{this.textBody('skill2main')}</span>{' '}
 											{this.textBody('skill2')}
 										</p>
-									</Styles.GetCurveBenefitContent>
+									</Styles.GetServiceBenefitContent>
 								</div>
-							</Styles.GetCurveBenefit>
-							<Styles.GetCurveBenefit className='column is-6'>
+							</Styles.GetServiceBenefit>
+							<Styles.GetServiceBenefit className='column is-6'>
 								<div className='columns'>
-									<Styles.GetCurveBenefitHeading className='column is-4-tablet is-3-desktop'>
+									<Styles.GetServiceBenefitHeading className='column is-4-tablet is-3-desktop'>
 										<img
 											src='https://res.cloudinary.com/ohcash/image/upload/v1578573887/landingpage/infinity_pink.svg'
 											alt='infinite loop'
 										/>
-									</Styles.GetCurveBenefitHeading>
-									<Styles.GetCurveBenefitContent className='column'>
+									</Styles.GetServiceBenefitHeading>
+									<Styles.GetServiceBenefitContent className='column'>
 										<p>
 											<span id='stronger'>{this.textBody('skill3main')}</span>{' '}
 											{this.textBody('skill3')}
 										</p>
-									</Styles.GetCurveBenefitContent>
+									</Styles.GetServiceBenefitContent>
 								</div>
-							</Styles.GetCurveBenefit>
+							</Styles.GetServiceBenefit>
 
-							<Styles.GetCurveBenefit className='column is-6'>
+							<Styles.GetServiceBenefit className='column is-6'>
 								<div className='columns'>
-									<Styles.GetCurveBenefitHeading className='column is-4-tablet is-3-desktop'>
+									<Styles.GetServiceBenefitHeading className='column is-4-tablet is-3-desktop'>
 										<img
 											src='https://res.cloudinary.com/ohcash/image/upload/v1578573888/landingpage/infinity_yellow.svg'
 											alt='infinite loop'
 										/>
-									</Styles.GetCurveBenefitHeading>
-									<Styles.GetCurveBenefitContent className='column'>
+									</Styles.GetServiceBenefitHeading>
+									<Styles.GetServiceBenefitContent className='column'>
 										<p>
 											<span id='stronger'>{this.textBody('skill4main')}</span>{' '}
 											{this.textBody('skill4')}
 										</p>
-									</Styles.GetCurveBenefitContent>
+									</Styles.GetServiceBenefitContent>
 								</div>
-							</Styles.GetCurveBenefit>
+							</Styles.GetServiceBenefit>
 
-							<Styles.GetCurveBenefit className='column is-6'>
+							<Styles.GetServiceBenefit className='column is-6'>
 								<div className='columns'>
-									<Styles.GetCurveBenefitHeading className='column is-4-tablet is-3-desktop'>
+									<Styles.GetServiceBenefitHeading className='column is-4-tablet is-3-desktop'>
 										<img
 											src='https://res.cloudinary.com/ohcash/image/upload/v1577882084/landingpage/infinity_green.svg'
 											alt='infinite loop'
 										/>
-									</Styles.GetCurveBenefitHeading>
-									<Styles.GetCurveBenefitContent className='column'>
+									</Styles.GetServiceBenefitHeading>
+									<Styles.GetServiceBenefitContent className='column'>
 										<p>
 											<span id='stronger'>{this.textBody('skill5main')}</span>{' '}
 											{this.textBody('skill5')}
 										</p>
-									</Styles.GetCurveBenefitContent>
+									</Styles.GetServiceBenefitContent>
 								</div>
-							</Styles.GetCurveBenefit>
-							<Styles.GetCurveBenefit className='column is-6'>
+							</Styles.GetServiceBenefit>
+							<Styles.GetServiceBenefit className='column is-6'>
 								<div className='columns'>
-									<Styles.GetCurveBenefitHeading className='column is-4-tablet is-3-desktop'>
+									<Styles.GetServiceBenefitHeading className='column is-4-tablet is-3-desktop'>
 										<img
 											src='https://res.cloudinary.com/ohcash/image/upload/v1577882084/landingpage/infinity.svg'
 											alt='infinite loop'
 										/>
-									</Styles.GetCurveBenefitHeading>
-									<Styles.GetCurveBenefitContent className='column'>
+									</Styles.GetServiceBenefitHeading>
+									<Styles.GetServiceBenefitContent className='column'>
 										<p>
 											<span id='stronger'>{this.textBody('skill6main')}</span>{' '}
 											{this.textBody('skill6')}
 										</p>
-									</Styles.GetCurveBenefitContent>
+									</Styles.GetServiceBenefitContent>
 								</div>
-							</Styles.GetCurveBenefit>
-						</Styles.GetCurveBenefits>
+							</Styles.GetServiceBenefit>
+						</Styles.GetServiceBenefits>
 					</div>
-				</Styles.GetCurveContent>
-			</Styles.GetCurve>
+				</Styles.GetServiceContent>
+			</Styles.GetService>
 		);
 	}
 }
 
-export default getCurve;
+export default getService;

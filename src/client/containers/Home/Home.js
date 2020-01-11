@@ -36,9 +36,6 @@ class Home extends PureComponent {
 						logo={
 							'https://landingpagereactreact-local.s3.eu-central-1.amazonaws.com/logo_black_line_landing_svg.svg'
 						}
-						// logo={
-						// 	'https://res.cloudinary.com/dzatxn6bx/image/upload/v1537358404/website-v2/Icons/curve-logo-black.svg'
-						// }
 						navLink={'/contact'}
 						navName={this.textBody('contactHeader')}
 						page='Contact'
