@@ -38,13 +38,13 @@ export const FeaturesListItem = styled.li`
 		text-shadow: 0px 4px 100px rgba(0, 0, 0, 0.25);
 	}
 
-	&.features-list__item--sync span {
+	&.features-list__item--soft span {
 		background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1577882084/landingpage/infinity_ff7f50.svg');
 		width: 91px;
 		height: 38px;
 	}
 
-	&.features-list__item--insights span {
+	&.features-list__item--mainten span {
 		background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1578573887/landingpage/infinity_pink.svg');
 		width: 91px;
 		height: 38px;
@@ -56,7 +56,7 @@ export const FeaturesListItem = styled.li`
 		height: 38px;
 	}
 
-	&.features-list__item--abroad span {
+	&.features-list__item--infra span {
 		background-image: url('https://res.cloudinary.com/ohcash/image/upload/v1577882084/landingpage/infinity_green.svg');
 		width: 91px;
 		height: 38px;
