@@ -6,7 +6,7 @@ import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import AboutUs from '../Home/AboutUs/AboutUs';
 import Control from '../Home/Control/Control';
-import Cashback from '../Home/Cashback/Cashback';
+import Credentials from './Credentials/Credentials';
 import FixedHeader from '../../components/FixedHeader/FixedHeader';
 import Fintech from './Fintech/Fintech';
 import GetService from '../Home/GetService/GetService';
@@ -56,18 +56,8 @@ class Home extends PureComponent {
 						</div>
 						<AboutUs />
 						<Fintech />
-						<div className='is-hidden-mobile'>
-							<Control />
-						</div>
-						<div className='is-hidden-tablet'>
-							<Control />
-						</div>
-						<div className='is-hidden-mobile'>
-							<Cashback />
-						</div>
-						<div className='is-hidden-tablet'>
-							<Cashback />
-						</div>
+						<Control />
+						<Credentials />
 					</main>
 					<MobileFloat />
 					<div className='fixed-header__trigger-end' />
