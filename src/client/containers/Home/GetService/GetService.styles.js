@@ -128,4 +128,7 @@ export const GetCurveBenefitHeading = styled.div`
 
 export const GetCurveBenefitContent = styled.div`
 	text-align: left;
+	#stronger {
+		font-weight: 500;
+	}
 `;

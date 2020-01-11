@@ -19,12 +19,18 @@ const pl = {
 	//
 	titleGS: 'Nasze kompetencje',
 	subtitleGS: 'Profil usług',
-	skill1: 'Produkcja oprogramowania. Aplikacje pod indywidualne potrzeby klienta.',
-	skill2: 'Outsourcing. Optymalizacja i zarządzanie zasobami IT.',
-	skill3: 'Maintenance. Optymalizacja wydajności, kontrola i rozwój.',
-	skill4: 'Consulting. Łączymy tech know-how z logiką biznesową.',
-	skill5: 'Zarządzanie infrastrukturą. Rozwiązania w środowiskach fizycznych i wirtualnych.',
-	skill6: 'Audyt. Kontrola stanu i efektywności.',
+	skill1main: 'Produkcja oprogramowania.',
+	skill1: 'Aplikacje pod indywidualne potrzeby klienta.',
+	skill2main: 'Outsourcing.',
+	skill2: 'Optymalizacja i zarządzanie zasobami IT.',
+	skill3main: 'Maintenance.',
+	skill3: 'Optymalizacja wydajności, kontrola i rozwój.',
+	skill4main: 'Consulting.',
+	skill4: 'Łączymy tech know-how z logiką biznesową.',
+	skill5main: 'Zarządzanie infrastrukturą.',
+	skill5: 'Rozwiązania w środowiskach fizycznych i wirtualnych.',
+	skill6main: 'Audyt.',
+	skill6: 'Kontrola stanu i efektywności.',
 	//
 	// ******** About us ********
 	//

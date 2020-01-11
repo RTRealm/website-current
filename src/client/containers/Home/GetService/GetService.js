@@ -87,7 +87,10 @@ class getCurve extends Component {
 										/>
 									</Styles.GetCurveBenefitHeading>
 									<Styles.GetCurveBenefitContent className='column'>
-										<p>{this.textBody('skill1')}</p>
+										<p>
+											<span id='stronger'>{this.textBody('skill1main')}</span>{' '}
+											{this.textBody('skill1')}
+										</p>
 									</Styles.GetCurveBenefitContent>
 								</div>
 							</Styles.GetCurveBenefit>
@@ -100,7 +103,10 @@ class getCurve extends Component {
 										/>
 									</Styles.GetCurveBenefitHeading>
 									<Styles.GetCurveBenefitContent className='column'>
-										<p>{this.textBody('skill2')}</p>
+										<p>
+											<span id='stronger'>{this.textBody('skill2main')}</span>{' '}
+											{this.textBody('skill2')}
+										</p>
 									</Styles.GetCurveBenefitContent>
 								</div>
 							</Styles.GetCurveBenefit>
@@ -113,7 +119,10 @@ class getCurve extends Component {
 										/>
 									</Styles.GetCurveBenefitHeading>
 									<Styles.GetCurveBenefitContent className='column'>
-										<p>{this.textBody('skill3')}</p>
+										<p>
+											<span id='stronger'>{this.textBody('skill3main')}</span>{' '}
+											{this.textBody('skill3')}
+										</p>
 									</Styles.GetCurveBenefitContent>
 								</div>
 							</Styles.GetCurveBenefit>
@@ -127,7 +136,10 @@ class getCurve extends Component {
 										/>
 									</Styles.GetCurveBenefitHeading>
 									<Styles.GetCurveBenefitContent className='column'>
-										<p>{this.textBody('skill4')}</p>
+										<p>
+											<span id='stronger'>{this.textBody('skill4main')}</span>{' '}
+											{this.textBody('skill4')}
+										</p>
 									</Styles.GetCurveBenefitContent>
 								</div>
 							</Styles.GetCurveBenefit>
@@ -141,7 +153,10 @@ class getCurve extends Component {
 										/>
 									</Styles.GetCurveBenefitHeading>
 									<Styles.GetCurveBenefitContent className='column'>
-										<p>{this.textBody('skill5')}</p>
+										<p>
+											<span id='stronger'>{this.textBody('skill5main')}</span>{' '}
+											{this.textBody('skill5')}
+										</p>
 									</Styles.GetCurveBenefitContent>
 								</div>
 							</Styles.GetCurveBenefit>
@@ -154,7 +169,10 @@ class getCurve extends Component {
 										/>
 									</Styles.GetCurveBenefitHeading>
 									<Styles.GetCurveBenefitContent className='column'>
-										<p>{this.textBody('skill6')}</p>
+										<p>
+											<span id='stronger'>{this.textBody('skill6main')}</span>{' '}
+											{this.textBody('skill6')}
+										</p>
 									</Styles.GetCurveBenefitContent>
 								</div>
 							</Styles.GetCurveBenefit>
