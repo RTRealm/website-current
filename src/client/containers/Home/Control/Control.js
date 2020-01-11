@@ -23,14 +23,8 @@ export default class Control extends PureComponent {
 	};
 
 	componentDidMount() {
-		// $FlowFixMe;
 		const gsap = require('gsap');
-		// $FlowFixMe;
-		// const scrollMagic = require("ScrollMagic");
-		// $FlowFixMe;
-		// require("animation.gsap");
 
-		// $FlowFixMe;
 		let width = document.querySelector('body').clientWidth;
 
 		if (width >= 1224) {
@@ -79,16 +73,6 @@ export default class Control extends PureComponent {
 			<Styles.Control
 				className={'control ' + (this.state.activateAnimation ? 'control--animate' : '')}
 			>
-				{/* <div className='is-hidden-mobile'>
-					<LazyLoad once={true} height={604} offset={500}>
-						<Styles.ControlSplash />
-					</LazyLoad>
-				</div>
-				<div className='is-hidden-tablet'>
-					<LazyLoad once={true} height={448} offset={400}>
-						<Styles.ControlSplash />
-					</LazyLoad>
-				</div> */}
 				<Styles.ControlContent className='is-hidden-tablet'>
 					<Styles.ControlImage>
 						<LazyLoad once={true} height={531} offset={400}>
