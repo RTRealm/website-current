@@ -4,6 +4,7 @@ import React, { PureComponent } from 'react';
 import TheMain from './TheMain/TheMain';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
+import FooterDev from '../../components/Footer/FooterDev/FooterDev';
 import AboutUs from './AboutUs/AboutUs';
 import Control from '../Home/Control/Control';
 import Credentials from './Credentials/Credentials';
@@ -62,6 +63,7 @@ class Home extends PureComponent {
 					<MobileFloat />
 					<div className='fixed-header__trigger-end' />
 					<Footer page={'Home'} />
+					<FooterDev />
 				</div>
 			</Page>
 		);

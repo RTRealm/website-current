@@ -5,6 +5,7 @@ import ReactGA from 'react-ga';
 import ReactPixel from 'react-facebook-pixel';
 import Header from '../../../components/Header/Header';
 import Footer from '../../../components/Footer/Footer';
+import FooterDev from '../../../components/Footer/FooterDev/FooterDev';
 import Page from '../../../components/Page';
 import { Text } from '../../../containers/Language';
 // import { LocalisedLink } from '../../../components/LocalisedLink/LocalisedLink';
@@ -141,6 +142,7 @@ class Cookies extends Component {
 
 					<div className='fixed-header__trigger-end' />
 					<Footer page='Cookies' />
+					<FooterDev />
 				</div>
 			</Page>
 		);

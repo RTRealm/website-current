@@ -8,7 +8,7 @@ const pl = {
 	//
 	buttonFH: 'Napisz do nas!',
 	//
-	// ******** Intro ********
+	// ******** Main ********
 	//
 	introTitle: 'Więcej niż software house',
 	welcomeDescription:
@@ -42,7 +42,7 @@ const pl = {
 		'I nie musisz inwestować w architekturę sprzętową. Wykorzystamy dla Ciebie serwisy chmurowe.',
 	bodyAU3: 'Skontaktuj się z nami już teraz żeby omówić swój projekt!',
 	//
-	// ******** Simplicity ********
+	// ******** Fintech ********
 	//
 	titleSI: 'Bankowość i więcej',
 	subtitleSI: 'Cyfrowe Finanse',
@@ -61,7 +61,7 @@ const pl = {
 		'A jeżeli wolisz mieć to wszystko z głowy, jesteśmy tutaj żeby zarządzać wszystkim za Ciebie.',
 	bodyCO3: 'Superancko, co nie?',
 	//
-	// ******** Cashback ********
+	// ******** Credentials ********
 	//
 	titleCB: 'Skuteczne rozwiązania',
 	subtitleCB: 'Referencje i Technologie',
@@ -97,6 +97,11 @@ const pl = {
 		'Chcesz się skoncentrować się na swojej podstawowej działalności biznesowej? Daj nam znać, a my zajmiemy się Twoim IT za Ciebie.',
 	titleFL4: 'Zarządzanie infrastrukturą',
 	bodyFL4: 'Administrujemy rozwiązaniami opartymi o środowiska zarówno fizyczne jak i wirtualne.',
+	//
+	// ******** FooterDev ********
+	//
+	footerPowered: 'Powered by us! Copyright (c) 2020.',
+	footerBrandname: 'RT.Realm is a brandname of RTR IT Services.',
 	//
 	// ******** Cookies Banner & Page ********
 	//

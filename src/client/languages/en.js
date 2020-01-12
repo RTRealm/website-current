@@ -7,8 +7,7 @@ const en = {
 	//
 	buttonFH: 'Send us a message!',
 	//
-	//
-	// ******** Intro ********
+	// ******** Main ********
 	//
 	introTitle: 'More than a software house',
 	welcomeDescription:
@@ -42,7 +41,7 @@ const en = {
 	bodyAU2: 'And no need to invest in own architecture. We can go serverless for you.',
 	bodyAU3: 'Reach out to us now to discuss your project!',
 	//
-	// ******** Simplicity ********
+	// ******** Fintech ********
 	//
 	titleSI: 'Banking and more',
 	subtitleSI: 'Digital Finance',
@@ -61,7 +60,7 @@ const en = {
 		"Let's optimise and manage your tech resources. And if you prefer to get it over we're here to take it.",
 	bodyCO3: "Awesome, isn't it?",
 	//
-	// ******** Cashback ********
+	// ******** Credentials ********
 	//
 	titleCB: 'Solution providers',
 	subtitleCB: 'Credentials & TechStack',
@@ -96,6 +95,11 @@ const en = {
 		"Tired with running your systems? Want to focus on your core business? Reach out to us and we'll manage the IT for you.",
 	titleFL4: 'Infrastructure management',
 	bodyFL4: 'We administer systems based on both physical and virtual environments.',
+	//
+	// ******** FooterDev ********
+	//
+	footerPowered: 'Powered by us! Copyright (c) 2020.',
+	footerBrandname: 'RT.Realm is a brandname of RTR IT Services.',
 	//
 	// ******** Cookies Banner & Page ********
 	//

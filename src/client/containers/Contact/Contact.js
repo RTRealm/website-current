@@ -13,6 +13,7 @@ import { Text } from '../Language';
 
 // Styles
 import * as Styles from './Contact.styles';
+import FooterDev from '../../components/Footer/FooterDev/FooterDev';
 
 class Contact extends Component {
 	componentDidMount() {
@@ -167,6 +168,7 @@ class Contact extends Component {
 					</Styles.ContactSection>
 				</div>
 				<Footer page={'Contact'} />
+				<FooterDev />
 				<div className='fixed-header__trigger-end' />
 			</Page>
 		);
