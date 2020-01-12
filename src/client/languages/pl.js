@@ -101,7 +101,7 @@ const pl = {
 	// ******** FooterDev ********
 	//
 	footerPowered: 'Powered by us! Copyright (c) 2020.',
-	footerBrandname: 'RT.Realm is a registered trademark of RTR IT Services.',
+	footerBrandname: 'RT.Realm is a trademark of RTR IT Services.',
 	//
 	// ******** Cookies Banner & Page ********
 	//
