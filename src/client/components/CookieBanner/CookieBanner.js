@@ -4,6 +4,7 @@ import { Text } from '../../containers/Language';
 
 // Styles
 import * as Styles from './CookieBanner.styles';
+import Button from '../Button/Button';
 
 class CookieBanner extends Component {
 	saveCookieAgreement = () => {

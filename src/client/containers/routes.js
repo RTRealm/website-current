@@ -36,7 +36,7 @@ const Contact = Loadable({
 
 const TermsCookies = Loadable({
 	loader: () => import('./Terms/Cookies/Cookies'),
-	loading: () => null,
+	loading: Loading,
 	delay: 30000,
 	modules: ['terms-cookies']
 });

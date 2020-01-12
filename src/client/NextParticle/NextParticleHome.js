@@ -13,7 +13,7 @@ export const NextParticleHome = () => {
 		// imageUrl:
 		// 	'https://res.cloudinary.com/ohcash/image/upload/v1578652082/landingpage/logoRTmulti.svg',
 		imageUrl:
-			'https://res.cloudinary.com/ohcash/image/upload/v1578744563/landingpage/tesTrobot.png',
+			'https://res.cloudinary.com/ohcash/image/upload/v1578844288/landingpage/tesTrobot2.png',
 		particleGap: 1,
 		gravity: 0.3,
 		noise: 7,
