@@ -44,7 +44,7 @@ export default class FooterNav extends Component {
 								<div className='dropdown-trigger'>
 									<button className='button' aria-haspopup='true' aria-controls='dropdown-menu'>
 										<img
-											src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1548175075/website-v2/Icons/world-icon.svg'
+											src='https://'
 											alt='World icon'
 										/>
 										<span />
@@ -61,12 +61,12 @@ export default class FooterNav extends Component {
 										<span>Regions</span>
 									</li>
 									<li>
-										<a href='http://www.curve.app/en-gb/' target='_blank' rel='noopener noreferrer'>
-											United Kingdom
+										<a href='http://' target='_blank' rel='noopener noreferrer'>
+											POL
 										</a>
 									</li>
 									<li>
-										<a href='http://www.curve.app/en/' target='_blank' rel='noopener noreferrer'>
+										<a href='http://' target='_blank' rel='noopener noreferrer'>
 											International
 										</a>
 									</li>
@@ -86,7 +86,7 @@ export default class FooterNav extends Component {
 							>
 								<LazyLoad once={true} height={24} offset={100}>
 									<img
-										src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1548164910/website-v2/Icons/instagram-white.svg'
+										src='https://'
 										alt='Instagram logo'
 									/>
 								</LazyLoad>
@@ -103,7 +103,7 @@ export default class FooterNav extends Component {
 							>
 								<LazyLoad once={true} height={24} offset={100}>
 									<img
-										src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1548164910/website-v2/Icons/twitter-white.svg'
+										src='https://'
 										alt='Twitter logo'
 									/>
 								</LazyLoad>
@@ -120,7 +120,7 @@ export default class FooterNav extends Component {
 							>
 								<LazyLoad once={true} height={24} offset={100}>
 									<img
-										src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1548164910/website-v2/Icons/facebook-white.svg'
+										src='https://'
 										alt='Facebook logo'
 									/>
 								</LazyLoad>
@@ -137,7 +137,7 @@ export default class FooterNav extends Component {
 							>
 								<LazyLoad once={true} height={24} offset={100}>
 									<img
-										src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1548164910/website-v2/Icons/linkedin-white.svg'
+										src='https://res.cloudinary.com/ohcash/image/upload/v1578828783/landingpage/linkedin-white.svg'
 										alt='LinkedIn logo'
 									/>
 								</LazyLoad>

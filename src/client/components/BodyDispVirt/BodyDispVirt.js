@@ -27,14 +27,14 @@ class BodyDispVirt extends Component {
 					<Styles.MainBDVStores className='column'>
 						{/* <a href='/'>
 							<img
-								src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1536850250/website-v2/Icons/apple-black.svg'
+								src='https://'
 								alt='App store icon'
 								width='25'
 							/>
 						</a>
 						<a href='/'>
 							<img
-								src='https://res.cloudinary.com/dzatxn6bx/image/upload/v1536850249/website-v2/Icons/andriod-black.svg'
+								src='https://'
 								alt='Google play store icon'
 								width='26'
 							/>

@@ -54,5 +54,4 @@ const Routing = () => {
 	);
 };
 
-// const Routes = withRouter(Routing);
 export default Routing;

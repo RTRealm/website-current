@@ -105,7 +105,7 @@ const pl = {
 	cookieLink: 'politykę ciasteczek',
 	cookieTitle: 'To jest Polityka Ciasteczek RT.Realm.',
 	cookieSubTitle:
-		'Niniejsza Polityka Ciasteczek (plików cookie) wyjaśnia, czym są pliki cookie i jak ich używamy. Przeczytaj tą politykę, aby zrozumieć, jakiego rodzaju plików cookie używamy, informacji, które zbieramy za ich pomocą i jak te informacje są wykorzystywane.',
+		'Niniejsza Polityka Ciasteczek (plików cookie) wyjaśnia, czym są pliki cookie i jak ich używamy. Przeczytaj tą politykę, aby zrozumieć, jakiego rodzaju plików cookie używamy, informacji które zbieramy za ich pomocą i jak te informacje są wykorzystywane.',
 	cookieHead1: 'Czym są ciasteczka',
 	cookieBody1a:
 		"Powszechną praktyką jest, że ​​prawie wszystkie profesjonalne strony internetowe używają plików cookie, które są małymi fragmentami danych w plikach tekstowych i które są przechowywane na komputerze lub innym urządzeniu podczas ładowania stron internetowych w przeglądarce. Są one szeroko stosowane do 'zapamiętywania' Twoich preferencji, aby zapewnić najwyższą jakość obsługi użytkownika. Pliki cookie mogą być ustawiane przez witrynę, którą odwiedzasz lub przez osoby trzecie takie jak te, które dostarczają treści lub świadczą usługi reklamowe lub analityczne dla danej witryny.",

@@ -76,6 +76,6 @@ export const GetServiceBenefitHeading = styled.div`
 export const GetServiceBenefitContent = styled.div`
 	text-align: left;
 	#stronger {
-		font-weight: 500;
+		font-weight: ${vars.poppinsMedium};
 	}
 `;

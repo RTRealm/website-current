@@ -27,8 +27,6 @@ class AboutUs extends PureComponent {
 
 	componentDidMount() {
 		const gsap = require('gsap');
-		// const scrollMagic = require('scrollmagic');
-		// require('animation.gsap');
 		let width = document.querySelector('body').clientWidth;
 		if (width >= 1224) {
 			this.setState({ activateAnimation: true });

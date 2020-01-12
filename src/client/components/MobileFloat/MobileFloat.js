@@ -32,12 +32,7 @@ class MobileFloat extends Component {
 	};
 
 	componentDidMount() {
-		// $FlowFixMe;
 		const gsap = require('gsap');
-		// $FlowFixMe;
-		// const scrollMagic = require('ScrollMagic');
-		// $FlowFixMe;
-		// require('animation.gsap');
 
 		this.controller = new scrollMagic.Controller();
 
@@ -159,11 +154,9 @@ class MobileFloat extends Component {
 									label: 'Download for free - Mobile fixed cta'
 								}}
 							/>
-							<p>
-								{/* {this.props.metal
-									? 'Select the Curve Metal card in the App.'
-									: 'Select your Curve card after downloading the App.'} */}
-							</p>
+							<p>{/* {this.props
+									? 'Select .'
+									: 'Select  after downloading the App.'} */}</p>
 						</div>
 					</Styles.MobileCTAFooter>
 				</Styles.MobileCTAFooterContent>

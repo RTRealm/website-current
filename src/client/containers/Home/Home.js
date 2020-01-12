@@ -4,7 +4,7 @@ import React, { PureComponent } from 'react';
 import TheMain from './TheMain/TheMain';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
-import AboutUs from '../Home/AboutUs/AboutUs';
+import AboutUs from './AboutUs/AboutUs';
 import Control from '../Home/Control/Control';
 import Credentials from './Credentials/Credentials';
 import FixedHeader from '../../components/FixedHeader/FixedHeader';
@@ -28,7 +28,7 @@ class Home extends PureComponent {
 
 	render() {
 		return (
-			<Page>
+			<Page id='home' title='Home |' description='RTRealm'>
 				<div className='app'>
 					<Header
 						textColor={'white'}

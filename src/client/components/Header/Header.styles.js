@@ -86,7 +86,7 @@ export const Header = styled.header`
             z-index: -2;
 
             &:after {
-            background-image: url("https://res.cloudinary.com/dzatxn6bx/image/upload/v1537356879/website-v2/Homepage%20-%20Dark%20version/header-splash-m.jpg");
+            /* background-image: url("https://"); */
             background-repeat: no-repeat;
             display: block;
             width: 375px;
@@ -94,26 +94,18 @@ export const Header = styled.header`
             content: "";
             float: right;
 
-                ${mixins.image2x(
-									'https://res.cloudinary.com/dzatxn6bx/image/upload/v1537356879/website-v2/Homepage%20-%20Dark%20version/header-splash-m_2x.jpg',
-									'375px',
-									'285px'
-								)}
+                /* ${mixins.image2x('https://', '375px', '285px')} */
             }
 
             @media (${mixins.breakpoint('tablet-landscape-up')}) {
                 top: -46px;
 
                 &:after {
-                    background-image: url("https://res.cloudinary.com/dzatxn6bx/image/upload/v1537357595/website-v2/Homepage%20-%20Dark%20version/header-splash.jpg");
+                    /* background-image: url("https://"); */
                     width: 547px;
                     height: 373px;
 
-                    ${mixins.image2x(
-											'https://res.cloudinary.com/dzatxn6bx/image/upload/v1537357595/website-v2/Homepage%20-%20Dark%20version/header-splash_2x.jpg',
-											'547px',
-											'373px'
-										)}
+                    /* ${mixins.image2x('https://', '547px', '373px')} */
                 }
             }
         }
@@ -125,7 +117,7 @@ export const Header = styled.header`
 
     &.header--light-theme {
         .header__splash-1 {
-            background-image: url("https://res.cloudinary.com/dzatxn6bx/image/upload/v1537807281/website-v2/Homepage/Light/header-splash-m.png");
+            /* background-image: url("https://"); */
             top: -80px;
             left: -290px;
             width: 1131px;
@@ -133,7 +125,7 @@ export const Header = styled.header`
             z-index: -1;
 
             ${mixins.image2x(
-							'https://res.cloudinary.com/dzatxn6bx/image/upload/v1537807281/website-v2/Homepage/Light/header-splash-m_2x.png',
+							// 'https://',
 							'1131px',
 							'324px'
 						)}
@@ -147,10 +139,10 @@ export const Header = styled.header`
                 height: 324px;
                 top: -47px;
                 left: -562px;
-                background-image: url("https://res.cloudinary.com/dzatxn6bx/image/upload/v1537805648/website-v2/Homepage/Light/header-splash.png");
+                /* background-image: url("https://"); */
 
                 ${mixins.image2x(
-									'https://res.cloudinary.com/dzatxn6bx/image/upload/v1537805649/website-v2/Homepage/Light/header-splash_2x.png',
+									// 'https://',
 									'1230px',
 									'324px'
 								)}
@@ -206,8 +198,8 @@ export const HeaderMobileNav = styled.div`
 	}
 
 	.header__mobile-menu-button {
-		background: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1537358404/website-v2/Icons/burger-menu.svg')
-			no-repeat;
+		/* background: url('https://')
+			no-repeat; */
 		width: 20px;
 		height: 14px;
 		border-radius: 0px;
@@ -221,8 +213,8 @@ export const HeaderMobileNav = styled.div`
 		}
 
 		&.header__mobile-menu-button--close {
-			background: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1538997196/website-v2/Icons/close.svg')
-				no-repeat top center;
+			/* background: url('https://')
+				no-repeat top center; */
 			width: 20px;
 			height: 20px;
 		}
@@ -230,12 +222,12 @@ export const HeaderMobileNav = styled.div`
 
 	&.header__mobile-nav--black .header__mobile-menu-button {
 		outline: none;
-		background: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1537521962/website-v2/Icons/burger-menu-black.svg')
-			no-repeat;
+		/* background: url('https://')
+			no-repeat; */
 
 		&.header__mobile-menu-button--close {
-			background: url('https://res.cloudinary.com/dzatxn6bx/image/upload/v1538997196/website-v2/Icons/close.svg')
-				no-repeat top center;
+			/* background: url('https://')
+				no-repeat top center; */
 			width: 20px;
 			height: 20px;
 		}

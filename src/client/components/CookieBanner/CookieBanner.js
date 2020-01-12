@@ -9,7 +9,6 @@ class CookieBanner extends Component {
 	saveCookieAgreement = () => {
 		localStorage.setItem('cookieAcknowledgement', 'true');
 
-		// $FlowFixMe;
 		const gsap = require('gsap');
 
 		let tl = new gsap.TimelineLite();
@@ -41,7 +40,7 @@ class CookieBanner extends Component {
 						</p>
 						<button className='column is-2' onClick={this.saveCookieAgreement}>
 							<img
-								src='https://res.cloudinary.com/dzatxn6bx/image/upload/f_auto,q_auto/v1547669331/website-v2/Icons/cross-black'
+								src='https://res.cloudinary.com/ohcash/image/upload/v1578828954/landingpage/cross-black.png'
 								alt='close'
 							/>
 						</button>

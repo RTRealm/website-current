@@ -24,8 +24,7 @@ export default class Header extends Component {
 	gsap = null;
 
 	logos = {
-		white:
-			'https://res.cloudinary.com/dzatxn6bx/image/upload/v1537358405/website-v2/Icons/curve-logo-white.svg'
+		white: ''
 	};
 
 	componentDidMount() {
@@ -68,7 +67,6 @@ export default class Header extends Component {
 				</li>
 				<li className='column is-narrow is-6'>
 					<LanguageSelector />
-					{/* <a href='mailto:contact@rtrealm.com'>PL/GB</a> */}
 				</li>
 			</ul>
 		);
@@ -95,7 +93,7 @@ export default class Header extends Component {
 										? this.logos.white
 										: this.props.logo
 								}
-								alt='Virtu Logo'
+								alt='Logo'
 							/>
 						</Link>
 					</div>

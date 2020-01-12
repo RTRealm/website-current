@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-// $FlowFixMe;
+
 import ReactGA from 'react-ga';
-// $FlowFixMe;
+
 import ReactPixel from 'react-facebook-pixel';
 import Header from '../../../components/Header/Header';
 import Footer from '../../../components/Footer/Footer';
 import Page from '../../../components/Page';
 import { Text } from '../../../containers/Language';
-// import FloatingCTA from '../../../components/FloatingCTA/FloatingCTA';
 // import { LocalisedLink } from '../../../components/LocalisedLink/LocalisedLink';
 
 import * as Styles from '../Terms.styles';
@@ -29,7 +28,7 @@ class Cookies extends Component {
 
 	render() {
 		return (
-			<Page id='cookie-policy'>
+			<Page id='cookie-policy' title='Cookie Policy |' description='RTRealm'>
 				<div className='app'>
 					<Header
 						textColor={'white'}
