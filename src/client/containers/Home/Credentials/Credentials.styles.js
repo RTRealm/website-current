@@ -6,7 +6,7 @@ export const Credentials = styled.section`
 
 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
 		margin-top: 275px;
-		margin-bottom: 340px;
+		margin-bottom: 200px;
 	}
 `;
 
