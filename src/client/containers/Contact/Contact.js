@@ -118,62 +118,13 @@ class Contact extends Component {
 							<ul className='columns is-mobile'>
 								<li className='column is-narrow-tablet'>
 									<Styles.ContactSocialLinks
-										href='https://twitter.com'
+										href='https://www.linkedin.com/company/rtrealm/'
 										target='_blank'
-										rel='noopener noreferrer'
 									>
-										{/* <img
-											src='https://'
-											alt='twitter logo'
-										/> */}
-									</Styles.ContactSocialLinks>
-								</li>
-								<li className='column is-narrow-tablet'>
-									<Styles.ContactSocialLinks
-										href='https://www.facebook.com'
-										target='_blank'
-										rel='noopener noreferrer'
-									>
-										{/* <img
-											src='https://'
-											alt='Facebook logo'
-										/> */}
-									</Styles.ContactSocialLinks>
-								</li>
-								<li className='column is-narrow-tablet'>
-									<Styles.ContactSocialLinks
-										href='https://www.instagram.com'
-										target='_blank'
-										rel='noopener noreferrer'
-									>
-										{/* <img
-											src='https://'
-											alt='Instagram logo'
-										/> */}
-									</Styles.ContactSocialLinks>
-								</li>
-								<li className='column is-narrow-tablet'>
-									<Styles.ContactSocialLinks
-										href='https://www.linkedin.com/company/curve-ltd-'
-										target='_blank'
-										rel='noopener noreferrer'
-									>
-										{/* <img
-											src='https://'
+										<img
+											src='https://res.cloudinary.com/ohcash/image/upload/v1578847544/landingpage/linkedin_logo_blue.svg'
 											alt='LinkedIn logo'
-										/> */}
-									</Styles.ContactSocialLinks>
-								</li>
-								<li className='column is-narrow-tablet'>
-									<Styles.ContactSocialLinks
-										href='https://dribbble.com'
-										target='_blank'
-										rel='noopener noreferrer'
-									>
-										{/* <img
-											src='https://'
-											alt='Dribbble logo'
-										/> */}
+										/>
 									</Styles.ContactSocialLinks>
 								</li>
 							</ul>
