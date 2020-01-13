@@ -41,15 +41,35 @@ const TermsCookies = Loadable({
 	modules: ['terms-cookies']
 });
 
+const routes = [
+	{ path: '/', key: 'home', exact: true, component: Homepage },
+	{ path: '/contact', key: 'contact', exact: true, component: Contact },
+	{ path: '/cookie-policy', key: 'cookiepolicy', exact: true, component: TermsCookies }
+];
+
+function RenderRoutes(routes) {
+	const routesDestr = { ...routes };
+	return (
+		<Switch>
+			{routesDestr.routes.map(route => {
+				return (
+					<Route
+						exact={route.exact}
+						path={route.path}
+						component={route.component}
+						key={route.key}
+					/>
+				);
+			})}
+		</Switch>
+	);
+}
+
 const Routing = () => {
 	return (
 		<Router>
 			{!localStorage.getItem('cookieAcknowledgement') ? <CookieBanner /> : null}
-			<Switch>
-				<Route exact path='/' component={Homepage} />
-				<Route exact path='/contact' component={Contact} />
-				<Route exact path='/cookie-policy' component={TermsCookies} />
-			</Switch>
+			<RenderRoutes routes={routes} />
 		</Router>
 	);
 };
