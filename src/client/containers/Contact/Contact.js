@@ -8,7 +8,7 @@ import ReactPixel from 'react-facebook-pixel';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import Page from '../../components/Page';
-// import FixedHeader from '../../components/FixedHeader/FixedHeader';
+
 import { Text } from '../Language';
 
 // Styles
@@ -57,7 +57,6 @@ class Contact extends Component {
 					/>
 					<Styles.ContactSection>
 						<div className='is-hidden-mobile'></div>
-						{/* <FixedHeader /> */}
 						<Styles.HeadingGroup>
 							<Styles.HeadingH2>{this.textBody('titleCP')}</Styles.HeadingH2>
 							<Styles.HeadingSubtitle>{this.textBody('subtitleCP')}</Styles.HeadingSubtitle>
@@ -69,7 +68,7 @@ class Contact extends Component {
 								<a href='mailto:contact@rtrealm.com'>contact@rtrealm.com</a>
 							</p>
 						</Styles.ContactSecurity>
-
+						<Styles.InfoHr />
 						<div className='fixed-header__trigger-start' />
 						<Styles.ContactSupport className='columns'>
 							<Styles.InfoHr className='is-hidden-tablet' />
@@ -111,8 +110,6 @@ class Contact extends Component {
 										{this.textBody('contactBarcelona')}
 									</p>
 								</a>
-
-								{/* <Styles.InfoHr className='is-hidden-tablet' /> */}
 							</Styles.ContactSupportItem>
 						</Styles.ContactSupport>
 
@@ -133,40 +130,6 @@ class Contact extends Component {
 							</ul>
 						</Styles.ContactSocial> */}
 						<Styles.InfoHr />
-						{/* <Styles.ContactAddress>
-							<Styles.ContactH3>Company Address:</Styles.ContactH3>
-							<Styles.ContactAddressList className='columns is-mobile'>
-								<Styles.ContactAddressItem className='column'>
-									<p>
-										<em>RT.Realm</em>
-									</p>
-									<p>Company </p>
-								</Styles.ContactAddressItem>
-								<Styles.ContactAddressItem className='column'>
-									<p>
-										<em>biuro</em>
-									</p>
-									<p>ulica</p>
-									<p>Warsaw</p>
-									<p>kod</p>
-								</Styles.ContactAddressItem>
-							</Styles.ContactAddressList>
-						</Styles.ContactAddress> */}
-
-						{/* <Styles.MapWrapper>
-							<Styles.Map>
-								<iframe
-									width='100%'
-									height='650'
-									frameBorder='0'
-									src='https://res.cloudinary.com/ohcash/image/upload/v1578574106/landingpage/contactMap.png'
-									allowFullScreen
-									title='office location'
-									scrolling='no'
-									style={mapStyles}
-								/>
-							</Styles.Map>
-						</Styles.MapWrapper> */}
 					</Styles.ContactSection>
 				</div>
 				<Footer page={'Contact'} />

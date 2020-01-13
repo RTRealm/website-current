@@ -61,75 +61,12 @@ export const ContactH3 = styled.h3`
 export const InfoHr = styled.hr`
 	width: 50%;
 	margin: 30px auto 10px auto;
+	opacity: 0;
 
 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
 		margin: 50px auto;
 	}
 `;
-
-// export const MapWrapper = styled.div`
-// 	cursor: pointer;
-// `;
-
-// export const Map = styled.div`
-// 	height: 400px;
-// 	width: 100%;
-// 	overflow: hidden;
-// 	position: relative;
-
-// 	&:before {
-// 		content: '';
-// 		background: -moz-linear-gradient(
-// 			top,
-// 			rgba(255, 255, 255, 1) 0%,
-// 			rgba(255, 255, 255, 0) 100%
-// 		); /* FF3.6-15 */
-// 		background: -webkit-linear-gradient(
-// 			top,
-// 			rgba(255, 255, 255, 1) 0%,
-// 			rgba(255, 255, 255, 0) 100%
-// 		); /* Chrome10-25,Safari5.1-6 */
-// 		background: linear-gradient(
-// 			to bottom,
-// 			rgba(255, 255, 255, 1) 0%,
-// 			rgba(255, 255, 255, 0) 100%
-// 		); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-// 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
-// 		height: 60px;
-// 		width: 100vw;
-// 		display: block;
-// 		position: absolute;
-// 		top: -8px;
-// 		z-index: 1;
-// 	}
-
-// 	&:after {
-// 		content: '';
-// 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+100&0+0,1+100 */
-// 		background: -moz-linear-gradient(
-// 			top,
-// 			rgba(255, 255, 255, 0) 0%,
-// 			rgba(241, 241, 241, 1) 100%
-// 		); /* FF3.6-15 */
-// 		background: -webkit-linear-gradient(
-// 			top,
-// 			rgba(255, 255, 255, 0) 0%,
-// 			rgba(241, 241, 241, 1) 100%
-// 		); /* Chrome10-25,Safari5.1-6 */
-// 		background: linear-gradient(
-// 			to bottom,
-// 			rgba(255, 255, 255, 0) 0%,
-// 			rgba(241, 241, 241, 1) 100%
-// 		); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-// 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#f1f1f1',GradientType=0 ); /* IE6-9 */
-// 		height: 60px;
-// 		width: 100vw;
-// 		display: block;
-// 		position: absolute;
-// 		bottom: -1px;
-// 		z-index: 1;
-// 	}
-// `;
 
 export const ContactSupport = styled.ul`
 	width: 90%;
@@ -239,12 +176,12 @@ export const ContactSecurity = styled.div`
 	margin: 30px 0 0 0;
 	padding: 0 12px;
 	a {
-		color: #4ecfff;
+		color: ${vars.colorAccent};
 		-webkit-transition: color 0.2s;
 		transition: color 0.2s;
 		font-weight: 500;
 		&:hover {
-			color: #0292e4;
+			color: ${vars.colorHover};
 		}
 	}
 	@media (${mixins.breakpoint('tablet-portrait-up')}) {
