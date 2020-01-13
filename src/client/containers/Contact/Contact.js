@@ -79,7 +79,7 @@ class Contact extends Component {
 									rel='no'
 								>
 									<p>
-										<i id='skillicon' class='fas fa-map-marker-alt'></i>{' '}
+										<i id='skillicon' className='fas fa-map-marker-alt'></i>{' '}
 										{this.textBody('contactWarsaw')}
 									</p>
 								</a>
@@ -93,7 +93,7 @@ class Contact extends Component {
 									rel='no'
 								>
 									<p>
-										<i id='skillicon' class='fas fa-map-marker-alt'></i>{' '}
+										<i id='skillicon' className='fas fa-map-marker-alt'></i>{' '}
 										{this.textBody('contactLondon')}
 									</p>
 								</a>
@@ -106,7 +106,7 @@ class Contact extends Component {
 									rel='no'
 								>
 									<p>
-										<i id='skillicon' class='fas fa-map-marker-alt'></i>{' '}
+										<i id='skillicon' className='fas fa-map-marker-alt'></i>{' '}
 										{this.textBody('contactBarcelona')}
 									</p>
 								</a>
