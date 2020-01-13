@@ -269,5 +269,6 @@ export const CredentialsImage = styled.div`
       top: 150px;
       left: 240px;
     }
-  }
+	}
+
 `;

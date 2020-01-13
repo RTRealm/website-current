@@ -122,7 +122,7 @@ export default class Header extends Component {
 						className={`column is-${this.state.columnWidth.desktop}-desktop is-${this.state.columnWidth.tablet}-tablet`}
 					>
 						<Link to={this.props.link}>
-							<img src={this.props.logo} alt='Virtu Logo' />
+							<img src={this.props.logo} alt='Realm Logo' />
 						</Link>
 					</div>
 					<Styles.HeaderNav

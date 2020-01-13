@@ -113,7 +113,7 @@ class Contact extends Component {
 							</Styles.ContactSupportItem>
 						</Styles.ContactSupport>
 
-						{/* <Styles.ContactSocial>
+						<Styles.ContactSocial>
 							<Styles.ContactH3>Follow us on social media:</Styles.ContactH3>
 							<ul className='columns is-mobile'>
 								<li className='column is-narrow-tablet'>
@@ -128,7 +128,7 @@ class Contact extends Component {
 									</Styles.ContactSocialLinks>
 								</li>
 							</ul>
-						</Styles.ContactSocial> */}
+						</Styles.ContactSocial>
 						<Styles.InfoHr1 />
 					</Styles.ContactSection>
 				</div>
