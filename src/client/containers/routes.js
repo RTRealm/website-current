@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, HashRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Loadable from 'react-loadable';
 
 import CookieBanner from '../../client/components/CookieBanner/CookieBanner';
