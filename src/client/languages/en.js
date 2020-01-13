@@ -84,17 +84,18 @@ const en = {
 	//
 	// ******** Features List ********
 	//
-	titleFL1: 'Software engineering',
+	titleFL1: 'Development & Maintenance',
 	bodyFL1:
-		"We'll develop and maintain your app, so that it's trouble-free for you. All this with cutting edge technologies.",
-	titleFL2: 'Maintenance',
-	bodyFL2:
-		"We combine the tech know-how with the business line logic. Let's discuss your system design, implementaion and optimization options.",
+		"We'll develop and maintain your application, so that it's trouble-free for you. All this with cutting edge technologies.",
+	// titleFL2: 'Maintenance',
+	// bodyFL2:
+	// 	"We combine the tech know-how with the business line logic. Let's discuss your system design, implementaion and optimization options.",
 	titleFL3: 'Outsourcing',
 	bodyFL3:
 		"Tired with running your systems? Want to focus on your core business? Reach out to us and we'll manage the IT for you.",
 	titleFL4: 'Infrastructure management',
-	bodyFL4: 'We administer systems based on both physical and virtual environments.',
+	bodyFL4:
+		'We combine the tech know-how with the business line logic. We administer systems based on both physical and virtual environments.',
 	//
 	// ******** FooterDev ********
 	//

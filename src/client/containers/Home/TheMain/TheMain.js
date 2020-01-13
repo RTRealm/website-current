@@ -36,12 +36,12 @@ export default class TheMain extends PureComponent {
 					</Styles.TheMainImage>
 					<Styles.TheMainTag className='column is-6'>
 						<BodyDispVirt title={this.textBody('introTitle')} theme='themeBlack' page='home'>
-							<p className='is-hidden-mobile'>{this.textBody('welcomeDescription')}</p>
+							<p>{this.textBody('welcomeDescription')}</p>
 						</BodyDispVirt>
 					</Styles.TheMainTag>
 				</div>
 				<Styles.TheMainCredWrapper>
-					<Styles.TheMainCred className='columns is-mobile is-multiline'>
+					<Styles.TheMainCred className='columns is-hidden-mobile is-multiline'>
 						<li className='column is-narrow'>
 							<img
 								src='https://res.cloudinary.com/ohcash/image/upload/v1578663809/landingpage/scrumorg.svg'

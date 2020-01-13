@@ -16,11 +16,11 @@ const FeaturesList = () => {
 					<h3>{textBody('titleFL1')}</h3>
 					<p>{textBody('bodyFL1')}</p>
 				</Styles.FeaturesListItem>
-				<Styles.FeaturesListItem className='features-list__item--mainten'>
+				{/* <Styles.FeaturesListItem className='features-list__item--mainten'>
 					<span />
 					<h3>{textBody('titleFL2')}</h3>
 					<p>{textBody('bodyFL2')}</p>
-				</Styles.FeaturesListItem>
+				</Styles.FeaturesListItem> */}
 				<Styles.FeaturesListItem className='features-list__item--outsource'>
 					<span />
 					<h3>{textBody('titleFL3')}</h3>
