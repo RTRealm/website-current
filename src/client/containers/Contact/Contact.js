@@ -68,10 +68,10 @@ class Contact extends Component {
 								<a href='mailto:contact@rtrealm.com'>contact@rtrealm.com</a>
 							</p>
 						</Styles.ContactSecurity>
-						<Styles.InfoHr />
+						<Styles.InfoHr1 />
 						<div className='fixed-header__trigger-start' />
 						<Styles.ContactSupport className='columns'>
-							<Styles.InfoHr className='is-hidden-tablet' />
+							{/* <Styles.InfoHr className='is-hidden-tablet' /> */}
 							<Styles.ContactSupportItem className='column is-4'>
 								<a
 									href='https://www.google.pl/maps/place/Concept+Tower,+Grzybowska+87,+00-001+Warszawa/@52.2324361,20.975746,17z/data=!3m1!4b1!4m5!3m4!1s0x471ecc9d326f1aa1:0xd1adccbe1eb70d36!8m2!3d52.2324361!4d20.9779347'
@@ -129,7 +129,7 @@ class Contact extends Component {
 								</li>
 							</ul>
 						</Styles.ContactSocial> */}
-						<Styles.InfoHr />
+						<Styles.InfoHr1 />
 					</Styles.ContactSection>
 				</div>
 				<Footer page={'Contact'} />

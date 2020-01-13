@@ -61,6 +61,15 @@ export const ContactH3 = styled.h3`
 export const InfoHr = styled.hr`
 	width: 50%;
 	margin: 30px auto 10px auto;
+
+	@media (${mixins.breakpoint('tablet-landscape-up')}) {
+		margin: 50px auto;
+	}
+`;
+
+export const InfoHr1 = styled.hr`
+	width: 50%;
+	margin: 30px auto 10px auto;
 	opacity: 0;
 
 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
