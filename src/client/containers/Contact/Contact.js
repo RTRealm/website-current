@@ -74,50 +74,49 @@ class Contact extends Component {
 						<Styles.ContactSupport className='columns'>
 							<Styles.InfoHr className='is-hidden-tablet' />
 							<Styles.ContactSupportItem className='column is-4'>
-								<p>
-									<i id='skillicon' class='fas fa-map-marker-alt'></i>{' '}
-									{this.textBody('contactWarsaw')}
-								</p>
-								{/* <a
-										href='https://'
-										target='_blank'
-										rel='no'
-									>
-										find
-									</a> */}
+								<a
+									href='https://www.google.pl/maps/place/Concept+Tower,+Grzybowska+87,+00-001+Warszawa/@52.2324361,20.975746,17z/data=!3m1!4b1!4m5!3m4!1s0x471ecc9d326f1aa1:0xd1adccbe1eb70d36!8m2!3d52.2324361!4d20.9779347'
+									target='_blank'
+									rel='no'
+								>
+									<p>
+										<i id='skillicon' class='fas fa-map-marker-alt'></i>{' '}
+										{this.textBody('contactWarsaw')}
+									</p>
+								</a>
 								<Styles.InfoHr className='is-hidden-tablet' />
 							</Styles.ContactSupportItem>
 
 							<Styles.ContactSupportItem className='column is-4'>
-								<p>
-									<i id='skillicon' class='fas fa-map-marker-alt'></i>{' '}
-									{this.textBody('contactLondon')}
-								</p>
-								{/* <p>
-									Join our{' '}
-									<a href='https:///' target='_blank' rel='no'>
-										Commu
-									</a>{' '}
-									find
-								</p> */}
+								<a
+									href='https://www.google.com/maps/place/12+Moorgate,+London+EC2R+6DA,+UK/@51.5157879,-0.0912202,17z/data=!3m1!4b1!4m5!3m4!1s0x48761cab491b800b:0x7041f5eadcaeb2b3!8m2!3d51.5157846!4d-0.0890315'
+									target='_blank'
+									rel='no'
+								>
+									<p>
+										<i id='skillicon' class='fas fa-map-marker-alt'></i>{' '}
+										{this.textBody('contactLondon')}
+									</p>
+								</a>
 								<Styles.InfoHr className='is-hidden-tablet' />
 							</Styles.ContactSupportItem>
 							<Styles.ContactSupportItem className='column is-4'>
-								<p>
-									<i id='skillicon' class='fas fa-map-marker-alt'></i>{' '}
-									{this.textBody('contactBarcelona')}
-								</p>
-								{/* <p>
-									Contact our Support Team:{' '}
-									<span>
-										<a href='mailto:contact@rtrealm.com'>contact@rtrealm.com</a>
-									</span>
-								</p> */}
+								<a
+									href='https://www.google.com/maps/place/Passeig+de+Gr%C3%A0cia,+17,+08007+Barcelona,+Spain/@41.3897722,2.1651594,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4a2f260e1a991:0xbf094531b85e2688!8m2!3d41.3897682!4d2.1673481'
+									target='_blank'
+									rel='no'
+								>
+									<p>
+										<i id='skillicon' class='fas fa-map-marker-alt'></i>{' '}
+										{this.textBody('contactBarcelona')}
+									</p>
+								</a>
+
 								{/* <Styles.InfoHr className='is-hidden-tablet' /> */}
 							</Styles.ContactSupportItem>
 						</Styles.ContactSupport>
 
-						<Styles.ContactSocial>
+						{/* <Styles.ContactSocial>
 							<Styles.ContactH3>Follow us on social media:</Styles.ContactH3>
 							<ul className='columns is-mobile'>
 								<li className='column is-narrow-tablet'>
@@ -132,7 +131,7 @@ class Contact extends Component {
 									</Styles.ContactSocialLinks>
 								</li>
 							</ul>
-						</Styles.ContactSocial>
+						</Styles.ContactSocial> */}
 						<Styles.InfoHr />
 						{/* <Styles.ContactAddress>
 							<Styles.ContactH3>Company Address:</Styles.ContactH3>
