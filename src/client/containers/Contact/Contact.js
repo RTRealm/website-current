@@ -75,7 +75,8 @@ class Contact extends Component {
 							<Styles.InfoHr className='is-hidden-tablet' />
 							<Styles.ContactSupportItem className='column is-4'>
 								<p>
-									<i id='skillicon' class='fas fa-map-marker-alt'></i> Barcelona
+									<i id='skillicon' class='fas fa-map-marker-alt'></i>{' '}
+									{this.textBody('contactWarsaw')}
 								</p>
 								{/* <a
 										href='https://'
@@ -89,7 +90,8 @@ class Contact extends Component {
 
 							<Styles.ContactSupportItem className='column is-4'>
 								<p>
-									<i id='skillicon' class='fas fa-map-marker-alt'></i> London
+									<i id='skillicon' class='fas fa-map-marker-alt'></i>{' '}
+									{this.textBody('contactLondon')}
 								</p>
 								{/* <p>
 									Join our{' '}
@@ -102,7 +104,8 @@ class Contact extends Component {
 							</Styles.ContactSupportItem>
 							<Styles.ContactSupportItem className='column is-4'>
 								<p>
-									<i id='skillicon' class='fas fa-map-marker-alt'></i> Warsaw
+									<i id='skillicon' class='fas fa-map-marker-alt'></i>{' '}
+									{this.textBody('contactBarcelona')}
 								</p>
 								{/* <p>
 									Contact our Support Team:{' '}

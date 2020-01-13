@@ -83,6 +83,9 @@ const pl = {
 	subtitleCP: 'Jesteśmy żeby Tobie pomóc.',
 	contactEmail:
 		'Jeżeli chcesz porozmawiać z naszym konsultantem aby dowiedzieć się więcej wyślij wiadomość:',
+	contactWarsaw: 'Warszawa',
+	contactLondon: 'Londyn',
+	contactBarcelona: 'Barcelona',
 	//
 	// ******** Features List ********
 	//

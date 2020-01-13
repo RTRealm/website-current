@@ -81,6 +81,9 @@ const en = {
 	subtitleCP: "We're ready to solve your problems.",
 	contactEmail:
 		'If you want to get in touch with one of our consultants to know more how we can help you, please e-mail us:',
+	contactWarsaw: 'Warsaw',
+	contactLondon: 'London',
+	contactBarcelona: 'Barcelona',
 	//
 	// ******** Features List ********
 	//
