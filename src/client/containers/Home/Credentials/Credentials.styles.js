@@ -99,10 +99,11 @@ export const CredentialsBrandsItem = styled.div`
 			margin-top: 45px;
 
 			@media (${mixins.breakpoint('tablet-landscape-up')}) {
-				left: 5px;
+				left: -2px;
 			}
 
 			@media (${mixins.breakpoint('desktop-up')}) {
+				left: 5px;
 				margin-top: 35px;
 				width: 74px;
 				height: 74px;
@@ -180,10 +181,11 @@ export const CredentialsTechItem = styled.div`
 			margin-top: 45px;
 
 			@media (${mixins.breakpoint('tablet-landscape-up')}) {
-				left: 5px;
+				left: -2px;
 			}
 
 			@media (${mixins.breakpoint('desktop-up')}) {
+				left: 5px;
 				margin-top: 35px;
 				width: 74px;
 				height: 74px;
