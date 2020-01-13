@@ -86,17 +86,18 @@ const pl = {
 	//
 	// ******** Features List ********
 	//
-	titleFL1: 'Produkcja oprogramowania',
+	titleFL1: 'Development & Maintenance',
 	bodyFL1:
-		'Stworzymy i utrzymamy twoją aplikację, tak żebyś miał problem z głowy. I to wszystko w oparciu o najnowocześniejsze technologie.',
-	titleFL2: 'Maintenance',
-	bodyFL2:
-		'Łączymy wiedzę technologiczną z logiką biznesu. Chętnie omówimy z Tobą koncepcję optymalizacji i utrzymania Twojego systemu.',
+		'Zbudujemy i utrzymamy oprogramowanie, tak żebyś miał problem z głowy. I to wszystko w oparciu o najnowocześniejsze technologie.',
+	// titleFL2: 'Maintenance',
+	// bodyFL2:
+	// 	'Łączymy wiedzę technologiczną z logiką biznesu. Chętnie omówimy z Tobą koncepcję optymalizacji i utrzymania Twojego systemu.',
 	titleFL3: 'Outsourcing',
 	bodyFL3:
 		'Chcesz się skoncentrować się na swojej podstawowej działalności biznesowej? Daj nam znać, a my zajmiemy się Twoim IT za Ciebie.',
 	titleFL4: 'Zarządzanie infrastrukturą',
-	bodyFL4: 'Administrujemy rozwiązaniami opartymi o środowiska zarówno fizyczne jak i wirtualne.',
+	bodyFL4:
+		'Łączymy wiedzę technologiczną z logiką biznesu. Administrujemy rozwiązaniami opartymi o środowiska zarówno fizyczne jak i wirtualne.',
 	//
 	// ******** FooterDev ********
 	//
