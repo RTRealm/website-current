@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Loadable from 'react-loadable';
 
 import CookieBanner from '../../client/components/CookieBanner/CookieBanner';
+import NotFound from '../containers/NotFound/NotFound';
 
 function Loading(props) {
 	if (props.error) {
@@ -44,7 +45,8 @@ const TermsCookies = Loadable({
 const routes = [
 	{ path: '/', key: 'home', exact: true, component: Homepage },
 	{ path: '/contact', key: 'contact', exact: true, component: Contact },
-	{ path: '/cookie-policy', key: 'cookiepolicy', exact: true, component: TermsCookies }
+	{ path: '/cookie-policy', key: 'cookiepolicy', exact: true, component: TermsCookies },
+	{ component: NotFound }
 ];
 
 function RenderRoutes(routes) {

@@ -65,7 +65,9 @@ class Contact extends Component {
 						<Styles.ContactSecurity>
 							<p>
 								{this.textBody('contactEmail')}{' '}
-								<a href='mailto:contact@rtrealm.com'>contact@rtrealm.com</a>
+								<a href="mailto:contact@rtrealm.com?subject=Let's talk!&body=Contact me asap on (phone or email):">
+									contact@rtrealm.com
+								</a>
 							</p>
 						</Styles.ContactSecurity>
 						<Styles.InfoHr1 />
@@ -114,7 +116,7 @@ class Contact extends Component {
 						</Styles.ContactSupport>
 
 						<Styles.ContactSocial>
-							<Styles.ContactH3>Follow us on:</Styles.ContactH3>
+							<Styles.ContactH3>{this.textBody('contactFollow')}</Styles.ContactH3>
 							<ul className='columns is-mobile'>
 								<li className='column is-narrow-tablet'>
 									<Styles.ContactSocialLinks

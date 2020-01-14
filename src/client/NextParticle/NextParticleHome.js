@@ -15,7 +15,7 @@ export const NextParticleHome = () => {
 		imageUrl:
 			'https://res.cloudinary.com/ohcash/image/upload/v1578844288/landingpage/tesTrobot2.png',
 		particleGap: 1,
-		gravity: 0.3,
+		gravity: 0.2,
 		noise: 7,
 		// width: Math.min(window.innerWidth - 30, 1140),
 		width: isMobile ? 300 : Math.min(window.innerHeight - 120 - 30, 520),

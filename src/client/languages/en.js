@@ -7,6 +7,11 @@ const en = {
 	//
 	buttonFH: 'Send us a message!',
 	//
+	// ******** email ********
+	//
+	emailProps:
+		"mailto:contact@rtrealm.com?subject=Let's talk!& body=Contact me asap on (phone or email):",
+	//
 	// ******** Main ********
 	//
 	introTitle: 'More than a software house',
@@ -84,6 +89,7 @@ const en = {
 	contactWarsaw: 'Warsaw',
 	contactLondon: 'London',
 	contactBarcelona: 'Barcelona',
+	contactFollow: 'Follow us on:',
 	//
 	// ******** Features List ********
 	//

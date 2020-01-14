@@ -6,7 +6,8 @@ import { Text } from '../../containers/Language';
 
 class BodyDispVirt extends Component {
 	clickLink = () => {
-		window.location.href = `mailto:contact@rtrealm.com`;
+		window.location.href =
+			"mailto:contact@rtrealm.com?subject=Let's talk!&body=Contact me asap on (phone or email):";
 	};
 
 	textBody = text => {

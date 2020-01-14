@@ -86,6 +86,7 @@ const pl = {
 	contactWarsaw: 'Warszawa',
 	contactLondon: 'Londyn',
 	contactBarcelona: 'Barcelona',
+	contactFollow: 'Szukaj nas na:',
 	//
 	// ******** Features List ********
 	//
