@@ -24,7 +24,7 @@ class MobileFloat extends Component {
 	scene3 = null;
 
 	clickLink = () => {
-		window.location.href = `mailto:contact@rtrealm.com`;
+		window.location.href = 'mailto:contact@rtrealm.com';
 	};
 
 	textBody = text => {
