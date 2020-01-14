@@ -197,8 +197,9 @@ export const CredentialsTechItem = styled.div`
 export const CredentialsImage = styled.div`
  @media (${mixins.breakpoint('tablet-landscape-up')}) {
     position: absolute;
-    top: -40%;
-    left: 40%;
+    top: -25%;
+		left: 40%;
+ }
 
     span {
     position: absolute;
