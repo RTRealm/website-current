@@ -46,7 +46,7 @@ class getService extends Component {
 				)
 				.reverse(false)
 				.addTo(this.controller);
-			this.scene.triggerHook(0.6);
+			this.scene.triggerHook(0.65);
 		}
 	};
 
