@@ -9,7 +9,7 @@ export const HeadingH2 = styled.h2`
 	margin-bottom: 24px;
 	line-height: 1em;
 
-	@media (${mixins.breakpoint('desktop-up')}) {
+	@media (${mixins.breakpoint('tablet-landscape-up')}) {
 		font-size: 70px;
 	}
 `;
@@ -20,7 +20,7 @@ export const HeadingSubtitle = styled.p`
 	padding: 0px 12px;
 	margin-bottom: 50px;
 
-	@media (${mixins.breakpoint('desktop-up')}) {
+	@media (${mixins.breakpoint('tablet-landscape-up')}) {
 		font-size: 35px;
 		line-height: 45px;
 		padding: 0px;
@@ -33,6 +33,10 @@ export const ContactSection = styled.section`
 	max-width: 100%;
 	margin-top: 80px;
 	text-align: center;
+
+	@media (${mixins.breakpoint('tablet-landscape-up')}) {
+		margin-top: 180px;
+	}
 `;
 
 export const Info = styled.div`
@@ -46,7 +50,7 @@ export const Info = styled.div`
 `;
 
 export const ContactH3 = styled.h3`
-	font-size: 24px;
+	font-size: 20px;
 	text-align: center;
 	margin-bottom: 12px;
 	color: #000;
@@ -54,7 +58,7 @@ export const ContactH3 = styled.h3`
 	visibility: hidden;
 
 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
-		font-size: 40px;
+		font-size: 30px;
 	}
 `;
 
