@@ -136,6 +136,10 @@ export const ContactSocial = styled.div`
 		max-height: 32px;
 		height: 100%;
 		width: 32px;
+		&:hover {
+			transition: transform 0.3s;
+			transform: scale(1.2);
+		}
 
 		@media (${mixins.breakpoint('tablet-landscape-up')}) {
 			max-height: 25px;

@@ -144,7 +144,13 @@ const pl = {
 	cookieBody5a:
 		'Mamy nadzieję, że powyższe informacje zapewniły satysfakcjonujące wyjaśnienie technologii plików cookie i ich wykorzystania. Ogólnie rzecz biorąc, jeśli istnieje coś czego nie jesteś pewien czy potrzebujesz czy nie to zwykle bezpieczniej jest pozostawić włączoną obsługę plików cookie na wypadek gdyby działała ona w połączeniu z jedną z funkcji używanych na naszej witrynie.',
 	cookieBody5b:
-		'Jeśli jednak nadal szukasz bardziej szczegółowych informacji, skontaktuj się z nami:'
+		'Jeśli jednak nadal szukasz bardziej szczegółowych informacji, skontaktuj się z nami:',
+	//
+	// ******** NotFound ********
+	//
+	notFoundH1: 'Ups... Strona, której szukasz, nigdy nie została utworzona...',
+	notFoundH2: 'albo się rozmyła jak łzy podczas deszczu...',
+	notFoundButton: 'No to wracam'
 };
 
 export default pl;

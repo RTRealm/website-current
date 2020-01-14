@@ -147,7 +147,13 @@ const en = {
 	cookieBody5a:
 		'We hope the above provided satisfactory clarification of the cookie technology and usage. In general, if there is something that you are not sure whether you need or not it is usually safer to leave cookies enabled in case it does interact with one of the features you use on our site.',
 	cookieBody5b:
-		'In any case, if you are still looking for more detailed information please you can contact us:'
+		'In any case, if you are still looking for more detailed information please you can contact us:',
+	//
+	// ******** NotFound ********
+	//
+	notFoundH1: 'Ooops...! The page you are looking for has never been created...',
+	notFoundH2: 'or is lost like tears in the rain...',
+	notFoundButton: "let's go back"
 };
 
 export default en;
