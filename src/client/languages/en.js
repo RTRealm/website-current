@@ -7,11 +7,6 @@ const en = {
 	//
 	buttonFH: 'Send us a message!',
 	//
-	// ******** email ********
-	//
-	emailProps:
-		"mailto:contact@rtrealm.com?subject=Let's talk!& body=Contact me asap on (phone or email):",
-	//
 	// ******** Main ********
 	//
 	introTitle: 'More than a software house',
@@ -51,7 +46,7 @@ const en = {
 	titleSI: 'Banking and more',
 	subtitleSI: 'Digital Finance',
 	bodySI1:
-		'We have a decades long experience in banking and financial markets. This is why we can be your preferred partner when it comes to digitilizing your business if you are a bank, brokerage house, insurance company or a fintech startup.',
+		'We have a decades long experience in banking and financial markets. This is why we can be your preferred partner when it comes to digitization of your business if you are a bank, brokerage house, insurance company or a fintech startup.',
 	bodySI2:
 		"Here we deliver a unique combination of technology and business expertise. Simply, we understand what you're doing!",
 	//
@@ -62,7 +57,7 @@ const en = {
 	bodyCO1:
 		'Focus on your core business. We are here to help you design, implement and maintain your system architecture. Managing the IT just got a lot easier.',
 	bodyCO2:
-		"Let's optimise and manage your tech resources. And if you prefer to get it over we're here to take it.",
+		"Let's optimize and manage your tech resources. And if you prefer to get it over we're here to take it.",
 	bodyCO3: "Awesome, isn't it?",
 	//
 	// ******** Credentials ********
@@ -81,6 +76,9 @@ const en = {
 	//
 	// ******** Contact Page ********
 	//
+	contactPage: {
+		titleCP: 'Reach out to us.'
+	},
 	homeHeader: 'Home',
 	titleCP: 'Reach out to us.',
 	subtitleCP: "We're ready to solve your problems.",
@@ -96,9 +94,6 @@ const en = {
 	titleFL1: 'Development & Maintenance',
 	bodyFL1:
 		"We'll develop and maintain your application, so that it's trouble-free for you. All this with cutting edge technologies.",
-	// titleFL2: 'Maintenance',
-	// bodyFL2:
-	// 	"We combine the tech know-how with the business line logic. Let's discuss your system design, implementaion and optimization options.",
 	titleFL3: 'Outsourcing',
 	bodyFL3:
 		"Tired with running your systems? Want to focus on your core business? Reach out to us and we'll manage the IT for you.",

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-// $FlowFixMe;
+
 // import ReactGA from 'react-ga';
-// $FlowFixMe;
+
 import ReactPixel from 'react-facebook-pixel';
 
 // Custom components
