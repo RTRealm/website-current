@@ -151,8 +151,8 @@ const en = {
 	//
 	// ******** NotFound ********
 	//
-	notFoundH1: 'Ooops...! The page you are looking for has never been created...',
-	notFoundH2: 'or is lost like tears in the rain...',
+	notFoundH1: 'Oops...! The page you are looking for has never been created...',
+	notFoundH2: 'or has been lost like tears in the rain...',
 	notFoundButton: "let's go back"
 };
 
