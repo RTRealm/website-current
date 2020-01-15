@@ -153,6 +153,8 @@ export const ContactSocialLinks = styled.a`
 	transition: color 0.3s;
 	text-align: center;
 	display: block;
+	/* display: flex; */
+	align-items: center;
 	padding: 0;
 	/* visibility: hidden; */
 

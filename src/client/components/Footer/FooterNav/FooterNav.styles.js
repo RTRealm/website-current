@@ -83,6 +83,8 @@ export const FooterNavWrapper = styled.div`
 			}
 			a {
 				padding: 6px 10px;
+				display: flex;
+				align-items: center;
 
 				&:hover {
 					background-color: transparent;
@@ -154,14 +156,14 @@ export const FooterNavContent = styled.ul`
 
 export const FooterNavContentSocial = styled.ul`
 	li {
-		text-align: center;
+		display: flex;
+		align-content: center;
 	}
 
 	a {
 		font-weight: ${vars.poppinsMedium};
 		line-height: normal;
 		font-size: 18px;
-
 		color: #ffffff;
 	}
 
