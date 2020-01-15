@@ -46,7 +46,7 @@ const routes = [
 	{ path: '/', key: 'home', exact: true, component: Homepage },
 	{ path: '/contact', key: 'contact', exact: true, component: Contact },
 	{ path: '/cookie-policy', key: 'cookiepolicy', exact: true, component: TermsCookies },
-	{ component: NotFound }
+	{ key: 'notfound', component: NotFound }
 ];
 
 function RenderRoutes(routes) {
