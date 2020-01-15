@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Loadable from 'react-loadable';
+import GA from '../containers/utils/GA';
 
 import CookieBanner from '../../client/components/CookieBanner/CookieBanner';
 import NotFound from '../containers/NotFound/NotFound';
@@ -52,18 +53,21 @@ const routes = [
 function RenderRoutes(routes) {
 	const routesDestr = { ...routes };
 	return (
-		<Switch>
-			{routesDestr.routes.map(route => {
-				return (
-					<Route
-						exact={route.exact}
-						path={route.path}
-						component={route.component}
-						key={route.key}
-					/>
-				);
-			})}
-		</Switch>
+		<React.Fragment>
+			{/* {GA.init() && <GA.RouteTracker />} */}
+			<Switch>
+				{routesDestr.routes.map(route => {
+					return (
+						<Route
+							exact={route.exact}
+							path={route.path}
+							component={route.component}
+							key={route.key}
+						/>
+					);
+				})}
+			</Switch>
+		</React.Fragment>
 	);
 }
 
