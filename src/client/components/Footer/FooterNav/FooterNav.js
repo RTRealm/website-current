@@ -4,8 +4,6 @@ import { Text } from '../../../containers/Language';
 
 import * as Styles from './FooterNav.styles';
 
-import LazyLoad from 'react-lazyload';
-
 export default class FooterNav extends Component {
 	state = {
 		dropDownActive: false
@@ -36,7 +34,7 @@ export default class FooterNav extends Component {
 				</Styles.FooterNavWrapper>
 				<Styles.FooterNavWrapper className='footer-nav__two is-hidden-desktop' />
 				<Styles.FooterNavWrapper className='footer-nav__three'>
-					<Styles.FooterNavContent className='columns is-mobile is-centered is-multiline '>
+					<Styles.FooterNavContentSocial className='columns is-mobile is-centered is-multiline '>
 						{/* <li className='column is-narrow is-12-mobile is-hidden-tablet'>
 							<Styles.FooterNavRegion
 								className={`dropdown ${this.state.dropDownActive ? 'is-active' : ''}`}
@@ -86,7 +84,7 @@ export default class FooterNav extends Component {
 							>
 								<LazyLoad once={true} height={24} offset={100}>
 									<img
-										src='https://'
+										src=''
 										alt='Instagram logo'
 									/>
 								</LazyLoad>
@@ -126,6 +124,21 @@ export default class FooterNav extends Component {
 								</LazyLoad>
 							</a>
 						</li> */}
+						{/* <li className='column is-narrow footer-nav__social'>
+							<a
+								href='https://www.facebook.com/rtrealm'
+								target='_blank'
+								rel='noopener noreferrer'
+								data-eventcategory='SocialLinks'
+								data-eventaction='Go to Facebook'
+								data-eventlabel={`Facebook - ${this.props.page} footer`}
+							>
+								<img
+									src='https://res.cloudinary.com/ohcash/image/upload/v1578827714/landingpage/facebook-white.svg'
+									alt='Facebook logo'
+								/>
+							</a>
+						</li> */}
 						<li className='column is-narrow footer-nav__social'>
 							<a
 								href='https://www.linkedin.com/company/rtrealm'
@@ -135,15 +148,28 @@ export default class FooterNav extends Component {
 								data-eventaction='Go to LinkedIn'
 								data-eventlabel={`LinkedIn - ${this.props.page} footer`}
 							>
-								<LazyLoad once={true} height={24} offset={100}>
-									<img
-										src='https://res.cloudinary.com/ohcash/image/upload/v1578828783/landingpage/linkedin-white.svg'
-										alt='LinkedIn logo'
-									/>
-								</LazyLoad>
+								<img
+									src='https://res.cloudinary.com/ohcash/image/upload/v1578828783/landingpage/linkedin-white.svg'
+									alt='LinkedIn logo'
+								/>
 							</a>
 						</li>
-					</Styles.FooterNavContent>
+						{/* <li className='column is-narrow footer-nav__social'>
+							<a
+								href='https://www.instagram.com/rt.realm'
+								target='_blank'
+								rel='noopener noreferrer'
+								data-eventcategory='SocialLinks'
+								data-eventaction='Go to Instagram'
+								data-eventlabel={`Instagram - ${this.props.page} footer`}
+							>
+								<img
+									src='https://res.cloudinary.com/ohcash/image/upload/v1578827734/landingpage/instagram-white.svg'
+									alt='Instagram logo'
+								/>
+							</a>
+						</li> */}
+					</Styles.FooterNavContentSocial>
 				</Styles.FooterNavWrapper>
 			</Styles.FooterNav>
 		);

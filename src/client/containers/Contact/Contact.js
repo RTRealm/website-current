@@ -118,6 +118,17 @@ class Contact extends Component {
 						<Styles.ContactSocial>
 							<Styles.ContactH3>{this.textBody('contactFollow')}</Styles.ContactH3>
 							<ul className='columns is-mobile'>
+								{/* <li className='column is-narrow-tablet'>
+									<Styles.ContactSocialLinks
+										href='https://www.facebook.com/rtrealm'
+										target='_blank'
+									>
+										<img
+											src='https://res.cloudinary.com/ohcash/image/upload/v1579087764/landingpage/facebook-blue.svg'
+											alt='Facebook logo'
+										/>
+									</Styles.ContactSocialLinks>
+								</li> */}
 								<li className='column is-narrow-tablet'>
 									<Styles.ContactSocialLinks
 										href='https://www.linkedin.com/company/rtrealm/'
@@ -129,6 +140,17 @@ class Contact extends Component {
 										/>
 									</Styles.ContactSocialLinks>
 								</li>
+								{/* <li className='column is-narrow-tablet'>
+									<Styles.ContactSocialLinks
+										href='https://www.instagram.com/rt.realm'
+										target='_blank'
+									>
+										<img
+											src='https://res.cloudinary.com/ohcash/image/upload/v1579087764/landingpage/instagram-blue.svg'
+											alt='Instagram logo'
+										/>
+									</Styles.ContactSocialLinks>
+								</li> */}
 							</ul>
 						</Styles.ContactSocial>
 						<Styles.InfoHr1 />
