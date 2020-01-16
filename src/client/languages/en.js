@@ -16,7 +16,7 @@ const en = {
 	//
 	introTitle: 'More than a software house',
 	welcomeDescription:
-		'We deliver comprehesive bespoke IT solutions. Whether you need a simple app or a complex system implementation we are the right partner for you. And because of our exceptional skills mix we feel great operating at the intersection of technology and finance. Truly, more than just a software house.',
+		'We deliver comprehensive bespoke IT solutions. Whether you need a simple app or a complex system implementation we are the right partner for you. And because of our exceptional skills mix we feel great operating at the intersection of technology and finance. Truly, more than just a software house.',
 	emergencyButton: 'Yes! I need help!',
 	//
 	// ******** Get Service ********

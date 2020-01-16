@@ -114,7 +114,6 @@ class Contact extends Component {
 								</a>
 							</Styles.ContactSupportItem>
 						</Styles.ContactSupport>
-
 						<Styles.ContactSocial>
 							<Styles.ContactH3>{this.textBody('contactFollow')}</Styles.ContactH3>
 							<ul className='columns is-mobile'>
