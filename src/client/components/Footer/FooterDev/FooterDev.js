@@ -15,6 +15,7 @@ const FooterDev = () => {
 			<Styles.DisclaimerContent>
 				<p>{textBody('footerPowered')}</p>
 				<p>{textBody('footerBrandname')}</p>
+				<p>{textBody('footerSince')}</p>
 
 				{/* <LazyLoad once={true} height={44} offset={100}>
 					<Styles.DisclaimerAppStores className='columns is-mobile is-centered'>
