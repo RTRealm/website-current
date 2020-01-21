@@ -46,7 +46,7 @@ const en = {
 	titleSI: 'Banking and more',
 	subtitleSI: 'Digital Finance',
 	bodySI1:
-		'We have a decades long experience in banking and financial markets. This is why we can be your preferred partner when it comes to digitization of your business if you are a bank, brokerage house, insurance company or a fintech startup.',
+		'We have a decades long experience in banking and financial markets. This is why we can be your preferred partner when it comes to digitization of your business if you are a bank, brokerage house, investment fund, insurance company or a fintech startup.',
 	bodySI2:
 		"Here we deliver a unique combination of technology and business expertise. Simply, we understand what you're doing!",
 	//

@@ -47,7 +47,7 @@ const pl = {
 	titleSI: 'Bankowość i więcej',
 	subtitleSI: 'Cyfrowe Finanse',
 	bodySI1:
-		"Mamy ponad dwadzieścia lat doświadczenia w bankowości i na rynkach finansowych. Dlatego możemy być dla Ciebie preferowanym partnerem w digitalizacji Twojego biznesu jeżeli jesteś bankiem, domem maklerskim, firmą ubezpieczeniową lub fintech startup'em.",
+		"Mamy ponad dwadzieścia lat doświadczenia w bankowości i na rynkach finansowych. Dlatego możemy być dla Ciebie preferowanym partnerem w digitalizacji Twojego biznesu jeżeli jesteś bankiem, domem maklerskim, funduszem inwestycyjnym, firmą ubezpieczeniową lub fintech startup'em.",
 	bodySI2:
 		'Reprezentujemy unikalne połączenie technologii i wiedzy biznesowej. Po prostu rozumiemy co robisz!',
 	//
