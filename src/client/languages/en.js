@@ -138,7 +138,7 @@ const en = {
 	cookieBody4d:
 		'Third party analytics are used to track and measure the traffic on this site so that we can continue to produce engaging content. These cookies may track your interaction with the site such as how long you spend on the site or pages you visit which helps us to understand how we can improve our service for you.',
 	cookieBody4e:
-		'From time to time we test new features and make subtle changes to the way that the site is delivered. When we are still testing new features these cookies may be used to ensure that you receive a consistent experience whilst on the site whilst ensuring we understand which optimisations our users appreciate the most.',
+		'From time to time we test new features and make subtle changes to the way that the site is delivered. When we are still testing new features these cookies may be used to ensure that you receive a consistent experience whilst on the site whilst ensuring we understand which optimizations our users appreciate the most.',
 	cookieHead5: 'More Information',
 	cookieBody5a:
 		'We hope the above provided satisfactory clarification of the cookie technology and usage. In general, if there is something that you are not sure whether you need or not it is usually safer to leave cookies enabled in case it does interact with one of the features you use on our site.',
