@@ -34,7 +34,7 @@ class Cookies extends Component {
 					<Header
 						textColor={'white'}
 						logo={
-							'https://landingpagereactreact-local.s3.eu-central-1.amazonaws.com/logo_black_line_landing_svg.svg'
+							'https://res.cloudinary.com/ohcash/image/upload/v1576341382/landingpage/logo_black_line_landing_svg.svg'
 						}
 						link={'/'}
 						burgerMenuColor={'black'}
