@@ -85,7 +85,7 @@ export default class Control extends PureComponent {
 										'https://res.cloudinary.com/ohcash/image/upload/v1578678818/landingpage/modusoperandi_mob.png'
 								}}
 								size={{ max: 'max-width:768px' }}
-								alt='iPhone with curve app opened displaying a transaction'
+								alt='iPhone displaying a robot'
 								defaultFormat='png'
 							/>
 						</LazyLoad>
@@ -117,7 +117,7 @@ export default class Control extends PureComponent {
 										'https://res.cloudinary.com/ohcash/image/upload/v1578522455/landingpage/Real2.png'
 								}}
 								size={{ max: 'min-width:769px' }}
-								alt='Displaying a transaction'
+								alt='Displaying a system'
 								defaultFormat='png'
 							/>
 						</LazyLoad>
