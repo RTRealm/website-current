@@ -58,14 +58,14 @@ class Fintech extends Component {
 						<div className='column is-5'>
 							<img
 								className='is-hidden-tablet'
-								src='https://res.cloudinary.com/ohcash/image/upload/v1578310884/landingpage/finance-s-mob.png'
-								srcSet='https://res.cloudinary.com/ohcash/image/upload/v1578310883/landingpage/finance-l-mob.png 2x'
+								src='https://res.cloudinary.com/ohcash/image/upload/v1581269927/landingpage/finance-s-mob_n.png'
+								srcSet='https://res.cloudinary.com/ohcash/image/upload/v1581269927/landingpage/finance-l-mob_n.png 2x'
 								alt='Phone displaying trading page'
 							/>
 							<img
 								className='is-hidden-mobile'
-								src='https://res.cloudinary.com/ohcash/image/upload/v1578310126/landingpage/finance-s.png'
-								srcSet='https://res.cloudinary.com/ohcash/image/upload/v1578310129/landingpage/finance-l.png 2x'
+								src='https://res.cloudinary.com/ohcash/image/upload/v1581269927/landingpage/finance-s_n.png'
+								srcSet='https://res.cloudinary.com/ohcash/image/upload/v1581269927/landingpage/finance-l_n.png 2x'
 								alt='Phone displaying trading page'
 							/>
 						</div>
