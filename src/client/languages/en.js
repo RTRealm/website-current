@@ -37,7 +37,7 @@ const en = {
 	titleAU: 'Software engineering',
 	subtitleAU: 'Development',
 	bodyAU1:
-		"This is our bread and butter. We live and breath software development. And it is not only about coding: we'll implement and maintain your app, so that it's trouble-free for you. All this with cutting edge technologies.",
+		"This is our bread and butter. We live and breathe software development. And it is not only about coding: we'll implement and maintain your app, so that it's trouble-free for you. All this with cutting edge technologies.",
 	bodyAU2: 'And no need to invest in own architecture. We can go serverless for you.',
 	bodyAU3: 'Reach out to us now to discuss your project!',
 	//
