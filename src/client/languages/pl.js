@@ -13,7 +13,7 @@ const pl = {
 	introTitle: 'Więcej niż software house',
 	welcomeDescription:
 		'Dostarczamy kompleksowe indywidualne rozwiązania informatyczne. Bez względu na to czy potrzebujesz prostej apki czy wdrożenia złożonego systemu, jesteśmy dla Ciebie odpowiednim partnerem. A dzięki naszemu wyjątkowemu zestawowi umiejętności czujemy się wspaniale działając na styku technologii i finansów. Naprawdę, to więcej niż tylko software house.',
-	emergencyButton: 'Tak, chcę wsparcia!',
+	emergencyButton: "'COVID-19' - wsparcie it",
 	//
 	// ******** Get Service ********
 	//
