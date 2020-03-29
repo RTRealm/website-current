@@ -16,7 +16,12 @@ export default function LanguageSelector() {
 			<select
 				onChange={handleLanguageChange}
 				value={languageContext.language.id}
-				style={{ backgroundColor: '#4ecfff', border: 'none', fontWeight: 'bold', color: 'white' }}
+				style={{
+					backgroundColor: '#4ecfff',
+					border: 'none',
+					fontWeight: 'bold',
+					color: 'white'
+				}}
 			>
 				{languageOptions.map(item => (
 					<option key={item.id} value={item.id}>

@@ -22,7 +22,11 @@ class BodyDispVirt extends Component {
 
 				<div className='columns is-multiline is-hidden-mobile'>
 					<Styles.MainBDVButtonWrapper className='column'>
-						<Button text={this.textBody('emergencyButton')} click={this.clickLink} />
+						<Button
+							text={this.textBody('emergencyButton')}
+							click={this.clickLink}
+							background='red'
+						/>
 					</Styles.MainBDVButtonWrapper>
 
 					<Styles.MainBDVStores className='column'>
