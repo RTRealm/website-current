@@ -28,7 +28,7 @@ const pl = {
 	skill4main: 'Consulting.',
 	skill4: 'Łączymy tech know-how z logiką biznesową.',
 	skill5main: 'Zarządzanie infrastrukturą.',
-	skill5: 'Rozwiązania w środowiskach fizycznych i wirtualnych.',
+	skill5: 'Rozwiązania lokalne i migracje do chmury.',
 	skill6main: 'Audyt.',
 	skill6: 'Kontrola stanu i efektywności.',
 	//
@@ -98,7 +98,7 @@ const pl = {
 		'Chcesz się skoncentrować się na swojej podstawowej działalności biznesowej? Daj nam znać, a my zajmiemy się Twoim IT za Ciebie.',
 	titleFL4: 'Zarządzanie infrastrukturą',
 	bodyFL4:
-		'Łączymy wiedzę technologiczną z logiką biznesu. Administrujemy rozwiązaniami opartymi o środowiska zarówno fizyczne jak i wirtualne.',
+		'Łączymy wiedzę technologiczną z logiką biznesu. Administrujemy rozwiązaniami lokalnymi oraz procesami migracji do chmury.',
 	//
 	// ******** FooterDev ********
 	//

@@ -28,7 +28,7 @@ const en = {
 	skill4main: 'Consulting.',
 	skill4: 'Combination of tech know-how with business logic.',
 	skill5main: 'Infrastructure management.',
-	skill5: 'Physical and virtual environments.',
+	skill5: 'On-premise environments and migrations to cloud.',
 	skill6main: 'Audit.',
 	skill6: 'Design and effectiveness evaluation.',
 	//
@@ -99,7 +99,7 @@ const en = {
 		"Tired with running your systems? Want to focus on your core business? Reach out to us and we'll manage the IT for you.",
 	titleFL4: 'Infrastructure management',
 	bodyFL4:
-		'We combine the tech know-how with the business line logic. We administer systems based on both physical and virtual environments.',
+		'We combine tech know-how with business line logic. We administer on-premise systems and migrations to cloud.',
 	//
 	// ******** FooterDev ********
 	//
