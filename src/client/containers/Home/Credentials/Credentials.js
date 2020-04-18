@@ -13,24 +13,24 @@ class Credentials extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			activeTab: 1
+			activeTab: 1,
 		};
 	}
 	controller = null;
 	scene = null;
 
-	textBody = text => {
+	textBody = (text) => {
 		return <Text tid={text} />;
 	};
 
-	handleListLoad = list => {
+	handleListLoad = (list) => {
 		const gsap = require('gsap');
 		let width = document.querySelector('body').clientWidth;
 		if (width >= 1224) {
 			this.controller = new scrollMagic.Controller();
 
 			this.scene = new scrollMagic.Scene({
-				triggerElement: '.credentials-techstack__content'
+				triggerElement: '.credentials-techstack__content',
 			})
 				// .setTween(() =>
 				// 	gsap.TweenMax.staggerTo(
@@ -51,7 +51,7 @@ class Credentials extends Component {
 						autoAlpha: 1,
 						display: 'block',
 						top: 0,
-						ease: gsap.Power1.easeOut
+						ease: gsap.Power1.easeOut,
 					})
 				)
 				.reverse(false)
@@ -60,7 +60,7 @@ class Credentials extends Component {
 		}
 	};
 
-	toggleList = activeTab => {
+	toggleList = (activeTab) => {
 		this.setState(() => {
 			return { activeTab: activeTab };
 		});
@@ -163,8 +163,8 @@ class Credentials extends Component {
 									<span />
 									<Styles.CredentialsBrandsImage>
 										<img
-											src='https://res.cloudinary.com/ohcash/image/upload/v1579533422/landingpage/credentials/visa-logo.svg'
-											alt='Visa'
+											src='https://res.cloudinary.com/ohcash/image/upload/v1587229349/landingpage/credentials/ignibit.svg'
+											alt='Ignibit'
 										/>
 									</Styles.CredentialsBrandsImage>
 								</Styles.CredentialsBrandsItem>
