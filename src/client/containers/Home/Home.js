@@ -57,9 +57,9 @@ class Home extends PureComponent {
 							<FeaturesList />
 						</div>
 						<AboutUs />
-						<Fintech />
-						<Control />
 						<Shop />
+						<Control />
+						<Fintech />
 						<Credentials />
 					</main>
 					<MobileFloat />
