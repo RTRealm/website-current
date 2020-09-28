@@ -11,6 +11,7 @@ import Credentials from './Credentials/Credentials';
 import FixedHeader from '../../components/FixedHeader/FixedHeader';
 import Fintech from './Fintech/Fintech';
 import GetService from '../Home/GetService/GetService';
+import Shop from '../Home/Shop/Shop';
 
 // components
 import Page from '../../components/Page/index';
@@ -23,7 +24,7 @@ class Home extends PureComponent {
 		window.scrollTo(0, 0);
 	}
 
-	textBody = text => {
+	textBody = (text) => {
 		return <Text tid={text} />;
 	};
 
@@ -58,6 +59,7 @@ class Home extends PureComponent {
 						<AboutUs />
 						<Fintech />
 						<Control />
+						<Shop />
 						<Credentials />
 					</main>
 					<MobileFloat />
