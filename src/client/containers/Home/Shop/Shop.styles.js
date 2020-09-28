@@ -7,11 +7,11 @@ export const Shop = styled.section`
 	z-index: 0;
 
 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
-		margin-top: 250px;
+		margin-top: 140px;
 	}
 
 	@media (${mixins.breakpoint('desktop-up')}) {
-		margin-top: 250px;
+		margin-top: 140px;
 	}
 `;
 

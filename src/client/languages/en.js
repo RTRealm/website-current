@@ -60,6 +60,16 @@ const en = {
 		"Let's optimize and manage your tech resources. And if you prefer to get it over we're here to take it.",
 	bodyCO3: "Awesome, isn't it?",
 	//
+	//
+	// ******** Shop ********
+	//
+	titleSH: 'Launch your shop',
+	subtitleSH: 'E-commerce',
+	bodySH1:
+		"Mamy ponad dwadzieścia lat doświadczenia w bankowości i na rynkach finansowych. Dlatego możemy być dla Ciebie preferowanym partnerem w digitalizacji Twojego biznesu jeżeli jesteś bankiem, domem maklerskim, funduszem inwestycyjnym, firmą ubezpieczeniową lub fintech startup'em.",
+	bodySH2:
+		'Reprezentujemy unikalne połączenie technologii i wiedzy biznesowej. Po prostu rozumiemy co robisz!',
+	//
 	// ******** Credentials ********
 	//
 	titleCB: 'Solution providers',
@@ -77,7 +87,7 @@ const en = {
 	// ******** Contact Page ********
 	//
 	contactPage: {
-		titleCP: 'Reach out to us.'
+		titleCP: 'Reach out to us.',
 	},
 	homeHeader: 'Home',
 	titleCP: 'Reach out to us.',
@@ -149,7 +159,7 @@ const en = {
 	//
 	notFoundH1: 'Oops...! The page you are looking for has never been created...',
 	notFoundH2: 'or has been lost like tears in the rain...',
-	notFoundButton: "let's go back"
+	notFoundButton: "let's go back",
 };
 
 export default en;

@@ -61,6 +61,17 @@ const pl = {
 		'A jeżeli wolisz mieć to wszystko z głowy, jesteśmy tutaj żeby zarządzać wszystkim za Ciebie.',
 	bodyCO3: 'Superancko, co nie?',
 	//
+	//
+	// ******** Shop ********
+	//
+	titleSH: 'Bankowość i więcej',
+	subtitleSH: 'Cyfrowe Finanse',
+	bodySH1:
+		"Mamy ponad dwadzieścia lat doświadczenia w bankowości i na rynkach finansowych. Dlatego możemy być dla Ciebie preferowanym partnerem w digitalizacji Twojego biznesu jeżeli jesteś bankiem, domem maklerskim, funduszem inwestycyjnym, firmą ubezpieczeniową lub fintech startup'em.",
+	bodySH2:
+		'Reprezentujemy unikalne połączenie technologii i wiedzy biznesowej. Po prostu rozumiemy co robisz!',
+	//
+	//
 	// ******** Credentials ********
 	//
 	titleCB: 'Skuteczne rozwiązania',
