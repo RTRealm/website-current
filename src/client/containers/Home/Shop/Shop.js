@@ -58,8 +58,8 @@ class Shop extends Component {
 						<div className='column is-5'>
 							<img
 								className='is-hidden-tablet'
-								src='https://res.cloudinary.com/ohcash/image/upload/v1581269927/landingpage/finance-s-mob_n.png'
-								srcSet='https://res.cloudinary.com/ohcash/image/upload/v1581269927/landingpage/finance-l-mob_n.png 2x'
+								src='https://res.cloudinary.com/ohcash/image/upload/v1601324313/landingpage/shop_mobile_sml.png'
+								srcSet='https://res.cloudinary.com/ohcash/image/upload/v1601324314/landingpage/shop_mobile_large.png 2x'
 								alt='Phone displaying trading page'
 							/>
 							<img
