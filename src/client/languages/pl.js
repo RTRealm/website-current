@@ -64,7 +64,7 @@ const pl = {
 	//
 	// ******** Shop ********
 	//
-	titleSH: 'Stwórz swój sklep',
+	titleSH: 'Otwórz swój sklep',
 	subtitleSH: 'E-commerce',
 	bodySH1:
 		'Chcesz zacząć sprzedawać online? Dobrze trafiłeś! Pomagamy projektować i tworzyć świetne sklepy. Wykorzystaj wiele kanałów sprzedaży, akceptuj bezpieczne płatności online, zarządzaj procesem realizacji zamówień i poszerzaj grono klientów.',
