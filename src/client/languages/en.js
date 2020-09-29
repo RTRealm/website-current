@@ -63,12 +63,11 @@ const en = {
 	//
 	// ******** Shop ********
 	//
-	titleSH: 'Launch your shop',
+	titleSH: 'Launch your store',
 	subtitleSH: 'E-commerce',
 	bodySH1:
-		"Mamy ponad dwadzieścia lat doświadczenia w bankowości i na rynkach finansowych. Dlatego możemy być dla Ciebie preferowanym partnerem w digitalizacji Twojego biznesu jeżeli jesteś bankiem, domem maklerskim, funduszem inwestycyjnym, firmą ubezpieczeniową lub fintech startup'em.",
-	bodySH2:
-		'Reprezentujemy unikalne połączenie technologii i wiedzy biznesowej. Po prostu rozumiemy co robisz!',
+		'Want to start selling online? You are at the right place! We help designing and creating best-selling stores. Use multiple sales channels, accept secure online payments, manage end-to-end fulfillment and target your clients.',
+	bodySH2: 'And we might even build your store for free! Check it out!',
 	//
 	// ******** Credentials ********
 	//

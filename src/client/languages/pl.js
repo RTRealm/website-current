@@ -64,12 +64,11 @@ const pl = {
 	//
 	// ******** Shop ********
 	//
-	titleSH: 'Bankowość i więcej',
-	subtitleSH: 'Cyfrowe Finanse',
+	titleSH: 'Stwórz swój sklep',
+	subtitleSH: 'E-commerce',
 	bodySH1:
-		"Mamy ponad dwadzieścia lat doświadczenia w bankowości i na rynkach finansowych. Dlatego możemy być dla Ciebie preferowanym partnerem w digitalizacji Twojego biznesu jeżeli jesteś bankiem, domem maklerskim, funduszem inwestycyjnym, firmą ubezpieczeniową lub fintech startup'em.",
-	bodySH2:
-		'Reprezentujemy unikalne połączenie technologii i wiedzy biznesowej. Po prostu rozumiemy co robisz!',
+		'Chcesz zacząć sprzedawać online? Dobrze trafiłeś! Pomagamy projektować i tworzyć świetne sklepy. Wykorzystaj wiele kanałów sprzedaży, akceptuj bezpieczne płatności online, zarządzaj procesem realizacji zamówień i poszerzaj grono klientów.',
+	bodySH2: 'I wiesz co? Możemy zbudować Twój sklep za darmo!',
 	//
 	//
 	// ******** Credentials ********
@@ -159,7 +158,7 @@ const pl = {
 	//
 	notFoundH1: 'Ups... Strona, której szukasz, nigdy nie została utworzona...',
 	notFoundH2: 'albo się rozmyła jak łzy podczas deszczu...',
-	notFoundButton: 'No to wracam'
+	notFoundButton: 'No to wracam',
 };
 
 export default pl;
