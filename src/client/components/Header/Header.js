@@ -63,7 +63,7 @@ export default class Header extends Component {
 		return (
 			<ul className='columns'>
 				<li className='column is-narrow is-6'>
-					<Link to={this.props.navLink}>{this.props.navName}</Link>
+					{/* <Link to={this.props.navLink}>{this.props.navName}</Link> */}
 				</li>
 				<li className='column is-narrow is-6'>
 					<LanguageSelector />
