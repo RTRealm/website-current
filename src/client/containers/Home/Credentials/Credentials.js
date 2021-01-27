@@ -163,7 +163,7 @@ class Credentials extends Component {
 									<span />
 									<Styles.CredentialsBrandsImage>
 										<img
-											src='https://res.cloudinary.com/ohcash/image/upload/v1587229349/landingpage/credentials/ignibit.svg'
+											src='https://res.cloudinary.com/ohcash/image/upload/v1611732482/landingpage/credentials/Ignbit_logo.svg'
 											alt='Ignibit'
 										/>
 									</Styles.CredentialsBrandsImage>
