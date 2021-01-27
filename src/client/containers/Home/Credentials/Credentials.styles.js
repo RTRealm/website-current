@@ -93,7 +93,7 @@ export const CredentialsBrandsItem = styled.div`
 			top: 0px;
 			position: absolute;
 			border-radius: 18px;
-			box-shadow: 0px 27.7581px 27.7581px rgba(0, 0, 0, 0.1);
+			/* box-shadow: 0px 27.7581px 27.7581px rgba(0, 0, 0, 0.1); */
 			width: 54.1px;
 			height: 54.33px;
 			margin-top: 45px;
@@ -175,7 +175,7 @@ export const CredentialsTechItem = styled.div`
 			top: 0px;
 			position: absolute;
 			border-radius: 18px;
-			box-shadow: 0px 27.7581px 27.7581px rgba(0, 0, 0, 0.1);
+			/* box-shadow: 0px 27.7581px 27.7581px rgba(0, 0, 0, 0.1); */
 			width: 54.1px;
 			height: 54.33px;
 			margin-top: 45px;
