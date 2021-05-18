@@ -36,7 +36,7 @@ class Home extends PureComponent {
 						textColor={'white'}
 						link={'/'}
 						logo={
-							'https://res.cloudinary.com/ohcash/image/upload/v1576341382/landingpage/logo_black_line_landing_svg.svg'
+							'https://res.cloudinary.com/ohcash/image/upload/v1621359881/landingpage/rtrealm_logo_color.svg'
 						}
 						navLink={'/contact'}
 						navName={this.textBody('contactHeader')}
