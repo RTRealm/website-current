@@ -3,7 +3,7 @@
 	"name": "Create React App Sample",
 	"icons": [
 		{
-			"src": "https://res.cloudinary.com/ohcash/image/upload/v1621360865/landingpage/rtrealm_signature.svg",
+			"src": "https://res.cloudinary.com/ohcash/image/upload/v1623825348/mailsign/rtrealm_favico_1.png",
 			"sizes": "64x64 32x32 24x24 16x16",
 			"type": "image/x-icon"
 		}
