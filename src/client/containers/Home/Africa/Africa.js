@@ -39,7 +39,7 @@ class Africa extends Component {
 				.reverse(false)
 				.addTo(this.controller);
 
-			this.scene.triggerHook(0.25);
+			this.scene.triggerHook(0.6);
 		}
 	}
 
