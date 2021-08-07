@@ -30,8 +30,8 @@ export default class FooterNav extends Component {
 						{/* <li className='column is-narrow'>
 							<Link to='/'>We're hiring</Link>
 						</li> */}
-					</Styles.FooterNavContent>
-				</Styles.FooterNavWrapper>
+						</Styles.FooterNavContent>
+					</Styles.FooterNavWrapper>
 				<Styles.FooterNavWrapper className='footer-nav__two is-hidden-desktop' />
 				<Styles.FooterNavWrapper className='footer-nav__three'>
 					<Styles.FooterNavContentSocial className='columns is-mobile is-centered is-multiline '>

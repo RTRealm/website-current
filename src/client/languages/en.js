@@ -78,6 +78,13 @@ const en = {
 	bodyCB2: 'Client satisfaction is at the center of what we do.',
 	bodyCB3: 'and more...',
 	//
+	// ******** Africa ********
+	//
+	titleAF: 'Egipt',
+	subtitleAF: 'Africa',
+	bodyAF1:
+		"Our sole and exclusive partner in Egipt.",
+	//
 	// ******** Tab ********
 	//
 	tab1: 'Credentials',

@@ -128,6 +128,32 @@ export const FooterNavWrapper = styled.div`
 	}
 `;
 
+export const FooterNavContentAMH = styled.ul`
+	li {
+		text-align: center;
+	}
+
+	a {
+		font-weight: ${vars.poppinsMedium};
+		line-height: normal;
+		font-size: 18px;
+
+		color: #ffffff;
+	}
+
+	@media (${mixins.breakpoint('tablet-landscape-up')}) {
+		${mixins.container()};
+		li {
+			margin-bottom: 0px;
+			justify-content: center;
+		}
+
+		.column {
+			padding: 0.75rem 7px;
+		}
+	}
+`;
+
 export const FooterNavContent = styled.ul`
 	li {
 		text-align: center;

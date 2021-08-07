@@ -145,8 +145,8 @@ class Credentials extends Component {
 									<span />
 									<Styles.CredentialsBrandsImage>
 										<img
-											src='https://res.cloudinary.com/ohcash/image/upload/v1578067170/landingpage/credentials/dataspan1.svg'
-											alt='DataSpan'
+											src='https://res.cloudinary.com/ohcash/image/upload/v1628368409/landingpage/credentials/amh.svg'
+											alt='AMH'
 										/>
 									</Styles.CredentialsBrandsImage>
 								</Styles.CredentialsBrandsItem>
@@ -181,8 +181,8 @@ class Credentials extends Component {
 									<span />
 									<Styles.CredentialsBrandsImage>
 										<img
-											src='https://res.cloudinary.com/ohcash/image/upload/v1578066134/landingpage/credentials/redsandLabs.svg'
-											alt='Redsand'
+											src='https://res.cloudinary.com/ohcash/image/upload/v1578067170/landingpage/credentials/dataspan1.svg'
+											alt='DestroyDrive'
 										/>
 									</Styles.CredentialsBrandsImage>
 								</Styles.CredentialsBrandsItem>

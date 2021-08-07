@@ -80,6 +80,13 @@ const pl = {
 	bodyCB2: 'Twoja satysfakcja z naszych usług jest dla nas najważniejsza.',
 	bodyCB3: 'i to nie wszystko...',
 	//
+	// ******** Africa ********
+	//
+	titleAF: 'Egipt',
+	subtitleAF: 'Africa',
+	bodyAF1:
+		"Our sole and exclusive partner in Egipt.",
+	//
 	// ******** Tab ********
 	//
 	tab1: 'Referencje',
