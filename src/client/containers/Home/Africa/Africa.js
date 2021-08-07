@@ -26,10 +26,10 @@ class Africa extends Component {
 			this.controller = new scrollMagic.Controller();
 
 			this.scene = new scrollMagic.Scene({
-				triggerElement: '.fintech__content'
+				triggerElement: '.africa__content'
 			})
 				.setTween(
-					gsap.TweenLite.to('.fintech__features-item', 1, {
+					gsap.TweenLite.to('.africa__features-item', 1, {
 						autoAlpha: 1,
 						display: 'block',
 						top: 0,
@@ -53,7 +53,7 @@ class Africa extends Component {
 	render() {
 		return (
 			<Styles.Africa>
-				<Styles.AfricaContent className='fintech__content'>
+				<Styles.AfricaContent className='africa__content'>
 					<div className='columns'>
 						<div className='column is-5'>
 							<img
@@ -70,11 +70,11 @@ class Africa extends Component {
 							/>
 						</div>
 						<Styles.AfricaCopy className='column is-offset-1'>
-							<InfoGroup title={this.textBody('titleAF')} subtitle={this.textBody('subtitleAF')}>
+							<InfoGroup  subtitle={this.textBody('subtitleAF')}>
 								<p>{this.textBody('bodyAF1')}</p>
 							</InfoGroup>
 							<Styles.AfricaFeatures className='columns is-narrow is-mobile'>
-								<Styles.AfricaFeaturesItem className='column fintech__features-item'>
+								<Styles.AfricaFeaturesItem className='column africa__features-item'>
 									<a href='http://www.amh-egypt.com/index.html' target='blank'>
 									<img
 										src='https://res.cloudinary.com/ohcash/image/upload/v1628368409/landingpage/credentials/amh.svg'
@@ -82,18 +82,6 @@ class Africa extends Component {
 									/>
 									</a>
 								</Styles.AfricaFeaturesItem>
-								{/* <Styles.SimplicityFeaturesItem className='column simplicity__features-item'>
-									<img
-										src='https://res.cloudinary.com/ohcash/image/upload/v1578144498/landingpage/cfa-logo.svg'
-										alt='CFA'
-									/>
-								</Styles.SimplicityFeaturesItem> */}
-								{/* <Styles.SimplicityFeaturesItem className='column simplicity__features-item'>
-									<img
-										src='https://res.cloudinary.com/ohcash/image/upload/v1578144498/landingpage/cfa-logo.svg'
-										alt='CFA'
-									/>
-								</Styles.SimplicityFeaturesItem> */}
 							</Styles.AfricaFeatures>
 						</Styles.AfricaCopy>
 					</div>
