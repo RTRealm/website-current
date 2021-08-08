@@ -145,8 +145,8 @@ class Credentials extends Component {
 									<span />
 									<Styles.CredentialsBrandsImage>
 										<img
-											src='https://res.cloudinary.com/ohcash/image/upload/v1628368409/landingpage/credentials/amh.svg'
-											alt='AMH'
+											src='https://res.cloudinary.com/ohcash/image/upload/v1578066134/landingpage/credentials/redsandLabs.svg'
+											alt='Redsand Labs'
 										/>
 									</Styles.CredentialsBrandsImage>
 								</Styles.CredentialsBrandsItem>
