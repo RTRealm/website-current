@@ -81,7 +81,7 @@ const en = {
 	// ******** Africa ********
 	//
 	titleAF: 'Egipt',
-	subtitleAF: 'Africa',
+	subtitleAF: 'Egipt',
 	bodyAF1:
 		"Our sole and exclusive partner in Egipt.",
 	//

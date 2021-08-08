@@ -58,15 +58,15 @@ class Africa extends Component {
 						<div className='column is-5'>
 							<img
 								className='is-hidden-tablet'
-								src='https://res.cloudinary.com/ohcash/image/upload/v1581269927/landingpage/finance-s-mob_n.png'
-								srcSet='https://res.cloudinary.com/ohcash/image/upload/v1581269927/landingpage/finance-l-mob_n.png 2x'
+								src='https://res.cloudinary.com/ohcash/image/upload/v1628399927/landingpage/egypt_map_flag_mobilex2.png'
+								srcSet='https://res.cloudinary.com/ohcash/image/upload/v1628399927/landingpage/egypt_map_flag_mobilex2.png 2x'
 								alt='Phone displaying trading page'
 							/>
 							<img
 								className='is-hidden-mobile'
-								src='https://res.cloudinary.com/ohcash/image/upload/v1581269927/landingpage/finance-s_n.png'
-								srcSet='https://res.cloudinary.com/ohcash/image/upload/v1581269927/landingpage/finance-l_n.png 2x'
-								alt='Phone displaying trading page'
+								src='https://res.cloudinary.com/ohcash/image/upload/v1628399927/landingpage/egypt_map_flag_bigx2.png'
+								srcSet='https://res.cloudinary.com/ohcash/image/upload/v1628399927/landingpage/egypt_map_flag_bigx2.png 2x'
+								alt='Egypt map and flag'
 							/>
 						</div>
 						<Styles.AfricaCopy className='column is-offset-1'>
