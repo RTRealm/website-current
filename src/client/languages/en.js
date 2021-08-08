@@ -80,10 +80,11 @@ const en = {
 	//
 	// ******** Africa ********
 	//
-	titleAF: 'Egipt',
-	subtitleAF: 'Egipt',
+	titleAF: 'Egypt',
+	subtitleAF: 'Egypt',
+	linkAFAMH: 'AMH Group',
 	bodyAF1:
-		"Our sole and exclusive partner in Egipt.",
+		"is our sole and exclusive partner in Egypt. Together we deliver world class solutions locally.",
 	//
 	// ******** Tab ********
 	//

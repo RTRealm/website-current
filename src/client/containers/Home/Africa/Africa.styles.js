@@ -4,6 +4,7 @@ import * as mixins from '../../../assets/styles/_mixins';
 export const Africa = styled.section`
 	position: relative;
 	margin-top: 140px;
+	margin-bottom: 80px;
 	z-index: 0;
 
 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
@@ -18,6 +19,19 @@ export const Africa = styled.section`
 export const AfricaContent = styled.div`
 	margin: 0px 11% 0 11%;
 	text-align: center;
+
+	#logo_amh {
+		@media (${mixins.breakpoint('desktop-up')}) {
+			position: relative;
+			left: 50px;
+			top: 30px !important;
+		}
+	}
+
+	a {
+		color: #4ecfff;
+		font-weight: 500;
+	}
 
 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
 		text-align: left;

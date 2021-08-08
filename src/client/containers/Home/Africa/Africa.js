@@ -55,32 +55,31 @@ class Africa extends Component {
 			<Styles.Africa>
 				<Styles.AfricaContent className='africa__content'>
 					<div className='columns'>
-						<div className='column is-5'>
+						<div className='column is-5' id='logo_amh'>
 							<img
 								className='is-hidden-tablet'
-								src='https://res.cloudinary.com/ohcash/image/upload/v1628399927/landingpage/egypt_map_flag_mobilex2.png'
-								srcSet='https://res.cloudinary.com/ohcash/image/upload/v1628399927/landingpage/egypt_map_flag_mobilex2.png 2x'
-								alt='Phone displaying trading page'
+								src='https://res.cloudinary.com/ohcash/image/upload/v1628422566/landingpage/amh_imgx2.png'
+								srcSet='https://res.cloudinary.com/ohcash/image/upload/v1628422566/landingpage/amh_imgx2.png 2x'
+								alt='Logo AMH'
 							/>
 							<img
+								id='logo_amh'
 								className='is-hidden-mobile'
-								src='https://res.cloudinary.com/ohcash/image/upload/v1628399927/landingpage/egypt_map_flag_bigx2.png'
-								srcSet='https://res.cloudinary.com/ohcash/image/upload/v1628399927/landingpage/egypt_map_flag_bigx2.png 2x'
-								alt='Egypt map and flag'
+								src='https://res.cloudinary.com/ohcash/image/upload/v1628422566/landingpage/amh_imgx2.png'
+								srcSet='https://res.cloudinary.com/ohcash/image/upload/v1628422566/landingpage/amh_imgx2.png 2x'
+								alt='Logo AMH'
 							/>
 						</div>
 						<Styles.AfricaCopy className='column is-offset-1'>
-							<InfoGroup  subtitle={this.textBody('subtitleAF')}>
-								<p>{this.textBody('bodyAF1')}</p>
+							<InfoGroup >
+								<p><a href='http://www.amh-egypt.com' target='blank'>{this.textBody('linkAFAMH')}</a>{(' ')}{this.textBody('bodyAF1')}</p>
 							</InfoGroup>
 							<Styles.AfricaFeatures className='columns is-narrow is-mobile'>
 								<Styles.AfricaFeaturesItem className='column africa__features-item'>
-									<a href='http://www.amh-egypt.com/index.html' target='blank'>
 									<img
-										src='https://res.cloudinary.com/ohcash/image/upload/v1628368409/landingpage/credentials/amh.svg'
-										alt='AMH'
-									/>
-									</a>
+										src='https://res.cloudinary.com/ohcash/image/upload/v1628422473/landingpage/egipt_flag_sml.svg'
+										alt='Egypt flag'
+									/>					
 								</Styles.AfricaFeaturesItem>
 							</Styles.AfricaFeatures>
 						</Styles.AfricaCopy>
