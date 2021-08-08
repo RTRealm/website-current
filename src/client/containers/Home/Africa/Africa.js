@@ -65,8 +65,8 @@ class Africa extends Component {
 							<img
 								id='logo_amh'
 								className='is-hidden-mobile'
-								src='https://res.cloudinary.com/ohcash/image/upload/v1628429821/landingpage/amh_s_img.png'
-								srcSet='https://res.cloudinary.com/ohcash/image/upload/v1628422566/landingpage/amh_imgx2.png 2x'
+								src='https://res.cloudinary.com/ohcash/image/upload/v1628431935/landingpage/amh_s_img.png'
+								srcSet='https://res.cloudinary.com/ohcash/image/upload/v1628431936/landingpage/amh_imgx2.png 2x'
 								alt='Logo AMH'
 							/>
 						</div>

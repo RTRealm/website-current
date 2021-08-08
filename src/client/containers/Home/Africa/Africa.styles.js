@@ -21,7 +21,7 @@ export const AfricaContent = styled.div`
 	text-align: center;
 
 	#logo_amh {
-		@media (${mixins.breakpoint('desktop-up')}) {
+		@media (${mixins.breakpoint('tablet-landscape-up')}) {
 			position: relative;
 			left: 50px;
 			top: 30px !important;
