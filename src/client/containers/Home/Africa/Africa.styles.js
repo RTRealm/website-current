@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import * as vars from '../../../assets/styles/_variables';
 import * as mixins from '../../../assets/styles/_mixins';
 
 export const Africa = styled.section`
@@ -29,8 +30,8 @@ export const AfricaContent = styled.div`
 	}
 
 	a {
-		color: #4ecfff;
-		font-weight: 500;
+		color: ${vars.colorAccent};
+		font-weight: ${vars.poppinsMedium};
 	}
 
 	@media (${mixins.breakpoint('tablet-landscape-up')}) {

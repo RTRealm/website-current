@@ -80,8 +80,6 @@ const en = {
 	//
 	// ******** Africa ********
 	//
-	titleAF: 'Egypt',
-	subtitleAF: 'Egypt',
 	linkAFAMH: 'AMH Group',
 	bodyAF1:
 		"is our sole and exclusive partner in Egypt. Together we deliver world class solutions locally.",
@@ -104,6 +102,7 @@ const en = {
 	contactWarsaw: 'Warsaw',
 	contactLondon: 'London',
 	contactBarcelona: 'Barcelona',
+	contactCairo: 'Cairo',
 	contactFollow: 'Follow us on:',
 	//
 	// ******** Features List ********
