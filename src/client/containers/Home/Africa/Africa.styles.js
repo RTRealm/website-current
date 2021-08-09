@@ -4,7 +4,7 @@ import * as mixins from '../../../assets/styles/_mixins';
 
 export const Africa = styled.section`
 	position: relative;
-	margin-top: 140px;
+	margin-top: 100px;
 	margin-bottom: 80px;
 	z-index: 0;
 
@@ -61,7 +61,7 @@ export const AfricaContent = styled.div`
 `;
 
 export const AfricaCopy = styled.div`
-	margin-top: 50px;
+	margin-top: 10px;
 	@media (${mixins.breakpoint('tablet-landscape-up')}) {
 		margin-top: 80px;
 	}
