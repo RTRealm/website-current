@@ -112,6 +112,7 @@ class Contact extends Component {
 										{this.textBody('contactBarcelona')}
 									</p>
 								</a>
+								<Styles.InfoHr className='is-hidden-tablet' />
 							</Styles.ContactSupportItem>
 							<Styles.ContactSupportItem className='column is-3'>
 								<a
@@ -124,10 +125,10 @@ class Contact extends Component {
 										{this.textBody('contactCairo')}
 									</p>
 								</a>
-								<Styles.InfoHr className='is-hidden-tablet' />
+								{/* <Styles.InfoHr className='is-hidden-tablet' /> */}
 							</Styles.ContactSupportItem>
-
 						</Styles.ContactSupport>
+
 						<Styles.ContactSocial>
 							<Styles.ContactH3>{this.textBody('contactFollow')}</Styles.ContactH3>
 							<ul className='columns is-mobile'>
