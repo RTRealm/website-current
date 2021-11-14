@@ -77,20 +77,17 @@ class Fintech extends Component {
 							<Styles.FintechFeatures className='columns is-narrow is-mobile'>
 								{/* <Styles.FintechFeaturesItem className='column fintech__features-item'>
 									<img
-										src='https://res.cloudinary.com/ohcash/image/upload/v1578144498/landingpage/cfa-logo.svg'
-										alt='CFA'
+
 									/>
 								</Styles.FintechFeaturesItem> */}
 								{/* <Styles.SimplicityFeaturesItem className='column simplicity__features-item'>
 									<img
-										src='https://res.cloudinary.com/ohcash/image/upload/v1578144498/landingpage/cfa-logo.svg'
-										alt='CFA'
+
 									/>
 								</Styles.SimplicityFeaturesItem> */}
 								{/* <Styles.SimplicityFeaturesItem className='column simplicity__features-item'>
 									<img
-										src='https://res.cloudinary.com/ohcash/image/upload/v1578144498/landingpage/cfa-logo.svg'
-										alt='CFA'
+
 									/>
 								</Styles.SimplicityFeaturesItem> */}
 							</Styles.FintechFeatures>
