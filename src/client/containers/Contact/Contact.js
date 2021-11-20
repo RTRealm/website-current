@@ -116,7 +116,7 @@ class Contact extends Component {
 							</Styles.ContactSupportItem>
 							<Styles.ContactSupportItem className='column is-3'>
 								<a
-									href='#'
+									href='https://www.google.com/maps/@30.0446581,30.9829668,15.88z'
 									target='_blank'
 									rel='no'
 								>
