@@ -12,7 +12,6 @@ import FixedHeader from '../../components/FixedHeader/FixedHeader';
 import Fintech from './Fintech/Fintech';
 import GetService from '../Home/GetService/GetService';
 import Shop from '../Home/Shop/Shop';
-import Africa from '../Home/Africa/Africa'
 
 // components
 import Page from '../../components/Page/index';
@@ -62,7 +61,6 @@ class Home extends PureComponent {
 						<Control />
 						<Fintech />
 						<Credentials />
-						<Africa />
 					</main>
 					<MobileFloat />
 					<div className='fixed-header__trigger-end' />
