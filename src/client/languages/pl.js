@@ -121,7 +121,7 @@ const pl = {
 	// ******** FooterDev ********
 	//
 	footerPowered: 'Powered by us! Copyright (c) 2022.',
-	footerBrandname: 'RTR IT Services Sp. z o.o..',
+	footerBrandname: 'RTR IT Services Sp. z o.o.',
 	footerSince: 'ul. W. Rzymowskiego 53, 02-697 Warszawa, NIP 5213884801',
 	//
 	// ******** Cookies Banner & Page ********
