@@ -9,9 +9,9 @@ const en = {
 	//
 	// ******** Main ********
 	//
-	introTitle: 'More than a software house',
+	introTitle: 'More than just an IT partner',
 	welcomeDescription:
-		'We deliver comprehensive bespoke IT solutions. Whether you need a simple app or a complex system implementation we are the right partner for you. And because of our exceptional skills mix we feel great operating at the intersection of technology and finance. Truly, more than just a software house.',
+		'We deliver comprehensive bespoke IT solutions. Whether you need a simple app or a complex system implementation we are the right partner for you. And because of our exceptional skills mix we feel great operating at the intersection of technology and finance.',
 	emergencyButton: "IT help",
 	//
 	// ******** Get Service ********
@@ -97,8 +97,9 @@ const en = {
 	homeHeader: 'Home',
 	titleCP: 'Reach out to us.',
 	subtitleCP: "We're ready to solve your problems.",
+	contactPhone: 'If you want to get in touch with one of our consultants please call us:',
 	contactEmail:
-		'If you want to get in touch with one of our consultants to know more how we can help you, please e-mail us:',
+		'or e-mail:',
 	contactWarsaw: 'Warsaw',
 	contactLondon: 'London',
 	contactBarcelona: 'Barcelona',

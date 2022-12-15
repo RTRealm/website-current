@@ -86,8 +86,8 @@ class getService extends Component {
 									</Styles.GetServiceBenefitHeading>
 									<Styles.GetServiceBenefitContent className='column'>
 										<p>
-											<span id='stronger'>{this.textBody('skill1main')}</span>{' '}
-											{this.textBody('skill1')}
+											<span id='stronger'>{this.textBody('skill2main')}</span>{' '}
+											{this.textBody('skill2')}
 										</p>
 									</Styles.GetServiceBenefitContent>
 								</div>
@@ -102,8 +102,8 @@ class getService extends Component {
 									</Styles.GetServiceBenefitHeading>
 									<Styles.GetServiceBenefitContent className='column'>
 										<p>
-											<span id='stronger'>{this.textBody('skill2main')}</span>{' '}
-											{this.textBody('skill2')}
+											<span id='stronger'>{this.textBody('skill1main')}</span>{' '}
+											{this.textBody('skill1')}
 										</p>
 									</Styles.GetServiceBenefitContent>
 								</div>

@@ -10,9 +10,9 @@ const pl = {
 	//
 	// ******** Main ********
 	//
-	introTitle: 'Więcej niż software house',
+	introTitle: 'Nowy wymiar obsługi IT',
 	welcomeDescription:
-		'Dostarczamy kompleksowe indywidualne rozwiązania informatyczne. Bez względu na to czy potrzebujesz prostej apki czy wdrożenia złożonego systemu, jesteśmy dla Ciebie odpowiednim partnerem. A dzięki naszemu wyjątkowemu zestawowi umiejętności czujemy się wspaniale działając na styku technologii i finansów. Naprawdę, to więcej niż tylko software house.',
+		'Dostarczamy kompleksowe indywidualne rozwiązania informatyczne. Bez względu na to czy potrzebujesz prostej apki czy wdrożenia złożonego systemu, jesteśmy dla Ciebie odpowiednim partnerem. A dzięki naszemu wyjątkowemu zestawowi umiejętności czujemy się wspaniale działając na styku technologii i finansów.',
 	emergencyButton: "wsparcie it",
 	//
 	// ******** Get Service ********
@@ -97,8 +97,9 @@ const pl = {
 	homeHeader: 'Home',
 	titleCP: 'Skontaktuj się z nami.',
 	subtitleCP: 'Jesteśmy żeby Tobie pomóc.',
+	contactPhone: 'Jeżeli chcesz porozmawiać z naszym konsultantem zadzwoń: ',
 	contactEmail:
-		'Jeżeli chcesz porozmawiać z naszym konsultantem aby dowiedzieć się więcej wyślij wiadomość:',
+		'lub wyślij wiadomość:',
 	contactWarsaw: 'Warszawa',
 	contactLondon: 'Londyn',
 	contactBarcelona: 'Barcelona',
