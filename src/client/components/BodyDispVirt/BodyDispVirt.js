@@ -25,7 +25,6 @@ class BodyDispVirt extends Component {
 						<Button
 							text={this.textBody('emergencyButton')}
 							click={this.clickLink}
-							background='red'
 						/>
 					</Styles.MainBDVButtonWrapper>
 

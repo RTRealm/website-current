@@ -13,7 +13,7 @@ const pl = {
 	introTitle: 'Więcej niż software house',
 	welcomeDescription:
 		'Dostarczamy kompleksowe indywidualne rozwiązania informatyczne. Bez względu na to czy potrzebujesz prostej apki czy wdrożenia złożonego systemu, jesteśmy dla Ciebie odpowiednim partnerem. A dzięki naszemu wyjątkowemu zestawowi umiejętności czujemy się wspaniale działając na styku technologii i finansów. Naprawdę, to więcej niż tylko software house.',
-	emergencyButton: "'COVID-19' - wsparcie it",
+	emergencyButton: "wsparcie it",
 	//
 	// ******** Get Service ********
 	//
@@ -54,7 +54,7 @@ const pl = {
 	// ******** Control ********
 	//
 	titleCO: 'Więcej czasu na rozwój',
-	subtitleCO: 'Modus operandi',
+	subtitleCO: 'Outsourcing',
 	bodyCO1:
 		'Skoncentruj się na swojej podstawowej działalności. My pomożemy Ci zaprojektować, wdrożyć i utrzymywać architekturę systemu. Dzięki nam, zarządzanie IT staje się o wiele łatwiejsze.',
 	bodyCO2:
@@ -119,9 +119,9 @@ const pl = {
 	//
 	// ******** FooterDev ********
 	//
-	footerPowered: 'Powered by us! Copyright (c) 2020.',
-	footerBrandname: 'RT.Realm is a trademark of RTR IT Services.',
-	footerSince: 'Delivering awesome solutions since 2014.',
+	footerPowered: 'Powered by us! Copyright (c) 2022.',
+	footerBrandname: 'RTR IT Services Sp. z o.o..',
+	footerSince: 'ul. W. Rzymowskiego 53, 02-697 Warszawa, NIP 5213884801',
 	//
 	// ******** Cookies Banner & Page ********
 	//

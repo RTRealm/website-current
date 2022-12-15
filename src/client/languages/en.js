@@ -12,7 +12,7 @@ const en = {
 	introTitle: 'More than a software house',
 	welcomeDescription:
 		'We deliver comprehensive bespoke IT solutions. Whether you need a simple app or a complex system implementation we are the right partner for you. And because of our exceptional skills mix we feel great operating at the intersection of technology and finance. Truly, more than just a software house.',
-	emergencyButton: "'COVID-19' - IT help",
+	emergencyButton: "IT help",
 	//
 	// ******** Get Service ********
 	//
@@ -53,7 +53,7 @@ const en = {
 	// ******** Control ********
 	//
 	titleCO: 'Free up time for growth',
-	subtitleCO: 'Modus operandi',
+	subtitleCO: 'Outsourcing',
 	bodyCO1:
 		'Focus on your core business. We are here to help you design, implement and maintain your system architecture. Managing the IT just got a lot easier.',
 	bodyCO2:
@@ -119,9 +119,9 @@ const en = {
 	//
 	// ******** FooterDev ********
 	//
-	footerPowered: 'Powered by us! Copyright (c) 2020.',
-	footerBrandname: 'RT.Realm is a trademark of RTR IT Services.',
-	footerSince: 'Delivering awesome solutions since 2014.',
+	footerPowered: 'Powered by us! Copyright (c) 2022.',
+	footerBrandname: 'RTR IT Services Sp. z o.o..',
+	footerSince: 'W. Rzymowskiego 53 Str., 02-697 Warsaw, PL, VAT PL5213884801',
 	//
 	// ******** Cookies Banner & Page ********
 	//
