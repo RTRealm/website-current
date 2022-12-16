@@ -78,7 +78,7 @@ class Contact extends Component {
 							{/* <Styles.InfoHr className='is-hidden-tablet' /> */}
 							<Styles.ContactSupportItem className='column is-3'>
 								<a
-									href='https://www.google.pl/maps/place/Concept+Tower,+Grzybowska+87,+00-001+Warszawa/@52.2324361,20.975746,17z/data=!3m1!4b1!4m5!3m4!1s0x471ecc9d326f1aa1:0xd1adccbe1eb70d36!8m2!3d52.2324361!4d20.9779347'
+									href='https://www.google.com/maps/place/Wincentego+Rzymowskiego+53a,+02-697+Warszawa/@52.1770307,20.9986969,17z/data=!3m1!4b1!4m5!3m4!1s0x471932df5dbfffff:0xa658a18f3ab7e6f0!8m2!3d52.1770274!4d21.0012718'
 									target='_blank'
 									rel='no'
 								>
