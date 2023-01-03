@@ -65,7 +65,7 @@ class Contact extends Component {
 						<Styles.ContactSecurity>
 							<p>
 								{this.textBody('contactPhone')}{' '}
-									<a> +48 737 337 552 </a>
+									<a href="tel:+48737337552"> +48 737 337 552 </a>
 									{' '}{this.textBody('contactEmail')}{' '}
 								<a href="mailto:contact@rtrealm.com?subject=Let's talk!& body=Contact me asap on (phone or email):">
 									contact@rtrealm.com
