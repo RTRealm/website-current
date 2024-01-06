@@ -118,13 +118,13 @@ class Contact extends Component {
 							</Styles.ContactSupportItem>
 							<Styles.ContactSupportItem className='column is-3'>
 								<a
-									href='https://www.google.com/maps/@30.0446581,30.9829668,15.88z'
+									href='https://www.google.com/maps/place/Luther+plaza/@-1.2834616,36.8134728,17.38z/data=!4m6!3m5!1s0x182f11ff543317eb:0xd0a8baccec8f7ad1!8m2!3d-1.2823474!4d36.8147011!16s%2Fg%2F11qg0jvm55?entry=ttu'
 									target='_blank'
 									rel='no'
 								>
 									<p>
 										<i id='skillicon' className='fas fa-map-marker-alt'></i>{' '}
-										{this.textBody('contactCairo')}
+										{this.textBody('contactNairobi')}
 									</p>
 								</a>
 								{/* <Styles.InfoHr className='is-hidden-tablet' /> */}

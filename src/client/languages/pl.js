@@ -103,7 +103,7 @@ const pl = {
 	contactWarsaw: 'Warszawa',
 	contactLondon: 'Londyn',
 	contactBarcelona: 'Barcelona',
-	contactCairo: 'Kair',
+	contactNairobi: 'Nairobi',
 	contactFollow: 'Szukaj nas na:',
 	//
 	// ******** Features List ********
